@@ -2929,7 +2929,6 @@ const App: React.FC = () => {
   );
   const [isLoading, setIsLoading] = useState(true);
   const [activeTab, setActiveTab] = useState<"calendar" | "events">("calendar");
-  const [showReligious, _setShowReligious] = useState<boolean>(false);
 
   const resolvedBaseUrl = getBaseUrl();
   const mssEventsUrl = resolvedBaseUrl.endsWith("/")
@@ -3403,10 +3402,6 @@ const App: React.FC = () => {
 
   const getEventsForDate = (date: Date) => {
     return events.filter((event) => {
-      if (!showReligious && event.category === "religious") {
-        return false;
-      }
-
       const eventStart = toLocalDate(event.date);
       if (Number.isNaN(eventStart.getTime())) {
         return false;
