@@ -437,7 +437,6 @@ DESCRIPTION:History: In many East and Southeast Asian Buddhist and folk traditio
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:/images/image22.png
 X-MSS-CALENDAR-META:{"alternateCalendars":[{"calendarSystem":"Chinese Lunar","descriptor":"7th month, day 15","notes":"Ghost Festival / Zhongyuan Jie / Ullambana"}],"recurrence":{"calendarSystem":"Chinese Lunar","rule":"15th day of 7th lunar month","anchor":"Offerings for ancestors and wandering spirits"}}
 END:VEVENT
 BEGIN:VEVENT
@@ -489,7 +488,6 @@ DESCRIPTION:History: On 1 November\, Mexican families honour children who h
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:/images/image22.png
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20251104T055848Z
@@ -506,7 +504,6 @@ DESCRIPTION:History: Rooted in pre-Hispanic customs later intertwined with
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:/images/image21.png
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20251104T055848Z
@@ -564,20 +561,20 @@ DTSTAMP:20251104T055848Z
 DTSTART:20251125T070000Z
 DTEND:20251126T070000Z
 SUMMARY:St. Catherine's Day
-DESCRIPTION:History: Medieval guilds honoured St. Catherine of Alexandria as
-  a patron of scholars and spinners\, with France's unmarried milliners becomi
-  ng joyful "Catherinettes" on her November feast.\nTraditions: 🔮 Pouring wax 
-  through an old key into cold water\, then reading the candlelit shadow—heart
-  foretells love\, house promises stability\, animal hints at a future spouse'
-  s character\, ship signals travel—before whirling a bright St. Catherine's w
-  heel procession through the streets.\nFeasting: Bakeries share saffron catter
-  n cakes\, honeyed biscuits\, mulled cider\, and spiced wine served after even
-  ing vespers.\nDay: Tuesday\n\nIcon: 🎡
+DESCRIPTION:History: Medieval guilds honoured St. Catherine of Alexandria a
+ s a patron of scholars and spinners\, with France's unmarried milliners be
+ comi ng joyful "Catherinettes" on her November feast.\nTraditions: 🔮 Po
+ uring wax  through an old key into cold water\, then reading the candlelit
+  shadow—heart foretells love\, house promises stability\, animal hints a
+ t a future spouse' s character\, ship signals travel—before whirling a b
+ right St. Catherine's w heel procession through the streets.\nFeasting: Ba
+ keries share saffron catter n cakes\, honeyed biscuits\, mulled cider\, an
+ d spiced wine served after even ing vespers.\nDay: Tuesday\n\nIcon: 🎡\n
+ Category: religious
 Category: religious
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:/images/image33.png
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20251104T055848Z
@@ -607,11 +604,10 @@ DESCRIPTION:History: Polish Andrzejki fortune-telling parties date to the s
  s in candle shadows\, and dance until dawn while sharing playful prophecie
  s.\nFeasting: Guests snack on poppy-seed cakes\, honey cookies\, pickled h
  erring\, and warm cups of mead or herb-infused tea.\nDay: Saturday\n\nIcon
- : ⚓\nCategory: cultural
+ : 🐺\nCategory: cultural
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:/images/image27.png
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20251104T055848Z
@@ -687,7 +683,14 @@ DTSTAMP:20251104T055848Z
 DTSTART:20251206T070000Z
 DTEND:20251207T070000Z
 SUMMARY:Gita Jayanti (गीता जयंती)
-DESCRIPTION:History: Devotees honour the day Lord Krishna shared the Bhagavad Gita with Arjuna on the Kurukshetra battlefield, aligning with the Margashirsha Shukla Ekadashi tithi.\nTraditions: Temples host full Bhagavad Gita recitations, scholars lead kirtans and discourse circles, and families observe vrata fasts before offering diyas along rivers and at home altars.\nFeasting: After evening prayers, observers share satvik plates of khichdi, jaggery sweets, sugarcane juice, and warm cardamom milk to break the fast.\nDay: Saturday\n\nIcon: 📜
+DESCRIPTION:History: Devotees honour the day Lord Krishna shared the Bhagav
+ ad Gita with Arjuna on the Kurukshetra battlefield, aligning with the Marg
+ ashirsha Shukla Ekadashi tithi.\nTraditions: Temples host full Bhagavad Gi
+ ta recitations, scholars lead kirtans and discourse circles, and families 
+ observe vrata fasts before offering diyas along rivers and at home altars.
+ \nFeasting: After evening prayers, observers share satvik plates of khichd
+ i, jaggery sweets, sugarcane juice, and warm cardamom milk to break the fa
+ st.\nDay: Saturday\n\nIcon: 📜\nCategory: religious
 Category: religious
 CATEGORIES:religious
 STATUS:CONFIRMED
@@ -699,18 +702,18 @@ DTSTAMP:20251104T055848Z
 DTSTART:20251207T070000Z
 DTEND:20251208T070000Z
 SUMMARY:Tiki Christmas at Pearl Harbor
-DESCRIPTION:History: Hawaii observed its first joint Christmas and Pearl Harbo
- r memorials in the 1940s\, blending service tributes with island pageantry to 
- honour resilience.\nTraditions: Honolulu lights torchlit wreaths along the ha
- rbour\, families wear aloha prints to midnight services\, and ukulele choirs s
- erenade visiting veterans with mele.\nFeasting: Luaus set roast pig\, pineapple
-  haupia\, coconut eggnog\, and shaved ice drenched in red-and-green syrups bes
- ide memorial lanterns.\nDay: Sunday\n\nIcon: 🌺
+DESCRIPTION:History: Hawaii observed its first joint Christmas and Pearl Ha
+ rbor memorials in the 1940s\, blending service tributes with island pagean
+ try to honour resilience.\nTraditions: Honolulu lights torchlit wreaths al
+ ong the harbour\, families wear aloha prints to midnight services\, and uk
+ ulele choirs serenade visiting veterans with mele.\nFeasting: Luaus set ro
+ ast pig\, pineapple haupia\, coconut eggnog\, and shaved ice drenched in r
+ ed-and-green syrups beside memorial lanterns.\nDay: Sunday\n\nIcon: 🌺\n
+ Category: cultural
 Category: cultural
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:/images/image24.png
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20251104T055848Z
@@ -734,13 +737,13 @@ DTSTAMP:20251104T055848Z
 DTSTART:20251208T070000Z
 DTEND:20251209T070000Z
 SUMMARY:Immaculada
-DESCRIPTION:History: Spain celebrates La Inmaculada as the start of the advent
-  season, honouring Mary's conception with dawn processions and plaza music.\nTr
- aditions: Families set out the Caga Tio log to "feed" with sweets until Christm
- as Eve, hang blue-and-white bunting, and join candlelit vigils in neighbourhood
-  chapels.\nFeasting: Tables feature turron, panellets, steaming cups of thick h
- ot chocolate, and slices of roscon shared after lighting Advent candles.\nDay: 
- Monday\n\nIcon: 🌹
+DESCRIPTION:History: Spain celebrates La Inmaculada as the start of the adv
+ ent season, honouring Mary's conception with dawn processions and plaza mu
+ sic.\nTraditions: Families set out the Caga Tio log to "feed" with sweets 
+ until Christmas Eve, hang blue-and-white bunting, and join candlelit vigil
+ s in neighbourhood chapels.\nFeasting: Tables feature turron, panellets, s
+ teaming cups of thick hot chocolate, and slices of roscon shared after lig
+ hting Advent candles.\nDay: Monday\n\nIcon: 🌹\nCategory: religious
 Category: religious
 CATEGORIES:religious
 STATUS:CONFIRMED
@@ -920,7 +923,7 @@ DESCRIPTION:History: The solstice marks the sun's rebirth in cultures from
 CATEGORIES:seasonal
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:/images/eve-of-the-winter-solstice-the-longest-night.png
+X-IMAGE:/images/polar-bear-solstice.svg
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20251104T055848Z
@@ -1013,7 +1016,7 @@ DESCRIPTION:History: By late antiquity the Western church fixed December 25
 CATEGORIES:celebration
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:/images/image21.png
+X-IMAGE:/images/image33.png
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20251104T055848Z
@@ -1030,7 +1033,7 @@ DESCRIPTION:History: St. Stephen\, the first Christian martyr\, is honoured
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:/images/image21.png
+X-IMAGE:/images/stefans-feast-stone.png
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20251104T055848Z

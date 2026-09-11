@@ -184,6 +184,7 @@ const palmerLakeYuleLogEvent = [
   'CATEGORIES:seasonal',
   'STATUS:CONFIRMED',
   'TRANSP:TRANSPARENT',
+  'X-IMAGE:/images/annual-tradition-in-palmer-lake-colorado-community-yule-log-hunt-and-celebration.png',
   'END:VEVENT',
   ''
 ].join('\n');
