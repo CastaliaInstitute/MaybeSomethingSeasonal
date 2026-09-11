@@ -3,7 +3,7 @@ const path = require('path');
 
 const ICS_PATH = path.join(__dirname, '..', 'public', 'MSS.ics');
 const IMAGES_DIR = path.join(__dirname, '..', 'public', 'images');
-const BASE_PATH = 'https://dcmcshan.github.io/MaybeSomethingSeasonal';
+const BASE_PATH = 'https://castaliainstitute.github.io/MaybeSomethingSeasonal';
 
 function fixMissingImages() {
   console.log('🔧 Fixing missing image references...\n');

@@ -7,7 +7,7 @@ const BASE_URL = `http://${PREVIEW_HOST}:${PREVIEW_PORT}`;
 const SITE_PATH = '/MaybeSomethingSeasonal/';
 const ICS_PATH = `${SITE_PATH}MSS.ics`;
 const MONTH_PATH = `${SITE_PATH}2026/12`;
-const DEPLOY_BASE = 'https://dcmcshan.github.io/MaybeSomethingSeasonal';
+const DEPLOY_BASE = 'https://castaliainstitute.github.io/MaybeSomethingSeasonal';
 
 async function waitForServer(maxAttempts = 20, delayMs = 500) {
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {

@@ -3119,7 +3119,9 @@ const App: React.FC = () => {
             // Older entries contain several generations of escaped
             // backslashes before "n". Normalize all of them before reading
             // embedded metadata.
-            const normalizedDescription = fullDescription.replace(/\\+n/g, "\n");
+            const normalizedDescription = fullDescription
+              .replace(/\\+n/g, "\n")
+              .replace(/\\+$/gm, "");
 
             // Image is normally stored in X-IMAGE, but description metadata is
             // retained for compatibility with the older calendar entries.
@@ -3623,6 +3625,9 @@ const App: React.FC = () => {
                           alt=""
                           aria-hidden="true"
                           className="w-6 h-6 object-cover rounded shadow ring-1 ring-white"
+                          onError={(e) => {
+                            e.currentTarget.style.display = "none";
+                          }}
                         />
                       ))}
                       {continuationImageSources.length >
@@ -3716,6 +3721,9 @@ const App: React.FC = () => {
                                   src={event.image}
                                   alt=""
                                   className="w-3 h-3 object-cover rounded"
+                                  onError={(e) => {
+                                    e.currentTarget.style.display = "none";
+                                  }}
                                 />
                               ) : (
                                 <span className="text-[10px]">

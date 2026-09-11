@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Opening Maybe Something Seasonal…</title>
+    <script>
+      (function () {
+        var base = "/MaybeSomethingSeasonal/";
+        var route = location.pathname;
+        var target =
+          base +
+          "?route=" +
+          encodeURIComponent(route) +
+          (location.hash ? "&hash=" + encodeURIComponent(location.hash) : "");
+        location.replace(target);
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Opening the requested calendar month…</p>
+  </body>
+</html>

@@ -5,7 +5,7 @@ const ICS_PATH = path.join(__dirname, '..', 'public', 'MSS.ics');
 const DIST_ICS_PATH = path.join(__dirname, '..', 'dist', 'MSS.ics');
 const IMAGE_BASE_URL =
   process.env.IMAGE_BASE_URL ||
-  'https://dcmcshan.github.io/MaybeSomethingSeasonal';
+  'https://castaliainstitute.github.io/MaybeSomethingSeasonal';
 const KEY_BASE_YEAR = '2025';
 const YEAR_SHIFT_THRESHOLD_MONTH = 11; // November (1-indexed)
 const YEAR_SHIFT_TARGET = '2026';

@@ -26,7 +26,7 @@ Visit the live calendar at: [https://danielmcshan.github.io/MaybeSomethingSeason
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/dcmcshan/MaybeSomethingSeasonal.git
+git clone https://github.com/CastaliaInstitute/MaybeSomethingSeasonal.git
 cd MaybeSomethingSeasonal
 ```
 

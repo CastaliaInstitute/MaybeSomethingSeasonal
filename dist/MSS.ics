@@ -7,45 +7,51 @@ X-WR-CALNAME:MSS
 X-WR-CALDESC:A seasonal calendar celebrating nature's cycles
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
+UID:new-year-s-day@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260101T070000Z
-DTEND:20260102T070000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260102
 SUMMARY:New Year's Day
 DESCRIPTION:History: The Roman calendar fixed the turn of the civil year to
-  January 1 under Julius Caesar\, and the Gregorian reform of 1582 reaffirme
- d the date for much of the world.\nTraditions: Communities ring bells\, cou
- nt down in packed squares\, exchange resolutions\, and watch fireworks or t
- elevised celebrations to welcome a clean slate.\nFeasting: Families toast w
- ith sparkling wine\, share longevity noodles or Hoppin' John for luck\, and
-  slice sweet breads like panettone or king cakes to invite prosperity.\nDay
- : Thursday\n\nIcon: 🎊\\\\\\\\\\\\\\\nCategory: celebration\\\\\\
-CATEGORIES:celebration\\\\\\
+  January 1 under Julius Caesar\, and the Gregorian reform of 1582 reaffirm
+ ed the date for much of the world.\nTraditions: Communities ring bells\, c
+ ount down in packed squares\, exchange resolutions\, and watch fireworks o
+ r televised celebrations to welcome a clean slate.\nFeasting: Families toa
+ st with sparkling wine\, share longevity noodles or Hoppin' John for luck\
+ , and slice sweet breads like panettone or king cakes to invite prosperity
+ .\nDay: Thursday\n\nIcon: 🎊\nCategory: celebration
+CATEGORIES:celebration
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/celebration-of-the-new-year-and-fresh-beginnings.png
+X-IMAGE:/images/celebration-of-the-new-year-and-fresh-beginnings.png
 END:VEVENT
 BEGIN:VEVENT
+UID:perchta-day-perchtenlauf@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260102T070000Z
-DTEND:20260103T070000Z
+DTSTART;VALUE=DATE:20260102
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260103
 SUMMARY:Perchta Day (Perchtenlauf)
 DESCRIPTION:History: Alpine folklore honors Frau Perchta\, a wintry guardia
- n of hearth and spinning who inspected homes during the Twelve Nights after
-  Christmas.\nTraditions: Villages in Austria and Bavaria host Perchtenlaeuf
- e where masked figures parade with cowbells and torches to chase away darkn
- ess and protect the fields.\nFeasting: Hosts offer dumplings\, poppy-seed p
- astries\, and milky punches to the performers\, along with mulled wine and 
- sweet krapfen for the crowd.\nDay: Friday\n\nIcon: 🎭\\\\\\\\\\\\\\\nCatego
- ry: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ n of hearth and spinning who inspected homes during the Twelve Nights afte
+ r Christmas.\nTraditions: Villages in Austria and Bavaria host Perchtenlae
+ ufe where masked figures parade with cowbells and torches to chase away da
+ rkness and protect the fields.\nFeasting: Hosts offer dumplings\, poppy-se
+ ed pastries\, and milky punches to the performers\, along with mulled wine
+  and sweet krapfen for the crowd.\nDay: Friday\n\nIcon: 🎭\nCategory: cu
+ ltural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/austrian-and-bavarian-tradition-perchta-day.png
+X-IMAGE:/images/austrian-and-bavarian-tradition-perchta-day.png
 END:VEVENT
 BEGIN:VEVENT
+UID:berchtoldstag@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260102T070000Z
-DTEND:20260103T070000Z
+DTSTART;VALUE=DATE:20260102
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260103
 SUMMARY:Berchtoldstag
 DESCRIPTION:History: Medieval Swiss guilds observed Berchtoldstag as a post
  -feast day to honor community bonds and start the civic year together.\nTra
@@ -59,284 +65,340 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:candlemas-feast-of-the-presentation@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260102T070000Z
-DTEND:20260103T070000Z
+DTSTART;VALUE=DATE:20260202
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260203
 SUMMARY:Candlemas (Feast of the Presentation)
 DESCRIPTION:History: Commemorated in Jerusalem by the fourth century\, Cand
- lemas marks forty days after Christmas when Mary and Joseph presented Jesus
-  at the Temple according to Mosaic law.\nTraditions: Churches bless candles
-  for the coming year\, processions illuminate winter nights\, and weather l
- ore predicts the remaining length of winter.\nFeasting: La Chandeleur table
- s offer crepes beurre sucre\, crepes jambon-fromage\, boles de cidre brut\,
-  and salade de mache\; in Mexico\, familias sirven tamales oaxaquenos\, tam
- ales de dulce\, atole de canela\, champurrado espumoso\, and pan de candela
- ria after the blessing of candles.\nDay: Friday\n\nIcon: 🕯️\\\\\\\\\\\\\\\
- nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ lemas marks forty days after Christmas when Mary and Joseph presented Jesu
+ s at the Temple according to Mosaic law.\nTraditions: Churches bless candl
+ es for the coming year\, processions illuminate winter nights\, and weathe
+ r lore predicts the remaining length of winter.\nFeasting: La Chandeleur t
+ ables offer crepes beurre sucre\, crepes jambon-fromage\, boles de cidre b
+ rut\, and salade de mache\; in Mexico\, familias sirven tamales oaxaquenos
+ \, tamales de dulce\, atole de canela\, champurrado espumoso\, and pan de 
+ candelaria after the blessing of candles.\nDay: Friday\n\nIcon: 🕯️\nC
+ ategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/candlemas-feast-of-the-presentation-of-jesus-and-blessing-of-candles.png
+X-IMAGE:/images/candlemas-feast-of-the-presentation-of-jesus-and-blessing-of-candles.png
 END:VEVENT
 BEGIN:VEVENT
+UID:twelfth-night@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260105T070000Z
-DTEND:20260106T070000Z
+DTSTART;VALUE=DATE:20260105
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260106
 SUMMARY:Twelfth Night
 DESCRIPTION:History: Twelfth Night concludes the Christmastide counting fro
- m medieval Europe\, blending Christian Epiphany vigils with older winter re
- vels.\nTraditions: Hosts crown a king or queen with hidden bean charms\, wa
- ssailers sing at doorways\, and revelers dismantle greenery to avoid a year
-  of bad fortune.\nFeasting: Tables feature spiced ale\, figgy puddings\, ki
- ng cakes filled with almonds\, and roasted meats shared before the fasting 
- of Epiphany begins.\nDay: Monday\n\nIcon: 🎭\\\\\\\\\\\\\\\nCategory: cultu
- ral\\\\\\
-CATEGORIES:cultural\\\\\\
+ m medieval Europe\, blending Christian Epiphany vigils with older winter r
+ evels.\nTraditions: Hosts crown a king or queen with hidden bean charms\, 
+ wassailers sing at doorways\, and revelers dismantle greenery to avoid a y
+ ear of bad fortune.\nFeasting: Tables feature spiced ale\, figgy puddings\
+ , king cakes filled with almonds\, and roasted meats shared before the fas
+ ting of Epiphany begins.\nDay: Monday\n\nIcon: 🎭\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/twelfth-night-end-of-the-christmas-season.png
+X-IMAGE:/images/twelfth-night-end-of-the-christmas-season.png
 END:VEVENT
 BEGIN:VEVENT
+UID:epiphany-three-kings-day@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260106T070000Z
-DTEND:20260107T070000Z
+DTSTART;VALUE=DATE:20260106
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260107
 SUMMARY:Epiphany (Three Kings Day)
 DESCRIPTION:History: Since the second century\, Epiphany has celebrated the
-  Magi recognising the Christ child\, symbolising the revelation of the divi
- ne to the nations.\nTraditions: Families bless doorways with chalk\, stage 
- pageants of camels and kings\, and children receive gifts left by los Reyes
-  Magos or La Befana.\nFeasting: Bakers craft rosca de reyes\, galette des r
- ois\, or king cakes\, while households sip rich hot chocolate and share slo
- w-simmered stews.\nDay: Tuesday\n\nIcon: 👑\\\\\\\\\\\\\\\nCategory: cultur
- al\\\\\\
-CATEGORIES:cultural\\\\\\
+  Magi recognising the Christ child\, symbolising the revelation of the div
+ ine to the nations.\nTraditions: Families bless doorways with chalk\, stag
+ e pageants of camels and kings\, and children receive gifts left by los Re
+ yes Magos or La Befana.\nFeasting: Bakers craft rosca de reyes\, galette d
+ es rois\, or king cakes\, while households sip rich hot chocolate and shar
+ e slow-simmered stews.\nDay: Tuesday\n\nIcon: 👑\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/epiphany-three-kings-day-celebration-of-the-magi.png
+X-IMAGE:/images/epiphany-three-kings-day-celebration-of-the-magi.png
 END:VEVENT
 BEGIN:VEVENT
+UID:fete-de-papa-zaka-feast-of-the-farmer-loa@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260110T070000Z
-DTEND:20260111T070000Z
+DTSTART;VALUE=DATE:20260110
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260111
 SUMMARY:Fete de Papa Zaka - Feast of the Farmer Loa
-DESCRIPTION:History: Haitian Vodou communities honour Papa Zaka, the kindly fa
- rmer lwa, during January gatherings to thank him for guarding crops and labou
- ring families.\nTraditions: Altars are dressed with straw hats, ears of corn,
-  bowls of grain, rum, and pipe tobacco while drummers, singers, and vodouisan
- ts petition Zaka for fertile fields before sharing food with neighbours.\nFea
- sting: Aperitifs pour clairin ti punch, kleren anisette, and pumpkin-spice ju
- s giraumon; first courses carry soup joumou, accra de morue with pikliz, and 
- mayi moulen ak sos pwa; mains feature poulet nan sos, griot de porc, legim na
- n diri, and red beans with rice; sides bring bannann peze, pain mayi, and jar
- s of pikliz; desserts finish with pen patat, bonbons sirop, tropical fruits, 
- and altar offerings of roasted corn, a grain-filled straw hat, and a shot of 
- rum with pipe tobacco.\nDay: Saturday\n\nIcon: 🌾\\\\\\\\\\\\\\\nCategory: cul
- tural\\\\\\
-CATEGORIES:cultural\\\\\\
+DESCRIPTION:History: Haitian Vodou communities honour Papa Zaka, the kindly
+  farmer lwa, during January gatherings to thank him for guarding crops and
+  labouring families.\nTraditions: Altars are dressed with straw hats, ears
+  of corn, bowls of grain, rum, and pipe tobacco while drummers, singers, a
+ nd vodouisants petition Zaka for fertile fields before sharing food with n
+ eighbours.\nFeasting: Aperitifs pour clairin ti punch, kleren anisette, an
+ d pumpkin-spice jus giraumon; first courses carry soup joumou, accra de mo
+ rue with pikliz, and mayi moulen ak sos pwa; mains feature poulet nan sos,
+  griot de porc, legim nan diri, and red beans with rice; sides bring banna
+ nn peze, pain mayi, and jars of pikliz; desserts finish with pen patat, bo
+ nbons sirop, tropical fruits, and altar offerings of roasted corn, a grain
+ -filled straw hat, and a shot of rum with pipe tobacco.\nDay: Saturday\n\n
+ Icon: 🌾\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:fete-du-vodoun-benin-vodoun-festival@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260110T070000Z
-DTEND:20260111T070000Z
+DTSTART;VALUE=DATE:20260110
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260111
 SUMMARY:Fete du Vodoun (Benin Vodoun Festival)
 DESCRIPTION:History: Benin recognised Vodoun as a national religion in 1996
- \, formalising annual January gatherings that honour ancestral spirits and 
- the transatlantic heritage of resistance.\nTraditions: Processions of pries
- ts\, devotees\, and Egungun dancers drum along Ouidah's Route des Esclaves\
- , offering libations at the Temple of Pythons and the seaside.\nFeasting: F
- estival goers share akassa corn porridge\, goat and fish stews flavoured wi
- th palm oil\, toasted peanuts\, and generous pours of sodabi palm liquor.\n
- Day: Saturday\n\nIcon: 🎭\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ \, formalising annual January gatherings that honour ancestral spirits and
+  the transatlantic heritage of resistance.\nTraditions: Processions of pri
+ ests\, devotees\, and Egungun dancers drum along Ouidah's Route des Esclav
+ es\, offering libations at the Temple of Pythons and the seaside.\nFeastin
+ g: Festival goers share akassa corn porridge\, goat and fish stews flavour
+ ed with palm oil\, toasted peanuts\, and generous pours of sodabi palm liq
+ uor.\nDay: Saturday\n\nIcon: 🎭\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/vodoun-festival-traditional-celebration-in-benin-honoring-vodoun-spirituality-an.png
+X-IMAGE:/images/vodoun-festival-traditional-celebration-in-benin-honoring-vodoun-spirituality-an.png
 END:VEVENT
 BEGIN:VEVENT
+UID:feast-of-the-ass@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260114T070000Z
-DTEND:20260115T070000Z
+DTSTART;VALUE=DATE:20260114
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260115
 SUMMARY:Feast of the Ass
 DESCRIPTION:History: Medieval French parishes staged the Feast of the Ass t
- o honour the donkey that carried the Holy Family during the Flight into Egy
- pt and other biblical journeys.\nTraditions: A bedecked donkey processed to
-  church while congregations answered prayers with playful brays\, blending 
- devotion with carnival humour.\nFeasting: Le repas rustique propose pain de
-  campagne\, soupe aux pois secs\, galette au miel\, tarte aux noix\, fromag
- e de chevre\, and cruches de vin epice hypocras shared in honour of the hum
- ble ane.\nDay: Wednesday\n\nIcon: 🐴\\\\\\\\\\\\\\\nCategory: cultural\\\\\
- \
-CATEGORIES:cultural\\\\\\
+ o honour the donkey that carried the Holy Family during the Flight into Eg
+ ypt and other biblical journeys.\nTraditions: A bedecked donkey processed 
+ to church while congregations answered prayers with playful brays\, blendi
+ ng devotion with carnival humour.\nFeasting: Le repas rustique propose pai
+ n de campagne\, soupe aux pois secs\, galette au miel\, tarte aux noix\, f
+ romage de chevre\, and cruches de vin epice hypocras shared in honour of t
+ he humble ane.\nDay: Wednesday\n\nIcon: 🐴\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/feast-of-the-ass-medieval-festival-celebrating-the-flight-into-egypt.png
+X-IMAGE:/images/feast-of-the-ass-medieval-festival-celebrating-the-flight-into-egypt.png
 END:VEVENT
 BEGIN:VEVENT
+UID:dondoyaki-bonfire@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260115T070000Z
-DTEND:20260116T070000Z
+DTSTART;VALUE=DATE:20260115
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260116
 SUMMARY:Dondoyaki Bonfire
 DESCRIPTION:History: Dondoyaki descends from Heian-period shrine rites that
-  respectfully retire shimenawa ropes\, daruma\, and calligraphy written dur
- ing the New Year festivities.\nTraditions: Communities pile pine branches a
- nd lucky charms into tall pyres\, send sparks skyward with communal prayers
- \, and children roast lucky rice cakes in the embers.\nFeasting: Skewered m
- ochi toasted over the flames\, sweet azuki bean soup\, and cups of warm ama
- zake fortify neighbours against the cold night air.\nDay: Thursday\n\nIcon:
-  🔥\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+  respectfully retire shimenawa ropes\, daruma\, and calligraphy written du
+ ring the New Year festivities.\nTraditions: Communities pile pine branches
+  and lucky charms into tall pyres\, send sparks skyward with communal pray
+ ers\, and children roast lucky rice cakes in the embers.\nFeasting: Skewer
+ ed mochi toasted over the flames\, sweet azuki bean soup\, and cups of war
+ m amazake fortify neighbours against the cold night air.\nDay: Thursday\n\
+ nIcon: 🔥\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/japanese-new-year-tradition-of-burning-new-year-decorations.png
+X-IMAGE:/images/japanese-new-year-tradition-of-burning-new-year-decorations.png
 END:VEVENT
 BEGIN:VEVENT
+UID:old-twelfth-night-wassail@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260117T070000Z
-DTEND:20260118T070000Z
+DTSTART;VALUE=DATE:20260117
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260118
 SUMMARY:Old Twelfth Night Wassail
 DESCRIPTION:History: When Britain adopted the Gregorian calendar in 1752\, 
- many West Country farmers kept the old January date for Twelfth Night to bl
- ess orchards against blight.\nTraditions: Wassailers bang pans\, fire muske
- ts into branches\, and sing to wake the apple trees while offering cider-so
- aked toast to the guardian robin.\nFeasting: Hot mulled cider\, apple cakes
- \, blue cheese\, and pork pies fuel the rounds from farm to farm through th
- e frosty fields.\nDay: Saturday\n\nIcon: 🌟\\\\\\\\\\\\\\\nCategory: cultur
- al\\\\\\
-CATEGORIES:cultural\\\\\\
+ many West Country farmers kept the old January date for Twelfth Night to b
+ less orchards against blight.\nTraditions: Wassailers bang pans\, fire mus
+ kets into branches\, and sing to wake the apple trees while offering cider
+ -soaked toast to the guardian robin.\nFeasting: Hot mulled cider\, apple c
+ akes\, blue cheese\, and pork pies fuel the rounds from farm to farm throu
+ gh the frosty fields.\nDay: Saturday\n\nIcon: 🌟\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/old-twelfth-night-traditional-date-before-calendar-reform.png
+X-IMAGE:/images/old-twelfth-night-traditional-date-before-calendar-reform.png
 END:VEVENT
 BEGIN:VEVENT
+UID:burns-night-supper@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260125T070000Z
-DTEND:20260126T070000Z
+DTSTART;VALUE=DATE:20260125
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260126
 SUMMARY:Burns Night Supper
 DESCRIPTION:History: The first Burns Night was held in 1801 by friends of R
- obert Burns\, celebrating the Bard's January birth with readings that cemen
- ted his role in Scottish identity.\nTraditions: Kilted hosts pipe in the ha
- ggis\, deliver the Address with flourish\, toast the lassies\, and end with
-  ceilidh dances and "Auld Lang Syne."\nFeasting: Menus centre on haggis wit
- h neeps and tatties\, cock-a-leekie soup\, cranachan\, oatcakes\, and drams
-  of smoky single malt whisky.\nDay: Sunday\n\nIcon: 🏴󠁧󠁢󠁳󠁣󠁴󠁿\\\\\\\\\
- \\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ obert Burns\, celebrating the Bard's January birth with readings that ceme
+ nted his role in Scottish identity.\nTraditions: Kilted hosts pipe in the 
+ haggis\, deliver the Address with flourish\, toast the lassies\, and end w
+ ith ceilidh dances and "Auld Lang Syne."\nFeasting: Menus centre on haggis
+  with neeps and tatties\, cock-a-leekie soup\, cranachan\, oatcakes\, and 
+ drams of smoky single malt whisky.\nDay: Sunday\n\nIcon: 🏴󠁧󠁢󠁳
+ 󠁣󠁴󠁿\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/scottish-celebration-of-the-poet-robert-burns-with-poetry-haggis-and-whisky.png
+X-IMAGE:/images/scottish-celebration-of-the-poet-robert-burns-with-poetry-haggis-and-whisky.png
 END:VEVENT
 BEGIN:VEVENT
+UID:lunar-new-year-chunjie@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260129T070000Z
-DTEND:20260130T070000Z
+DTSTART;VALUE=DATE:20260217
+RDATE;VALUE=DATE:20270206
+RDATE;VALUE=DATE:20280126
+RDATE;VALUE=DATE:20290213
+RDATE;VALUE=DATE:20300203
+RDATE;VALUE=DATE:20310123
+RDATE;VALUE=DATE:20320211
+RDATE;VALUE=DATE:20330131
+RDATE;VALUE=DATE:20340219
+RDATE;VALUE=DATE:20350208
+X-MSS-DATE-SOURCE:https://www.hko.gov.hk/en/gts/time/conversion.htm
+DTEND;VALUE=DATE:20260218
 SUMMARY:Lunar New Year (Chunjie)
 DESCRIPTION:History: Rooted in Han dynasty agrarian cycles\, the Lunar New 
- Year welcomes spring with family reunions\, ancestor veneration\, and hopes
-  for prosperity.\nTraditions: Homes are scrubbed\, red lanterns strung\, ho
- ngbao envelopes gifted\, and lion or dragon dances chase away lingering Nia
- n monsters.\nFeasting: Reunion banquets showcase longevity noodles\, whole 
- fish\, dumplings shaped like ingots\, sweet rice cakes\, and mandarin orang
- es for abundance.\nDay: Thursday\n\nIcon: 🐉\\\\\\\\\\\\\\\nCategory: cultu
- ral\\\\\\
-CATEGORIES:cultural\\\\\\
+ Year welcomes spring with family reunions\, ancestor veneration\, and hope
+ s for prosperity.\nTraditions: Homes are scrubbed\, red lanterns strung\, 
+ hongbao envelopes gifted\, and lion or dragon dances chase away lingering 
+ Nian monsters.\nFeasting: Reunion banquets showcase longevity noodles\, wh
+ ole fish\, dumplings shaped like ingots\, sweet rice cakes\, and mandarin 
+ oranges for abundance.\nDay: Thursday\n\nIcon: 🐉\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/lunar-new-year-celebration.png
+X-IMAGE:/images/lunar-new-year-celebration.png
 END:VEVENT
 BEGIN:VEVENT
+UID:losar-tibetan-new-year@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260129T070000Z
-DTEND:20260130T070000Z
+DTSTART;VALUE=DATE:20260218
+RDATE;VALUE=DATE:20270207
+RDATE;VALUE=DATE:20280226
+RDATE;VALUE=DATE:20290214
+RDATE;VALUE=DATE:20300305
+RDATE;VALUE=DATE:20310222
+RDATE;VALUE=DATE:20320212
+RDATE;VALUE=DATE:20330302
+RDATE;VALUE=DATE:20340219
+RDATE;VALUE=DATE:20350209
+X-MSS-DATE-SOURCE:https://www.lotsawahouse.org/Static/tools/phugpa.html
+X-MSS-TIBETAN-POLICY:Phugpa Tibetan calendar; Losar=first day of first Tibetan month; Svante Janson calendar mathematics
+DTEND;VALUE=DATE:20260219
 SUMMARY:Losar (Tibetan New Year)
 DESCRIPTION:History: Losar blends ancient Bon winter rites with Buddhist ob
- servances\, dating to the era of King Trisong Detsen and now marking the Ti
- betan calendar's turning.\nTraditions: Families replace prayer flag streame
- rs\, visit monasteries for cham dances\, and exchange khata scarves while r
- eciting auspicious wishes.\nFeasting: Households prepare guthuk noodle soup
-  with symbolic dumplings\, deep-fried khapse pastries\, dried yak cheese\, 
- and butter tea shared with neighbours.\nDay: Thursday\n\nIcon: 🏔️\\\\\\\\\
- \\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ servances\, dating to the era of King Trisong Detsen and now marking the T
+ ibetan calendar's turning.\nTraditions: Families replace prayer flag strea
+ mers\, visit monasteries for cham dances\, and exchange khata scarves whil
+ e reciting auspicious wishes.\nFeasting: Households prepare guthuk noodle 
+ soup with symbolic dumplings\, deep-fried khapse pastries\, dried yak chee
+ se\, and butter tea shared with neighbours.\nDay: Thursday\n\nIcon: 🏔
+ ️\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/tibetan-new-year-celebration-of-the-lunar-new-year-in-tibetan-culture.png
+X-IMAGE:/images/tibetan-new-year-celebration-of-the-lunar-new-year-in-tibetan-culture.png
 END:VEVENT
 BEGIN:VEVENT
+UID:imbolc-eve-la-fheile-bride@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260130T070000Z
-DTEND:20260131T070000Z
+DTSTART;VALUE=DATE:20260130
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260131
 SUMMARY:Imbolc Eve (La Fheile Bride)
 DESCRIPTION:History: Imbolc heralds the first stirrings of spring in ancien
- t Gaelic tradition\, bridged later with the veneration of Saint Brigid of K
- ildare.\nTraditions: Families fashion Brigid's crosses\, set out corn dolli
- es to receive the saint's blessing\, and keep vigil fires burning through t
- he night.\nFeasting: Dairy-rich dishes--fresh butter\, soft cheeses\, oatca
- kes\, and early lamb stews--honour Brigid's patronage of livestock and the 
- hearth.\nDay: Friday\n\nIcon: 🌙\\\\\\\\\\\\\\\nCategory: seasonal\\\\\\
-CATEGORIES:seasonal\\\\\\
+ t Gaelic tradition\, bridged later with the veneration of Saint Brigid of 
+ Kildare.\nTraditions: Families fashion Brigid's crosses\, set out corn dol
+ lies to receive the saint's blessing\, and keep vigil fires burning throug
+ h the night.\nFeasting: Dairy-rich dishes--fresh butter\, soft cheeses\, o
+ atcakes\, and early lamb stews--honour Brigid's patronage of livestock and
+  the hearth.\nDay: Friday\n\nIcon: 🌙\nCategory: seasonal
+CATEGORIES:seasonal
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/eve-of-imbolc-the-celtic-festival-marking-the-beginning-of-spring.png
+X-IMAGE:/images/eve-of-imbolc-the-celtic-festival-marking-the-beginning-of-spring.png
 END:VEVENT
 BEGIN:VEVENT
+UID:imbolc-day-celebration@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260201T070000Z
-DTEND:20260202T070000Z
+DTSTART;VALUE=DATE:20260201
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260202
 SUMMARY:Imbolc Day Celebration
 DESCRIPTION:History: With the lambing season underway\, Imbolc marks the mi
- dpoint between solstice and equinox\, long tied to the rebirth of light and
-  Brigid's protective cloak.\nTraditions: Pilgrims visit holy wells\, sprink
- le thresholds with blessed water\, and hang swaddles outdoors to absorb Bri
- gid's healing power.\nFeasting: Communities share bannocks\, colcannon\, du
- lse\, and honeyed porridges\, often concluding with tea infused with the fi
- rst tender herbs.\nDay: Sunday\n\nIcon: 🌱\\\\\\\\\\\\\\\nCategory: seasona
- l\\\\\\
-CATEGORIES:seasonal\\\\\\
+ dpoint between solstice and equinox\, long tied to the rebirth of light an
+ d Brigid's protective cloak.\nTraditions: Pilgrims visit holy wells\, spri
+ nkle thresholds with blessed water\, and hang swaddles outdoors to absorb 
+ Brigid's healing power.\nFeasting: Communities share bannocks\, colcannon\
+ , dulse\, and honeyed porridges\, often concluding with tea infused with t
+ he first tender herbs.\nDay: Sunday\n\nIcon: 🌱\nCategory: seasonal
+CATEGORIES:seasonal
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/eve-of-imbolc-the-celtic-festival-marking-the-beginning-of-spring.png
+X-IMAGE:/images/eve-of-imbolc-the-celtic-festival-marking-the-beginning-of-spring.png
 END:VEVENT
 BEGIN:VEVENT
+UID:saint-valentine-s-day@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260214T070000Z
-DTEND:20260215T070000Z
+DTSTART;VALUE=DATE:20260214
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260215
 SUMMARY:Saint Valentine's Day
 DESCRIPTION:History: The feast of the third-century martyr Valentine intert
- wined with courtly love through Chaucer's poetry and later Victorian card e
- xchanges.\nTraditions: Couples exchange handwritten notes\, roses\, and act
- s of service\, while many support charitable causes in the spirit of selfle
- ss love.\nFeasting: Sweethearts linger over chocolate-dipped strawberries\,
-  heart-shaped confections\, fine champagne\, and candlelit suppers for two.
- \nDay: Saturday\n\nIcon: 💕\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ wined with courtly love through Chaucer's poetry and later Victorian card 
+ exchanges.\nTraditions: Couples exchange handwritten notes\, roses\, and a
+ cts of service\, while many support charitable causes in the spirit of sel
+ fless love.\nFeasting: Sweethearts linger over chocolate-dipped strawberri
+ es\, heart-shaped confections\, fine champagne\, and candlelit suppers for
+  two.\nDay: Saturday\n\nIcon: 💕\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/patron-saint-of-love-and-romance.png
+X-IMAGE:/images/patron-saint-of-love-and-romance.png
 END:VEVENT
 BEGIN:VEVENT
+UID:saint-patrick-s-day@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260317T060000Z
-DTEND:20260318T060000Z
+DTSTART;VALUE=DATE:20260317
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260318
 SUMMARY:Saint Patrick's Day
 DESCRIPTION:History: Patrick's fifth-century mission in Ireland inspired me
- dieval hagiographies\, and Irish diaspora communities transformed his feast
-  into global parades of pride.\nTraditions: Bagpipers march past green land
- marks\, shamrock pins bedeck lapels\, and Gaelic blessings are shared betwe
- en friends and strangers alike.\nFeasting: Menus highlight corned beef and 
- cabbage\, soda bread\, colcannon\, smoked salmon\, and stout or whiskey rai
- sed in hearty toast.\nDay: Tuesday\n\nIcon: ☘️\\\\\\\\\\\\\\\nCategory: cul
- tural\\\\\\
-CATEGORIES:cultural\\\\\\
+ dieval hagiographies\, and Irish diaspora communities transformed his feas
+ t into global parades of pride.\nTraditions: Bagpipers march past green la
+ ndmarks\, shamrock pins bedeck lapels\, and Gaelic blessings are shared be
+ tween friends and strangers alike.\nFeasting: Menus highlight corned beef 
+ and cabbage\, soda bread\, colcannon\, smoked salmon\, and stout or whiske
+ y raised in hearty toast.\nDay: Tuesday\n\nIcon: ☘️\nCategory: cultura
+ l
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/patron-saint-of-ireland-celebrated-worldwide.png
+X-IMAGE:/images/patron-saint-of-ireland-celebrated-worldwide.png
 END:VEVENT
 BEGIN:VEVENT
+UID:spring-equinox-ostara@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260320T060000Z
-DTEND:20260321T060000Z
+DTSTART;VALUE=DATE:20260320
+RDATE;VALUE=DATE:20270320
+RDATE;VALUE=DATE:20280319
+RDATE;VALUE=DATE:20290320
+RDATE;VALUE=DATE:20300320
+RDATE;VALUE=DATE:20310320
+RDATE;VALUE=DATE:20320319
+RDATE;VALUE=DATE:20330320
+RDATE;VALUE=DATE:20340320
+RDATE;VALUE=DATE:20350320
+X-MSS-DATE-SOURCE:https://aa.usno.navy.mil/data/api.html
+X-MSS-CIVIL-TZ:America/Denver
+X-MSS-ASTRONOMY-POLICY:USNO season instant mapped to America/Denver civil date
+DTEND;VALUE=DATE:20260321
 SUMMARY:Spring Equinox (Ostara)
 DESCRIPTION:History: The equinox marks a moment of near-equal day and night as spring gathers strength.\nTraditions: People welcome returning light with early garden work, fresh greens, and mindful balance rituals.\nFeasting: Seasonal plates highlight herbs, eggs, citrus, and first tender vegetables.\nDay: Friday\n\nIcon: 🌸\nCategory: seasonal
 CATEGORIES:seasonal
@@ -345,9 +407,21 @@ TRANSP:TRANSPARENT
 X-IMAGE:/images/spring-equinox.svg
 END:VEVENT
 BEGIN:VEVENT
+UID:nowruz@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260320T060000Z
-DTEND:20260321T060000Z
+DTSTART;VALUE=DATE:20260320
+RDATE;VALUE=DATE:20270320
+RDATE;VALUE=DATE:20280320
+RDATE;VALUE=DATE:20290320
+RDATE;VALUE=DATE:20300320
+RDATE;VALUE=DATE:20310320
+RDATE;VALUE=DATE:20320320
+RDATE;VALUE=DATE:20330320
+RDATE;VALUE=DATE:20340320
+RDATE;VALUE=DATE:20350320
+X-MSS-DATE-SOURCE:https://calendar.ut.ac.ir/
+X-MSS-PERSIAN-POLICY:University of Tehran Calendar Center Solar Hijri dates; Nowruz=1 Farvardin; Yalda=30 Azar
+DTEND;VALUE=DATE:20260321
 SUMMARY:Nowruz
 DESCRIPTION:History: Nowruz is the Persian New Year rooted in ancient springtime renewal traditions.\nTraditions: Families set the Haft-Seen table, clean the home, visit loved ones, and celebrate the first day of spring.\nFeasting: Shared foods include herb-forward dishes, sweets, tea, and celebratory rice.\nDay: Friday\n\nIcon: 🌿\nCategory: cultural
 CATEGORIES:cultural
@@ -356,9 +430,84 @@ TRANSP:TRANSPARENT
 X-IMAGE:/images/nowruz.svg
 END:VEVENT
 BEGIN:VEVENT
+UID:palm-sunday@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260329T060000Z
-DTEND:20260330T060000Z
+DTSTART;VALUE=DATE:20260329
+RDATE;VALUE=DATE:20270321
+RDATE;VALUE=DATE:20280409
+RDATE;VALUE=DATE:20290325
+RDATE;VALUE=DATE:20300414
+RDATE;VALUE=DATE:20310406
+RDATE;VALUE=DATE:20320321
+RDATE;VALUE=DATE:20330410
+RDATE;VALUE=DATE:20340402
+RDATE;VALUE=DATE:20350318
+RDATE;VALUE=DATE:20360406
+RDATE;VALUE=DATE:20370329
+RDATE;VALUE=DATE:20380418
+RDATE;VALUE=DATE:20390403
+RDATE;VALUE=DATE:20400325
+RDATE;VALUE=DATE:20410414
+RDATE;VALUE=DATE:20420330
+RDATE;VALUE=DATE:20430322
+RDATE;VALUE=DATE:20440410
+RDATE;VALUE=DATE:20450402
+RDATE;VALUE=DATE:20460318
+RDATE;VALUE=DATE:20470407
+RDATE;VALUE=DATE:20480329
+RDATE;VALUE=DATE:20490411
+RDATE;VALUE=DATE:20500403
+RDATE;VALUE=DATE:20510326
+RDATE;VALUE=DATE:20520414
+RDATE;VALUE=DATE:20530330
+RDATE;VALUE=DATE:20540322
+RDATE;VALUE=DATE:20550411
+RDATE;VALUE=DATE:20560326
+RDATE;VALUE=DATE:20570415
+RDATE;VALUE=DATE:20580407
+RDATE;VALUE=DATE:20590323
+RDATE;VALUE=DATE:20600411
+RDATE;VALUE=DATE:20610403
+RDATE;VALUE=DATE:20620319
+RDATE;VALUE=DATE:20630408
+RDATE;VALUE=DATE:20640330
+RDATE;VALUE=DATE:20650322
+RDATE;VALUE=DATE:20660404
+RDATE;VALUE=DATE:20670327
+RDATE;VALUE=DATE:20680415
+RDATE;VALUE=DATE:20690407
+RDATE;VALUE=DATE:20700323
+RDATE;VALUE=DATE:20710412
+RDATE;VALUE=DATE:20720403
+RDATE;VALUE=DATE:20730319
+RDATE;VALUE=DATE:20740408
+RDATE;VALUE=DATE:20750331
+RDATE;VALUE=DATE:20760412
+RDATE;VALUE=DATE:20770404
+RDATE;VALUE=DATE:20780327
+RDATE;VALUE=DATE:20790416
+RDATE;VALUE=DATE:20800331
+RDATE;VALUE=DATE:20810323
+RDATE;VALUE=DATE:20820412
+RDATE;VALUE=DATE:20830328
+RDATE;VALUE=DATE:20840319
+RDATE;VALUE=DATE:20850408
+RDATE;VALUE=DATE:20860324
+RDATE;VALUE=DATE:20870413
+RDATE;VALUE=DATE:20880404
+RDATE;VALUE=DATE:20890327
+RDATE;VALUE=DATE:20900409
+RDATE;VALUE=DATE:20910401
+RDATE;VALUE=DATE:20920323
+RDATE;VALUE=DATE:20930405
+RDATE;VALUE=DATE:20940328
+RDATE;VALUE=DATE:20950417
+RDATE;VALUE=DATE:20960408
+RDATE;VALUE=DATE:20970324
+RDATE;VALUE=DATE:20980413
+RDATE;VALUE=DATE:20990405
+RDATE;VALUE=DATE:21000321
+DTEND;VALUE=DATE:20260330
 SUMMARY:Palm Sunday
 DESCRIPTION:History: Palm Sunday begins Holy Week, recalling the entry into Jerusalem.\nTraditions: Communities carry palms, sing, and prepare for the week of remembrance.\nFeasting: Simple seasonal meals and shared bread often follow worship.\nDay: Sunday\n\nIcon: 🌿\nCategory: cultural
 CATEGORIES:cultural
@@ -367,9 +516,20 @@ TRANSP:TRANSPARENT
 X-IMAGE:/images/palm-sunday.svg
 END:VEVENT
 BEGIN:VEVENT
+UID:passover@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260402T060000Z
-DTEND:20260410T060000Z
+DTSTART;VALUE=DATE:20260402
+RDATE;VALUE=DATE:20270422
+RDATE;VALUE=DATE:20280411
+RDATE;VALUE=DATE:20290331
+RDATE;VALUE=DATE:20300418
+RDATE;VALUE=DATE:20310408
+RDATE;VALUE=DATE:20320327
+RDATE;VALUE=DATE:20330414
+RDATE;VALUE=DATE:20340404
+RDATE;VALUE=DATE:20350424
+X-MSS-DATE-SOURCE:https://www.hebcal.com/holidays/
+DTEND;VALUE=DATE:20260410
 SUMMARY:Passover
 DESCRIPTION:History: Passover commemorates the Exodus and the journey from slavery to freedom.\nTraditions: Families gather for a seder with symbolic foods, storytelling, and songs.\nFeasting: Matzah, bitter herbs, charoset, and festive meals anchor the week.\nDay: Thursday\n\nIcon: 🫓\nCategory: cultural
 CATEGORIES:cultural
@@ -378,9 +538,84 @@ TRANSP:TRANSPARENT
 X-IMAGE:/images/passover.svg
 END:VEVENT
 BEGIN:VEVENT
+UID:maundy-thursday@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260402T060000Z
-DTEND:20260403T060000Z
+DTSTART;VALUE=DATE:20260402
+RDATE;VALUE=DATE:20270325
+RDATE;VALUE=DATE:20280413
+RDATE;VALUE=DATE:20290329
+RDATE;VALUE=DATE:20300418
+RDATE;VALUE=DATE:20310410
+RDATE;VALUE=DATE:20320325
+RDATE;VALUE=DATE:20330414
+RDATE;VALUE=DATE:20340406
+RDATE;VALUE=DATE:20350322
+RDATE;VALUE=DATE:20360410
+RDATE;VALUE=DATE:20370402
+RDATE;VALUE=DATE:20380422
+RDATE;VALUE=DATE:20390407
+RDATE;VALUE=DATE:20400329
+RDATE;VALUE=DATE:20410418
+RDATE;VALUE=DATE:20420403
+RDATE;VALUE=DATE:20430326
+RDATE;VALUE=DATE:20440414
+RDATE;VALUE=DATE:20450406
+RDATE;VALUE=DATE:20460322
+RDATE;VALUE=DATE:20470411
+RDATE;VALUE=DATE:20480402
+RDATE;VALUE=DATE:20490415
+RDATE;VALUE=DATE:20500407
+RDATE;VALUE=DATE:20510330
+RDATE;VALUE=DATE:20520418
+RDATE;VALUE=DATE:20530403
+RDATE;VALUE=DATE:20540326
+RDATE;VALUE=DATE:20550415
+RDATE;VALUE=DATE:20560330
+RDATE;VALUE=DATE:20570419
+RDATE;VALUE=DATE:20580411
+RDATE;VALUE=DATE:20590327
+RDATE;VALUE=DATE:20600415
+RDATE;VALUE=DATE:20610407
+RDATE;VALUE=DATE:20620323
+RDATE;VALUE=DATE:20630412
+RDATE;VALUE=DATE:20640403
+RDATE;VALUE=DATE:20650326
+RDATE;VALUE=DATE:20660408
+RDATE;VALUE=DATE:20670331
+RDATE;VALUE=DATE:20680419
+RDATE;VALUE=DATE:20690411
+RDATE;VALUE=DATE:20700327
+RDATE;VALUE=DATE:20710416
+RDATE;VALUE=DATE:20720407
+RDATE;VALUE=DATE:20730323
+RDATE;VALUE=DATE:20740412
+RDATE;VALUE=DATE:20750404
+RDATE;VALUE=DATE:20760416
+RDATE;VALUE=DATE:20770408
+RDATE;VALUE=DATE:20780331
+RDATE;VALUE=DATE:20790420
+RDATE;VALUE=DATE:20800404
+RDATE;VALUE=DATE:20810327
+RDATE;VALUE=DATE:20820416
+RDATE;VALUE=DATE:20830401
+RDATE;VALUE=DATE:20840323
+RDATE;VALUE=DATE:20850412
+RDATE;VALUE=DATE:20860328
+RDATE;VALUE=DATE:20870417
+RDATE;VALUE=DATE:20880408
+RDATE;VALUE=DATE:20890331
+RDATE;VALUE=DATE:20900413
+RDATE;VALUE=DATE:20910405
+RDATE;VALUE=DATE:20920327
+RDATE;VALUE=DATE:20930409
+RDATE;VALUE=DATE:20940401
+RDATE;VALUE=DATE:20950421
+RDATE;VALUE=DATE:20960412
+RDATE;VALUE=DATE:20970328
+RDATE;VALUE=DATE:20980417
+RDATE;VALUE=DATE:20990409
+RDATE;VALUE=DATE:21000325
+DTEND;VALUE=DATE:20260403
 SUMMARY:Maundy Thursday
 DESCRIPTION:History: Maundy Thursday recalls the Last Supper and the commandment to love.\nTraditions: Many keep a quiet vigil and share a meal in remembrance.\nFeasting: Bread, soup, and simple dishes reflect the tone of the day.\nDay: Thursday\n\nIcon: 🍞\nCategory: cultural
 CATEGORIES:cultural
@@ -389,9 +624,84 @@ TRANSP:TRANSPARENT
 X-IMAGE:/images/maundy-thursday.svg
 END:VEVENT
 BEGIN:VEVENT
+UID:good-friday@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260403T060000Z
-DTEND:20260404T060000Z
+DTSTART;VALUE=DATE:20260403
+RDATE;VALUE=DATE:20270326
+RDATE;VALUE=DATE:20280414
+RDATE;VALUE=DATE:20290330
+RDATE;VALUE=DATE:20300419
+RDATE;VALUE=DATE:20310411
+RDATE;VALUE=DATE:20320326
+RDATE;VALUE=DATE:20330415
+RDATE;VALUE=DATE:20340407
+RDATE;VALUE=DATE:20350323
+RDATE;VALUE=DATE:20360411
+RDATE;VALUE=DATE:20370403
+RDATE;VALUE=DATE:20380423
+RDATE;VALUE=DATE:20390408
+RDATE;VALUE=DATE:20400330
+RDATE;VALUE=DATE:20410419
+RDATE;VALUE=DATE:20420404
+RDATE;VALUE=DATE:20430327
+RDATE;VALUE=DATE:20440415
+RDATE;VALUE=DATE:20450407
+RDATE;VALUE=DATE:20460323
+RDATE;VALUE=DATE:20470412
+RDATE;VALUE=DATE:20480403
+RDATE;VALUE=DATE:20490416
+RDATE;VALUE=DATE:20500408
+RDATE;VALUE=DATE:20510331
+RDATE;VALUE=DATE:20520419
+RDATE;VALUE=DATE:20530404
+RDATE;VALUE=DATE:20540327
+RDATE;VALUE=DATE:20550416
+RDATE;VALUE=DATE:20560331
+RDATE;VALUE=DATE:20570420
+RDATE;VALUE=DATE:20580412
+RDATE;VALUE=DATE:20590328
+RDATE;VALUE=DATE:20600416
+RDATE;VALUE=DATE:20610408
+RDATE;VALUE=DATE:20620324
+RDATE;VALUE=DATE:20630413
+RDATE;VALUE=DATE:20640404
+RDATE;VALUE=DATE:20650327
+RDATE;VALUE=DATE:20660409
+RDATE;VALUE=DATE:20670401
+RDATE;VALUE=DATE:20680420
+RDATE;VALUE=DATE:20690412
+RDATE;VALUE=DATE:20700328
+RDATE;VALUE=DATE:20710417
+RDATE;VALUE=DATE:20720408
+RDATE;VALUE=DATE:20730324
+RDATE;VALUE=DATE:20740413
+RDATE;VALUE=DATE:20750405
+RDATE;VALUE=DATE:20760417
+RDATE;VALUE=DATE:20770409
+RDATE;VALUE=DATE:20780401
+RDATE;VALUE=DATE:20790421
+RDATE;VALUE=DATE:20800405
+RDATE;VALUE=DATE:20810328
+RDATE;VALUE=DATE:20820417
+RDATE;VALUE=DATE:20830402
+RDATE;VALUE=DATE:20840324
+RDATE;VALUE=DATE:20850413
+RDATE;VALUE=DATE:20860329
+RDATE;VALUE=DATE:20870418
+RDATE;VALUE=DATE:20880409
+RDATE;VALUE=DATE:20890401
+RDATE;VALUE=DATE:20900414
+RDATE;VALUE=DATE:20910406
+RDATE;VALUE=DATE:20920328
+RDATE;VALUE=DATE:20930410
+RDATE;VALUE=DATE:20940402
+RDATE;VALUE=DATE:20950422
+RDATE;VALUE=DATE:20960413
+RDATE;VALUE=DATE:20970329
+RDATE;VALUE=DATE:20980418
+RDATE;VALUE=DATE:20990410
+RDATE;VALUE=DATE:21000326
+DTEND;VALUE=DATE:20260404
 SUMMARY:Good Friday
 DESCRIPTION:History: Good Friday commemorates the crucifixion and death of Jesus.\nTraditions: Many observe fasting, prayer, and solemn services.\nFeasting: Simple fare and shared bread reflect reflection and remembrance.\nDay: Friday\n\nIcon: ✝️\nCategory: cultural
 CATEGORIES:cultural
@@ -400,175 +710,217 @@ TRANSP:TRANSPARENT
 X-IMAGE:/images/good-friday.svg
 END:VEVENT
 BEGIN:VEVENT
+UID:earth-day@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260422T060000Z
-DTEND:20260423T060000Z
+DTSTART;VALUE=DATE:20260422
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260423
 SUMMARY:Earth Day
 DESCRIPTION:History: US senator Gaylord Nelson and organiser Denis Hayes la
- unched Earth Day in 1970\, igniting the modern environmental movement with 
- teach-ins across the country.\nTraditions: Volunteers plant trees\, clean w
- aterways\, host sustainability workshops\, and advocate for climate justice
-  at community fairs.\nFeasting: Earth-friendly gatherings feature seasonal 
- salads\, plant-based potlucks\, fair-trade coffee\, and desserts sweetened 
- with local honey.\nDay: Wednesday\n\nIcon: 🌍\\\\\\\\\\\\\\\nCategory: envi
- ronmental\\\\\\
-CATEGORIES:environmental\\\\\\
+ unched Earth Day in 1970\, igniting the modern environmental movement with
+  teach-ins across the country.\nTraditions: Volunteers plant trees\, clean
+  waterways\, host sustainability workshops\, and advocate for climate just
+ ice at community fairs.\nFeasting: Earth-friendly gatherings feature seaso
+ nal salads\, plant-based potlucks\, fair-trade coffee\, and desserts sweet
+ ened with local honey.\nDay: Wednesday\n\nIcon: 🌍\nCategory: environmen
+ tal
+CATEGORIES:environmental
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/celebrate-our-planet-and-environmental-awareness.png
+X-IMAGE:/images/celebrate-our-planet-and-environmental-awareness.png
 END:VEVENT
 BEGIN:VEVENT
+UID:independence-day-united-states@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260704T060000Z
-DTEND:20260705T060000Z
+DTSTART;VALUE=DATE:20260704
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20260705
 SUMMARY:Independence Day (United States)
 DESCRIPTION:History: The Continental Congress adopted the Declaration of In
- dependence on 4 July 1776\, with the date declared a federal holiday nearly
-  a century later.\nTraditions: Cities hold patriotic parades\, read the Dec
- laration aloud\, stage concerts\, and end the night with brilliant firework
- s displays.\nFeasting: Backyard grills sizzle with burgers\, hot dogs\, cor
- n on the cob\, baked beans\, berry pies\, and pitchers of lemonade or sweet
-  tea.\nDay: Saturday\n\nIcon: 🇺🇸\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ dependence on 4 July 1776\, with the date declared a federal holiday nearl
+ y a century later.\nTraditions: Cities hold patriotic parades\, read the D
+ eclaration aloud\, stage concerts\, and end the night with brilliant firew
+ orks displays.\nFeasting: Backyard grills sizzle with burgers\, hot dogs\,
+  corn on the cob\, baked beans\, berry pies\, and pitchers of lemonade or 
+ sweet tea.\nDay: Saturday\n\nIcon: 🇺🇸\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/celebration-of-american-independence.png
+X-IMAGE:/images/celebration-of-american-independence.png
 END:VEVENT
 BEGIN:VEVENT
+UID:buddhist-ghost-festival-ullambana@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260828T060000Z
-DTEND:20260829T060000Z
+DTSTART;VALUE=DATE:20260827
+RDATE;VALUE=DATE:20270816
+RDATE;VALUE=DATE:20280903
+RDATE;VALUE=DATE:20290824
+RDATE;VALUE=DATE:20300813
+RDATE;VALUE=DATE:20310901
+RDATE;VALUE=DATE:20320820
+RDATE;VALUE=DATE:20330809
+RDATE;VALUE=DATE:20340828
+RDATE;VALUE=DATE:20350818
+X-MSS-DATE-SOURCE:https://www.hko.gov.hk/en/gts/time/conversion.htm
+DTEND;VALUE=DATE:20260828
 SUMMARY:Buddhist Ghost Festival (Ullambana)
 DESCRIPTION:History: In many East and Southeast Asian Buddhist and folk traditions\, the Ghost Festival (Ullambana\, Zhongyuan) marks a time when offerings are made for ancestors and hungry ghosts.\nTraditions: Families visit temples\, burn incense\, offer food\, and set out lanterns or paper offerings to guide and comfort wandering spirits.\nFeasting: Seasonal plates vary by region\, often including rice\, fruit\, tea\, vegetarian dishes\, and family recipes shared in remembrance.\nDay: Friday\n\nIcon: 🏮\nCategory: cultural
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/image22.png
+X-IMAGE:/images/image22.png
 X-MSS-CALENDAR-META:{"alternateCalendars":[{"calendarSystem":"Chinese Lunar","descriptor":"7th month, day 15","notes":"Ghost Festival / Zhongyuan Jie / Ullambana"}],"recurrence":{"calendarSystem":"Chinese Lunar","rule":"15th day of 7th lunar month","anchor":"Offerings for ancestors and wandering spirits"}}
 END:VEVENT
 BEGIN:VEVENT
+UID:autumn-equinox-mabon@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20260922T060000Z
-DTEND:20260923T060000Z
+DTSTART;VALUE=DATE:20260922
+RDATE;VALUE=DATE:20270923
+RDATE;VALUE=DATE:20280922
+RDATE;VALUE=DATE:20290922
+RDATE;VALUE=DATE:20300922
+RDATE;VALUE=DATE:20310922
+RDATE;VALUE=DATE:20320922
+RDATE;VALUE=DATE:20330922
+RDATE;VALUE=DATE:20340922
+RDATE;VALUE=DATE:20350922
+X-MSS-DATE-SOURCE:https://aa.usno.navy.mil/data/api.html
+X-MSS-CIVIL-TZ:America/Denver
+X-MSS-ASTRONOMY-POLICY:USNO season instant mapped to America/Denver civil date
+DTEND;VALUE=DATE:20260923
 SUMMARY:Autumn Equinox (Mabon)
 DESCRIPTION:History: The equinox equalises day and night worldwide\, inspir
- ing harvest observances from Ancient Greece's Thesmophoria to modern pagan 
- Mabon rites.\nTraditions: People decorate altars with gourds and leaves\, p
- ractice gratitude journaling\, and take twilight walks to feel the seasonal
-  balance.\nFeasting: Harvest tables brim with roasted squash\, apple tarts\
- , caramelised root vegetables\, mulled cider\, and hearty grain salads.\nDa
- y: Tuesday\n\nIcon: 🍂\\\\\\\\\\\\\\\nCategory: seasonal\\\\\\
-CATEGORIES:seasonal\\\\\\
+ ing harvest observances from Ancient Greece's Thesmophoria to modern pagan
+  Mabon rites.\nTraditions: People decorate altars with gourds and leaves\,
+  practice gratitude journaling\, and take twilight walks to feel the seaso
+ nal balance.\nFeasting: Harvest tables brim with roasted squash\, apple ta
+ rts\, caramelised root vegetables\, mulled cider\, and hearty grain salads
+ .\nDay: Tuesday\n\nIcon: 🍂\nCategory: seasonal
+CATEGORIES:seasonal
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/fall-begins-time-for-harvest-and-reflection.png
+X-IMAGE:/images/fall-begins-time-for-harvest-and-reflection.png
 END:VEVENT
 BEGIN:VEVENT
+UID:all-hallows-eve-halloween@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20261031T060000Z
-DTEND:20251101T060000Z
+DTSTART;VALUE=DATE:20261031
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20261101
 SUMMARY:All Hallows' Eve (Halloween)
 DESCRIPTION:History: Halloween evolved from Celtic Samhain festivals and me
- dieval vigils before All Saints' Day\, blending remembrance with merrymakin
- g.\nTraditions: Costumed revelers carve jack-o'-lanterns\, tell ghost stori
- es\, visit haunted houses\, and children collect sweets door to door.\nFeas
- ting: Seasonal treats include candy apples\, pumpkin bread\, roasted nuts\,
-  soul cakes\, and steaming mugs of spiced cider.\nDay: Saturday\n\nIcon: 🎃
- \\\\\\\\\\\\\\\nCategory: celebration\\\\\\
-CATEGORIES:celebration\\\\\\
+ dieval vigils before All Saints' Day\, blending remembrance with merrymaki
+ ng.\nTraditions: Costumed revelers carve jack-o'-lanterns\, tell ghost sto
+ ries\, visit haunted houses\, and children collect sweets door to door.\nF
+ easting: Seasonal treats include candy apples\, pumpkin bread\, roasted nu
+ ts\, soul cakes\, and steaming mugs of spiced cider.\nDay: Saturday\n\nIco
+ n: 🎃\nCategory: celebration
+CATEGORIES:celebration
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/all-hallows-eve-celebration-of-saints-and-departed-souls.png
+X-IMAGE:/images/all-hallows-eve-celebration-of-saints-and-departed-souls.png
 END:VEVENT
 BEGIN:VEVENT
+UID:dia-de-los-angelitos@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251101T070000Z
-DTEND:20251102T070000Z
+DTSTART;VALUE=DATE:20251101
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251102
 SUMMARY:Dia de los Angelitos
 DESCRIPTION:History: On 1 November\, Mexican families honour children who h
- ave died\, believing their angelitos return first to enjoy the love of thei
- r kin.\nTraditions: Altars glow with candles\, toys\, and paper cut-outs\, 
- while families ring bells and scatter marigolds to guide the little spirits
-  home.\nFeasting: Offerings feature atole\, sugar skulls\, tiny pan de muer
- to loaves\, fruit\, and favourite sweets that delighted the children in lif
- e.\nDay: Saturday\n\nIcon: 👼\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ ave died\, believing their angelitos return first to enjoy the love of the
+ ir kin.\nTraditions: Altars glow with candles\, toys\, and paper cut-outs\
+ , while families ring bells and scatter marigolds to guide the little spir
+ its home.\nFeasting: Offerings feature atole\, sugar skulls\, tiny pan de 
+ muerto loaves\, fruit\, and favourite sweets that delighted the children i
+ n life.\nDay: Saturday\n\nIcon: 👼\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/image22.png
+X-IMAGE:/images/image22.png
 END:VEVENT
 BEGIN:VEVENT
+UID:dia-de-los-muertos@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251102T070000Z
-DTEND:20251103T070000Z
+DTSTART;VALUE=DATE:20251102
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251103
 SUMMARY:Dia de los Muertos
 DESCRIPTION:History: Rooted in pre-Hispanic customs later intertwined with 
- Catholic All Souls' rites\, Dia de los Muertos celebrates ancestral continu
- ity on 2 November.\nTraditions: Families build ofrendas with photos and cop
- al incense\, picnic beside candlelit graves\, and share stories through the
-  night.\nFeasting: Traditional dishes include pan de muerto\, mole\, tamale
- s\, champurrado\, and calaveras de azucar painted with loved ones' names.\n
- Day: Sunday\n\nIcon: 💀\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ Catholic All Souls' rites\, Dia de los Muertos celebrates ancestral contin
+ uity on 2 November.\nTraditions: Families build ofrendas with photos and c
+ opal incense\, picnic beside candlelit graves\, and share stories through 
+ the night.\nFeasting: Traditional dishes include pan de muerto\, mole\, ta
+ males\, champurrado\, and calaveras de azucar painted with loved ones' nam
+ es.\nDay: Sunday\n\nIcon: 💀\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/image21.png
+X-IMAGE:/images/image21.png
 END:VEVENT
 BEGIN:VEVENT
+UID:martinstag-lantern-evening@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251110T070000Z
-DTEND:20251111T070000Z
+DTSTART;VALUE=DATE:20251110
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251111
 SUMMARY:Martinstag Lantern Evening
 DESCRIPTION:History: Eves of St. Martin's Day in German-speaking lands reca
- ll the charitable Roman soldier turned bishop who shared his cloak with a b
- eggar.\nTraditions: Children carry handmade lanterns through the streets\, 
- sing Sankt Martin songs\, and end with bonfires or shadow plays retelling h
- is compassion.\nFeasting: Warm cider\, pretzels\, roasted chestnuts\, and b
- uttery pastries reward lantern bearers after the chilly evening walk.\nDay:
-  Monday\n\nIcon: 🪶\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ ll the charitable Roman soldier turned bishop who shared his cloak with a 
+ beggar.\nTraditions: Children carry handmade lanterns through the streets\
+ , sing Sankt Martin songs\, and end with bonfires or shadow plays retellin
+ g his compassion.\nFeasting: Warm cider\, pretzels\, roasted chestnuts\, a
+ nd buttery pastries reward lantern bearers after the chilly evening walk.\
+ nDay: Monday\n\nIcon: 🪶\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/image23.png
+X-IMAGE:/images/image23.png
 END:VEVENT
 BEGIN:VEVENT
+UID:st-martin-s-day-martinstag@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251111T070000Z
-DTEND:20251112T070000Z
+DTSTART;VALUE=DATE:20251111
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251112
 SUMMARY:St. Martin's Day (Martinstag)
 DESCRIPTION:History: Medieval Europe celebrated 11 November as the close of
-  the agrarian year\, pairing St. Martin's biography with harvest thanksgivi
- ng and almsgiving.\nTraditions: Lantern parades\, charity drives\, and dram
- atizations of Martin's cloak-sharing remind communities to care for those i
- n need.\nFeasting: Feasts centre on roast goose with red cabbage\, potato d
- umplings\, spiced biscuits\, and mugs of Gluehwein or Federweisser.\nDay: T
- uesday\n\nIcon: 🪶\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+  the agrarian year\, pairing St. Martin's biography with harvest thanksgiv
+ ing and almsgiving.\nTraditions: Lantern parades\, charity drives\, and dr
+ amatizations of Martin's cloak-sharing remind communities to care for thos
+ e in need.\nFeasting: Feasts centre on roast goose with red cabbage\, pota
+ to dumplings\, spiced biscuits\, and mugs of Gluehwein or Federweisser.\nD
+ ay: Tuesday\n\nIcon: 🪶\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/image24.png
+X-IMAGE:/images/image24.png
 END:VEVENT
 BEGIN:VEVENT
+UID:life-day-wookiee-tradition@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251117T070000Z
-DTEND:20251118T070000Z
+DTSTART;VALUE=DATE:20251117
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251118
 SUMMARY:Life Day (Wookiee Tradition)
 DESCRIPTION:History: Life Day debuted in the 1978 Star Wars Holiday Special
-  and later became canon as Kashyyyk's annual celebration of freedom and fam
- ily.\nTraditions: Wookiees gather beneath the Tree of Life\, sing in the Sh
- yriiwook tongue\, share glowing orbs\, and meditate on harmony across the g
- alaxy.\nFeasting: Fans imagine ryshcate sweet breads\, bantha stew\, roaste
- d yeca fruits\, and steaming mugs of blue bantha milk enjoyed around commun
- al tables.\nDay: Monday\n\nIcon: ⭐\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+  and later became canon as Kashyyyk's annual celebration of freedom and fa
+ mily.\nTraditions: Wookiees gather beneath the Tree of Life\, sing in the 
+ Shyriiwook tongue\, share glowing orbs\, and meditate on harmony across th
+ e galaxy.\nFeasting: Fans imagine ryshcate sweet breads\, bantha stew\, ro
+ asted yeca fruits\, and steaming mugs of blue bantha milk enjoyed around c
+ ommunal tables.\nDay: Monday\n\nIcon: ⭐\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/wookiee-celebration-from-the-star-wars-universe.png
+X-IMAGE:/images/wookiee-celebration-from-the-star-wars-universe.png
 END:VEVENT
 BEGIN:VEVENT
+UID:st-catherine-s-day@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251125T070000Z
-DTEND:20251126T070000Z
+DTSTART;VALUE=DATE:20251125
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251126
 SUMMARY:St. Catherine's Day
 DESCRIPTION:History: Medieval guilds honoured St. Catherine of Alexandria as
   a patron of scholars and spinners\, with France's unmarried milliners becomi
@@ -583,117 +935,214 @@ Category: religious
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/image33.png
+X-IMAGE:/images/image33.png
 END:VEVENT
 BEGIN:VEVENT
+UID:thanksgiving-day-united-states@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251127T070000Z
-DTEND:20251128T070000Z
+DTSTART;VALUE=DATE:20251127
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=4TH
+DTEND;VALUE=DATE:20251128
 SUMMARY:Thanksgiving Day (United States)
 DESCRIPTION:History: Thanksgiving commemorates harvest gatherings and the 1
- 621 Wampanoag-Plymouth meal\, formalised as a national holiday by Abraham L
- incoln in 1863.\nTraditions: Families travel for gratitude circles\, watch 
- giant-balloon parades and football games\, and volunteer at community kitch
- ens.\nFeasting: Menus highlight roast turkey\, cornbread stuffing\, cranber
- ry relish\, sweet potatoes\, green bean casseroles\, and slices of pumpkin 
- or pecan pie.\nDay: Thursday\n\nIcon: 🦃\\\\\\\\\\\\\\\nCategory: celebrati
- on\\\\\\
-CATEGORIES:celebration\\\\\\
+ 621 Wampanoag-Plymouth meal\, formalised as a national holiday by Abraham 
+ Lincoln in 1863.\nTraditions: Families travel for gratitude circles\, watc
+ h giant-balloon parades and football games\, and volunteer at community ki
+ tchens.\nFeasting: Menus highlight roast turkey\, cornbread stuffing\, cra
+ nberry relish\, sweet potatoes\, green bean casseroles\, and slices of pum
+ pkin or pecan pie.\nDay: Thursday\n\nIcon: 🦃\nCategory: celebration
+CATEGORIES:celebration
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/image26.png
+X-IMAGE:/images/image26.png
 END:VEVENT
 BEGIN:VEVENT
+UID:noaptea-lupilor@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251129T070000Z
-DTEND:20251130T070000Z
+DTSTART;VALUE=DATE:20251129
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251130
 SUMMARY:Noaptea Lupilor
 DESCRIPTION:History: Polish Andrzejki fortune-telling parties date to the s
- ixteenth century\, once focused on young women seeking visions of future sp
- ouses.\nTraditions: Participants pour hot wax through keys\, decode shapes 
- in candle shadows\, and dance until dawn while sharing playful prophecies.\
- nFeasting: Guests snack on poppy-seed cakes\, honey cookies\, pickled herri
- ng\, and warm cups of mead or herb-infused tea.\nDay: Saturday\n\nIcon: ⚓\\
- \\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ ixteenth century\, once focused on young women seeking visions of future s
+ pouses.\nTraditions: Participants pour hot wax through keys\, decode shape
+ s in candle shadows\, and dance until dawn while sharing playful prophecie
+ s.\nFeasting: Guests snack on poppy-seed cakes\, honey cookies\, pickled h
+ erring\, and warm cups of mead or herb-infused tea.\nDay: Saturday\n\nIcon
+ : ⚓\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/image27.png
+X-IMAGE:/images/image27.png
 END:VEVENT
 BEGIN:VEVENT
+UID:st-andrew-s-day@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251130T070000Z
-DTEND:20251201T070000Z
+DTSTART;VALUE=DATE:20251130
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251201
 SUMMARY:St. Andrew's Day
 DESCRIPTION:History: Scotland adopted St. Andrew\, one of the first-called 
- apostles\, as its patron in the Middle Ages\, with the Saltire flag symboli
- sing his X-shaped cross.\nTraditions: Ceilidh dancing\, storytelling\, and 
- concerts celebrate Scottish heritage\, while charities mark the day with ki
- ndness campaigns.\nFeasting: Cullen skink chowder\, bannocks\, venison pies
- \, shortbread\, and drams of whisky warm celebrants on a chilly November ev
- ening.\nDay: Sunday\n\nIcon: 🏴󠁧󠁢󠁳󠁣󠁴󠁿\\\\\\\\\\\\\\\nCategory: cultur
- al\\\\\\
-CATEGORIES:cultural\\\\\\
+ apostles\, as its patron in the Middle Ages\, with the Saltire flag symbol
+ ising his X-shaped cross.\nTraditions: Ceilidh dancing\, storytelling\, an
+ d concerts celebrate Scottish heritage\, while charities mark the day with
+  kindness campaigns.\nFeasting: Cullen skink chowder\, bannocks\, venison 
+ pies\, shortbread\, and drams of whisky warm celebrants on a chilly Novemb
+ er evening.\nDay: Sunday\n\nIcon: 🏴󠁧󠁢󠁳󠁣󠁴󠁿\nCategory: 
+ cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/feast-of-st-andrew-patron-saint-of-scotland.png
+X-IMAGE:/images/feast-of-st-andrew-patron-saint-of-scotland.png
 END:VEVENT
 BEGIN:VEVENT
+UID:first-sunday-of-advent@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251130T070000Z
-DTEND:20251201T070000Z
+DTSTART;VALUE=DATE:20251130
+RDATE;VALUE=DATE:20261129
+RDATE;VALUE=DATE:20271128
+RDATE;VALUE=DATE:20281203
+RDATE;VALUE=DATE:20291202
+RDATE;VALUE=DATE:20301201
+RDATE;VALUE=DATE:20311130
+RDATE;VALUE=DATE:20321128
+RDATE;VALUE=DATE:20331127
+RDATE;VALUE=DATE:20341203
+RDATE;VALUE=DATE:20351202
+RDATE;VALUE=DATE:20361130
+RDATE;VALUE=DATE:20371129
+RDATE;VALUE=DATE:20381128
+RDATE;VALUE=DATE:20391127
+RDATE;VALUE=DATE:20401202
+RDATE;VALUE=DATE:20411201
+RDATE;VALUE=DATE:20421130
+RDATE;VALUE=DATE:20431129
+RDATE;VALUE=DATE:20441127
+RDATE;VALUE=DATE:20451203
+RDATE;VALUE=DATE:20461202
+RDATE;VALUE=DATE:20471201
+RDATE;VALUE=DATE:20481129
+RDATE;VALUE=DATE:20491128
+RDATE;VALUE=DATE:20501127
+RDATE;VALUE=DATE:20511203
+RDATE;VALUE=DATE:20521201
+RDATE;VALUE=DATE:20531130
+RDATE;VALUE=DATE:20541129
+RDATE;VALUE=DATE:20551128
+RDATE;VALUE=DATE:20561203
+RDATE;VALUE=DATE:20571202
+RDATE;VALUE=DATE:20581201
+RDATE;VALUE=DATE:20591130
+RDATE;VALUE=DATE:20601128
+RDATE;VALUE=DATE:20611127
+RDATE;VALUE=DATE:20621203
+RDATE;VALUE=DATE:20631202
+RDATE;VALUE=DATE:20641130
+RDATE;VALUE=DATE:20651129
+RDATE;VALUE=DATE:20661128
+RDATE;VALUE=DATE:20671127
+RDATE;VALUE=DATE:20681202
+RDATE;VALUE=DATE:20691201
+RDATE;VALUE=DATE:20701130
+RDATE;VALUE=DATE:20711129
+RDATE;VALUE=DATE:20721127
+RDATE;VALUE=DATE:20731203
+RDATE;VALUE=DATE:20741202
+RDATE;VALUE=DATE:20751201
+RDATE;VALUE=DATE:20761129
+RDATE;VALUE=DATE:20771128
+RDATE;VALUE=DATE:20781127
+RDATE;VALUE=DATE:20791203
+RDATE;VALUE=DATE:20801201
+RDATE;VALUE=DATE:20811130
+RDATE;VALUE=DATE:20821129
+RDATE;VALUE=DATE:20831128
+RDATE;VALUE=DATE:20841203
+RDATE;VALUE=DATE:20851202
+RDATE;VALUE=DATE:20861201
+RDATE;VALUE=DATE:20871130
+RDATE;VALUE=DATE:20881128
+RDATE;VALUE=DATE:20891127
+RDATE;VALUE=DATE:20901203
+RDATE;VALUE=DATE:20911202
+RDATE;VALUE=DATE:20921130
+RDATE;VALUE=DATE:20931129
+RDATE;VALUE=DATE:20941128
+RDATE;VALUE=DATE:20951127
+RDATE;VALUE=DATE:20961202
+RDATE;VALUE=DATE:20971201
+RDATE;VALUE=DATE:20981130
+RDATE;VALUE=DATE:20991129
+RDATE;VALUE=DATE:21001128
+DTEND;VALUE=DATE:20251201
 SUMMARY:First Sunday of Advent
 DESCRIPTION:History: Advent Sundays evolved in the liturgies of fifth-centu
- ry Gaul as a penitential preparation leading to Christmas joy.\nTraditions:
-  Families light the first candle of hope on Advent wreaths\, begin Jesse tr
- ee devotions\, and set aside time for quiet reflection.\nFeasting: Seasonal
-  flavours include German stollen\, lebkuchen\, mulled cider\, and simple Su
- nday roasts shared after worship.\nDay: Sunday\n\nIcon: 🕯️\\\\\\\\\\\\\\\n
- Category: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ ry Gaul as a penitential preparation leading to Christmas joy.\nTraditions
+ : Families light the first candle of hope on Advent wreaths\, begin Jesse 
+ tree devotions\, and set aside time for quiet reflection.\nFeasting: Seaso
+ nal flavours include German stollen\, lebkuchen\, mulled cider\, and simpl
+ e Sunday roasts shared after worship.\nDay: Sunday\n\nIcon: 🕯️\nCateg
+ ory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/image28.png
+X-IMAGE:/images/image28.png
 END:VEVENT
 BEGIN:VEVENT
+UID:krampusnacht@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251205T070000Z
-DTEND:20251206T070000Z
+DTSTART;VALUE=DATE:20251205
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251206
 SUMMARY:Krampusnacht
 DESCRIPTION:History: Krampus figures arise from Alpine folklore\, accompany
- ing St. Nicholas since at least the seventeenth century to discipline misch
- ievous youth.\nTraditions: Costumed Krampusse parade through streets with r
- attling chains\, visit homes for staged scares\, and pose for playful photo
- s with brave children.\nFeasting: Spectators sip schnapps\, nibble gingerbr
- ead hearts\, and enjoy spicy sausages or pretzels after the adrenaline-fill
- ed procession.\nDay: Friday\n\nIcon: 👹\\\\\\\\\\\\\\\nCategory: cultural\\
- \\\\
-CATEGORIES:cultural\\\\\\
+ ing St. Nicholas since at least the seventeenth century to discipline misc
+ hievous youth.\nTraditions: Costumed Krampusse parade through streets with
+  rattling chains\, visit homes for staged scares\, and pose for playful ph
+ otos with brave children.\nFeasting: Spectators sip schnapps\, nibble ging
+ erbread hearts\, and enjoy spicy sausages or pretzels after the adrenaline
+ -filled procession.\nDay: Friday\n\nIcon: 👹\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/image29.png
+X-IMAGE:/images/image29.png
 END:VEVENT
 BEGIN:VEVENT
+UID:st-nicholas-day@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251206T070000Z
-DTEND:20251207T070000Z
+DTSTART;VALUE=DATE:20251206
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251207
 SUMMARY:St. Nicholas Day
 DESCRIPTION:History: The fourth-century bishop Nicholas of Myra inspired le
- gends of secret generosity\, leading to shoe-filling customs across Europe 
- on 6 December.\nTraditions: Children polish boots for St. Nicholas\, find o
- ranges and nuts at dawn\, and listen to stories of the saint rescuing sailo
- rs and the poor.\nFeasting: Families savour speculaas biscuits\, chocolate 
- coins\, mandarin oranges\, marzipan fruits\, and mugs of hot cocoa or glueh
- wein.\nDay: Saturday\n\nIcon: 🎁\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ gends of secret generosity\, leading to shoe-filling customs across Europe
+  on 6 December.\nTraditions: Children polish boots for St. Nicholas\, find
+  oranges and nuts at dawn\, and listen to stories of the saint rescuing sa
+ ilors and the poor.\nFeasting: Families savour speculaas biscuits\, chocol
+ ate coins\, mandarin oranges\, marzipan fruits\, and mugs of hot cocoa or 
+ gluehwein.\nDay: Saturday\n\nIcon: 🎁\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/image30.png
+X-IMAGE:/images/image30.png
 END:VEVENT
 BEGIN:VEVENT
+UID:gita-jayanti@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251206T070000Z
-DTEND:20251207T070000Z
+DTSTART;VALUE=DATE:20261220
+RDATE;VALUE=DATE:20271209
+RDATE;VALUE=DATE:20281127
+RDATE;VALUE=DATE:20291216
+RDATE;VALUE=DATE:20301205
+RDATE;VALUE=DATE:20311224
+RDATE;VALUE=DATE:20321212
+RDATE;VALUE=DATE:20331202
+RDATE;VALUE=DATE:20341221
+RDATE;VALUE=DATE:20351211
+X-MSS-DATE-SOURCE:https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?geoname-id=1253914
+X-MSS-HINDU-LOCATION:Ujjain India (Asia/Kolkata)
+X-MSS-HINDU-POLICY:Drik Panchang location-based Hindu festival dates for Ujjain India
+DTEND;VALUE=DATE:20261221
 SUMMARY:Gita Jayanti (गीता जयंती)
 DESCRIPTION:History: Devotees honour the day Lord Krishna shared the Bhagavad Gita with Arjuna on the Kurukshetra battlefield, aligning with the Margashirsha Shukla Ekadashi tithi.\nTraditions: Temples host full Bhagavad Gita recitations, scholars lead kirtans and discourse circles, and families observe vrata fasts before offering diyas along rivers and at home altars.\nFeasting: After evening prayers, observers share satvik plates of khichdi, jaggery sweets, sugarcane juice, and warm cardamom milk to break the fast.\nDay: Saturday\n\nIcon: 📜
 Category: religious
@@ -703,9 +1152,11 @@ TRANSP:TRANSPARENT
 X-MSS-CALENDAR-META:{"alternateCalendars":[{"calendarSystem":"Hindu Lunar","descriptor":"Margashirsha Shukla Ekadashi","notes":"Bright-eleventh tithi"}],"recurrence":{"calendarSystem":"Hindu Lunar","rule":"Observe on every Margashirsha Shukla Ekadashi","anchor":"Bhagavad Gita discourse anniversary"}}
 END:VEVENT
 BEGIN:VEVENT
+UID:tiki-christmas-at-pearl-harbor@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251207T070000Z
-DTEND:20251208T070000Z
+DTSTART;VALUE=DATE:20251207
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251208
 SUMMARY:Tiki Christmas at Pearl Harbor
 DESCRIPTION:History: Hawaii observed its first joint Christmas and Pearl Harbo
  r memorials in the 1940s\, blending service tributes with island pageantry to 
@@ -718,29 +1169,107 @@ Category: cultural
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/image24.png
+X-IMAGE:/images/image24.png
 END:VEVENT
 BEGIN:VEVENT
+UID:second-sunday-of-advent@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251207T070000Z
-DTEND:20251208T070000Z
+DTSTART;VALUE=DATE:20251207
+RDATE;VALUE=DATE:20261206
+RDATE;VALUE=DATE:20271205
+RDATE;VALUE=DATE:20281210
+RDATE;VALUE=DATE:20291209
+RDATE;VALUE=DATE:20301208
+RDATE;VALUE=DATE:20311207
+RDATE;VALUE=DATE:20321205
+RDATE;VALUE=DATE:20331204
+RDATE;VALUE=DATE:20341210
+RDATE;VALUE=DATE:20351209
+RDATE;VALUE=DATE:20361207
+RDATE;VALUE=DATE:20371206
+RDATE;VALUE=DATE:20381205
+RDATE;VALUE=DATE:20391204
+RDATE;VALUE=DATE:20401209
+RDATE;VALUE=DATE:20411208
+RDATE;VALUE=DATE:20421207
+RDATE;VALUE=DATE:20431206
+RDATE;VALUE=DATE:20441204
+RDATE;VALUE=DATE:20451210
+RDATE;VALUE=DATE:20461209
+RDATE;VALUE=DATE:20471208
+RDATE;VALUE=DATE:20481206
+RDATE;VALUE=DATE:20491205
+RDATE;VALUE=DATE:20501204
+RDATE;VALUE=DATE:20511210
+RDATE;VALUE=DATE:20521208
+RDATE;VALUE=DATE:20531207
+RDATE;VALUE=DATE:20541206
+RDATE;VALUE=DATE:20551205
+RDATE;VALUE=DATE:20561210
+RDATE;VALUE=DATE:20571209
+RDATE;VALUE=DATE:20581208
+RDATE;VALUE=DATE:20591207
+RDATE;VALUE=DATE:20601205
+RDATE;VALUE=DATE:20611204
+RDATE;VALUE=DATE:20621210
+RDATE;VALUE=DATE:20631209
+RDATE;VALUE=DATE:20641207
+RDATE;VALUE=DATE:20651206
+RDATE;VALUE=DATE:20661205
+RDATE;VALUE=DATE:20671204
+RDATE;VALUE=DATE:20681209
+RDATE;VALUE=DATE:20691208
+RDATE;VALUE=DATE:20701207
+RDATE;VALUE=DATE:20711206
+RDATE;VALUE=DATE:20721204
+RDATE;VALUE=DATE:20731210
+RDATE;VALUE=DATE:20741209
+RDATE;VALUE=DATE:20751208
+RDATE;VALUE=DATE:20761206
+RDATE;VALUE=DATE:20771205
+RDATE;VALUE=DATE:20781204
+RDATE;VALUE=DATE:20791210
+RDATE;VALUE=DATE:20801208
+RDATE;VALUE=DATE:20811207
+RDATE;VALUE=DATE:20821206
+RDATE;VALUE=DATE:20831205
+RDATE;VALUE=DATE:20841210
+RDATE;VALUE=DATE:20851209
+RDATE;VALUE=DATE:20861208
+RDATE;VALUE=DATE:20871207
+RDATE;VALUE=DATE:20881205
+RDATE;VALUE=DATE:20891204
+RDATE;VALUE=DATE:20901210
+RDATE;VALUE=DATE:20911209
+RDATE;VALUE=DATE:20921207
+RDATE;VALUE=DATE:20931206
+RDATE;VALUE=DATE:20941205
+RDATE;VALUE=DATE:20951204
+RDATE;VALUE=DATE:20961209
+RDATE;VALUE=DATE:20971208
+RDATE;VALUE=DATE:20981207
+RDATE;VALUE=DATE:20991206
+RDATE;VALUE=DATE:21001205
+DTEND;VALUE=DATE:20251208
 SUMMARY:Second Sunday of Advent
 DESCRIPTION:History: The second Advent candle emphasises faith and the prop
- hets\, sustaining the season's anticipation as Christmas draws nearer.\nTra
- ditions: Wreath lighting\, scripture readings about John the Baptist\, and 
- charity collections for neighbours in need mark the Sunday gatherings.\nFea
- sting: Cardamom buns\, cinnamon star cookies\, spiced teas\, and hearty cas
- seroles offer comfort during the contemplative Advent evenings.\nDay: Sunda
- y\n\nIcon: 🕯️\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ hets\, sustaining the season's anticipation as Christmas draws nearer.\nTr
+ aditions: Wreath lighting\, scripture readings about John the Baptist\, an
+ d charity collections for neighbours in need mark the Sunday gatherings.\n
+ Feasting: Cardamom buns\, cinnamon star cookies\, spiced teas\, and hearty
+  casseroles offer comfort during the contemplative Advent evenings.\nDay: 
+ Sunday\n\nIcon: 🕯️\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/image31.png
+X-IMAGE:/images/image31.png
 END:VEVENT
 BEGIN:VEVENT
+UID:immaculada@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251208T070000Z
-DTEND:20251209T070000Z
+DTSTART;VALUE=DATE:20251208
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251209
 SUMMARY:Immaculada
 DESCRIPTION:History: Spain celebrates La Inmaculada as the start of the advent
   season, honouring Mary's conception with dawn processions and plaza music.\nTr
@@ -755,331 +1284,922 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:sinterklaas-arrival-intocht@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251116T070000Z
-DTEND:20251117T070000Z
+DTSTART;VALUE=DATE:20251116
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=SU;BYMONTHDAY=12,13,14,15,16,17,18
+DTEND;VALUE=DATE:20251117
 SUMMARY:Sinterklaas Arrival (Intocht)
 DESCRIPTION:History: Dutch newspapers popularised Sinterklaas arriving by s
- teamboat in the nineteenth century\, blending Saint Nicholas lore with mari
- time identity.\nTraditions: On the Sunday after Saint Martin's Day Sinterklaas
-  docks with his Pieten helpers\, parades through town distributing pepernoten\,
-  and listens to children's wish lists before 5 December gifts.\nFeasting: Crow
- ds crunch spiced pepernoten\, speculaas windmill cookies\, chocolate letters\,
- and marzipan while sipping hot cocoa along the canals.\nDay: Sunday\n\nIcon: 🚢\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ teamboat in the nineteenth century\, blending Saint Nicholas lore with mar
+ itime identity.\nTraditions: On the Sunday after Saint Martin's Day Sinter
+ klaas docks with his Pieten helpers\, parades through town distributing pe
+ pernoten\, and listens to children's wish lists before 5 December gifts.\n
+ Feasting: Crowds crunch spiced pepernoten\, speculaas windmill cookies\, c
+ hocolate letters\,and marzipan while sipping hot cocoa along the canals.\n
+ Day: Sunday\n\nIcon: 🚢\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/traditional-dutch-celebration-period-with-sinterklaas-arriving-by-steamboat-star.png
+X-IMAGE:/images/traditional-dutch-celebration-period-with-sinterklaas-arriving-by-steamboat-star.png
 END:VEVENT
 BEGIN:VEVENT
+UID:magic-flute@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251210T070000Z
-DTEND:20251211T070000Z
+DTSTART;VALUE=DATE:20251210
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251211
 SUMMARY:Magic Flute
-DESCRIPTION:History: Mozart's Singspiel Die Zauberflote premiered in 1791 
- in Vienna\, enchanting winter audiences with a blend of fairy tale and Enli
- ghtenment ideals.\nTraditions: Opera houses stage festive productions with 
- elaborate stagecraft\, families dress for a holiday night out\, and communi
- ties host singalong overtures that keep the spirits bright.\nFeasting: Patr
- ons toast with sparkling wine\, nibble on Viennese pastries\, sip rich hot 
- chocolate\, and linger over late suppertime conversations after the curtain
- call.\nDay: Wednesday\n\nIcon: 🎵\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+DESCRIPTION:History: Mozart's Singspiel Die Zauberflote premiered in 1791 i
+ n Vienna\, enchanting winter audiences with a blend of fairy tale and Enli
+ ghtenment ideals.\nTraditions: Opera houses stage festive productions with
+  elaborate stagecraft\, families dress for a holiday night out\, and commu
+ nities host singalong overtures that keep the spirits bright.\nFeasting: P
+ atrons toast with sparkling wine\, nibble on Viennese pastries\, sip rich 
+ hot chocolate\, and linger over late suppertime conversations after the cu
+ rtaincall.\nDay: Wednesday\n\nIcon: 🎵\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/image36.jpg
+X-IMAGE:/images/image36.jpg
 END:VEVENT
 BEGIN:VEVENT
+UID:lussinatta-st-lucia-s-vigil@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251212T070000Z
-DTEND:20251214T070000Z
+DTSTART;VALUE=DATE:20251212
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251214
 SUMMARY:Lussinatta (St. Lucia's Vigil)
 DESCRIPTION:History: In Scandinavia\, Lussinatta watchers once guarded agai
- nst mischief on the long night before Lucia's feast\, blending Norse folklo
- re with Christian devotion.\nTraditions: Families stay up late baking saffr
- on dough\, weaving barabritta crowns\, and keeping candles lit to welcome t
- he dawn bringer.\nFeasting: Glogg mulled wine\, raisin-studded lussekatter 
- twists\, and ginger thins are prepared overnight to share with the morning 
- procession.\nDay: Friday\n\nIcon: 🌙\\\\\\\\\\\\\\\nCategory: cultural\\\
- \\\
-CATEGORIES:cultural\\\\\\
+ nst mischief on the long night before Lucia's feast\, blending Norse folkl
+ ore with Christian devotion.\nTraditions: Families stay up late baking saf
+ fron dough\, weaving barabritta crowns\, and keeping candles lit to welcom
+ e the dawn bringer.\nFeasting: Glogg mulled wine\, raisin-studded lussekat
+ ter twists\, and ginger thins are prepared overnight to share with the mor
+ ning procession.\nDay: Friday\n\nIcon: 🌙\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/st-lucia-s-vigil-from-dusk-on-dec-11-until-dawn-on-dec-12.png
+X-IMAGE:/images/st-lucia-s-vigil-from-dusk-on-dec-11-until-dawn-on-dec-12.png
 END:VEVENT
 BEGIN:VEVENT
+UID:feast-of-our-lady-of-guadalupe@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251212T070000Z
-DTEND:20251213T070000Z
+DTSTART;VALUE=DATE:20251212
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251213
 SUMMARY:Feast of Our Lady of Guadalupe
 DESCRIPTION:History: In 1531 Juan Diego reported Marian apparitions on Tepe
- yac Hill\, and the tilma image quickly became a symbol of Mexican faith and
-  identity.\nTraditions: Pilgrims serenade the Virgin with mananitas\, offer
-  roses at the basilica\, and reenact the miracle in parish plazas across th
- e Americas.\nFeasting: Peregrinos se reponen con tamales verdes\, tamales d
- e rajas con queso\, pozole rojo\, mole poblano con arroz\, tacos dorados\, 
- bunuelos de viento\, churros de canela\, champurrado espumoso\, y atole de 
- guayaba antes de continuar las serenatas.\nDay: Friday\n\nIcon: 🌹\\\\\\\\\
- \\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ yac Hill\, and the tilma image quickly became a symbol of Mexican faith an
+ d identity.\nTraditions: Pilgrims serenade the Virgin with mananitas\, off
+ er roses at the basilica\, and reenact the miracle in parish plazas across
+  the Americas.\nFeasting: Peregrinos se reponen con tamales verdes\, tamal
+ es de rajas con queso\, pozole rojo\, mole poblano con arroz\, tacos dorad
+ os\, bunuelos de viento\, churros de canela\, champurrado espumoso\, y ato
+ le de guayaba antes de continuar las serenatas.\nDay: Friday\n\nIcon: 🌹
+ \nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/feast-of-our-lady-of-guadalupe-patroness-of-the-americas.png
+X-IMAGE:/images/feast-of-our-lady-of-guadalupe-patroness-of-the-americas.png
 END:VEVENT
 BEGIN:VEVENT
+UID:st-lucia-s-day@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251213T070000Z
-DTEND:20251214T070000Z
+DTSTART;VALUE=DATE:20251213
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251214
 SUMMARY:St. Lucia's Day
 DESCRIPTION:History: Modern Lucia celebrations took shape in early twentiet
- h-century Sweden\, transforming a regional custom into a nationwide festiva
- l of light in darkness.\nTraditions: Girls and boys form Lucia trains in sc
- hools and workplaces\, delivering songs and saffron buns to symbolise hope 
- during the polar night.\nFeasting: Households share lussekatter\, saffron b
- iscotti\, almond cookies\, and glasses of julmust or coffee to accompany th
- e morning serenade.\nDay: Saturday\n\nIcon: 🕯️\\\\\\\\\\\\\\\nCategory: cu
- ltural\\\\\\
-CATEGORIES:cultural\\\\\\
+ h-century Sweden\, transforming a regional custom into a nationwide festiv
+ al of light in darkness.\nTraditions: Girls and boys form Lucia trains in 
+ schools and workplaces\, delivering songs and saffron buns to symbolise ho
+ pe during the polar night.\nFeasting: Households share lussekatter\, saffr
+ on biscotti\, almond cookies\, and glasses of julmust or coffee to accompa
+ ny the morning serenade.\nDay: Saturday\n\nIcon: 🕯️\nCategory: cultur
+ al
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/swedish-celebration-of-light-and-st-lucia.png
+X-IMAGE:/images/swedish-celebration-of-light-and-st-lucia.png
 END:VEVENT
 BEGIN:VEVENT
+UID:gaudete-sunday@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251214T070000Z
-DTEND:20251215T070000Z
+DTSTART;VALUE=DATE:20251214
+RDATE;VALUE=DATE:20261213
+RDATE;VALUE=DATE:20271212
+RDATE;VALUE=DATE:20281217
+RDATE;VALUE=DATE:20291216
+RDATE;VALUE=DATE:20301215
+RDATE;VALUE=DATE:20311214
+RDATE;VALUE=DATE:20321212
+RDATE;VALUE=DATE:20331211
+RDATE;VALUE=DATE:20341217
+RDATE;VALUE=DATE:20351216
+RDATE;VALUE=DATE:20361214
+RDATE;VALUE=DATE:20371213
+RDATE;VALUE=DATE:20381212
+RDATE;VALUE=DATE:20391211
+RDATE;VALUE=DATE:20401216
+RDATE;VALUE=DATE:20411215
+RDATE;VALUE=DATE:20421214
+RDATE;VALUE=DATE:20431213
+RDATE;VALUE=DATE:20441211
+RDATE;VALUE=DATE:20451217
+RDATE;VALUE=DATE:20461216
+RDATE;VALUE=DATE:20471215
+RDATE;VALUE=DATE:20481213
+RDATE;VALUE=DATE:20491212
+RDATE;VALUE=DATE:20501211
+RDATE;VALUE=DATE:20511217
+RDATE;VALUE=DATE:20521215
+RDATE;VALUE=DATE:20531214
+RDATE;VALUE=DATE:20541213
+RDATE;VALUE=DATE:20551212
+RDATE;VALUE=DATE:20561217
+RDATE;VALUE=DATE:20571216
+RDATE;VALUE=DATE:20581215
+RDATE;VALUE=DATE:20591214
+RDATE;VALUE=DATE:20601212
+RDATE;VALUE=DATE:20611211
+RDATE;VALUE=DATE:20621217
+RDATE;VALUE=DATE:20631216
+RDATE;VALUE=DATE:20641214
+RDATE;VALUE=DATE:20651213
+RDATE;VALUE=DATE:20661212
+RDATE;VALUE=DATE:20671211
+RDATE;VALUE=DATE:20681216
+RDATE;VALUE=DATE:20691215
+RDATE;VALUE=DATE:20701214
+RDATE;VALUE=DATE:20711213
+RDATE;VALUE=DATE:20721211
+RDATE;VALUE=DATE:20731217
+RDATE;VALUE=DATE:20741216
+RDATE;VALUE=DATE:20751215
+RDATE;VALUE=DATE:20761213
+RDATE;VALUE=DATE:20771212
+RDATE;VALUE=DATE:20781211
+RDATE;VALUE=DATE:20791217
+RDATE;VALUE=DATE:20801215
+RDATE;VALUE=DATE:20811214
+RDATE;VALUE=DATE:20821213
+RDATE;VALUE=DATE:20831212
+RDATE;VALUE=DATE:20841217
+RDATE;VALUE=DATE:20851216
+RDATE;VALUE=DATE:20861215
+RDATE;VALUE=DATE:20871214
+RDATE;VALUE=DATE:20881212
+RDATE;VALUE=DATE:20891211
+RDATE;VALUE=DATE:20901217
+RDATE;VALUE=DATE:20911216
+RDATE;VALUE=DATE:20921214
+RDATE;VALUE=DATE:20931213
+RDATE;VALUE=DATE:20941212
+RDATE;VALUE=DATE:20951211
+RDATE;VALUE=DATE:20961216
+RDATE;VALUE=DATE:20971215
+RDATE;VALUE=DATE:20981214
+RDATE;VALUE=DATE:20991213
+RDATE;VALUE=DATE:21001212
+DTEND;VALUE=DATE:20251215
 SUMMARY:Gaudete Sunday
 DESCRIPTION:History: Named for the "Gaudete in Domino" introit\, the third 
- Advent Sunday relaxes penitential tones with joyful anticipation noted sinc
- e the Middle Ages.\nTraditions: Churches light the rose candle\, priests we
- ar rose vestments\, and choirs sing jubilant hymns heralding the nearness o
- f Christmas.\nFeasting: In the Philippines\, Simbang Gabi worshippers enjoy
-  bibingka and puto bumbong\, while others serve rosy macarons and warm frui
- t punch.\nDay: Sunday\n\nIcon: 🕯️\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ Advent Sunday relaxes penitential tones with joyful anticipation noted sin
+ ce the Middle Ages.\nTraditions: Churches light the rose candle\, priests 
+ wear rose vestments\, and choirs sing jubilant hymns heralding the nearnes
+ s of Christmas.\nFeasting: In the Philippines\, Simbang Gabi worshippers e
+ njoy bibingka and puto bumbong\, while others serve rosy macarons and warm
+  fruit punch.\nDay: Sunday\n\nIcon: 🕯️\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/third-sunday-of-advent-gaudete-sunday-joy-and-rejoicing.png
+X-IMAGE:/images/third-sunday-of-advent-gaudete-sunday-joy-and-rejoicing.png
 END:VEVENT
 BEGIN:VEVENT
+UID:hanukkah-festival-of-lights@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251215T190000Z
-DTEND:20251223T070000Z
+DTSTART;VALUE=DATE:20251215
+RDATE;VALUE=DATE:20261205
+RDATE;VALUE=DATE:20271225
+RDATE;VALUE=DATE:20281213
+RDATE;VALUE=DATE:20291202
+RDATE;VALUE=DATE:20301221
+RDATE;VALUE=DATE:20311210
+RDATE;VALUE=DATE:20321128
+RDATE;VALUE=DATE:20331217
+RDATE;VALUE=DATE:20341207
+RDATE;VALUE=DATE:20351226
+X-MSS-DATE-SOURCE:https://www.hebcal.com/holidays/
+DTEND;VALUE=DATE:20251223
 SUMMARY:Hanukkah (Festival of Lights)
 DESCRIPTION:History: Hanukkah commemorates the Maccabean rededication of th
- e Temple in 164 BCE and the rabbinic tale of oil that miraculously lasted e
- ight nights.\nTraditions: Families kindle the menorah\, recite blessings\, 
- play dreidel games\, give gelt\, and emphasise acts of charity and resilien
- ce.\nFeasting: Foods fried in oil--potato latkes\, sufganiyot\, bimuelos--a
- nd braised brisket or kugel anchor the festive tables.\nDay: Monday\n\nIcon
- : 🕎\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ e Temple in 164 BCE and the rabbinic tale of oil that miraculously lasted 
+ eight nights.\nTraditions: Families kindle the menorah\, recite blessings\
+ , play dreidel games\, give gelt\, and emphasise acts of charity and resil
+ ience.\nFeasting: Foods fried in oil--potato latkes\, sufganiyot\, bimuelo
+ s--and braised brisket or kugel anchor the festive tables.\nDay: Monday\n\
+ nIcon: 🕎\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/festival-of-lights-eight-nights-of-celebration-starting-at-dusk-on-dec-15.png
+X-IMAGE:/images/festival-of-lights-eight-nights-of-celebration-starting-at-dusk-on-dec-15.png
 END:VEVENT
 BEGIN:VEVENT
+UID:saturnalia@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251217T070000Z
-DTEND:20251218T070000Z
+DTSTART;VALUE=DATE:20251217
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251218
 SUMMARY:Saturnalia
 DESCRIPTION:History: Rome's Saturnalia\, attested as early as 217 BCE\, hon
- oured Saturn with a public holiday of role reversal\, gift giving\, and tem
- porary liberty for enslaved people.\nTraditions: Participants shout "Io Sat
- urnalia!"\, wear felt pileus caps\, and elect mock kings who preside over g
- ames and generous exchanges.\nFeasting: Banquets overflow with roast pork\,
-  olives\, mulsum sweet wine\, pine nuts\, and honey cakes shared between pa
- trons and dependents.\nDay: Wednesday\n\nIcon: 🏛️\\\\\\\\\\\\\\\nCategory:
-  cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ oured Saturn with a public holiday of role reversal\, gift giving\, and te
+ mporary liberty for enslaved people.\nTraditions: Participants shout "Io S
+ aturnalia!"\, wear felt pileus caps\, and elect mock kings who preside ove
+ r games and generous exchanges.\nFeasting: Banquets overflow with roast po
+ rk\, olives\, mulsum sweet wine\, pine nuts\, and honey cakes shared betwe
+ en patrons and dependents.\nDay: Wednesday\n\nIcon: 🏛️\nCategory: cul
+ tural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/ancient-roman-festival-of-saturn.png
+X-IMAGE:/images/ancient-roman-festival-of-saturn.png
 END:VEVENT
 BEGIN:VEVENT
+UID:fourth-sunday-of-advent@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251221T070000Z
-DTEND:20251222T070000Z
+DTSTART;VALUE=DATE:20251221
+RDATE;VALUE=DATE:20261220
+RDATE;VALUE=DATE:20271219
+RDATE;VALUE=DATE:20281224
+RDATE;VALUE=DATE:20291223
+RDATE;VALUE=DATE:20301222
+RDATE;VALUE=DATE:20311221
+RDATE;VALUE=DATE:20321219
+RDATE;VALUE=DATE:20331218
+RDATE;VALUE=DATE:20341224
+RDATE;VALUE=DATE:20351223
+RDATE;VALUE=DATE:20361221
+RDATE;VALUE=DATE:20371220
+RDATE;VALUE=DATE:20381219
+RDATE;VALUE=DATE:20391218
+RDATE;VALUE=DATE:20401223
+RDATE;VALUE=DATE:20411222
+RDATE;VALUE=DATE:20421221
+RDATE;VALUE=DATE:20431220
+RDATE;VALUE=DATE:20441218
+RDATE;VALUE=DATE:20451224
+RDATE;VALUE=DATE:20461223
+RDATE;VALUE=DATE:20471222
+RDATE;VALUE=DATE:20481220
+RDATE;VALUE=DATE:20491219
+RDATE;VALUE=DATE:20501218
+RDATE;VALUE=DATE:20511224
+RDATE;VALUE=DATE:20521222
+RDATE;VALUE=DATE:20531221
+RDATE;VALUE=DATE:20541220
+RDATE;VALUE=DATE:20551219
+RDATE;VALUE=DATE:20561224
+RDATE;VALUE=DATE:20571223
+RDATE;VALUE=DATE:20581222
+RDATE;VALUE=DATE:20591221
+RDATE;VALUE=DATE:20601219
+RDATE;VALUE=DATE:20611218
+RDATE;VALUE=DATE:20621224
+RDATE;VALUE=DATE:20631223
+RDATE;VALUE=DATE:20641221
+RDATE;VALUE=DATE:20651220
+RDATE;VALUE=DATE:20661219
+RDATE;VALUE=DATE:20671218
+RDATE;VALUE=DATE:20681223
+RDATE;VALUE=DATE:20691222
+RDATE;VALUE=DATE:20701221
+RDATE;VALUE=DATE:20711220
+RDATE;VALUE=DATE:20721218
+RDATE;VALUE=DATE:20731224
+RDATE;VALUE=DATE:20741223
+RDATE;VALUE=DATE:20751222
+RDATE;VALUE=DATE:20761220
+RDATE;VALUE=DATE:20771219
+RDATE;VALUE=DATE:20781218
+RDATE;VALUE=DATE:20791224
+RDATE;VALUE=DATE:20801222
+RDATE;VALUE=DATE:20811221
+RDATE;VALUE=DATE:20821220
+RDATE;VALUE=DATE:20831219
+RDATE;VALUE=DATE:20841224
+RDATE;VALUE=DATE:20851223
+RDATE;VALUE=DATE:20861222
+RDATE;VALUE=DATE:20871221
+RDATE;VALUE=DATE:20881219
+RDATE;VALUE=DATE:20891218
+RDATE;VALUE=DATE:20901224
+RDATE;VALUE=DATE:20911223
+RDATE;VALUE=DATE:20921221
+RDATE;VALUE=DATE:20931220
+RDATE;VALUE=DATE:20941219
+RDATE;VALUE=DATE:20951218
+RDATE;VALUE=DATE:20961223
+RDATE;VALUE=DATE:20971222
+RDATE;VALUE=DATE:20981221
+RDATE;VALUE=DATE:20991220
+RDATE;VALUE=DATE:21001219
+DTEND;VALUE=DATE:20251222
 SUMMARY:Fourth Sunday of Advent
 DESCRIPTION:History: The final Advent Sunday highlights love and the immine
- nce of Christmas\, with scriptural focus on Mary's "yes" and the coming of 
- Emmanuel.\nTraditions: Families light the last purple candle\, assemble cre
- che scenes\, finish charitable giving\, and practice carols for Christmas m
- asses.\nFeasting: Panettone\, mince pies\, spiced nuts\, and savoury tourti
- ere pies often appear as families wrap gifts and prepare Christmas Eve menu
- s.\nDay: Sunday\n\nIcon: 🕯️\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ nce of Christmas\, with scriptural focus on Mary's "yes" and the coming of
+  Emmanuel.\nTraditions: Families light the last purple candle\, assemble c
+ reche scenes\, finish charitable giving\, and practice carols for Christma
+ s masses.\nFeasting: Panettone\, mince pies\, spiced nuts\, and savoury to
+ urtiere pies often appear as families wrap gifts and prepare Christmas Eve
+  menus.\nDay: Sunday\n\nIcon: 🕯️\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/fourth-sunday-of-advent-final-preparation-before-christmas.png
+X-IMAGE:/images/fourth-sunday-of-advent-final-preparation-before-christmas.png
 END:VEVENT
 BEGIN:VEVENT
+UID:winter-solstice-yule@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251221T070000Z
-DTEND:20251222T070000Z
+DTSTART;VALUE=DATE:20261221
+RDATE;VALUE=DATE:20271221
+RDATE;VALUE=DATE:20281221
+RDATE;VALUE=DATE:20291221
+RDATE;VALUE=DATE:20301221
+RDATE;VALUE=DATE:20311221
+RDATE;VALUE=DATE:20321221
+RDATE;VALUE=DATE:20331221
+RDATE;VALUE=DATE:20341221
+RDATE;VALUE=DATE:20351221
+X-MSS-DATE-SOURCE:https://aa.usno.navy.mil/data/api.html
+X-MSS-CIVIL-TZ:America/Denver
+X-MSS-ASTRONOMY-POLICY:USNO season instant mapped to America/Denver civil date
+DTEND;VALUE=DATE:20261222
 SUMMARY:Winter Solstice (Yule)
 DESCRIPTION:History: The solstice marks the sun's rebirth in cultures from 
- Norse Yule to East Asian Dongzhi\, blending astronomy with spiritual renewa
- l.\nTraditions: People burn yule logs\, exchange handmade gifts\, meditate 
- at sunrise\, and decorate with evergreen boughs and lights symbolising retu
- rning warmth.\nFeasting: Roasted meats\, spiced mead\, citrus preserves\, a
- nd solstice cakes shaped like the sun celebrate the lengthening days ahead.
- \nDay: Sunday\n\nIcon: ❄️\\\\\\\\\\\\\\\nCategory: seasonal\\\\\\
-CATEGORIES:seasonal\\\\\\
+ Norse Yule to East Asian Dongzhi\, blending astronomy with spiritual renew
+ al.\nTraditions: People burn yule logs\, exchange handmade gifts\, meditat
+ e at sunrise\, and decorate with evergreen boughs and lights symbolising r
+ eturning warmth.\nFeasting: Roasted meats\, spiced mead\, citrus preserves
+ \, and solstice cakes shaped like the sun celebrate the lengthening days a
+ head.\nDay: Sunday\n\nIcon: ❄️\nCategory: seasonal
+CATEGORIES:seasonal
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/eve-of-the-winter-solstice-the-longest-night.png
+X-IMAGE:/images/eve-of-the-winter-solstice-the-longest-night.png
 END:VEVENT
 BEGIN:VEVENT
+UID:polaris-meteor-watch-ufo-evening@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251222T070000Z
-DTEND:20251223T070000Z
+DTSTART;VALUE=DATE:20251222
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251223
 SUMMARY:Polaris Meteor Watch & UFO Evening
 DESCRIPTION:History: Stargazers gather during the solstice week to trace meteor showers as they skim past Polaris, blending folk UFO lore with real night-sky science.\nTraditions: Neighbors hang neon saucer lanterns, align telescopes north, lead children in meteor-counting logs, and play synth carols while a laser pointer traces the Little Dipper.\nFeasting: Camps pour midnight cocoa tinted nebula-blue, share smoky chili, citrus-rosemary popcorn, and shortbread saucers dusted with edible stardust.\nDay: Monday\n\nIcon: 🛸\nCategory: seasonal
 CATEGORIES:seasonal
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/festive-ufo-meteor-watch.png
+X-IMAGE:/images/festive-ufo-meteor-watch.png
 END:VEVENT
 BEGIN:VEVENT
+UID:yalda-night@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251220T190000Z
-DTEND:20251221T070000Z
+DTSTART;VALUE=DATE:20251220
+RDATE;VALUE=DATE:20261220
+RDATE;VALUE=DATE:20271220
+RDATE;VALUE=DATE:20281220
+RDATE;VALUE=DATE:20291220
+RDATE;VALUE=DATE:20301220
+RDATE;VALUE=DATE:20311220
+RDATE;VALUE=DATE:20321220
+RDATE;VALUE=DATE:20331220
+RDATE;VALUE=DATE:20341220
+RDATE;VALUE=DATE:20351220
+X-MSS-DATE-SOURCE:https://calendar.ut.ac.ir/
+X-MSS-PERSIAN-POLICY:University of Tehran Calendar Center Solar Hijri dates; Nowruz=1 Farvardin; Yalda=30 Azar
+DTEND;VALUE=DATE:20251221
 SUMMARY:Yalda Night
 DESCRIPTION:History: Persian Yalda predates Islam\, celebrating the birth o
- f Mithra and later the victory of light over darkness on the longest night.
- \nTraditions: Families stay awake reading Hafez poetry\, storytelling\, and
-  watching the fire's glow until the first light of dawn.\nFeasting: Aperiti
- f glasses of sharbat-e anar o gol-e sorkh—pomegranate and rosewater cordial
-  with mint and lime—open the sofreh before meze of sabzi khordan with herbs
- \, feta\, walnuts\, and warm flatbread\, borani laboo beet yogurt with pist
- achio\, and zeytoon parvardeh olives in pomegranate molasses. The main spre
- ad features fesenjān of duck or chicken simmered to a glossy walnut-pomegra
- nate sauce\, tahchin-e zereshk saffron rice cake layered with barberries an
- d tender chicken\, and khoresht-e bamieh okra stew for vegetarians. Salad-e
-  Shirazi and sesame-topped naan-e barbari brighten the table\, while desser
- ts showcase anar o hendevaneh fruit\, ajil-e Shab-e Yalda roasted nuts and 
- dried fruits for good fortune\, and sholeh zard saffron rice pudding dusted
-  with cinnamon. Guests close the vigil by drawing Hafez divinations as poet
- ry and the promise of returning light fill the night.\nDay: Saturday\n\nIcon:
-  🌙\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ f Mithra and later the victory of light over darkness on the longest night
+ .\nTraditions: Families stay awake reading Hafez poetry\, storytelling\, a
+ nd watching the fire's glow until the first light of dawn.\nFeasting: Aper
+ itif glasses of sharbat-e anar o gol-e sorkh—pomegranate and rosewater c
+ ordial with mint and lime—open the sofreh before meze of sabzi khordan w
+ ith herbs\, feta\, walnuts\, and warm flatbread\, borani laboo beet yogurt
+  with pistachio\, and zeytoon parvardeh olives in pomegranate molasses. Th
+ e main spread features fesenjān of duck or chicken simmered to a glossy w
+ alnut-pomegranate sauce\, tahchin-e zereshk saffron rice cake layered with
+  barberries and tender chicken\, and khoresht-e bamieh okra stew for veget
+ arians. Salad-e Shirazi and sesame-topped naan-e barbari brighten the tabl
+ e\, while desserts showcase anar o hendevaneh fruit\, ajil-e Shab-e Yalda 
+ roasted nuts and dried fruits for good fortune\, and sholeh zard saffron r
+ ice pudding dusted with cinnamon. Guests close the vigil by drawing Hafez 
+ divinations as poetry and the promise of returning light fill the night.\n
+ Day: Saturday\n\nIcon: 🌙\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/eve-of-the-winter-solstice-the-longest-night.png
+X-IMAGE:/images/eve-of-the-winter-solstice-the-longest-night.png
 END:VEVENT
 BEGIN:VEVENT
+UID:la-noche-de-rabanos@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251223T070000Z
-DTEND:20251224T070000Z
+DTSTART;VALUE=DATE:20251223
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251224
 SUMMARY:La Noche de Rabanos
 DESCRIPTION:History: Oaxaca's Night of the Radishes began in 1897 when farm
- ers carved oversized radishes to entice holiday shoppers\, becoming an offi
- cial civic festival.\nTraditions: Artisans sculpt Nativity scenes\, dancers
- \, and mythical beasts from radishes\, competing for prizes as bands and cr
- owds stroll the zocalo.\nFeasting: Cena Tradicional Oaxaquena de Invierno f
- eatures an ensalada de rabanos with lime and cilantro\, tamales de rabano w
- ith bright raw radish salsa and atole verde de epazote\, champurrado espeso
-  de cacao y masa\, optional tamales dulces de pina y pasas\, and sips of me
- zcal artesanal served with orange slices and sal de gusano.\nDay: Tuesday\n
- \nIcon: 🥕\\\\\\\\\\\\\\\nCategory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ ers carved oversized radishes to entice holiday shoppers\, becoming an off
+ icial civic festival.\nTraditions: Artisans sculpt Nativity scenes\, dance
+ rs\, and mythical beasts from radishes\, competing for prizes as bands and
+  crowds stroll the zocalo.\nFeasting: Cena Tradicional Oaxaquena de Invier
+ no features an ensalada de rabanos with lime and cilantro\, tamales de rab
+ ano with bright raw radish salsa and atole verde de epazote\, champurrado 
+ espeso de cacao y masa\, optional tamales dulces de pina y pasas\, and sip
+ s of mezcal artesanal served with orange slices and sal de gusano.\nDay: T
+ uesday\n\nIcon: 🥕\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/night-of-the-radishes-traditional-oaxacan-festival.png
+X-IMAGE:/images/night-of-the-radishes-traditional-oaxacan-festival.png
 END:VEVENT
 BEGIN:VEVENT
+UID:christmas-eve@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251224T070000Z
-DTEND:20251225T070000Z
+DTSTART;VALUE=DATE:20251224
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251225
 SUMMARY:Christmas Eve
 DESCRIPTION:History: Christian communities have kept the Nativity vigil sin
- ce the fourth century\, preparing through liturgies of lessons\, carols\, a
- nd midnight Mass.\nTraditions: Families light Advent candles\, attend servi
- ces\, exchange modest gifts\, and observe the tradition of refraining from 
- meat until the feast begins.\nFeasting: Italian Seven Fishes dinners\, Poli
- sh wigilia with beet soup and pierogi\, and hot cocoa with cookies set the 
- stage for the midnight celebration.\nDay: Wednesday\n\nIcon: 🌟\\\\\\\\\\\\
- \\\nCategory: religious\\\\\\
-CATEGORIES:religious\\\\\\
+ ce the fourth century\, preparing through liturgies of lessons\, carols\, 
+ and midnight Mass.\nTraditions: Families light Advent candles\, attend ser
+ vices\, exchange modest gifts\, and observe the tradition of refraining fr
+ om meat until the feast begins.\nFeasting: Italian Seven Fishes dinners\, 
+ Polish wigilia with beet soup and pierogi\, and hot cocoa with cookies set
+  the stage for the midnight celebration.\nDay: Wednesday\n\nIcon: 🌟\nCa
+ tegory: religious
+CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/caga-tio.svg
 END:VEVENT
 BEGIN:VEVENT
+UID:christmas-day@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251225T070000Z
-DTEND:20251226T070000Z
+DTSTART;VALUE=DATE:20251225
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251226
 SUMMARY:Christmas Day
 DESCRIPTION:History: By late antiquity the Western church fixed December 25
-  as the Nativity feast\, intertwining with Sol Invictus imagery and evolvin
- g into a global holiday.\nTraditions: People gather around decorated trees\
- , sing carols\, exchange gifts\, and share charity with neighbours in the s
- pirit of goodwill.\nFeasting: Roast goose or turkey\, glazed ham\, potatoes
- \, Brussels sprouts\, Christmas pudding\, and yule logs anchor generous hol
- iday tables.\nDay: Thursday\n\nIcon: 🎄\\\\\\\\\\\\\\\nCategory: celebratio
- n\\\\\\
-CATEGORIES:celebration\\\\\\
+  as the Nativity feast\, intertwining with Sol Invictus imagery and evolvi
+ ng into a global holiday.\nTraditions: People gather around decorated tree
+ s\, sing carols\, exchange gifts\, and share charity with neighbours in th
+ e spirit of goodwill.\nFeasting: Roast goose or turkey\, glazed ham\, pota
+ toes\, Brussels sprouts\, Christmas pudding\, and yule logs anchor generou
+ s holiday tables.\nDay: Thursday\n\nIcon: 🎄\nCategory: celebration
+CATEGORIES:celebration
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/image21.png
+X-IMAGE:/images/image21.png
 END:VEVENT
 BEGIN:VEVENT
+UID:st-stephen-s-day-boxing-day@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251226T070000Z
-DTEND:20251227T070000Z
+DTSTART;VALUE=DATE:20251226
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251227
 SUMMARY:St. Stephen's Day (Boxing Day)
 DESCRIPTION:History: St. Stephen\, the first Christian martyr\, is honoured
-  on 26 December\; in Britain and Ireland the date also became Boxing Day fo
- r giving to servants and the poor.\nTraditions: Foxhunts\, charity drives\,
-  and visits to friends are common\, while in Ireland the Wren Boys once par
- aded door to door collecting donations.\nFeasting: Leftover Christmas roast
- s become hearty pies\, paired with bubble-and-squeak\, mince pies\, and mug
- s of spiced ale.\nDay: Friday\n\nIcon: ⛪\\\\\\\\\\\\\\\nCategory: cultural\
- \\\\\
-CATEGORIES:cultural\\\\\\
+  on 26 December\; in Britain and Ireland the date also became Boxing Day f
+ or giving to servants and the poor.\nTraditions: Foxhunts\, charity drives
+ \, and visits to friends are common\, while in Ireland the Wren Boys once 
+ paraded door to door collecting donations.\nFeasting: Leftover Christmas r
+ oasts become hearty pies\, paired with bubble-and-squeak\, mince pies\, an
+ d mugs of spiced ale.\nDay: Friday\n\nIcon: ⛪\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/image21.png
+X-IMAGE:/images/image21.png
 END:VEVENT
 BEGIN:VEVENT
+UID:feast-of-the-holy-innocents-childermas-banquet@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
-DTSTART:20251227T070000Z
-DTEND:20251228T070000Z
+DTSTART;VALUE=DATE:20251228
+RRULE:FREQ=YEARLY
+DTEND;VALUE=DATE:20251229
 SUMMARY:Feast of the Holy Innocents (Childermas Banquet)
 DESCRIPTION:History: Childermas commemorates the Bethlehem children slain u
- nder King Herod\; medieval English households kept 28 December as the Feast
-  of the Holy Innocents\, centring prayers and hospitality on the youngest f
- amily members.\nTraditions: Households set a whimsical winter table with wh
- ite candles\, holly berries\, and silver bells\, portion dishes in child-si
- zed servings\, and invite the youngest at table to announce each course as 
- the day's presider.\nFeasting: A Childermas banquet pours Baby Bellini aper
- itifs of sparkling wine or apple cider with white peach puree\, then cradle
- s baby beet bisque swirled with creme fraiche and dill over star-cut rye cr
- outons\; baby greens toss with baby tomatoes\, carrots\, and corn in honey-
- citrus vinaigrette with toasted almonds and edible flowers\; slow-smoked ba
- by back ribs lacquered in pomegranate glaze and herb-roasted Cornish hens w
- ith clementine pan jus arrive beside duck-fat roasted baby potatoes\, baby 
- corn gratin with nutmeg-Parmesan crust\, and braised b
- aby onions in balsamic reduction\; serve pillowy milk rolls with whipped ho
- ney butter\, finish with baby cheesecakes topped in spiced pear-cranberry c
- ompote or tableside baby bananas Foster\, and toast with Babycham or warm m
- ilk punch dusted with nutmeg.\nDay: Saturday\n\nIcon: 👶\\\\\\\\\\\\\\\nCat
- egory: cultural\\\\\\
-CATEGORIES:cultural\\\\\\
+ nder King Herod\; medieval English households kept 28 December as the Feas
+ t of the Holy Innocents\, centring prayers and hospitality on the youngest
+  family members.\nTraditions: Households set a whimsical winter table with
+  white candles\, holly berries\, and silver bells\, portion dishes in chil
+ d-sized servings\, and invite the youngest at table to announce each cours
+ e as the day's presider.\nFeasting: A Childermas banquet pours Baby Bellin
+ i aperitifs of sparkling wine or apple cider with white peach puree\, then
+  cradles baby beet bisque swirled with creme fraiche and dill over star-cu
+ t rye croutons\; baby greens toss with baby tomatoes\, carrots\, and corn 
+ in honey-citrus vinaigrette with toasted almonds and edible flowers\; slow
+ -smoked baby back ribs lacquered in pomegranate glaze and herb-roasted Cor
+ nish hens with clementine pan jus arrive beside duck-fat roasted baby pota
+ toes\, baby corn gratin with nutmeg-Parmesan crust\, and braised baby onio
+ ns in balsamic reduction\; serve pillowy milk rolls with whipped honey but
+ ter\, finish with baby cheesecakes topped in spiced pear-cranberry compote
+  or tableside baby bananas Foster\, and toast with Babycham or warm milk p
+ unch dusted with nutmeg.\nDay: Saturday\n\nIcon: 👶\nCategory: cultural
+CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:https://dcmcshan.github.io/MaybeSomethingSeasonal/images/baby-back-ribs.jpg
+X-IMAGE:/images/baby-back-ribs.jpg
 END:VEVENT
 BEGIN:VEVENT
+UID:broadmoor-brunch@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
 DTSTART;TZID=America/Denver:20251228T090000
 DTEND;TZID=America/Denver:20251228T110000
 SUMMARY:Broadmoor Brunch
-DESCRIPTION:Brunch at The Broadmoor.\n\nTime: 9:00am
+DESCRIPTION:Brunch at The Broadmoor.\n\nTime: 9:00am\n\nIcon: 🥂\nCategory: cultural
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/broadmoor.jpg
+END:VEVENT
+BEGIN:VEVENT
+UID:burn-night@maybesomethingseasonal.com
+DTSTAMP:20260829T102300Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+RDATE;VALUE=DATE:20270904
+RDATE;VALUE=DATE:20280902
+RDATE;VALUE=DATE:20290901
+RDATE;VALUE=DATE:20300831
+RDATE;VALUE=DATE:20310830
+RDATE;VALUE=DATE:20320904
+RDATE;VALUE=DATE:20330903
+RDATE;VALUE=DATE:20340902
+RDATE;VALUE=DATE:20350901
+RDATE;VALUE=DATE:20360830
+RDATE;VALUE=DATE:20370905
+RDATE;VALUE=DATE:20380904
+RDATE;VALUE=DATE:20390903
+RDATE;VALUE=DATE:20400901
+RDATE;VALUE=DATE:20410831
+RDATE;VALUE=DATE:20420830
+RDATE;VALUE=DATE:20430905
+RDATE;VALUE=DATE:20440903
+RDATE;VALUE=DATE:20450902
+RDATE;VALUE=DATE:20460901
+RDATE;VALUE=DATE:20470831
+RDATE;VALUE=DATE:20480905
+RDATE;VALUE=DATE:20490904
+RDATE;VALUE=DATE:20500903
+RDATE;VALUE=DATE:20510902
+RDATE;VALUE=DATE:20520831
+RDATE;VALUE=DATE:20530830
+RDATE;VALUE=DATE:20540905
+RDATE;VALUE=DATE:20550904
+RDATE;VALUE=DATE:20560902
+RDATE;VALUE=DATE:20570901
+RDATE;VALUE=DATE:20580831
+RDATE;VALUE=DATE:20590830
+RDATE;VALUE=DATE:20600904
+RDATE;VALUE=DATE:20610903
+RDATE;VALUE=DATE:20620902
+RDATE;VALUE=DATE:20630901
+RDATE;VALUE=DATE:20640830
+RDATE;VALUE=DATE:20650905
+RDATE;VALUE=DATE:20660904
+RDATE;VALUE=DATE:20670903
+RDATE;VALUE=DATE:20680901
+RDATE;VALUE=DATE:20690831
+RDATE;VALUE=DATE:20700830
+RDATE;VALUE=DATE:20710905
+RDATE;VALUE=DATE:20720903
+RDATE;VALUE=DATE:20730902
+RDATE;VALUE=DATE:20740901
+RDATE;VALUE=DATE:20750831
+RDATE;VALUE=DATE:20760905
+RDATE;VALUE=DATE:20770904
+RDATE;VALUE=DATE:20780903
+RDATE;VALUE=DATE:20790902
+RDATE;VALUE=DATE:20800831
+RDATE;VALUE=DATE:20810830
+RDATE;VALUE=DATE:20820905
+RDATE;VALUE=DATE:20830904
+RDATE;VALUE=DATE:20840902
+RDATE;VALUE=DATE:20850901
+RDATE;VALUE=DATE:20860831
+RDATE;VALUE=DATE:20870830
+RDATE;VALUE=DATE:20880904
+RDATE;VALUE=DATE:20890903
+RDATE;VALUE=DATE:20900902
+RDATE;VALUE=DATE:20910901
+RDATE;VALUE=DATE:20920830
+RDATE;VALUE=DATE:20930905
+RDATE;VALUE=DATE:20940904
+RDATE;VALUE=DATE:20950903
+RDATE;VALUE=DATE:20960901
+RDATE;VALUE=DATE:20970831
+RDATE;VALUE=DATE:20980830
+RDATE;VALUE=DATE:20990905
+RDATE;VALUE=DATE:21000904
+SUMMARY:Burn Night
+DESCRIPTION:Seasonal observance held on the Saturday immediately before U.S. Labor Day.\n\nIcon: 🔥\nCategory: seasonal
+CATEGORIES:seasonal
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:glen-eyrie-madrigal-tickets@maybesomethingseasonal.com
+DTSTAMP:20260829T104500Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+RRULE:FREQ=YEARLY;BYMONTH=9;BYDAY=TU;BYMONTHDAY=2,3,4,5,6,7,8
+SUMMARY:Glen Eyrie Madrigal Tickets Go On Sale
+DESCRIPTION:Glen Eyrie Madrigal Banquet tickets go on sale the Tuesday after Labor Day.\nhttps://gleneyrie.org/our-event/madrigal/\n\nIcon: 🎟️\nCategory: seasonal
+URL:https://gleneyrie.org/our-event/madrigal/
+CATEGORIES:seasonal
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:indigenous-peoples-day@maybesomethingseasonal.com
+DTSTAMP:20260829T130000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=MO;BYMONTHDAY=8,9,10,11,12,13,14
+SUMMARY:Indigenous Peoples’ Day
+DESCRIPTION:Celebrate the Indigenous American origins of foods that transformed Italian cooking with an Italian feast of American foods—especially tomatoes.\n\nIcon: 🍅\nCategory: cultural
+CATEGORIES:cultural
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-shailaputri@maybesomethingseasonal.com
+DTSTAMP:20260829T130000Z
+DTSTART;VALUE=DATE:20261011
+RDATE;VALUE=DATE:20270930
+RDATE;VALUE=DATE:20280919
+RDATE;VALUE=DATE:20291008
+RDATE;VALUE=DATE:20300928
+RDATE;VALUE=DATE:20311017
+RDATE;VALUE=DATE:20321005
+RDATE;VALUE=DATE:20330924
+RDATE;VALUE=DATE:20341013
+RDATE;VALUE=DATE:20351002
+X-MSS-DATE-SOURCE:https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?geoname-id=1253914
+X-MSS-HINDU-LOCATION:Ujjain India (Asia/Kolkata)
+X-MSS-HINDU-POLICY:Drik Panchang location-based Hindu festival dates for Ujjain India
+DTEND;VALUE=DATE:20261012
+SUMMARY:Navaratri Day 1 — Shailaputri
+DESCRIPTION:Honor Shailaputri, daughter of the mountains and embodiment of grounded beginnings. Begin Navaratri with intention, steadiness, and reverence for the earth.\n\nIcon: 🏔️\nCategory: cultural
+CATEGORIES:cultural
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-brahmacharini@maybesomethingseasonal.com
+DTSTAMP:20260829T130000Z
+DTSTART;VALUE=DATE:20261012
+RDATE;VALUE=DATE:20271001
+RDATE;VALUE=DATE:20280920
+RDATE;VALUE=DATE:20291009
+RDATE;VALUE=DATE:20300929
+RDATE;VALUE=DATE:20311018
+RDATE;VALUE=DATE:20321006
+RDATE;VALUE=DATE:20330925
+RDATE;VALUE=DATE:20341014
+RDATE;VALUE=DATE:20351003
+X-MSS-DATE-SOURCE:https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?geoname-id=1253914
+X-MSS-HINDU-LOCATION:Ujjain India (Asia/Kolkata)
+X-MSS-HINDU-POLICY:Drik Panchang location-based Hindu festival dates for Ujjain India
+DTEND;VALUE=DATE:20261013
+SUMMARY:Navaratri Day 2 — Brahmacharini
+DESCRIPTION:Honor Brahmacharini, the devoted seeker whose discipline and contemplative strength illuminate the path of spiritual practice.\n\nIcon: 📿\nCategory: cultural
+CATEGORIES:cultural
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-chandraghanta@maybesomethingseasonal.com
+DTSTAMP:20260829T130000Z
+DTSTART;VALUE=DATE:20261013
+RDATE;VALUE=DATE:20271002
+RDATE;VALUE=DATE:20280921
+RDATE;VALUE=DATE:20291010
+RDATE;VALUE=DATE:20300930
+RDATE;VALUE=DATE:20311019
+RDATE;VALUE=DATE:20321007
+RDATE;VALUE=DATE:20330926
+RDATE;VALUE=DATE:20341015
+RDATE;VALUE=DATE:20351004
+X-MSS-DATE-SOURCE:https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?geoname-id=1253914
+X-MSS-HINDU-LOCATION:Ujjain India (Asia/Kolkata)
+X-MSS-HINDU-POLICY:Drik Panchang location-based Hindu festival dates for Ujjain India
+DTEND;VALUE=DATE:20261014
+SUMMARY:Navaratri Day 3 — Chandraghanta
+DESCRIPTION:Honor Chandraghanta, the moon-belled warrior whose courage, vigilance, and protective grace confront fear and restore peace.\n\nIcon: 🔔\nCategory: cultural
+CATEGORIES:cultural
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-kushmanda@maybesomethingseasonal.com
+DTSTAMP:20260829T130000Z
+DTSTART;VALUE=DATE:20261014
+RDATE;VALUE=DATE:20271003
+RDATE;VALUE=DATE:20280922
+RDATE;VALUE=DATE:20291011
+RDATE;VALUE=DATE:20301001
+RDATE;VALUE=DATE:20311020
+RDATE;VALUE=DATE:20321008
+RDATE;VALUE=DATE:20330927
+RDATE;VALUE=DATE:20341016
+RDATE;VALUE=DATE:20351005
+X-MSS-DATE-SOURCE:https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?geoname-id=1253914
+X-MSS-HINDU-LOCATION:Ujjain India (Asia/Kolkata)
+X-MSS-HINDU-POLICY:Drik Panchang location-based Hindu festival dates for Ujjain India
+DTEND;VALUE=DATE:20261015
+SUMMARY:Navaratri Day 4 — Kushmanda
+DESCRIPTION:Honor Kushmanda, the radiant creator whose smile kindles the cosmic egg and fills the world with warmth, vitality, and light.\n\nIcon: ☀️\nCategory: cultural
+CATEGORIES:cultural
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-skandamata@maybesomethingseasonal.com
+DTSTAMP:20260829T130000Z
+DTSTART;VALUE=DATE:20261015
+RDATE;VALUE=DATE:20271004
+RDATE;VALUE=DATE:20280923
+RDATE;VALUE=DATE:20291012
+RDATE;VALUE=DATE:20301002
+RDATE;VALUE=DATE:20311021
+RDATE;VALUE=DATE:20321009
+RDATE;VALUE=DATE:20330928
+RDATE;VALUE=DATE:20341017
+RDATE;VALUE=DATE:20351006
+X-MSS-DATE-SOURCE:https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?geoname-id=1253914
+X-MSS-HINDU-LOCATION:Ujjain India (Asia/Kolkata)
+X-MSS-HINDU-POLICY:Drik Panchang location-based Hindu festival dates for Ujjain India
+DTEND;VALUE=DATE:20261016
+SUMMARY:Navaratri Day 5 — Skandamata
+DESCRIPTION:Honor Skandamata, mother of Skanda, as an image of nurturing courage, protective love, and wisdom carried through generations.\n\nIcon: 👩‍👦\nCategory: cultural
+CATEGORIES:cultural
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-katyayani@maybesomethingseasonal.com
+DTSTAMP:20260829T130000Z
+DTSTART;VALUE=DATE:20261016
+RDATE;VALUE=DATE:20271005
+RDATE;VALUE=DATE:20280924
+RDATE;VALUE=DATE:20291013
+RDATE;VALUE=DATE:20301003
+RDATE;VALUE=DATE:20311022
+RDATE;VALUE=DATE:20321010
+RDATE;VALUE=DATE:20330929
+RDATE;VALUE=DATE:20341018
+RDATE;VALUE=DATE:20351007
+X-MSS-DATE-SOURCE:https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?geoname-id=1253914
+X-MSS-HINDU-LOCATION:Ujjain India (Asia/Kolkata)
+X-MSS-HINDU-POLICY:Drik Panchang location-based Hindu festival dates for Ujjain India
+DTEND;VALUE=DATE:20261017
+SUMMARY:Navaratri Day 6 — Katyayani
+DESCRIPTION:Honor Katyayani, the lion-riding warrior goddess who embodies decisive strength, justice, and resistance to destructive forces.\n\nIcon: 🦁\nCategory: cultural
+CATEGORIES:cultural
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-kalaratri@maybesomethingseasonal.com
+DTSTAMP:20260829T130000Z
+DTSTART;VALUE=DATE:20261017
+RDATE;VALUE=DATE:20271006
+RDATE;VALUE=DATE:20280925
+RDATE;VALUE=DATE:20291014
+RDATE;VALUE=DATE:20301004
+RDATE;VALUE=DATE:20311023
+RDATE;VALUE=DATE:20321011
+RDATE;VALUE=DATE:20330930
+RDATE;VALUE=DATE:20341019
+RDATE;VALUE=DATE:20351008
+X-MSS-DATE-SOURCE:https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?geoname-id=1253914
+X-MSS-HINDU-LOCATION:Ujjain India (Asia/Kolkata)
+X-MSS-HINDU-POLICY:Drik Panchang location-based Hindu festival dates for Ujjain India
+DTEND;VALUE=DATE:20261018
+SUMMARY:Navaratri Day 7 — Kalaratri
+DESCRIPTION:Honor Kalaratri, the dark night that dissolves fear and ignorance, revealing the fierce protection hidden within transformation.\n\nIcon: 🌌\nCategory: cultural
+CATEGORIES:cultural
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-mahagauri@maybesomethingseasonal.com
+DTSTAMP:20260829T130000Z
+DTSTART;VALUE=DATE:20261018
+RDATE;VALUE=DATE:20271007
+RDATE;VALUE=DATE:20280926
+RDATE;VALUE=DATE:20291015
+RDATE;VALUE=DATE:20301005
+RDATE;VALUE=DATE:20311024
+RDATE;VALUE=DATE:20321012
+RDATE;VALUE=DATE:20331001
+RDATE;VALUE=DATE:20341020
+RDATE;VALUE=DATE:20351009
+X-MSS-DATE-SOURCE:https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?geoname-id=1253914
+X-MSS-HINDU-LOCATION:Ujjain India (Asia/Kolkata)
+X-MSS-HINDU-POLICY:Drik Panchang location-based Hindu festival dates for Ujjain India
+DTEND;VALUE=DATE:20261019
+SUMMARY:Navaratri Day 8 — Mahagauri
+DESCRIPTION:Honor Mahagauri, the luminous form of purification, serenity, compassion, and renewal after hardship.\n\nIcon: 🪷\nCategory: cultural
+CATEGORIES:cultural
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-siddhidatri@maybesomethingseasonal.com
+DTSTAMP:20260829T130000Z
+DTSTART;VALUE=DATE:20261019
+RDATE;VALUE=DATE:20271008
+RDATE;VALUE=DATE:20280927
+RDATE;VALUE=DATE:20291016
+RDATE;VALUE=DATE:20301006
+RDATE;VALUE=DATE:20311025
+RDATE;VALUE=DATE:20321013
+RDATE;VALUE=DATE:20331002
+RDATE;VALUE=DATE:20341021
+RDATE;VALUE=DATE:20351010
+X-MSS-DATE-SOURCE:https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?geoname-id=1253914
+X-MSS-HINDU-LOCATION:Ujjain India (Asia/Kolkata)
+X-MSS-HINDU-POLICY:Drik Panchang location-based Hindu festival dates for Ujjain India
+DTEND;VALUE=DATE:20261020
+SUMMARY:Navaratri Day 9 — Siddhidatri
+DESCRIPTION:Honor Siddhidatri, bestower of insight and accomplishment, bringing the nine-night journey toward wholeness, wisdom, and fulfillment.\n\nIcon: ✨\nCategory: cultural
+CATEGORIES:cultural
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dussehra-vijayadashami@maybesomethingseasonal.com
+DTSTAMP:20260829T130000Z
+DTSTART;VALUE=DATE:20261020
+RDATE;VALUE=DATE:20271009
+RDATE;VALUE=DATE:20280927
+RDATE;VALUE=DATE:20291016
+RDATE;VALUE=DATE:20301006
+RDATE;VALUE=DATE:20311025
+RDATE;VALUE=DATE:20321014
+RDATE;VALUE=DATE:20331003
+RDATE;VALUE=DATE:20341022
+RDATE;VALUE=DATE:20351011
+X-MSS-DATE-SOURCE:https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?geoname-id=1253914
+X-MSS-HINDU-LOCATION:Ujjain India (Asia/Kolkata)
+X-MSS-HINDU-POLICY:Drik Panchang location-based Hindu festival dates for Ujjain India
+DTEND;VALUE=DATE:20261021
+SUMMARY:Dussehra / Vijayadashami
+DESCRIPTION:Celebrate the victorious tenth day after Navaratri: Rama’s defeat of Ravana and Durga’s victory over Mahishasura, expressing the triumph of courage, justice, and good over destructive forces.\n\nIcon: 🏹\nCategory: cultural
+CATEGORIES:cultural
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:st-francis-transitus-800@maybesomethingseasonal.com
+DTSTAMP:20260829T130000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:800th Anniversary Transitus of St. Francis
+DESCRIPTION:Remember the passage of St. Francis of Assisi from earthly life on the 800th anniversary of his death. The Transitus opens the observance on the eve of his feast.\nhttps://www.stfranciscs.org/news-articles/608-join-us-october-3rd-for-the-800th-anniversary-of-st-francis-of-assisi\n\nIcon: 🕊️\nCategory: cultural
+URL:https://www.stfranciscs.org/news-articles/608-join-us-october-3rd-for-the-800th-anniversary-of-st-francis-of-assisi
+CATEGORIES:cultural
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:feast-of-st-francis@maybesomethingseasonal.com
+DTSTAMP:20260829T130000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=4
+SUMMARY:Feast of St. Francis of Assisi
+DESCRIPTION:Celebrate St. Francis through simplicity, care for people in need, peace, kinship with creation, and the traditional blessing of animals.\nhttps://www.stfranciscs.org/news-articles/608-join-us-october-3rd-for-the-800th-anniversary-of-st-francis-of-assisi\n\nIcon: 🐦\nCategory: cultural
+URL:https://www.stfranciscs.org/news-articles/608-join-us-october-3rd-for-the-800th-anniversary-of-st-francis-of-assisi
+CATEGORIES:cultural
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:palmer-lake-yule-log@maybesomethingseasonal.com
+DTSTAMP:20260829T120000Z
+DTSTART:20251214T200000Z
+DTEND:20251215T033000Z
+RRULE:FREQ=YEARLY;BYMONTH=12;BYDAY=SU;BYMONTHDAY=11,12,13,14,15,16,17
+SUMMARY:Palmer Lake Yule Log Hunt
+DESCRIPTION:Palmer Lake’s annual Yule Log Hunt, held on the second Sunday before Christmas (the Third Sunday of Advent). Begins at Palmer Lake Town Hall.\nhttps://palmerdividehistory.org/\n\nIcon: 🪵\nCategory: seasonal
+URL:https://palmerdividehistory.org/
+LOCATION:Palmer Lake Town Hall\, 28 Valley Crescent St.\, Palmer Lake\, CO
+CATEGORIES:seasonal
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

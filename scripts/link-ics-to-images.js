@@ -3,7 +3,7 @@ const path = require('path');
 
 const ICS_PATH = path.join(__dirname, '..', 'public', 'MSS.ics');
 const IMAGES_DIR = path.join(__dirname, '..', 'public', 'images');
-const BASE_PATH = 'https://dcmcshan.github.io/MaybeSomethingSeasonal';
+const BASE_PATH = 'https://castaliainstitute.github.io/MaybeSomethingSeasonal';
 
   // Mapping from holiday descriptions (first line of DESCRIPTION) to image filenames
 // Based on the final-image-holiday-mapping.json and existing image names
