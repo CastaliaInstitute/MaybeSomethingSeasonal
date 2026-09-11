@@ -151,7 +151,7 @@ function formatWeekdayLabel(value = '') {
  * Event metadata keyed by `${DTSTART}|${slug}`
  */
 const EVENT_DETAILS = {
-  '20250101T070000Z|celebration-of-the-new-year-and-fresh-beginnings': {
+  '20250101T070000Z|new-years-day-champagne-and-confetti': {
     title: "New Year's Day",
     history: `The Roman calendar fixed the turn of the civil year to January 1 under Julius Caesar, and the Gregorian reform of 1582 reaffirmed the date for much of the world.`,
     traditions: `Communities ring bells, count down in packed squares, exchange resolutions, and watch fireworks or televised celebrations to welcome a clean slate.`,
@@ -271,7 +271,7 @@ const EVENT_DETAILS = {
     traditions: `People decorate altars with gourds and leaves, practice gratitude journaling, and take twilight walks to feel the seasonal balance.`,
     feasting: `Harvest tables brim with roasted squash, apple tarts, caramelised root vegetables, mulled cider, and hearty grain salads.`,
   },
-  '20251031T060000Z|all-hallows-eve-celebration-of-saints-and-departed-souls': {
+  '20251031T060000Z|halloween-jack-o-lantern-and-black-cat': {
     title: "All Hallows' Eve (Halloween)",
     history: `Halloween evolved from Celtic Samhain festivals and medieval vigils before All Saints' Day, blending remembrance with merrymaking.`,
     traditions: `Costumed revelers carve jack-o'-lanterns, tell ghost stories, visit haunted houses, and children collect sweets door to door.`,

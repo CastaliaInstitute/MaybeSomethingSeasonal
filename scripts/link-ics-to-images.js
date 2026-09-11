@@ -9,8 +9,8 @@ const BASE_PATH = 'https://mss.castalia.institute';
 // Based on the final-image-holiday-mapping.json and existing image names
 const HOLIDAY_TO_IMAGE = {
   // New Year
-  'Celebration of the new year and fresh beginnings': 'celebration-of-the-new-year-and-fresh-beginnings.jpg',
-  'New Years Day': 'celebration-of-the-new-year-and-fresh-beginnings.jpg',
+  'Celebration of the new year and fresh beginnings': 'new-years-day-champagne-and-confetti.jpg',
+  'New Years Day': 'new-years-day-champagne-and-confetti.jpg',
   
   // January
   'Austrian and Bavarian tradition, Perchta Day': 'austrian-and-bavarian-tradition-perchta-day.jpg',
@@ -49,7 +49,7 @@ const HOLIDAY_TO_IMAGE = {
   'Fall begins - time for harvest and reflection': 'fall-begins-time-for-harvest-and-reflection.jpg',
   
   // October/November
-  'All Hallows\' Eve, celebration of saints and departed souls': 'all-hallows-eve-celebration-of-saints-and-departed-souls.jpg',
+  'All Hallows\' Eve, celebration of saints and departed souls': 'halloween-jack-o-lantern-and-black-cat.jpg',
   'Día de los Angelitos - honoring deceased children': 'dia-de-los-angelitos-honoring-deceased-children.jpg',
   'Día de los Muertos - celebration of deceased loved ones': 'dia-de-los-muertos-celebration-of-deceased-loved-ones.jpg',
   'el Día de Muertos': 'dia-de-los-muertos-celebration-of-deceased-loved-ones.jpg',
