@@ -2924,9 +2924,23 @@ const App: React.FC = () => {
     (isKioskMode ? new Date(2025, 11, 1) : new Date());
   const [currentDate, setCurrentDate] = useState(initialDate);
   const [events, setEvents] = useState<CalendarEvent[]>([]);
-  const [selectedEvent, setSelectedEvent] = useState<CalendarEvent | null>(
-    null,
-  );
+  const [selectedEvents, setSelectedEvents] = useState<CalendarEvent[]>([]);
+  // On phones the per-event tap targets are tiny icons sharing one cell, so a
+  // tap opens every event on that day; on larger screens a label is its own
+  // target and opens just that event.
+  const openEventCards = (event: CalendarEvent, dayEvents: CalendarEvent[]) => {
+    const isNarrow =
+      typeof window !== "undefined" &&
+      window.matchMedia("(max-width: 640px)").matches;
+    if (isNarrow && dayEvents.length > 1) {
+      setSelectedEvents([
+        event,
+        ...dayEvents.filter((other) => other !== event),
+      ]);
+    } else {
+      setSelectedEvents([event]);
+    }
+  };
   const [isLoading, setIsLoading] = useState(true);
   const [activeTab, setActiveTab] = useState<"calendar" | "events">("calendar");
 
@@ -3121,6 +3135,21 @@ const App: React.FC = () => {
             const normalizedDescription = fullDescription
               .replace(/\\+n/g, "\n")
               .replace(/\\+$/gm, "");
+
+            // The description shown in the event card is the unfolded text
+            // up to the metadata block (Icon/Category/Image lines), with the
+            // ICS escapes removed and the stale per-year "Day:" line dropped.
+            const [descriptionBody] = normalizedDescription.split(
+              /\n(?=(?:Icon|Category|Image):)/,
+            );
+            currentEvent.description = descriptionBody
+              .replace(/\\,/g, ",")
+              .replace(/\\;/g, ";")
+              .replace(/\\\\/g, "\\")
+              .split("\n")
+              .map((part) => part.trim())
+              .filter((part) => part && !/^Day:\s/.test(part))
+              .join("\n");
 
             // Image is normally stored in X-IMAGE, but description metadata is
             // retained for compatibility with the older calendar entries.
@@ -3436,54 +3465,77 @@ const App: React.FC = () => {
   };
 
   useEffect(() => {
-    if (!selectedEvent) return;
+    if (selectedEvents.length === 0) return;
     const closeOnEscape = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setSelectedEvent(null);
+      if (event.key === "Escape") setSelectedEvents([]);
     };
     window.addEventListener("keydown", closeOnEscape);
     return () => window.removeEventListener("keydown", closeOnEscape);
-  }, [selectedEvent]);
+  }, [selectedEvents]);
 
-  const eventDialog = selectedEvent ? (
-    <div
-      className="event-dialog-backdrop fixed inset-0 z-[100] flex items-center justify-center bg-black bg-opacity-50 p-4"
-      role="presentation"
-      onClick={() => setSelectedEvent(null)}
-    >
-      <section
-        className="event-dialog w-full max-w-sm rounded-2xl bg-white p-5 text-gray-900 shadow-2xl"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="event-dialog-title"
-        onClick={(event) => event.stopPropagation()}
+  const eventDialog =
+    selectedEvents.length > 0 ? (
+      <div
+        className="event-dialog-backdrop fixed inset-0 z-[100] flex items-center justify-center bg-black bg-opacity-50 p-4"
+        role="presentation"
+        onClick={() => setSelectedEvents([])}
       >
-        <div className="flex items-start gap-3">
-          <span className="text-4xl leading-none" aria-hidden="true">
-            {selectedEvent.icon}
-          </span>
-          <div className="min-w-0 flex-1">
-            <h2 id="event-dialog-title" className="text-xl font-semibold">
-              {selectedEvent.title}
-            </h2>
-            <p className="mt-1 text-sm text-gray-500">
-              {format(toLocalDate(selectedEvent.date), "MMMM d, yyyy")}
-            </p>
-          </div>
-          <button
-            type="button"
-            className="rounded-full px-2 py-1 text-xl leading-none text-gray-500 hover:bg-gray-100"
-            aria-label="Close event details"
-            onClick={() => setSelectedEvent(null)}
-          >
-            ×
-          </button>
+        <div
+          className="event-dialog-stack flex w-full max-w-sm max-h-[85vh] flex-col gap-3 overflow-y-auto"
+          onClick={(event) => event.stopPropagation()}
+        >
+          {selectedEvents.map((selectedEvent, index) => (
+            <section
+              key={`${selectedEvent.title}-${selectedEvent.date}`}
+              className="event-dialog w-full rounded-2xl bg-white p-5 text-gray-900 shadow-2xl"
+              role="dialog"
+              aria-modal="true"
+              aria-labelledby={`event-dialog-title-${index}`}
+            >
+              <div className="flex items-start gap-3">
+                <span className="text-4xl leading-none" aria-hidden="true">
+                  {selectedEvent.icon}
+                </span>
+                <div className="min-w-0 flex-1">
+                  <h2
+                    id={`event-dialog-title-${index}`}
+                    className="text-xl font-semibold"
+                  >
+                    {selectedEvent.title}
+                  </h2>
+                  <p className="mt-1 text-sm text-gray-500">
+                    {format(toLocalDate(selectedEvent.date), "MMMM d, yyyy")}
+                  </p>
+                </div>
+                {index === 0 && (
+                  <button
+                    type="button"
+                    className="rounded-full px-2 py-1 text-xl leading-none text-gray-500 hover:bg-gray-100"
+                    aria-label="Close event details"
+                    onClick={() => setSelectedEvents([])}
+                  >
+                    ×
+                  </button>
+                )}
+              </div>
+              {selectedEvent.image && (
+                <img
+                  src={selectedEvent.image}
+                  alt=""
+                  className="mt-3 h-24 w-24 rounded-lg object-cover"
+                  onError={(e) => {
+                    e.currentTarget.style.display = "none";
+                  }}
+                />
+              )}
+              <p className="mt-4 whitespace-pre-line text-sm leading-relaxed text-gray-700">
+                {selectedEvent.description}
+              </p>
+            </section>
+          ))}
         </div>
-        <p className="mt-4 text-sm leading-relaxed text-gray-700">
-          {selectedEvent.description}
-        </p>
-      </section>
-    </div>
-  ) : null;
+      </div>
+    ) : null;
 
   if (isLoading) {
     return (
@@ -3664,7 +3716,12 @@ const App: React.FC = () => {
                           type="button"
                           key={index}
                           className={`calendar-event-label ${labelClasses}`}
-                          onClick={() => setSelectedEvent(event)}
+                          onClick={() =>
+                            openEventCards(
+                              event,
+                              displayEvents.map((entry) => entry.event),
+                            )
+                          }
                           onMouseEnter={(e) => {
                             const metadataHtml = (() => {
                               const meta = event.calendarMeta;
@@ -3997,7 +4054,12 @@ const App: React.FC = () => {
                                   type="button"
                                   key={index}
                                   className={`calendar-event-label ${labelClasses}`}
-                                  onClick={() => setSelectedEvent(event)}
+                                  onClick={() =>
+                                    openEventCards(
+                                      event,
+                                      displayEvents.map((entry) => entry.event),
+                                    )
+                                  }
                                   onMouseEnter={(e) => {
                                     const metadataHtml = (() => {
                                       const meta = event.calendarMeta;

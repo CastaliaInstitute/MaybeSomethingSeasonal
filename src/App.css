@@ -241,6 +241,43 @@
     line-height: 1;
   }
 
+  /* Days with several events: shrink the icons and lay them out on a 2×2
+     grid so they all fit inside the square cell instead of piling up. */
+  .calendar-event-list:has(> .calendar-event-label:nth-child(2)) {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    place-items: center;
+    gap: 0 !important;
+    padding: 0.3rem 0.15rem 0.15rem;
+  }
+
+  .calendar-event-list:has(> .calendar-event-label:nth-child(2))
+    .mobile-event-icon {
+    font-size: clamp(0.65rem, 3.4vw, 1rem);
+  }
+
+  /* Exactly two events sit on a diagonal (top-left / bottom-right). */
+  .calendar-event-list:has(> .calendar-event-label:nth-child(2)):not(
+      :has(> .calendar-event-label:nth-child(3))
+    )
+    > .calendar-event-label:nth-child(1) {
+    grid-area: 1 / 1;
+    align-self: start;
+    justify-self: start;
+    padding-left: 0.1rem !important;
+  }
+
+  .calendar-event-list:has(> .calendar-event-label:nth-child(2)):not(
+      :has(> .calendar-event-label:nth-child(3))
+    )
+    > .calendar-event-label:nth-child(2) {
+    grid-area: 2 / 2;
+    align-self: end;
+    justify-self: end;
+    padding-right: 0.1rem !important;
+  }
+
   .diagonal-event-wrapper {
     min-height: 64px;
   }
