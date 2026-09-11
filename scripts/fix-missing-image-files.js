@@ -3,7 +3,7 @@ const path = require('path');
 
 const ICS_PATH = path.join(__dirname, '..', 'public', 'MSS.ics');
 const IMAGES_DIR = path.join(__dirname, '..', 'public', 'images');
-const BASE_PATH = 'https://castaliainstitute.github.io/MaybeSomethingSeasonal';
+const BASE_PATH = 'https://mss.castalia.institute';
 
 // Mapping of missing image filenames to existing generic images
 // These are the images that were generated but don't exist as files

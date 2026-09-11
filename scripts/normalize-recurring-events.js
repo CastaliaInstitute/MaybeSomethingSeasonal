@@ -182,6 +182,7 @@ const MOVABLE_NAME = /\b(lunar|losar|ramadan|eid|passover|pesach|rosh hash|yom k
 const ONE_OFF_NAME = new Set([
   '800th Anniversary Transitus of St. Francis',
   'Broadmoor Brunch',
+  'Madrigal Dinner at Glen Eyrie',
 ]);
 
 function correctedBlock(block, summary) {

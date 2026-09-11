@@ -6,7 +6,9 @@
     <title>Opening Maybe Something Seasonal…</title>
     <script>
       (function () {
-        var base = "/MaybeSomethingSeasonal/";
+        var base = /^\/MaybeSomethingSeasonal(\/|$)/.test(location.pathname)
+          ? "/MaybeSomethingSeasonal/"
+          : "/";
         var route = location.pathname;
         var target =
           base +

@@ -3,7 +3,7 @@ const path = require('path');
 
 const ICS_PATH = path.join(__dirname, '..', 'public', 'MSS.ics');
 const IMAGES_DIR = path.join(__dirname, '..', 'public', 'images');
-const BASE_PATH = 'https://castaliainstitute.github.io/MaybeSomethingSeasonal'; // Base path for GitHub Pages
+const BASE_PATH = 'https://mss.castalia.institute'; // Base path for GitHub Pages
 
 // Read ICS file
 function updateImageLinks() {

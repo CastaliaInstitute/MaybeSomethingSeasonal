@@ -11,7 +11,9 @@ export default defineConfig({
       renderLegacyChunks: true,
     })
   ],
-  base: '/MaybeSomethingSeasonal/',
+  // Served from the root of the custom domain (public/CNAME); GitHub redirects
+  // the old castaliainstitute.github.io/MaybeSomethingSeasonal/ URL there.
+  base: '/',
   build: {
     outDir: 'dist',
     target: 'es5',

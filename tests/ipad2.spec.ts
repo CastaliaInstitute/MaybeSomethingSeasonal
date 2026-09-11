@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-const BASE_PATH = '/MaybeSomethingSeasonal/';
+const BASE_PATH = '/';
 
 test.describe('iPad2 Compatibility Tests', () => {
   test('should load the main page on iPad2', async ({ page }) => {

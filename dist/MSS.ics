@@ -1851,6 +1851,21 @@ TRANSP:TRANSPARENT
 X-IMAGE:/images/broadmoor.jpg
 END:VEVENT
 BEGIN:VEVENT
+UID:madrigal-dinner-at-glen-eyrie@maybesomethingseasonal.com
+DTSTAMP:20260911T180000Z
+DTSTART;TZID=America/Denver:20261210T180000
+DTEND;TZID=America/Denver:20261210T210000
+SUMMARY:Madrigal Dinner at Glen Eyrie
+DESCRIPTION:Glen Eyrie Madrigal Banquet in the Castle Great Hall\, with wassail\, a
+  boar's head procession\, and Renaissance carols.\nhttps://gleneyrie.org/ou
+ r-event/madrigal/\n\nTime: 6:00pm\n\nIcon: 🎼\nCategory: cultural
+URL:https://gleneyrie.org/our-event/madrigal/
+LOCATION:Glen Eyrie Castle\, 3820 N 30th St\, Colorado Springs\, CO
+CATEGORIES:cultural
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:burn-night@maybesomethingseasonal.com
 DTSTAMP:20260829T102300Z
 DTSTART;VALUE=DATE:20260905

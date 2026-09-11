@@ -4,10 +4,10 @@ const fetch = global.fetch;
 const PREVIEW_PORT = process.env.PREVIEW_PORT || 4174;
 const PREVIEW_HOST = '127.0.0.1';
 const BASE_URL = `http://${PREVIEW_HOST}:${PREVIEW_PORT}`;
-const SITE_PATH = '/MaybeSomethingSeasonal/';
+const SITE_PATH = '/';
 const ICS_PATH = `${SITE_PATH}MSS.ics`;
 const MONTH_PATH = `${SITE_PATH}2026/12`;
-const DEPLOY_BASE = 'https://castaliainstitute.github.io/MaybeSomethingSeasonal';
+const DEPLOY_BASE = 'https://mss.castalia.institute';
 
 async function waitForServer(maxAttempts = 20, delayMs = 500) {
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
