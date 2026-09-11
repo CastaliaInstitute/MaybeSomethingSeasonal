@@ -736,7 +736,7 @@ Category: cultural
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-X-IMAGE:/images/tiki-christmas-at-pearl-harbor.svg
+X-IMAGE:/images/tiki-christmas-at-pearl-harbor.png
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20251104T055848Z
