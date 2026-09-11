@@ -140,8 +140,8 @@ if (prop(thanksgiving, 'RRULE') !== 'FREQ=YEARLY;BYMONTH=11;BYDAY=4TH') {
   throw new Error('Thanksgiving must recur on the fourth Thursday in November');
 }
 const sinterklaas = requireBlock('Sinterklaas Arrival (Intocht)');
-if (prop(sinterklaas, 'RRULE') !== 'FREQ=YEARLY;BYMONTH=11;BYDAY=SU;BYMONTHDAY=12,13,14,15,16,17,18') {
-  throw new Error('Sinterklaas Arrival must recur on the Sunday after St. Martin’s Day');
+if (prop(sinterklaas, 'RRULE') !== 'FREQ=YEARLY;BYMONTH=11;BYDAY=SA;BYMONTHDAY=12,13,14,15,16,17,18') {
+  throw new Error('Sinterklaas Arrival must recur on the first Saturday after St. Martin’s Day');
 }
 
 // Deterministic movable Christian dates are generated as RDATEs through 2100.

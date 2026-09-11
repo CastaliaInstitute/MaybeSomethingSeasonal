@@ -166,7 +166,7 @@ const GENERATED_DATE_RULES = new Map([
 
 const RULE_BASED_RRULES = new Map([
   ['Thanksgiving Day (United States)', 'FREQ=YEARLY;BYMONTH=11;BYDAY=4TH'],
-  ['Sinterklaas Arrival (Intocht)', 'FREQ=YEARLY;BYMONTH=11;BYDAY=SU;BYMONTHDAY=12,13,14,15,16,17,18'],
+  ['Sinterklaas Arrival (Intocht)', 'FREQ=YEARLY;BYMONTH=11;BYDAY=SA;BYMONTHDAY=12,13,14,15,16,17,18'],
 ]);
 
 // Correct known source-data defects in the deployed feed before recurrence is

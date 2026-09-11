@@ -224,6 +224,28 @@ TRANSP:TRANSPARENT
 X-IMAGE:/images/scottish-celebration-of-the-poet-robert-burns-with-poetry-haggis-and-whisky.png
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20260911T170000Z
+DTSTART:20260127T070000Z
+DTEND:20260128T070000Z
+SUMMARY:Feast of St. Muirgen (Lí Ban the Mermaid)
+DESCRIPTION:History: Lí Ban\, daughter of Eochaid\, survived the bursting 
+ of Lough Neagh in a chamber beneath the waves and\, after a year\, was tra
+ nsformed into a mermaid\, half woman and half salmon\, with her lapdog as 
+ an otter. She swam the seas for three centuries until fishermen of St. Com
+ gall of Bangor netted her at Larne Lough\; baptised Muirgen ("sea-born")\,
+  she chose heaven at once and is venerated on 27 January.\nTraditions: Rea
+ d her tale from the Annals of the Four Masters\, walk the shores of Lough 
+ Neagh or Larne Lough\, and light a candle for sailors and all who live by 
+ the sea.\nFeasting: A coastal table of poached Irish salmon\, dulse and ca
+ rrageen pudding\, Bangor oysters\, brown soda bread with salted butter\, a
+ nd a pot of tea or a measure of Bushmills.\nDay: Tuesday\n\nIcon: 🧜‍
+ ♀️\nCategory: religious
+CATEGORIES:religious
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+X-IMAGE:/images/st-muirgen-mermaid.svg
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP:20251104T055848Z
 DTSTART:20260129T070000Z
 DTEND:20260130T070000Z
@@ -751,17 +773,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20251104T055848Z
-DTSTART:20251116T070000Z
-DTEND:20251117T070000Z
+DTSTART:20251115T070000Z
+DTEND:20251116T070000Z
 SUMMARY:Sinterklaas Arrival (Intocht)
 DESCRIPTION:History: Dutch newspapers popularised Sinterklaas arriving by s
  teamboat in the nineteenth century\, blending Saint Nicholas lore with mar
- itime identity.\nTraditions: On the Sunday after Saint Martin's Day Sinter
- klaas docks with his Pieten helpers\, parades through town distributing pe
+ itime identity.\nTraditions: On the first Saturday after Saint Martin's Day
+  Sinterklaas docks with his Pieten helpers\, parades through town distributing pe
  pernoten\, and listens to children's wish lists before 5 December gifts.\n
  Feasting: Crowds crunch spiced pepernoten\, speculaas windmill cookies\, c
  hocolate letters\,and marzipan while sipping hot cocoa along the canals.\n
- Day: Sunday\n\nIcon: 🚢\nCategory: cultural
+ Day: Saturday\n\nIcon: 🚢\nCategory: cultural
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

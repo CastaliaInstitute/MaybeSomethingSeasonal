@@ -54,7 +54,7 @@ expected = {
     ("Navaratri Day 9 — Siddhidatri", date(2035, 10, 10)),
     ("Dussehra / Vijayadashami", date(2035, 10, 11)),
     ("Thanksgiving Day (United States)", date(2035, 11, 22)),
-    ("Sinterklaas Arrival (Intocht)", date(2035, 11, 18)),
+    ("Sinterklaas Arrival (Intocht)", date(2035, 11, 17)),
     ("Palm Sunday", date(2035, 3, 18)),
     ("Maundy Thursday", date(2035, 3, 22)),
     ("Good Friday", date(2035, 3, 23)),
