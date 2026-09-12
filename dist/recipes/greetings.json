@@ -1088,5 +1088,113 @@
         "text": "Around tables laden with warmth and bounty, we find a moment to pause and appreciate life's generous offerings. Beyond the flavors and fragrances, there is a deeper nourishment in the act of sharing a meal, a symbol of provision and comfort. Let gratitude fill your heart for the abundance in your life, both tangible and intangible, and for the simple pleasure of breaking bread with those you cherish."
       }
     ]
+  },
+  "Saturnalia": {
+    "greeting": "Welcome to Saturnalia! May this day bring you joy, a spirit of playful celebration, and bountiful feasting.",
+    "traditionalGreeting": "Io Saturnalia! — Hail Saturn!",
+    "meditations": [
+      {
+        "title": "Embrace the Spirit of Reversal",
+        "text": "Saturnalia invites us to gently turn the world upside down for a day. Consider the freedom in shedding our everyday roles and expectations, allowing for playfulness and unexpected perspectives. How does stepping into a different view, even briefly, illuminate our understanding of others and ourselves? There is a unique joy in this temporary liberty, fostering empathy and a lighthearted spirit that reminds us of the fluidity of life."
+      },
+      {
+        "title": "The Joy of Shared Abundance",
+        "text": "This season encourages us to share generously, not only material gifts but also laughter, company, and good cheer. Reflect on the warmth that spreads when we give freely, without expectation, and the simple pleasure of connection over a shared meal. Saturnalia reminds us of the abundance in our lives and the profound joy found in extending it to others, strengthening bonds and creating lasting, cherished memories."
+      },
+      {
+        "title": "Gathering at the Festive Table",
+        "text": "Imagine the vibrant banquets, the aroma of roast pork and sweet wine, the clinking of cups, and the shared laughter that fills the air. Saturnalia reminds us of the fundamental human need for community and shared joy. Let us appreciate the simple act of gathering, breaking bread together, and finding common ground in celebration. May the spirit of camaraderie and good will fill our spaces today, connecting us in festive harmony and warmth."
+      }
+    ]
+  },
+  "Feast of the Holy Innocents (Childermas Banquet)": {
+    "greeting": "Welcome to this special day, where we celebrate the innocence and joy of the youngest among us, embracing warmth and wonder.",
+    "traditionalGreeting": "",
+    "meditations": [
+      {
+        "title": "Cherish the Youngest Heart",
+        "text": "This day invites us to reflect on the pure spirit of childhood. In a world often complex, let us find a moment to appreciate the simple joys and unfiltered wonder that young eyes bring. May we nurture that spark within ourselves and in those around us, creating a space of comfort and gentle understanding. Let the lightness of this day remind us to approach life with an open heart, just as a child discovers the world anew with each passing moment."
+      },
+      {
+        "title": "A Table of Gentle Delights",
+        "text": "As we gather, observe the thoughtful details that transform our space into a haven of warmth. White candles flicker, holly berries gleam, and silver bells chime softly, all set to honor the smallest among us. This tradition of whimsical care reminds us that true hospitality lies in anticipating needs and creating an atmosphere where everyone, especially the most tender, feels cherished and seen. May this beauty inspire moments of shared joy."
+      },
+      {
+        "title": "Savoring Each Tiny Moment",
+        "text": "Today, our feast is a tapestry of small wonders, from \"baby\" dishes to delightful sips. Each carefully prepared morsel, each gentle serving, is a testament to the joy of connection and shared experience. Let us slow down, truly taste the flavors, and appreciate the company. It's in these miniature moments, these gestures of affection and abundance, that we find the deepest resonance, creating memories that nourish the spirit long after the meal is complete."
+      }
+    ]
+  },
+  "St. Stephen's Day (Boxing Day)": {
+    "greeting": "Happy St. Stephen's Day! We hope your day is filled with warmth, generosity, and good company.",
+    "traditionalGreeting": "",
+    "meditations": [
+      {
+        "title": "The Spirit of Generosity",
+        "text": "Today, our thoughts turn to the quiet grace of giving. Historically, this day became a time for extending kindness to those who serve and those in need, echoing the spirit of compassion. Whether through a simple gesture or a larger act, the warmth of generosity enriches not only the recipient but also the giver. It is a gentle reminder that the festive spirit is best sustained when shared, creating ripples of goodwill that extend far beyond our own homes."
+      },
+      {
+        "title": "Gathering with Loved Ones",
+        "text": "As the festive season continues, today invites us to deepen our bonds with those we cherish. The tradition of visiting friends offers a precious opportunity for shared laughter, heartfelt conversations, and quiet companionship. It is a moment to simply be present with one another, appreciating the comfort of familiar faces and the stories that connect us. These simple gatherings weave a tapestry of warmth and belonging, enriching the fabric of our lives with shared joy."
+      },
+      {
+        "title": "Sustaining the Season's Warmth",
+        "text": "There is a unique comfort in the rhythm of this day, a gentle transition from the main celebrations. The transformation of festive leftovers into hearty new meals speaks to a beautiful continuity, a mindful appreciation of abundance. Paired with comforting foods and warm drinks, it’s a time to savor the lingering glow of the holidays. This quiet continuation allows us to carry the warmth and goodwill of the season forward, nurturing a sense of peace."
+      }
+    ]
+  },
+  "La Noche de Rabanos": {
+    "greeting": "Welcome to La Noche de Rabanos! May this magical evening inspire joy and wonder as we celebrate the artistry and spirit of Oaxaca.",
+    "traditionalGreeting": "",
+    "meditations": [
+      {
+        "title": "The Humble Root's Transformation",
+        "text": "Consider the radish, a simple root from the earth, transformed by human hands into intricate sculptures. What began as a clever way to attract shoppers has blossomed into a cherished art form. This evening invites us to see the extraordinary in the ordinary, to appreciate the potential for beauty and wonder hidden within the most unassuming things. It reminds us that creativity can elevate the everyday into something truly magical and memorable."
+      },
+      {
+        "title": "A Community's Creative Heart",
+        "text": "Feel the vibrant energy of the zocalo, alive with music, laughter, and the shared awe of intricate radish carvings. This festival is a testament to collective spirit, where artisans pour their hearts into ephemeral masterpieces and the community gathers to celebrate. It’s a moment to connect with the pulse of tradition, to witness the joy of creation, and to be part of a living cultural tapestry woven by human hands and shared appreciation."
+      },
+      {
+        "title": "Savoring the Earth's Bounty",
+        "text": "As the night unfolds, consider the rich flavors that define this Oaxacan winter celebration. From the bright zest of radish salads to the comforting warmth of champurrado, each dish tells a story of the land and its people. It's a gentle reminder to savor the gifts of the earth, to appreciate the craftsmanship in every meal, and to find nourishment not just in food, but in the shared experience of taste and tradition."
+      }
+    ]
+  },
+  "Broadmoor Brunch": {
+    "greeting": "Good morning! We hope you're ready for a delightful start to your day, filled with good company and exquisite flavors.",
+    "traditionalGreeting": "",
+    "meditations": [
+      {
+        "title": "Savoring the Morning's Delights",
+        "text": "As the morning unfolds, take a moment to truly engage your senses. Notice the delicate aromas wafting from the kitchen, the vibrant colors on your plate, and the gentle hum of conversation around you. Let each sip and every bite be a moment of mindful appreciation. This time is yours to enjoy, to fully immerse yourself in the simple yet profound pleasure of a shared meal in beautiful surroundings. Allow yourself to be present in this delightful experience."
+      },
+      {
+        "title": "Gathering in Warmth",
+        "text": "Today, we gather not just for a meal, but for connection. Look around at the faces of those beside you, whether they are cherished friends, beloved family, or new acquaintances. This shared table is a space for warmth, laughter, and conversation. May the stories exchanged and the moments shared enrich your spirit and deepen your bonds. Embrace the joy of togetherness, celebrating the simple act of breaking bread and building memories in this special place."
+      },
+      {
+        "title": "A Moment of Grace",
+        "text": "In the gentle rhythm of this morning, grant yourself the gift of ease. Let go of any hurried thoughts and simply be. The elegant surroundings, the thoughtful preparation of each dish, and the serene atmosphere are all here for your enjoyment. This is a time to unwind, to feel nurtured, and to appreciate the beauty in the small details. Allow this moment to be a peaceful interlude, a graceful pause in the day's journey, leaving you refreshed and content."
+      }
+    ]
+  },
+  "Madrigal Dinner at Glen Eyrie": {
+    "greeting": "Welcome to this enchanting evening, where history and festivity intertwine. May the spirit of merriment and camaraderie fill your heart as we embark on this special journey together.",
+    "traditionalGreeting": "",
+    "meditations": [
+      {
+        "title": "Echoes in the Great Hall",
+        "text": "As you step into this historic space, allow yourself to be transported. Imagine the centuries of laughter, music, and shared meals that have filled these walls. Tonight, we add our own chapter to that rich tapestry. Feel the warmth of the hearth, the grandeur of the setting, and the quiet anticipation of the festivities to come. It is a moment to pause, to breathe, and to appreciate the unique atmosphere that surrounds us, connecting us to traditions long past and memories yet to be made."
+      },
+      {
+        "title": "The Joy of Renaissance Song",
+        "text": "The air soon will be filled with melodies from a bygone era. These carols, sung with heart and harmony, carry stories and sentiments across generations. Let the music wash over you, stirring feelings of joy, peace, and community. It is a reminder of how art and song have always brought people together, transcending time and circumstance. Open your heart to the beauty of these ancient tunes, allowing their spirit to resonate within you and uplift your evening."
+      },
+      {
+        "title": "A Table of Shared Delights",
+        "text": "Gathered around this festive table, we partake in more than just a meal; we share in a tradition of abundance and fellowship. From the symbolic procession of the boar's head to the warming draught of wassail, each element speaks of hospitality and shared joy. This is a time to connect with those beside you, to savor the flavors, and to appreciate the simple pleasure of breaking bread together. May this communal feast nourish your spirit as much as it delights your senses."
+      }
+    ]
   }
 }
