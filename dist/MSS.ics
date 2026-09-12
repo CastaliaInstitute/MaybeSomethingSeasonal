@@ -825,6 +825,67 @@ TRANSP:TRANSPARENT
 X-IMAGE:/images/fall-begins-time-for-harvest-and-reflection.png
 END:VEVENT
 BEGIN:VEVENT
+UID:rosh-hashanah-jewish-new-year@maybesomethingseasonal.com
+DTSTAMP:20260912T120000Z
+DTSTART;VALUE=DATE:20250923
+RDATE;VALUE=DATE:20260912
+RDATE;VALUE=DATE:20271002
+RDATE;VALUE=DATE:20280921
+RDATE;VALUE=DATE:20290910
+RDATE;VALUE=DATE:20300928
+RDATE;VALUE=DATE:20310918
+RDATE;VALUE=DATE:20320906
+RDATE;VALUE=DATE:20330924
+RDATE;VALUE=DATE:20340914
+RDATE;VALUE=DATE:20351004
+X-MSS-DATE-SOURCE:https://www.hebcal.com/holidays/
+DTEND;VALUE=DATE:20250925
+SUMMARY:Rosh Hashanah (Jewish New Year)
+DESCRIPTION:History: Rosh Hashanah\, the head of the Hebrew year on 1–2 T
+ ishrei\, opens the Ten Days of Awe that end with Yom Kippur\; tradition ho
+ lds it as the anniversary of creation and the day of judgement.\nTradition
+ s: The shofar is sounded in synagogue\, greetings of shanah tovah are exch
+ anged\, and at Tashlich bread crumbs are cast into flowing water to symbol
+ ically shed the past year's wrongs.\nFeasting: Apples dipped in honey for 
+ a sweet year\, round challah\, pomegranates for a year full of merit\, hon
+ ey cake\, and a new fruit of the season on the second night.\n\nIcon: 🍎
+ \nCategory: religious
+CATEGORIES:religious
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+X-IMAGE:/images/rosh-hashanah-shofar-apples-and-honey.png
+END:VEVENT
+BEGIN:VEVENT
+UID:yom-kippur-day-of-atonement@maybesomethingseasonal.com
+DTSTAMP:20260912T120000Z
+DTSTART;VALUE=DATE:20251002
+RDATE;VALUE=DATE:20260921
+RDATE;VALUE=DATE:20271011
+RDATE;VALUE=DATE:20280930
+RDATE;VALUE=DATE:20290919
+RDATE;VALUE=DATE:20301007
+RDATE;VALUE=DATE:20310927
+RDATE;VALUE=DATE:20320915
+RDATE;VALUE=DATE:20331003
+RDATE;VALUE=DATE:20340923
+RDATE;VALUE=DATE:20351013
+X-MSS-DATE-SOURCE:https://www.hebcal.com/holidays/
+DTEND;VALUE=DATE:20251003
+SUMMARY:Yom Kippur (Day of Atonement)
+DESCRIPTION:History: Yom Kippur\, on 10 Tishrei\, is the holiest day of the
+  Jewish year\, closing the Ten Days of Awe with a full day of fasting\, pr
+ ayer\, and repentance.\nTraditions: A 25-hour fast from sundown\, white ga
+ rments and the tallit worn through Kol Nidre and the day's services\, and 
+ the final blast of the shofar at Ne'ilah as the gates close.\nFeasting: A 
+ generous pre-fast meal of chicken soup and kreplach\, then a break-fast of
+  bagels\, lox\, kugel\, blintzes\, and sweet tea once three stars appear.\
+ n\nIcon: 📖\nCategory: religious
+CATEGORIES:religious
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+X-IMAGE:/images/yom-kippur-prayer-book-and-tallit.png
+END:VEVENT
+BEGIN:VEVENT
 UID:all-hallows-eve-halloween@maybesomethingseasonal.com
 DTSTAMP:20251104T055848Z
 DTSTART;VALUE=DATE:20261031

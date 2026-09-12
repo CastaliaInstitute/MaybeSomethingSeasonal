@@ -479,6 +479,43 @@ TRANSP:TRANSPARENT
 X-IMAGE:/images/fall-begins-time-for-harvest-and-reflection.png
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20260912T120000Z
+DTSTART:20250923T060000Z
+DTEND:20250925T060000Z
+SUMMARY:Rosh Hashanah (Jewish New Year)
+DESCRIPTION:History: Rosh Hashanah\, the head of the Hebrew year on 1–2 T
+ ishrei\, opens the Ten Days of Awe that end with Yom Kippur\; tradition ho
+ lds it as the anniversary of creation and the day of judgement.\nTradition
+ s: The shofar is sounded in synagogue\, greetings of shanah tovah are exch
+ anged\, and at Tashlich bread crumbs are cast into flowing water to symbol
+ ically shed the past year's wrongs.\nFeasting: Apples dipped in honey for 
+ a sweet year\, round challah\, pomegranates for a year full of merit\, hon
+ ey cake\, and a new fruit of the season on the second night.\n\nIcon: 🍎
+ \nCategory: religious
+CATEGORIES:religious
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+X-IMAGE:/images/rosh-hashanah-shofar-apples-and-honey.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260912T120000Z
+DTSTART:20251002T060000Z
+DTEND:20251003T060000Z
+SUMMARY:Yom Kippur (Day of Atonement)
+DESCRIPTION:History: Yom Kippur\, on 10 Tishrei\, is the holiest day of the
+  Jewish year\, closing the Ten Days of Awe with a full day of fasting\, pr
+ ayer\, and repentance.\nTraditions: A 25-hour fast from sundown\, white ga
+ rments and the tallit worn through Kol Nidre and the day's services\, and 
+ the final blast of the shofar at Ne'ilah as the gates close.\nFeasting: A 
+ generous pre-fast meal of chicken soup and kreplach\, then a break-fast of
+  bagels\, lox\, kugel\, blintzes\, and sweet tea once three stars appear.\
+ n\nIcon: 📖\nCategory: religious
+CATEGORIES:religious
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+X-IMAGE:/images/yom-kippur-prayer-book-and-tallit.png
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP:20251104T055848Z
 DTSTART:20261031T060000Z
 DTEND:20251101T060000Z
