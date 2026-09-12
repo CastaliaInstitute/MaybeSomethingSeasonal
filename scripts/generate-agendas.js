@@ -3,33 +3,21 @@
 // event's History / Traditions / Feasting text and the recipes already
 // generated for its dishes.
 //
-//   OPENAI_API_KEY=... node scripts/generate-agendas.js [--force] [--only "Event Summary"]
+//   node scripts/generate-agendas.js   (Gemini via Vertex AI + gcloud auth; see scripts/lib/llm.js) [--force] [--only "Event Summary"]
 //
 // Output: public/recipes/agendas.json
 //   { [eventSummary]: { slug, title, intro, schedule: [{ time, activity, detail, recipes: [slug] }], closing } }
 const fs = require('fs');
 const path = require('path');
+const { chatJson, mapLimit, describe } = require('./lib/llm');
 
 const ROOT = path.join(__dirname, '..');
 const ICS_PATH = path.join(ROOT, 'public', 'MSS.ics');
 const OUT_DIR = path.join(ROOT, 'public', 'recipes');
 const LINKS_PATH = path.join(OUT_DIR, 'links.json');
 const AGENDAS_PATH = path.join(OUT_DIR, 'agendas.json');
-const MODEL = process.env.RECIPE_MODEL || 'gpt-4.1-mini';
 const CONCURRENCY = Number(process.env.RECIPE_CONCURRENCY || 6);
 
-for (const envFile of [path.join(ROOT, '.env.local'), path.join(process.env.HOME || '', '.env')]) {
-  if (!fs.existsSync(envFile)) continue;
-  for (const line of fs.readFileSync(envFile, 'utf8').split('\n')) {
-    const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*?)\s*$/);
-    if (m && !process.env[m[1]]) process.env[m[1]] = m[2].replace(/^["']|["']$/g, '');
-  }
-}
-const API_KEY = process.env.OPENAI_API_KEY;
-if (!API_KEY) {
-  console.error('OPENAI_API_KEY is not set');
-  process.exit(1);
-}
 const args = process.argv.slice(2);
 const FORCE = args.includes('--force');
 const onlyIdx = args.indexOf('--only');
@@ -51,33 +39,6 @@ function readEvents() {
   return events;
 }
 
-async function chatJson(system, user, { retries = 3 } = {}) {
-  for (let attempt = 1; ; attempt++) {
-    const res = await fetch('https://api.openai.com/v1/chat/completions', {
-      method: 'POST',
-      headers: { Authorization: `Bearer ${API_KEY}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        model: MODEL,
-        temperature: 0.5,
-        response_format: { type: 'json_object' },
-        messages: [{ role: 'system', content: system }, { role: 'user', content: user }],
-      }),
-    });
-    const body = await res.json();
-    if (res.ok) {
-      try { return JSON.parse(body.choices[0].message.content); } catch (err) { if (attempt >= retries) throw err; continue; }
-    }
-    if (attempt >= retries || (res.status < 500 && res.status !== 429)) throw new Error(`OpenAI ${res.status}: ${JSON.stringify(body).slice(0, 300)}`);
-    await new Promise((r) => setTimeout(r, 1500 * attempt));
-  }
-}
-async function mapLimit(items, limit, fn) {
-  const results = new Array(items.length); let next = 0;
-  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, async () => {
-    while (next < items.length) { const i = next++; results[i] = await fn(items[i], i); }
-  }));
-  return results;
-}
 
 const SYSTEM = `You write a warm, practical one-day agenda for observing a seasonal festival at home, for a holidays calendar.
 Return JSON: {"title":"Agenda title","intro":"1-2 sentences","schedule":[{"time":"e.g. Morning / 7:00 am / Sundown","activity":"short heading","detail":"1-2 sentences of what to do and why","recipes":["<slug>", ...]}],"closing":"one sentence to end the day"}
@@ -88,7 +49,7 @@ Use 5-8 schedule entries in chronological order, grounded strictly in the tradit
   const links = fs.existsSync(LINKS_PATH) ? JSON.parse(fs.readFileSync(LINKS_PATH, 'utf8')) : {};
   const agendas = !FORCE && fs.existsSync(AGENDAS_PATH) ? JSON.parse(fs.readFileSync(AGENDAS_PATH, 'utf8')) : {};
   const todo = events.filter((e) => FORCE || !agendas[e.summary]);
-  console.log(`Events: ${events.length}; generating ${todo.length} agendas with ${MODEL}`);
+  console.log(`Events: ${events.length}; generating ${todo.length} agendas with ${describe()}`);
   let done = 0;
   await mapLimit(todo, CONCURRENCY, async (event) => {
     const dishes = links[event.summary] || [];

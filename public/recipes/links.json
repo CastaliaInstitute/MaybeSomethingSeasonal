@@ -1,58 +1,4 @@
 {
-  "St. Nicholas Day": [
-    {
-      "text": "speculaas biscuits",
-      "dish": "Speculaas Biscuits",
-      "slug": "speculaas-biscuits"
-    },
-    {
-      "text": "chocolate coins",
-      "dish": "Chocolate Coins",
-      "slug": "chocolate-coins"
-    },
-    {
-      "text": "mandarin oranges",
-      "dish": "Mandarin Oranges",
-      "slug": "mandarin-oranges"
-    },
-    {
-      "text": "marzipan fruits",
-      "dish": "Marzipan Fruits",
-      "slug": "marzipan-fruits"
-    },
-    {
-      "text": "hot cocoa",
-      "dish": "Hot Cocoa",
-      "slug": "hot-cocoa"
-    },
-    {
-      "text": "gluehwein",
-      "dish": "Gluhwein",
-      "slug": "gluhwein"
-    }
-  ],
-  "Twelfth Night": [
-    {
-      "text": "spiced ale",
-      "dish": "Spiced Ale",
-      "slug": "spiced-ale"
-    },
-    {
-      "text": "figgy puddings",
-      "dish": "Figgy Pudding",
-      "slug": "figgy-pudding"
-    },
-    {
-      "text": "king cakes",
-      "dish": "King Cake",
-      "slug": "king-cake"
-    },
-    {
-      "text": "roasted meats",
-      "dish": "Roasted Meat",
-      "slug": "roasted-meat"
-    }
-  ],
   "New Year's Day": [
     {
       "text": "sparkling wine",
@@ -78,6 +24,102 @@
       "text": "king cakes",
       "dish": "King Cake",
       "slug": "king-cake"
+    }
+  ],
+  "Berchtoldstag": [
+    {
+      "text": "braided Zopf loaves",
+      "dish": "Zopf",
+      "slug": "zopf"
+    },
+    {
+      "text": "roesti skillets",
+      "dish": "Rösti",
+      "slug": "rosti"
+    },
+    {
+      "text": "sausages",
+      "dish": "Sausage",
+      "slug": "sausage"
+    },
+    {
+      "text": "hazelnut tortes",
+      "dish": "Hazelnut Torte",
+      "slug": "hazelnut-torte"
+    },
+    {
+      "text": "melted cheese",
+      "dish": "Fondue",
+      "slug": "fondue"
+    }
+  ],
+  "Twelfth Night": [
+    {
+      "text": "spiced ale",
+      "dish": "Spiced Ale",
+      "slug": "spiced-ale"
+    },
+    {
+      "text": "figgy puddings",
+      "dish": "Figgy Pudding",
+      "slug": "figgy-pudding"
+    },
+    {
+      "text": "king cakes filled with almonds",
+      "dish": "King Cake",
+      "slug": "king-cake"
+    },
+    {
+      "text": "roasted meats",
+      "dish": "Roasted Meat",
+      "slug": "roasted-meat"
+    }
+  ],
+  "Candlemas (Feast of the Presentation)": [
+    {
+      "text": "crepes beurre sucre",
+      "dish": "Crepes with Butter and Sugar",
+      "slug": "crepes-with-butter-and-sugar"
+    },
+    {
+      "text": "crepes jambon-fromage",
+      "dish": "Ham and Cheese Crepes",
+      "slug": "ham-and-cheese-crepes"
+    },
+    {
+      "text": "boles de cidre brut",
+      "dish": "Dry Cider",
+      "slug": "dry-cider"
+    },
+    {
+      "text": "salade de mache",
+      "dish": "Lamb's Lettuce Salad",
+      "slug": "lambs-lettuce-salad"
+    },
+    {
+      "text": "tamales oaxaquenos",
+      "dish": "Oaxacan Tamales",
+      "slug": "oaxacan-tamales"
+    },
+    {
+      "text": "tamales de dulce",
+      "dish": "Sweet Tamales",
+      "slug": "sweet-tamales"
+    },
+    {
+      "text": "atole de canela",
+      "dish": "Cinnamon Atole",
+      "slug": "cinnamon-atole"
+    },
+    {
+      "text": "champurrado espumoso",
+      "dish": "Foamy Champurrado",
+      "slug": "foamy-champurrado"
+    },
+    {
+      "text": "pan de candelaria",
+      "dish": "Candlemas Bread",
+      "slug": "candlemas-bread"
     }
   ],
   "Perchta Day (Perchtenlauf)": [
@@ -110,12 +152,12 @@
   "Epiphany (Three Kings Day)": [
     {
       "text": "rosca de reyes",
-      "dish": "Rosca De Reyes",
+      "dish": "Rosca de Reyes",
       "slug": "rosca-de-reyes"
     },
     {
       "text": "galette des rois",
-      "dish": "Galette Des Rois",
+      "dish": "Galette des Rois",
       "slug": "galette-des-rois"
     },
     {
@@ -134,117 +176,26 @@
       "slug": "stew"
     }
   ],
-  "Berchtoldstag": [
+  "Old Twelfth Night Wassail": [
     {
-      "text": "braided Zopf loaves",
-      "dish": "Braided Zopf Loaf",
-      "slug": "braided-zopf-loaf"
+      "text": "Hot mulled cider",
+      "dish": "Hot Mulled Cider",
+      "slug": "hot-mulled-cider"
     },
     {
-      "text": "roesti skillets",
-      "dish": "Roesti",
-      "slug": "roesti"
+      "text": "apple cakes",
+      "dish": "Apple Cakes",
+      "slug": "apple-cakes"
     },
     {
-      "text": "sausages",
-      "dish": "Sausages",
-      "slug": "sausages"
+      "text": "blue cheese",
+      "dish": "Blue Cheese",
+      "slug": "blue-cheese"
     },
     {
-      "text": "hazelnut tortes",
-      "dish": "Hazelnut Torte",
-      "slug": "hazelnut-torte"
-    },
-    {
-      "text": "pots of melted cheese",
-      "dish": "Melted Cheese",
-      "slug": "melted-cheese"
-    }
-  ],
-  "Candlemas (Feast of the Presentation)": [
-    {
-      "text": "crepes beurre sucre",
-      "dish": "Crepes Beurre Sucre",
-      "slug": "crepes-beurre-sucre"
-    },
-    {
-      "text": "crepes jambon-fromage",
-      "dish": "Crepes Jambon-Fromage",
-      "slug": "crepes-jambon-fromage"
-    },
-    {
-      "text": "boles de cidre brut",
-      "dish": "Boles De Cidre Brut",
-      "slug": "boles-de-cidre-brut"
-    },
-    {
-      "text": "salade de mache",
-      "dish": "Salade De Mache",
-      "slug": "salade-de-mache"
-    },
-    {
-      "text": "tamales oaxaquenos",
-      "dish": "Tamales Oaxaquenos",
-      "slug": "tamales-oaxaquenos"
-    },
-    {
-      "text": "tamales de dulce",
-      "dish": "Tamales De Dulce",
-      "slug": "tamales-de-dulce"
-    },
-    {
-      "text": "atole de canela",
-      "dish": "Atole De Canela",
-      "slug": "atole-de-canela"
-    },
-    {
-      "text": "champurrado espumoso",
-      "dish": "Champurrado Espumoso",
-      "slug": "champurrado-espumoso"
-    },
-    {
-      "text": "pan de candelaria",
-      "dish": "Pan De Candelaria",
-      "slug": "pan-de-candelaria"
-    }
-  ],
-  "Dondoyaki Bonfire": [
-    {
-      "text": "Skewered mochi",
-      "dish": "Skewered Mochi",
-      "slug": "skewered-mochi"
-    },
-    {
-      "text": "azuki bean soup",
-      "dish": "Azuki Bean Soup",
-      "slug": "azuki-bean-soup"
-    },
-    {
-      "text": "amazake",
-      "dish": "Amazake",
-      "slug": "amazake"
-    }
-  ],
-  "Fete du Vodoun (Benin Vodoun Festival)": [
-    {
-      "text": "akassa corn porridge",
-      "dish": "Akassa Corn Porridge",
-      "slug": "akassa-corn-porridge"
-    },
-    {
-      "text": "fish stew",
-      "dish": "Fish Stew",
-      "slug": "fish-stew"
-    },
-    {
-      "text": "toasted peanuts",
-      "dish": "Toasted Peanuts",
-      "slug": "toasted-peanuts"
-    },
-    {
-      "text": "sodabi palm liquor",
-      "dish": "Sodabi Palm Liquor",
-      "slug": "sodabi-palm-liquor"
+      "text": "pork pies",
+      "dish": "Pork Pies",
+      "slug": "pork-pies"
     }
   ],
   "Feast of the Ass": [
@@ -260,8 +211,8 @@
     },
     {
       "text": "galette au miel",
-      "dish": "Honey Cake",
-      "slug": "honey-cake"
+      "dish": "Honey Galette",
+      "slug": "honey-galette"
     },
     {
       "text": "tarte aux noix",
@@ -274,63 +225,31 @@
       "slug": "goat-cheese"
     },
     {
-      "text": "cruches de vin epice hypocras",
+      "text": "vin epice hypocras",
       "dish": "Spiced Wine Hypocras",
       "slug": "spiced-wine-hypocras"
     }
   ],
-  "Old Twelfth Night Wassail": [
+  "Fete du Vodoun (Benin Vodoun Festival)": [
     {
-      "text": "Hot mulled cider",
-      "dish": "Mulled Cider",
-      "slug": "mulled-cider"
+      "text": "akassa corn porridge",
+      "dish": "Akassa Corn Porridge",
+      "slug": "akassa-corn-porridge"
     },
     {
-      "text": "apple cakes",
-      "dish": "Apple Cake",
-      "slug": "apple-cake"
+      "text": "goat and fish stews",
+      "dish": "Goat and Fish Stews",
+      "slug": "goat-and-fish-stews"
     },
     {
-      "text": "blue cheese",
-      "dish": "Blue Cheese",
-      "slug": "blue-cheese"
+      "text": "toasted peanuts",
+      "dish": "Toasted Peanuts",
+      "slug": "toasted-peanuts"
     },
     {
-      "text": "pork pies",
-      "dish": "Pork Pie",
-      "slug": "pork-pie"
-    }
-  ],
-  "Burns Night Supper": [
-    {
-      "text": "haggis",
-      "dish": "Haggis",
-      "slug": "haggis"
-    },
-    {
-      "text": "neeps and tatties",
-      "dish": "Neeps and Tatties",
-      "slug": "neeps-and-tatties"
-    },
-    {
-      "text": "cock-a-leekie soup",
-      "dish": "Cock-a-Leekie Soup",
-      "slug": "cock-a-leekie-soup"
-    },
-    {
-      "text": "cranachan",
-      "dish": "Cranachan",
-      "slug": "cranachan"
-    },
-    {
-      "text": "oatcakes",
-      "dish": "Oatcakes",
-      "slug": "oatcakes"
-    },
-    {
-      "text": "smoky single malt whisky",
-      "dish": "Single Malt Whisky",
-      "slug": "single-malt-whisky"
+      "text": "sodabi palm liquor",
+      "dish": "Sodabi Palm Liquor",
+      "slug": "sodabi-palm-liquor"
     }
   ],
   "Lunar New Year (Chunjie)": [
@@ -360,70 +279,43 @@
       "slug": "mandarin-oranges"
     }
   ],
-  "Feast of St. Muirgen (Lí Ban the Mermaid)": [
+  "Burns Night Supper": [
     {
-      "text": "poached Irish salmon",
-      "dish": "Poached Irish Salmon",
-      "slug": "poached-irish-salmon"
+      "text": "haggis with neeps and tatties",
+      "dish": "Haggis with Neeps and Tatties",
+      "slug": "haggis-with-neeps-and-tatties"
     },
     {
-      "text": "dulse and carrageen pudding",
-      "dish": "Dulse and Carrageen Pudding",
-      "slug": "dulse-and-carrageen-pudding"
+      "text": "cock-a-leekie soup",
+      "dish": "Cock-a-Leekie Soup",
+      "slug": "cock-a-leekie-soup"
     },
     {
-      "text": "Bangor oysters",
-      "dish": "Bangor Oysters",
-      "slug": "bangor-oysters"
+      "text": "cranachan",
+      "dish": "Cranachan",
+      "slug": "cranachan"
     },
     {
-      "text": "brown soda bread with salted butter",
-      "dish": "Brown Soda Bread with Salted Butter",
-      "slug": "brown-soda-bread-with-salted-butter"
+      "text": "oatcakes",
+      "dish": "Oatcakes",
+      "slug": "oatcakes"
     },
     {
-      "text": "tea",
-      "dish": "Tea",
-      "slug": "tea"
-    },
-    {
-      "text": "Bushmills",
-      "dish": "Bushmills",
-      "slug": "bushmills"
-    }
-  ],
-  "Losar (Tibetan New Year)": [
-    {
-      "text": "guthuk noodle soup",
-      "dish": "Guthuk Noodle Soup",
-      "slug": "guthuk-noodle-soup"
-    },
-    {
-      "text": "khapse pastries",
-      "dish": "Khapse Pastries",
-      "slug": "khapse-pastries"
-    },
-    {
-      "text": "dried yak cheese",
-      "dish": "Dried Yak Cheese",
-      "slug": "dried-yak-cheese"
-    },
-    {
-      "text": "butter tea",
-      "dish": "Butter Tea",
-      "slug": "butter-tea"
+      "text": "smoky single malt whisky",
+      "dish": "Smoky Single Malt Whisky",
+      "slug": "smoky-single-malt-whisky"
     }
   ],
   "Imbolc Eve (La Fheile Bride)": [
     {
       "text": "fresh butter",
-      "dish": "Butter",
-      "slug": "butter"
+      "dish": "Fresh Butter",
+      "slug": "fresh-butter"
     },
     {
       "text": "soft cheeses",
-      "dish": "Cheese",
-      "slug": "cheese"
+      "dish": "Soft Cheeses",
+      "slug": "soft-cheeses"
     },
     {
       "text": "oatcakes",
@@ -432,8 +324,8 @@
     },
     {
       "text": "early lamb stews",
-      "dish": "Lamb Stew",
-      "slug": "lamb-stew"
+      "dish": "Early Lamb Stews",
+      "slug": "early-lamb-stews"
     }
   ],
   "Fete de Papa Zaka - Feast of the Farmer Loa": [
@@ -458,18 +350,13 @@
       "slug": "soup-joumou"
     },
     {
-      "text": "accra de morue",
-      "dish": "Accra De Morue",
-      "slug": "accra-de-morue"
-    },
-    {
-      "text": "pikliz",
-      "dish": "Pikliz",
-      "slug": "pikliz"
+      "text": "accra de morue with pikliz",
+      "dish": "Accra de Morue with Pikliz",
+      "slug": "accra-de-morue-with-pikliz"
     },
     {
       "text": "mayi moulen ak sos pwa",
-      "dish": "Mayi Moulen Ak Sos Pwa",
+      "dish": "Mayi Moulen ak Sos Pwa",
       "slug": "mayi-moulen-ak-sos-pwa"
     },
     {
@@ -479,7 +366,7 @@
     },
     {
       "text": "griot de porc",
-      "dish": "Griot De Porc",
+      "dish": "Griot de Porc",
       "slug": "griot-de-porc"
     },
     {
@@ -489,7 +376,7 @@
     },
     {
       "text": "red beans with rice",
-      "dish": "Red Beans With Rice",
+      "dish": "Red Beans with Rice",
       "slug": "red-beans-with-rice"
     },
     {
@@ -501,6 +388,11 @@
       "text": "pain mayi",
       "dish": "Pain Mayi",
       "slug": "pain-mayi"
+    },
+    {
+      "text": "pikliz",
+      "dish": "Pikliz",
+      "slug": "pikliz"
     },
     {
       "text": "pen patat",
@@ -526,24 +418,6 @@
       "text": "rum",
       "dish": "Rum",
       "slug": "rum"
-    }
-  ],
-  "Spring Equinox (Ostara)": [],
-  "Saint Valentine's Day": [
-    {
-      "text": "chocolate-dipped strawberries",
-      "dish": "Chocolate-Dipped Strawberries",
-      "slug": "chocolate-dipped-strawberries"
-    },
-    {
-      "text": "heart-shaped confections",
-      "dish": "Heart-Shaped Confections",
-      "slug": "heart-shaped-confections"
-    },
-    {
-      "text": "fine champagne",
-      "dish": "Champagne",
-      "slug": "champagne"
     }
   ],
   "Imbolc Day Celebration": [
@@ -573,21 +447,43 @@
       "slug": "herbal-tea"
     }
   ],
-  "Nowruz": [
+  "Losar (Tibetan New Year)": [
     {
-      "text": "sweets",
-      "dish": "Sweets",
-      "slug": "sweets"
+      "text": "guthuk noodle soup",
+      "dish": "Guthuk Noodle Soup",
+      "slug": "guthuk-noodle-soup"
     },
     {
-      "text": "tea",
-      "dish": "Tea",
-      "slug": "tea"
+      "text": "symbolic dumplings",
+      "dish": "Symbolic Dumplings",
+      "slug": "symbolic-dumplings"
     },
     {
-      "text": "celebratory rice",
-      "dish": "Celebratory Rice",
-      "slug": "celebratory-rice"
+      "text": "deep-fried khapse pastries",
+      "dish": "Deep-Fried Khapse Pastries",
+      "slug": "deep-fried-khapse-pastries"
+    },
+    {
+      "text": "dried yak cheese",
+      "dish": "Dried Yak Cheese",
+      "slug": "dried-yak-cheese"
+    },
+    {
+      "text": "butter tea",
+      "dish": "Butter Tea",
+      "slug": "butter-tea"
+    }
+  ],
+  "Dondoyaki Bonfire": [
+    {
+      "text": "sweet azuki bean soup",
+      "dish": "Azuki Bean Soup",
+      "slug": "azuki-bean-soup"
+    },
+    {
+      "text": "amazake",
+      "dish": "Amazake",
+      "slug": "amazake"
     }
   ],
   "Saint Patrick's Day": [
@@ -622,11 +518,94 @@
       "slug": "whiskey"
     }
   ],
+  "Nowruz": [
+    {
+      "text": "herb-forward dishes",
+      "dish": "Herb-Forward Dishes",
+      "slug": "herb-forward-dishes"
+    },
+    {
+      "text": "sweets",
+      "dish": "Sweets",
+      "slug": "sweets"
+    },
+    {
+      "text": "tea",
+      "dish": "Tea",
+      "slug": "tea"
+    },
+    {
+      "text": "celebratory rice",
+      "dish": "Celebratory Rice",
+      "slug": "celebratory-rice"
+    }
+  ],
   "Palm Sunday": [
     {
       "text": "shared bread",
-      "dish": "Shared Bread",
-      "slug": "shared-bread"
+      "dish": "Bread",
+      "slug": "bread"
+    }
+  ],
+  "Feast of St. Muirgen (Lí Ban the Mermaid)": [
+    {
+      "text": "poached Irish salmon",
+      "dish": "Poached Irish Salmon",
+      "slug": "poached-irish-salmon"
+    },
+    {
+      "text": "dulse and carrageen pudding",
+      "dish": "Dulse and Carrageen Pudding",
+      "slug": "dulse-and-carrageen-pudding"
+    },
+    {
+      "text": "Bangor oysters",
+      "dish": "Bangor Oysters",
+      "slug": "bangor-oysters"
+    },
+    {
+      "text": "brown soda bread with salted butter",
+      "dish": "Brown Soda Bread with Salted Butter",
+      "slug": "brown-soda-bread-with-salted-butter"
+    },
+    {
+      "text": "tea",
+      "dish": "Tea",
+      "slug": "tea"
+    },
+    {
+      "text": "Bushmills",
+      "dish": "Bushmills Whiskey",
+      "slug": "bushmills-whiskey"
+    }
+  ],
+  "Maundy Thursday": [
+    {
+      "text": "Bread",
+      "dish": "Bread",
+      "slug": "bread"
+    },
+    {
+      "text": "soup",
+      "dish": "Soup",
+      "slug": "soup"
+    }
+  ],
+  "Saint Valentine's Day": [
+    {
+      "text": "chocolate-dipped strawberries",
+      "dish": "Chocolate-Dipped Strawberries",
+      "slug": "chocolate-dipped-strawberries"
+    },
+    {
+      "text": "heart-shaped confections",
+      "dish": "Heart-Shaped Confections",
+      "slug": "heart-shaped-confections"
+    },
+    {
+      "text": "fine champagne",
+      "dish": "Champagne",
+      "slug": "champagne"
     }
   ],
   "Passover": [
@@ -646,23 +625,38 @@
       "slug": "charoset"
     }
   ],
-  "Maundy Thursday": [
-    {
-      "text": "Bread",
-      "dish": "Bread",
-      "slug": "bread"
-    },
-    {
-      "text": "soup",
-      "dish": "Soup",
-      "slug": "soup"
-    }
-  ],
   "Good Friday": [
     {
       "text": "shared bread",
-      "dish": "Shared Bread",
-      "slug": "shared-bread"
+      "dish": "Bread",
+      "slug": "bread"
+    }
+  ],
+  "Autumn Equinox (Mabon)": [
+    {
+      "text": "roasted squash",
+      "dish": "Roasted Squash",
+      "slug": "roasted-squash"
+    },
+    {
+      "text": "apple tarts",
+      "dish": "Apple Tart",
+      "slug": "apple-tart"
+    },
+    {
+      "text": "caramelised root vegetables",
+      "dish": "Caramelized Root Vegetables",
+      "slug": "caramelized-root-vegetables"
+    },
+    {
+      "text": "mulled cider",
+      "dish": "Mulled Cider",
+      "slug": "mulled-cider"
+    },
+    {
+      "text": "hearty grain salads",
+      "dish": "Grain Salad",
+      "slug": "grain-salad"
     }
   ],
   "Earth Day": [
@@ -683,30 +677,8 @@
     },
     {
       "text": "desserts sweetened with local honey",
-      "dish": "Desserts with Local Honey",
-      "slug": "desserts-with-local-honey"
-    }
-  ],
-  "Buddhist Ghost Festival (Ullambana)": [
-    {
-      "text": "rice",
-      "dish": "Rice",
-      "slug": "rice"
-    },
-    {
-      "text": "fruit",
-      "dish": "Fruit",
-      "slug": "fruit"
-    },
-    {
-      "text": "tea",
-      "dish": "Tea",
-      "slug": "tea"
-    },
-    {
-      "text": "vegetarian dishes",
-      "dish": "Vegetarian Dishes",
-      "slug": "vegetarian-dishes"
+      "dish": "Honey-Sweetened Dessert",
+      "slug": "honey-sweetened-dessert"
     }
   ],
   "Independence Day (United States)": [
@@ -732,8 +704,8 @@
     },
     {
       "text": "berry pies",
-      "dish": "Berry Pie",
-      "slug": "berry-pie"
+      "dish": "Berry Pies",
+      "slug": "berry-pies"
     },
     {
       "text": "lemonade",
@@ -746,58 +718,53 @@
       "slug": "sweet-tea"
     }
   ],
-  "Rosh Hashanah (Jewish New Year)": [
+  "Buddhist Ghost Festival (Ullambana)": [
     {
-      "text": "Apples dipped in honey",
-      "dish": "Apples and Honey",
-      "slug": "apples-and-honey"
+      "text": "rice",
+      "dish": "Rice",
+      "slug": "rice"
     },
     {
-      "text": "round challah",
-      "dish": "Challah",
-      "slug": "challah"
+      "text": "fruit",
+      "dish": "Fruit",
+      "slug": "fruit"
     },
     {
-      "text": "pomegranates",
-      "dish": "Pomegranate",
-      "slug": "pomegranate"
+      "text": "tea",
+      "dish": "Tea",
+      "slug": "tea"
     },
     {
-      "text": "honey cake",
-      "dish": "Honey Cake",
-      "slug": "honey-cake"
-    },
-    {
-      "text": "a new fruit of the season",
-      "dish": "New Fruit of the Season",
-      "slug": "new-fruit-of-the-season"
+      "text": "vegetarian dishes",
+      "dish": "Vegetarian Dish",
+      "slug": "vegetarian-dish"
     }
   ],
-  "Autumn Equinox (Mabon)": [
+  "All Hallows' Eve (Halloween)": [
     {
-      "text": "roasted squash",
-      "dish": "Roasted Squash",
-      "slug": "roasted-squash"
+      "text": "candy apples",
+      "dish": "Candy Apples",
+      "slug": "candy-apples"
     },
     {
-      "text": "apple tarts",
-      "dish": "Apple Tarts",
-      "slug": "apple-tarts"
+      "text": "pumpkin bread",
+      "dish": "Pumpkin Bread",
+      "slug": "pumpkin-bread"
     },
     {
-      "text": "caramelised root vegetables",
-      "dish": "Caramelised Root Vegetables",
-      "slug": "caramelised-root-vegetables"
+      "text": "roasted nuts",
+      "dish": "Roasted Nuts",
+      "slug": "roasted-nuts"
     },
     {
-      "text": "mulled cider",
-      "dish": "Mulled Cider",
-      "slug": "mulled-cider"
+      "text": "soul cakes",
+      "dish": "Soul Cakes",
+      "slug": "soul-cakes"
     },
     {
-      "text": "hearty grain salads",
-      "dish": "Hearty Grain Salads",
-      "slug": "hearty-grain-salads"
+      "text": "spiced cider",
+      "dish": "Spiced Cider",
+      "slug": "spiced-cider"
     }
   ],
   "Yom Kippur (Day of Atonement)": [
@@ -837,48 +804,31 @@
       "slug": "sweet-tea"
     }
   ],
-  "Dia de los Angelitos": [
-    {
-      "text": "atole",
-      "dish": "Atole",
-      "slug": "atole"
-    },
-    {
-      "text": "sugar skulls",
-      "dish": "Sugar Skulls",
-      "slug": "sugar-skulls"
-    },
+  "Dia de los Muertos": [
     {
       "text": "pan de muerto",
       "dish": "Pan de Muerto",
       "slug": "pan-de-muerto"
-    }
-  ],
-  "All Hallows' Eve (Halloween)": [
-    {
-      "text": "candy apples",
-      "dish": "Candy Apples",
-      "slug": "candy-apples"
     },
     {
-      "text": "pumpkin bread",
-      "dish": "Pumpkin Bread",
-      "slug": "pumpkin-bread"
+      "text": "mole",
+      "dish": "Mole",
+      "slug": "mole"
     },
     {
-      "text": "roasted nuts",
-      "dish": "Roasted Nuts",
-      "slug": "roasted-nuts"
+      "text": "tamales",
+      "dish": "Tamales",
+      "slug": "tamales"
     },
     {
-      "text": "soul cakes",
-      "dish": "Soul Cakes",
-      "slug": "soul-cakes"
+      "text": "champurrado",
+      "dish": "Champurrado",
+      "slug": "champurrado"
     },
     {
-      "text": "spiced cider",
-      "dish": "Spiced Cider",
-      "slug": "spiced-cider"
+      "text": "calaveras de azucar",
+      "dish": "Calaveras de Azucar",
+      "slug": "calaveras-de-azucar"
     }
   ],
   "Martinstag Lantern Evening": [
@@ -901,38 +851,6 @@
       "text": "buttery pastries",
       "dish": "Buttery Pastries",
       "slug": "buttery-pastries"
-    }
-  ],
-  "St. Martin's Day (Martinstag)": [
-    {
-      "text": "roast goose",
-      "dish": "Roast Goose",
-      "slug": "roast-goose"
-    },
-    {
-      "text": "red cabbage",
-      "dish": "Red Cabbage",
-      "slug": "red-cabbage"
-    },
-    {
-      "text": "potato dumplings",
-      "dish": "Potato Dumplings",
-      "slug": "potato-dumplings"
-    },
-    {
-      "text": "spiced biscuits",
-      "dish": "Spiced Biscuits",
-      "slug": "spiced-biscuits"
-    },
-    {
-      "text": "Gluehwein",
-      "dish": "Gluhwein",
-      "slug": "gluhwein"
-    },
-    {
-      "text": "Federweisser",
-      "dish": "Federweisser",
-      "slug": "federweisser"
     }
   ],
   "Life Day (Wookiee Tradition)": [
@@ -960,8 +878,8 @@
   "St. Catherine's Day": [
     {
       "text": "saffron catter n cakes",
-      "dish": "Saffron Cakes",
-      "slug": "saffron-cakes"
+      "dish": "Saffron Catter N Cakes",
+      "slug": "saffron-catter-n-cakes"
     },
     {
       "text": "honeyed biscuits",
@@ -979,85 +897,58 @@
       "slug": "spiced-wine"
     }
   ],
-  "Thanksgiving Day (United States)": [
+  "Rosh Hashanah (Jewish New Year)": [
     {
-      "text": "roast turkey",
-      "dish": "Roast Turkey",
-      "slug": "roast-turkey"
+      "text": "Apples dipped in honey",
+      "dish": "Apples Dipped in Honey",
+      "slug": "apples-dipped-in-honey"
     },
     {
-      "text": "cornbread stuffing",
-      "dish": "Cornbread Stuffing",
-      "slug": "cornbread-stuffing"
+      "text": "round challah",
+      "dish": "Challah",
+      "slug": "challah"
     },
     {
-      "text": "cranberry relish",
-      "dish": "Cranberry Relish",
-      "slug": "cranberry-relish"
+      "text": "pomegranates",
+      "dish": "Pomegranates",
+      "slug": "pomegranates"
     },
     {
-      "text": "sweet potatoes",
-      "dish": "Sweet Potatoes",
-      "slug": "sweet-potatoes"
-    },
-    {
-      "text": "green bean casseroles",
-      "dish": "Green Bean Casserole",
-      "slug": "green-bean-casserole"
-    },
-    {
-      "text": "pecan pie",
-      "dish": "Pecan Pie",
-      "slug": "pecan-pie"
+      "text": "honey cake",
+      "dish": "Honey Cake",
+      "slug": "honey-cake"
     }
   ],
-  "First Sunday of Advent": [
+  "St. Martin's Day (Martinstag)": [
     {
-      "text": "German stollen",
-      "dish": "German Stollen",
-      "slug": "german-stollen"
+      "text": "roast goose",
+      "dish": "Roast Goose",
+      "slug": "roast-goose"
     },
     {
-      "text": "lebkuchen",
-      "dish": "Lebkuchen",
-      "slug": "lebkuchen"
+      "text": "red cabbage",
+      "dish": "Red Cabbage",
+      "slug": "red-cabbage"
     },
     {
-      "text": "mulled cider",
-      "dish": "Mulled Cider",
-      "slug": "mulled-cider"
+      "text": "potato dumplings",
+      "dish": "Potato Dumplings",
+      "slug": "potato-dumplings"
     },
     {
-      "text": "simple Sunday roasts",
-      "dish": "Sunday Roast",
-      "slug": "sunday-roast"
-    }
-  ],
-  "Noaptea Lupilor": [
-    {
-      "text": "poppy-seed cakes",
-      "dish": "Poppy Seed Cake",
-      "slug": "poppy-seed-cake"
+      "text": "spiced biscuits",
+      "dish": "Spiced Biscuits",
+      "slug": "spiced-biscuits"
     },
     {
-      "text": "honey cookies",
-      "dish": "Honey Cookies",
-      "slug": "honey-cookies"
+      "text": "Gluehwein",
+      "dish": "Mulled Wine",
+      "slug": "mulled-wine"
     },
     {
-      "text": "pickled herring",
-      "dish": "Pickled Herring",
-      "slug": "pickled-herring"
-    },
-    {
-      "text": "mead",
-      "dish": "Mead",
-      "slug": "mead"
-    },
-    {
-      "text": "herb-infused tea",
-      "dish": "Herb-Infused Tea",
-      "slug": "herb-infused-tea"
+      "text": "Federweisser",
+      "dish": "Federweisser",
+      "slug": "federweisser"
     }
   ],
   "St. Andrew's Day": [
@@ -1082,9 +973,36 @@
       "slug": "shortbread"
     },
     {
-      "text": "drams of whisky",
+      "text": "whisky",
       "dish": "Whisky",
       "slug": "whisky"
+    }
+  ],
+  "Noaptea Lupilor": [
+    {
+      "text": "poppy-seed cakes",
+      "dish": "Poppy Seed Cakes",
+      "slug": "poppy-seed-cakes"
+    },
+    {
+      "text": "honey cookies",
+      "dish": "Honey Cookies",
+      "slug": "honey-cookies"
+    },
+    {
+      "text": "pickled herring",
+      "dish": "Pickled Herring",
+      "slug": "pickled-herring"
+    },
+    {
+      "text": "mead",
+      "dish": "Mead",
+      "slug": "mead"
+    },
+    {
+      "text": "herb-infused tea",
+      "dish": "Herb Infused Tea",
+      "slug": "herb-infused-tea"
     }
   ],
   "Krampusnacht": [
@@ -1095,8 +1013,8 @@
     },
     {
       "text": "gingerbread hearts",
-      "dish": "Gingerbread",
-      "slug": "gingerbread"
+      "dish": "Gingerbread Hearts",
+      "slug": "gingerbread-hearts"
     },
     {
       "text": "spicy sausages",
@@ -1109,31 +1027,36 @@
       "slug": "pretzels"
     }
   ],
-  "Dia de los Muertos": [
+  "St. Nicholas Day": [
     {
-      "text": "pan de muerto",
-      "dish": "Pan De Muerto",
-      "slug": "pan-de-muerto"
+      "text": "speculaas biscuits",
+      "dish": "Speculaas Biscuits",
+      "slug": "speculaas-biscuits"
     },
     {
-      "text": "mole",
-      "dish": "Mole",
-      "slug": "mole"
+      "text": "chocolate coins",
+      "dish": "Chocolate Coins",
+      "slug": "chocolate-coins"
     },
     {
-      "text": "tamales",
-      "dish": "Tamales",
-      "slug": "tamales"
+      "text": "mandarin oranges",
+      "dish": "Mandarin Oranges",
+      "slug": "mandarin-oranges"
     },
     {
-      "text": "champurrado",
-      "dish": "Champurrado",
-      "slug": "champurrado"
+      "text": "marzipan fruits",
+      "dish": "Marzipan Fruits",
+      "slug": "marzipan-fruits"
     },
     {
-      "text": "calaveras de azucar",
-      "dish": "Sugar Skulls",
-      "slug": "sugar-skulls"
+      "text": "hot cocoa",
+      "dish": "Hot Cocoa",
+      "slug": "hot-cocoa"
+    },
+    {
+      "text": "gluehwein",
+      "dish": "Glühwein",
+      "slug": "gluhwein"
     }
   ],
   "Gita Jayanti (गीता जयंती)": [
@@ -1158,6 +1081,77 @@
       "slug": "cardamom-milk"
     }
   ],
+  "First Sunday of Advent": [
+    {
+      "text": "German stollen",
+      "dish": "Stollen",
+      "slug": "stollen"
+    },
+    {
+      "text": "lebkuchen",
+      "dish": "Lebkuchen",
+      "slug": "lebkuchen"
+    },
+    {
+      "text": "mulled cider",
+      "dish": "Mulled Cider",
+      "slug": "mulled-cider"
+    },
+    {
+      "text": "Sunday roasts",
+      "dish": "Sunday Roast",
+      "slug": "sunday-roast"
+    }
+  ],
+  "Tiki Christmas at Pearl Harbor": [
+    {
+      "text": "roast pig",
+      "dish": "Roast Pig",
+      "slug": "roast-pig"
+    },
+    {
+      "text": "pineapple haupia",
+      "dish": "Pineapple Haupia",
+      "slug": "pineapple-haupia"
+    },
+    {
+      "text": "coconut eggnog",
+      "dish": "Coconut Eggnog",
+      "slug": "coconut-eggnog"
+    },
+    {
+      "text": "shaved ice drenched in red-and-green syrups",
+      "dish": "Shaved Ice with Red and Green Syrups",
+      "slug": "shaved-ice-with-red-and-green-syrups"
+    }
+  ],
+  "Sinterklaas Arrival (Intocht)": [
+    {
+      "text": "spiced pepernoten",
+      "dish": "Spiced Pepernoten",
+      "slug": "spiced-pepernoten"
+    },
+    {
+      "text": "speculaas windmill cookies",
+      "dish": "Speculaas Windmill Cookies",
+      "slug": "speculaas-windmill-cookies"
+    },
+    {
+      "text": "chocolate letters",
+      "dish": "Chocolate Letters",
+      "slug": "chocolate-letters"
+    },
+    {
+      "text": "marzipan",
+      "dish": "Marzipan",
+      "slug": "marzipan"
+    },
+    {
+      "text": "hot cocoa",
+      "dish": "Hot Cocoa",
+      "slug": "hot-cocoa"
+    }
+  ],
   "Immaculada": [
     {
       "text": "turron",
@@ -1180,26 +1174,21 @@
       "slug": "roscon"
     }
   ],
-  "Tiki Christmas at Pearl Harbor": [
+  "Magic Flute": [
     {
-      "text": "roast pig",
-      "dish": "Roast Pig",
-      "slug": "roast-pig"
+      "text": "sparkling wine",
+      "dish": "Sparkling Wine",
+      "slug": "sparkling-wine"
     },
     {
-      "text": "pineapple haupia",
-      "dish": "Pineapple Haupia",
-      "slug": "pineapple-haupia"
+      "text": "Viennese pastries",
+      "dish": "Viennese Pastries",
+      "slug": "viennese-pastries"
     },
     {
-      "text": "coconut eggnog",
-      "dish": "Coconut Eggnog",
-      "slug": "coconut-eggnog"
-    },
-    {
-      "text": "shaved ice",
-      "dish": "Shaved Ice",
-      "slug": "shaved-ice"
+      "text": "rich hot chocolate",
+      "dish": "Hot Chocolate",
+      "slug": "hot-chocolate"
     }
   ],
   "Second Sunday of Advent": [
@@ -1215,64 +1204,20 @@
     },
     {
       "text": "spiced teas",
-      "dish": "Spiced Tea",
-      "slug": "spiced-tea"
+      "dish": "Spiced Teas",
+      "slug": "spiced-teas"
     },
     {
       "text": "hearty casseroles",
-      "dish": "Hearty Casserole",
-      "slug": "hearty-casserole"
-    }
-  ],
-  "Sinterklaas Arrival (Intocht)": [
-    {
-      "text": "spiced pepernoten",
-      "dish": "Pepernoten",
-      "slug": "pepernoten"
-    },
-    {
-      "text": "speculaas windmill cookies",
-      "dish": "Speculaas Cookies",
-      "slug": "speculaas-cookies"
-    },
-    {
-      "text": "chocolate letters",
-      "dish": "Chocolate Letters",
-      "slug": "chocolate-letters"
-    },
-    {
-      "text": "marzipan",
-      "dish": "Marzipan",
-      "slug": "marzipan"
-    },
-    {
-      "text": "hot cocoa",
-      "dish": "Hot Cocoa",
-      "slug": "hot-cocoa"
-    }
-  ],
-  "Magic Flute": [
-    {
-      "text": "sparkling wine",
-      "dish": "Sparkling Wine",
-      "slug": "sparkling-wine"
-    },
-    {
-      "text": "Viennese pastries",
-      "dish": "Viennese Pastries",
-      "slug": "viennese-pastries"
-    },
-    {
-      "text": "hot chocolate",
-      "dish": "Hot Chocolate",
-      "slug": "hot-chocolate"
+      "dish": "Casseroles",
+      "slug": "casseroles"
     }
   ],
   "Lussinatta (St. Lucia's Vigil)": [
     {
       "text": "Glogg mulled wine",
-      "dish": "Mulled Wine",
-      "slug": "mulled-wine"
+      "dish": "Glogg Mulled Wine",
+      "slug": "glogg-mulled-wine"
     },
     {
       "text": "raisin-studded lussekatter twists",
@@ -1312,6 +1257,53 @@
       "slug": "coffee"
     }
   ],
+  "Feast of Our Lady of Guadalupe": [
+    {
+      "text": "tamales verdes",
+      "dish": "Green Tamales",
+      "slug": "green-tamales"
+    },
+    {
+      "text": "tamales de rajas con queso",
+      "dish": "Cheese and Poblano Pepper Strip Tamales",
+      "slug": "cheese-and-poblano-pepper-strip-tamales"
+    },
+    {
+      "text": "pozole rojo",
+      "dish": "Red Pozole",
+      "slug": "red-pozole"
+    },
+    {
+      "text": "mole poblano con arroz",
+      "dish": "Mole Poblano with Rice",
+      "slug": "mole-poblano-with-rice"
+    },
+    {
+      "text": "tacos dorados",
+      "dish": "Crispy Tacos",
+      "slug": "crispy-tacos"
+    },
+    {
+      "text": "bunuelos de viento",
+      "dish": "Buñuelos de Viento",
+      "slug": "bunuelos-de-viento"
+    },
+    {
+      "text": "churros de canela",
+      "dish": "Cinnamon Churros",
+      "slug": "cinnamon-churros"
+    },
+    {
+      "text": "champurrado espumoso",
+      "dish": "Foamy Champurrado",
+      "slug": "foamy-champurrado"
+    },
+    {
+      "text": "atole de guayaba",
+      "dish": "Guava Atole",
+      "slug": "guava-atole"
+    }
+  ],
   "Gaudete Sunday": [
     {
       "text": "bibingka",
@@ -1325,13 +1317,13 @@
     },
     {
       "text": "rosy macarons",
-      "dish": "Rosy Macarons",
-      "slug": "rosy-macarons"
+      "dish": "Macarons",
+      "slug": "macarons"
     },
     {
       "text": "warm fruit punch",
-      "dish": "Warm Fruit Punch",
-      "slug": "warm-fruit-punch"
+      "dish": "Fruit Punch",
+      "slug": "fruit-punch"
     }
   ],
   "Hanukkah (Festival of Lights)": [
@@ -1361,6 +1353,28 @@
       "slug": "kugel"
     }
   ],
+  "Spring Equinox (Ostara)": [
+    {
+      "text": "herbs",
+      "dish": "Herbs",
+      "slug": "herbs"
+    },
+    {
+      "text": "eggs",
+      "dish": "Eggs",
+      "slug": "eggs"
+    },
+    {
+      "text": "citrus",
+      "dish": "Citrus",
+      "slug": "citrus"
+    },
+    {
+      "text": "first tender vegetables",
+      "dish": "Tender Vegetables",
+      "slug": "tender-vegetables"
+    }
+  ],
   "Saturnalia": [
     {
       "text": "roast pork",
@@ -1388,53 +1402,6 @@
       "slug": "honey-cakes"
     }
   ],
-  "Feast of Our Lady of Guadalupe": [
-    {
-      "text": "tamales verdes",
-      "dish": "Green Tamales",
-      "slug": "green-tamales"
-    },
-    {
-      "text": "tamales de rajas con queso",
-      "dish": "Tamales with Cheese and Peppers",
-      "slug": "tamales-with-cheese-and-peppers"
-    },
-    {
-      "text": "pozole rojo",
-      "dish": "Red Pozole",
-      "slug": "red-pozole"
-    },
-    {
-      "text": "mole poblano con arroz",
-      "dish": "Mole Poblano with Rice",
-      "slug": "mole-poblano-with-rice"
-    },
-    {
-      "text": "tacos dorados",
-      "dish": "Golden Fried Tacos",
-      "slug": "golden-fried-tacos"
-    },
-    {
-      "text": "bunuelos de viento",
-      "dish": "Buñuelos",
-      "slug": "bunuelos"
-    },
-    {
-      "text": "churros de canela",
-      "dish": "Cinnamon Churros",
-      "slug": "cinnamon-churros"
-    },
-    {
-      "text": "champurrado espumoso",
-      "dish": "Champurrado",
-      "slug": "champurrado"
-    },
-    {
-      "text": "atole de guayaba",
-      "dish": "Guava Atole",
-      "slug": "guava-atole"
-    }
-  ],
   "Fourth Sunday of Advent": [
     {
       "text": "Panettone",
@@ -1453,8 +1420,8 @@
     },
     {
       "text": "savoury tourtiere pies",
-      "dish": "Tourtiere",
-      "slug": "tourtiere"
+      "dish": "Savoury Tourtiere Pies",
+      "slug": "savoury-tourtiere-pies"
     }
   ],
   "Winter Solstice (Yule)": [
@@ -1481,7 +1448,7 @@
   ],
   "Polaris Meteor Watch & UFO Evening": [
     {
-      "text": "midnight cocoa",
+      "text": "midnight cocoa tinted nebula-blue",
       "dish": "Midnight Cocoa",
       "slug": "midnight-cocoa"
     },
@@ -1492,20 +1459,79 @@
     },
     {
       "text": "citrus-rosemary popcorn",
-      "dish": "Citrus-Rosemary Popcorn",
+      "dish": "Citrus Rosemary Popcorn",
       "slug": "citrus-rosemary-popcorn"
     },
     {
-      "text": "shortbread saucers",
+      "text": "shortbread saucers dusted with edible stardust",
       "dish": "Shortbread Saucers",
       "slug": "shortbread-saucers"
+    }
+  ],
+  "La Noche de Rabanos": [
+    {
+      "text": "ensalada de rabanos",
+      "dish": "Radish Salad",
+      "slug": "radish-salad"
+    },
+    {
+      "text": "tamales de rabano",
+      "dish": "Radish Tamales",
+      "slug": "radish-tamales"
+    },
+    {
+      "text": "atole verde de epazote",
+      "dish": "Epazote Green Atole",
+      "slug": "epazote-green-atole"
+    },
+    {
+      "text": "champurrado espeso de cacao y masa",
+      "dish": "Thick Cocoa and Masa Champurrado",
+      "slug": "thick-cocoa-and-masa-champurrado"
+    },
+    {
+      "text": "tamales dulces de pina y pasas",
+      "dish": "Sweet Pineapple and Raisin Tamales",
+      "slug": "sweet-pineapple-and-raisin-tamales"
+    },
+    {
+      "text": "mezcal artesanal",
+      "dish": "Artisanal Mezcal",
+      "slug": "artisanal-mezcal"
+    }
+  ],
+  "Dia de los Angelitos": [
+    {
+      "text": "atole",
+      "dish": "Atole",
+      "slug": "atole"
+    },
+    {
+      "text": "sugar skulls",
+      "dish": "Sugar Skulls",
+      "slug": "sugar-skulls"
+    },
+    {
+      "text": "tiny pan de muerto",
+      "dish": "Pan de Muerto",
+      "slug": "pan-de-muerto"
+    },
+    {
+      "text": "fruit",
+      "dish": "Fruit",
+      "slug": "fruit"
+    },
+    {
+      "text": "favourite sweets",
+      "dish": "Sweets",
+      "slug": "sweets"
     }
   ],
   "Christmas Eve": [
     {
       "text": "Italian Seven Fishes dinners",
-      "dish": "Seven Fishes",
-      "slug": "seven-fishes"
+      "dish": "Feast of the Seven Fishes",
+      "slug": "feast-of-the-seven-fishes"
     },
     {
       "text": "beet soup",
@@ -1528,81 +1554,7 @@
       "slug": "cookies"
     }
   ],
-  "La Noche de Rabanos": [
-    {
-      "text": "ensalada de rabanos",
-      "dish": "Radish Salad",
-      "slug": "radish-salad"
-    },
-    {
-      "text": "tamales de rabano",
-      "dish": "Radish Tamales",
-      "slug": "radish-tamales"
-    },
-    {
-      "text": "atole verde de epazote",
-      "dish": "Green Epazote Atole",
-      "slug": "green-epazote-atole"
-    },
-    {
-      "text": "champurrado espeso de cacao y masa",
-      "dish": "Thick Chocolate Masa Champurrado",
-      "slug": "thick-chocolate-masa-champurrado"
-    },
-    {
-      "text": "tamales dulces de pina y pasas",
-      "dish": "Sweet Pineapple and Raisin Tamales",
-      "slug": "sweet-pineapple-and-raisin-tamales"
-    },
-    {
-      "text": "mezcal artesanal",
-      "dish": "Artisanal Mezcal",
-      "slug": "artisanal-mezcal"
-    }
-  ],
-  "Christmas Day": [
-    {
-      "text": "Roast goose",
-      "dish": "Roast Goose",
-      "slug": "roast-goose"
-    },
-    {
-      "text": "turkey",
-      "dish": "Roast Turkey",
-      "slug": "roast-turkey"
-    },
-    {
-      "text": "glazed ham",
-      "dish": "Glazed Ham",
-      "slug": "glazed-ham"
-    },
-    {
-      "text": "potatoes",
-      "dish": "Roast Potatoes",
-      "slug": "roast-potatoes"
-    },
-    {
-      "text": "Brussels sprouts",
-      "dish": "Brussels Sprouts",
-      "slug": "brussels-sprouts"
-    },
-    {
-      "text": "Christmas pudding",
-      "dish": "Christmas Pudding",
-      "slug": "christmas-pudding"
-    },
-    {
-      "text": "yule logs",
-      "dish": "Yule Log Cake",
-      "slug": "yule-log-cake"
-    }
-  ],
   "St. Stephen's Day (Boxing Day)": [
-    {
-      "text": "Christmas roasts",
-      "dish": "Christmas Roast",
-      "slug": "christmas-roast"
-    },
     {
       "text": "hearty pies",
       "dish": "Hearty Pie",
@@ -1624,91 +1576,66 @@
       "slug": "spiced-ale"
     }
   ],
-  "Yalda Night": [
+  "Christmas Day": [
     {
-      "text": "sharbat-e anar o gol-e sorkh",
-      "dish": "Pomegranate And Rosewater Cordial",
-      "slug": "pomegranate-and-rosewater-cordial"
+      "text": "Roast goose",
+      "dish": "Roast Goose",
+      "slug": "roast-goose"
     },
     {
-      "text": "sabzi khordan",
-      "dish": "Herb Platter",
-      "slug": "herb-platter"
+      "text": "turkey",
+      "dish": "Roast Turkey",
+      "slug": "roast-turkey"
     },
     {
-      "text": "borani laboo",
-      "dish": "Beet Yogurt Dip",
-      "slug": "beet-yogurt-dip"
+      "text": "glazed ham",
+      "dish": "Glazed Ham",
+      "slug": "glazed-ham"
     },
     {
-      "text": "zeytoon parvardeh",
-      "dish": "Olives In Pomegranate Molasses",
-      "slug": "olives-in-pomegranate-molasses"
+      "text": "potatoes",
+      "dish": "Potatoes",
+      "slug": "potatoes"
     },
     {
-      "text": "fesenjān",
-      "dish": "Walnut Pomegranate Stew",
-      "slug": "walnut-pomegranate-stew"
+      "text": "Brussels sprouts",
+      "dish": "Brussels Sprouts",
+      "slug": "brussels-sprouts"
     },
     {
-      "text": "tahchin-e zereshk",
-      "dish": "Saffron Rice Cake With Barberries And Chicken",
-      "slug": "saffron-rice-cake-with-barberries-and-chicken"
+      "text": "Christmas pudding",
+      "dish": "Christmas Pudding",
+      "slug": "christmas-pudding"
     },
     {
-      "text": "khoresht-e bamieh",
-      "dish": "Okra Stew",
-      "slug": "okra-stew"
-    },
-    {
-      "text": "Salad-e Shirazi",
-      "dish": "Shirazi Salad",
-      "slug": "shirazi-salad"
-    },
-    {
-      "text": "naan-e barbari",
-      "dish": "Sesame-topped Barbari Bread",
-      "slug": "sesame-topped-barbari-bread"
-    },
-    {
-      "text": "anar o hendevaneh fruit",
-      "dish": "Pomegranate And Watermelon Fruit",
-      "slug": "pomegranate-and-watermelon-fruit"
-    },
-    {
-      "text": "ajil-e Shab-e Yalda",
-      "dish": "Roasted Nuts And Dried Fruits",
-      "slug": "roasted-nuts-and-dried-fruits"
-    },
-    {
-      "text": "sholeh zard",
-      "dish": "Saffron Rice Pudding",
-      "slug": "saffron-rice-pudding"
+      "text": "yule logs",
+      "dish": "Yule Log",
+      "slug": "yule-log"
     }
   ],
   "Feast of the Holy Innocents (Childermas Banquet)": [
     {
-      "text": "Baby Bellini aperitifs of sparkling wine or apple cider with white peach puree",
-      "dish": "Baby Bellini",
-      "slug": "baby-bellini"
+      "text": "Baby Bellini aperitifs",
+      "dish": "Baby Bellini Aperitif",
+      "slug": "baby-bellini-aperitif"
     },
     {
-      "text": "baby beet bisque swirled with creme fraiche and dill over star-cut rye croutons",
+      "text": "baby beet bisque",
       "dish": "Baby Beet Bisque",
       "slug": "baby-beet-bisque"
     },
     {
-      "text": "baby greens toss with baby tomatoes, carrots, and corn in honey-citrus vinaigrette with toasted almonds and edible flowers",
+      "text": "baby greens",
       "dish": "Baby Greens Salad",
       "slug": "baby-greens-salad"
     },
     {
-      "text": "slow-smoked baby back ribs lacquered in pomegranate glaze",
+      "text": "slow-smoked baby back ribs",
       "dish": "Slow-Smoked Baby Back Ribs",
       "slug": "slow-smoked-baby-back-ribs"
     },
     {
-      "text": "herb-roasted Cornish hens with clementine pan jus",
+      "text": "herb-roasted Cornish hens",
       "dish": "Herb-Roasted Cornish Hens",
       "slug": "herb-roasted-cornish-hens"
     },
@@ -1718,29 +1645,34 @@
       "slug": "duck-fat-roasted-baby-potatoes"
     },
     {
-      "text": "baby corn gratin with nutmeg-Parmesan crust",
+      "text": "baby corn gratin",
       "dish": "Baby Corn Gratin",
       "slug": "baby-corn-gratin"
     },
     {
-      "text": "braised baby onions in balsamic reduction",
+      "text": "braised baby onions",
       "dish": "Braised Baby Onions",
       "slug": "braised-baby-onions"
     },
     {
-      "text": "pillowy milk rolls with whipped honey butter",
-      "dish": "Milk Rolls with Whipped Honey Butter",
-      "slug": "milk-rolls-with-whipped-honey-butter"
+      "text": "pillowy milk rolls",
+      "dish": "Pillowy Milk Rolls",
+      "slug": "pillowy-milk-rolls"
     },
     {
-      "text": "baby cheesecakes topped in spiced pear-cranberry compote",
+      "text": "whipped honey butter",
+      "dish": "Whipped Honey Butter",
+      "slug": "whipped-honey-butter"
+    },
+    {
+      "text": "baby cheesecakes",
       "dish": "Baby Cheesecakes",
       "slug": "baby-cheesecakes"
     },
     {
-      "text": "baby bananas Foster",
-      "dish": "Baby Bananas Foster",
-      "slug": "baby-bananas-foster"
+      "text": "tableside baby bananas Foster",
+      "dish": "Tableside Baby Bananas Foster",
+      "slug": "tableside-baby-bananas-foster"
     },
     {
       "text": "Babycham",
@@ -1748,9 +1680,103 @@
       "slug": "babycham"
     },
     {
-      "text": "warm milk punch dusted with nutmeg",
+      "text": "warm milk punch",
       "dish": "Warm Milk Punch",
       "slug": "warm-milk-punch"
+    }
+  ],
+  "Yalda Night": [
+    {
+      "text": "sharbat-e anar o gol-e sorkh—pomegranate and rosewater cordial with mint and lime",
+      "dish": "Pomegranate and Rosewater Cordial",
+      "slug": "pomegranate-and-rosewater-cordial"
+    },
+    {
+      "text": "sabzi khordan with herbs, feta, walnuts, and warm flatbread",
+      "dish": "Fresh Herb Platter with Feta and Walnuts",
+      "slug": "fresh-herb-platter-with-feta-and-walnuts"
+    },
+    {
+      "text": "borani laboo beet yogurt with pistachio",
+      "dish": "Beet Yogurt Dip with Pistachio",
+      "slug": "beet-yogurt-dip-with-pistachio"
+    },
+    {
+      "text": "zeytoon parvardeh olives in pomegranate molasses",
+      "dish": "Marinated Olives with Pomegranate and Walnuts",
+      "slug": "marinated-olives-with-pomegranate-and-walnuts"
+    },
+    {
+      "text": "fesenjān of duck or chicken simmered to a glossy walnut-pomegranate sauce",
+      "dish": "Walnut Pomegranate Stew (Fesenjan)",
+      "slug": "walnut-pomegranate-stew-fesenjan"
+    },
+    {
+      "text": "tahchin-e zereshk saffron rice cake layered with barberries and tender chicken",
+      "dish": "Saffron Rice Cake with Barberries and Chicken (Tahchin)",
+      "slug": "saffron-rice-cake-with-barberries-and-chicken-tahchin"
+    },
+    {
+      "text": "khoresht-e bamieh okra stew",
+      "dish": "Okra Stew (Khoresht-e Bamieh)",
+      "slug": "okra-stew-khoresht-e-bamieh"
+    },
+    {
+      "text": "Salad-e Shirazi",
+      "dish": "Shirazi Salad",
+      "slug": "shirazi-salad"
+    },
+    {
+      "text": "naan-e barbari",
+      "dish": "Barbari Bread",
+      "slug": "barbari-bread"
+    },
+    {
+      "text": "anar o hendevaneh fruit",
+      "dish": "Pomegranate and Watermelon",
+      "slug": "pomegranate-and-watermelon"
+    },
+    {
+      "text": "ajil-e Shab-e Yalda roasted nuts and dried fruits",
+      "dish": "Yalda Night Mixed Nuts and Dried Fruits",
+      "slug": "yalda-night-mixed-nuts-and-dried-fruits"
+    },
+    {
+      "text": "sholeh zard saffron rice pudding",
+      "dish": "Saffron Rice Pudding (Sholeh Zard)",
+      "slug": "saffron-rice-pudding-sholeh-zard"
+    }
+  ],
+  "Thanksgiving Day (United States)": [
+    {
+      "text": "roast turkey",
+      "dish": "Roast Turkey",
+      "slug": "roast-turkey"
+    },
+    {
+      "text": "cornbread stuffing",
+      "dish": "Cornbread Stuffing",
+      "slug": "cornbread-stuffing"
+    },
+    {
+      "text": "cranberry relish",
+      "dish": "Cranberry Relish",
+      "slug": "cranberry-relish"
+    },
+    {
+      "text": "sweet potatoes",
+      "dish": "Sweet Potatoes",
+      "slug": "sweet-potatoes"
+    },
+    {
+      "text": "green bean casseroles",
+      "dish": "Green Bean Casserole",
+      "slug": "green-bean-casserole"
+    },
+    {
+      "text": "pie",
+      "dish": "Pie",
+      "slug": "pie"
     }
   ]
 }

@@ -20,11 +20,18 @@ DESCRIPTION:History: The Roman calendar fixed the turn of the civil year to
  r televised celebrations to welcome a clean slate.\nFeasting: Families toa
  st with sparkling wine\, share longevity noodles or Hoppin' John for luck\
  , and slice sweet breads like panettone or king cakes to invite prosperity
- .\nDay: Thursday\n\nIcon: 🎊\nCategory: celebration
+ .\nDay: Thursday\n\nIcon: 🎊\nCategory: celebration\n\nAgenda: https://m
+ ss.castalia.institute/agenda/new-years-day/\nRecipes:\nKir Royale: https:/
+ /mss.castalia.institute/recipes/sparkling-wine/\nLongevity Noodles with Po
+ rk and Vegetables: https://mss.castalia.institute/recipes/longevity-noodle
+ s/\nHoppin' John: https://mss.castalia.institute/recipes/hoppin-john/\nTra
+ ditional Panettone: https://mss.castalia.institute/recipes/panettone/\nTra
+ ditional King Cake: https://mss.castalia.institute/recipes/king-cake/
 CATEGORIES:celebration
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/new-years-day-champagne-and-confetti.png
+URL:https://mss.castalia.institute/agenda/new-years-day/
 END:VEVENT
 BEGIN:VEVENT
 UID:perchta-day-perchtenlauf@maybesomethingseasonal.com
@@ -40,11 +47,18 @@ DESCRIPTION:History: Alpine folklore honors Frau Perchta\, a wintry guardia
  rkness and protect the fields.\nFeasting: Hosts offer dumplings\, poppy-se
  ed pastries\, and milky punches to the performers\, along with mulled wine
   and sweet krapfen for the crowd.\nDay: Friday\n\nIcon: 🎭\nCategory: cu
- ltural
+ ltural\n\nAgenda: https://mss.castalia.institute/agenda/perchta-day-percht
+ enlauf/\nRecipes:\nChinese Pork and Cabbage Dumplings (Jiaozi): https://ms
+ s.castalia.institute/recipes/dumplings/\nPoppy Seed Pastries: https://mss.
+ castalia.institute/recipes/poppy-seed-pastries/\nWarming Milky Punch: http
+ s://mss.castalia.institute/recipes/milky-punch/\nTraditional Mulled Wine (
+ Glühwein): https://mss.castalia.institute/recipes/mulled-wine/\nTradition
+ al Austrian Krapfen: https://mss.castalia.institute/recipes/krapfen/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/austrian-and-bavarian-tradition-perchta-day.png
+URL:https://mss.castalia.institute/agenda/perchta-day-perchtenlauf/
 END:VEVENT
 BEGIN:VEVENT
 UID:berchtoldstag@maybesomethingseasonal.com
@@ -54,15 +68,23 @@ RRULE:FREQ=YEARLY
 DTEND;VALUE=DATE:20260103
 SUMMARY:Berchtoldstag
 DESCRIPTION:History: Medieval Swiss guilds observed Berchtoldstag as a post
- -feast day to honor community bonds and start the civic year together.\nTra
- ditions: Families make Berchteln visits\, children knock on doors during Ba
- erzelistag parades\, and neighbors share well wishes with carved masks or p
- ine boughs.\nFeasting: Tables feature braided Zopf loaves\, roesti skillets
- \, sausages\, hazelnut tortes\, and pots of melted cheese for communal dipp
- ing.\nDay: Friday\n\nIcon: 🍞\nCategory: cultural
+ -feast day to honor community bonds and start the civic year together.\nTr
+ aditions: Families make Berchteln visits\, children knock on doors during 
+ Baerzelistag parades\, and neighbors share well wishes with carved masks o
+ r pine boughs.\nFeasting: Tables feature braided Zopf loaves\, roesti skil
+ lets\, sausages\, hazelnut tortes\, and pots of melted cheese for communal
+  dipping.\nDay: Friday\n\nIcon: 🍞\nCategory: cultural\n\nAgenda: https:
+ //mss.castalia.institute/agenda/berchtoldstag/\nRecipes:\nZopf: https://ms
+ s.castalia.institute/recipes/zopf/\nTraditional Rösti for Berchtoldstag: 
+ https://mss.castalia.institute/recipes/rosti/\nPan-Fried Swiss Cervelat wi
+ th Onions: https://mss.castalia.institute/recipes/sausage/\nBerchtoldstag 
+ Hazelnut Torte: https://mss.castalia.institute/recipes/hazelnut-torte/\nTr
+ aditional Swiss Cheese Fondue: https://mss.castalia.institute/recipes/fond
+ ue/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
+URL:https://mss.castalia.institute/agenda/berchtoldstag/
 END:VEVENT
 BEGIN:VEVENT
 UID:candlemas-feast-of-the-presentation@maybesomethingseasonal.com
@@ -80,11 +102,23 @@ DESCRIPTION:History: Commemorated in Jerusalem by the fourth century\, Cand
  rut\, and salade de mache\; in Mexico\, familias sirven tamales oaxaquenos
  \, tamales de dulce\, atole de canela\, champurrado espumoso\, and pan de 
  candelaria after the blessing of candles.\nDay: Friday\n\nIcon: 🕯️\nC
- ategory: cultural
+ ategory: cultural\n\nAgenda: https://mss.castalia.institute/agenda/candlem
+ as-feast-of-the-presentation/\nRecipes:\nCandlemas Crêpes with Butter and
+  Sugar: https://mss.castalia.institute/recipes/crepes-with-butter-and-suga
+ r/\nHam and Cheese Crepes for Candlemas: https://mss.castalia.institute/re
+ cipes/ham-and-cheese-crepes/\nMulled Dry Cider for Candlemas: https://mss.
+ castalia.institute/recipes/dry-cider/\nLamb's Lettuce Salad: https://mss.c
+ astalia.institute/recipes/lambs-lettuce-salad/\nOaxacan Tamales: https://m
+ ss.castalia.institute/recipes/oaxacan-tamales/\nSweet Tamales for Candlema
+ s: https://mss.castalia.institute/recipes/sweet-tamales/\nCinnamon Atole: 
+ https://mss.castalia.institute/recipes/cinnamon-atole/\nFoamy Champurrado:
+  https://mss.castalia.institute/recipes/foamy-champurrado/\nCandlemas Brea
+ d: https://mss.castalia.institute/recipes/candlemas-bread/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/candlemas-feast-of-the-presentation-of-jesus-and-blessing-of-candles.png
+URL:https://mss.castalia.institute/agenda/candlemas-feast-of-the-presentation/
 END:VEVENT
 BEGIN:VEVENT
 UID:twelfth-night@maybesomethingseasonal.com
@@ -99,11 +133,18 @@ DESCRIPTION:History: Twelfth Night concludes the Christmastide counting fro
  wassailers sing at doorways\, and revelers dismantle greenery to avoid a y
  ear of bad fortune.\nFeasting: Tables feature spiced ale\, figgy puddings\
  , king cakes filled with almonds\, and roasted meats shared before the fas
- ting of Epiphany begins.\nDay: Monday\n\nIcon: 🎭\nCategory: cultural
+ ting of Epiphany begins.\nDay: Monday\n\nIcon: 🎭\nCategory: cultural\n\
+ nAgenda: https://mss.castalia.institute/agenda/twelfth-night/\nRecipes:\nS
+ piced Ale (Wassail): https://mss.castalia.institute/recipes/spiced-ale/\nF
+ iggy Pudding: https://mss.castalia.institute/recipes/figgy-pudding/\nTradi
+ tional King Cake: https://mss.castalia.institute/recipes/king-cake/\nRoast
+ ed Pork Loin with Apple and Sage: https://mss.castalia.institute/recipes/r
+ oasted-meat/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/twelfth-night-end-of-the-christmas-season.png
+URL:https://mss.castalia.institute/agenda/twelfth-night/
 END:VEVENT
 BEGIN:VEVENT
 UID:epiphany-three-kings-day@maybesomethingseasonal.com
@@ -118,11 +159,19 @@ DESCRIPTION:History: Since the second century\, Epiphany has celebrated the
  e pageants of camels and kings\, and children receive gifts left by los Re
  yes Magos or La Befana.\nFeasting: Bakers craft rosca de reyes\, galette d
  es rois\, or king cakes\, while households sip rich hot chocolate and shar
- e slow-simmered stews.\nDay: Tuesday\n\nIcon: 👑\nCategory: cultural
+ e slow-simmered stews.\nDay: Tuesday\n\nIcon: 👑\nCategory: cultural\n\n
+ Agenda: https://mss.castalia.institute/agenda/epiphany-three-kings-day/\nR
+ ecipes:\nRosca de Reyes (Three Kings' Bread): https://mss.castalia.institu
+ te/recipes/rosca-de-reyes/\nGalette des Rois: https://mss.castalia.institu
+ te/recipes/galette-des-rois/\nTraditional King Cake: https://mss.castalia.
+ institute/recipes/king-cake/\nTraditional Holiday Hot Chocolate: https://m
+ ss.castalia.institute/recipes/hot-chocolate/\nEpiphany Winter Beef Stew: h
+ ttps://mss.castalia.institute/recipes/stew/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/epiphany-three-kings-day-celebration-of-the-magi.png
+URL:https://mss.castalia.institute/agenda/epiphany-three-kings-day/
 END:VEVENT
 BEGIN:VEVENT
 UID:fete-de-papa-zaka-feast-of-the-farmer-loa@maybesomethingseasonal.com
@@ -143,10 +192,34 @@ DESCRIPTION:History: Haitian Vodou communities honour Papa Zaka, the kindly
  nn peze, pain mayi, and jars of pikliz; desserts finish with pen patat, bo
  nbons sirop, tropical fruits, and altar offerings of roasted corn, a grain
  -filled straw hat, and a shot of rum with pipe tobacco.\nDay: Saturday\n\n
- Icon: 🌾\nCategory: cultural
+ Icon: 🌾\nCategory: cultural\n\nAgenda: https://mss.castalia.institute/a
+ genda/fete-de-papa-zaka-feast-of-the-farmer-loa/\nRecipes:\nClairin Ti Pun
+ ch: https://mss.castalia.institute/recipes/clairin-ti-punch/\nKleren Anise
+ tte (Anise-Infused Clairin): https://mss.castalia.institute/recipes/kleren
+ -anisette/\nPumpkin-Spice Jus Giraumon: https://mss.castalia.institute/rec
+ ipes/pumpkin-spice-jus-giraumon/\nSoup Joumou: https://mss.castalia.instit
+ ute/recipes/soup-joumou/\nAccra de Morue with Pikliz: https://mss.castalia
+ .institute/recipes/accra-de-morue-with-pikliz/\nMayi Moulen ak Sos Pwa (Co
+ rnmeal with Bean Sauce): https://mss.castalia.institute/recipes/mayi-moule
+ n-ak-sos-pwa/\nPoulet Nan Sos (Haitian Chicken in Sauce): https://mss.cast
+ alia.institute/recipes/poulet-nan-sos/\nGriot de Porc: https://mss.castali
+ a.institute/recipes/griot-de-porc/\nLegim Nan Diri (Haitian Vegetable Stew
+  with Rice): https://mss.castalia.institute/recipes/legim-nan-diri/\nRed B
+ eans with Rice (Riz Collé ak Pwa Wouj): https://mss.castalia.institute/re
+ cipes/red-beans-with-rice/\nBannann Peze (Twice-Fried Plantains): https://
+ mss.castalia.institute/recipes/bannann-peze/\nPain Mayi (Haitian Corn Brea
+ d): https://mss.castalia.institute/recipes/pain-mayi/\nPikliz: https://mss
+ .castalia.institute/recipes/pikliz/\nPen Patat: https://mss.castalia.insti
+ tute/recipes/pen-patat/\nBonbons Sirop (Haitian Lime Syrup Candies): https
+ ://mss.castalia.institute/recipes/bonbons-sirop/\nPapa Zaka's Harvest Frui
+ t Medley: https://mss.castalia.institute/recipes/tropical-fruits/\nRoasted
+  Corn for Papa Zaka: https://mss.castalia.institute/recipes/roasted-corn/\
+ nPapa Zaka's Spiced Rum Offering: https://mss.castalia.institute/recipes/r
+ um/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
+URL:https://mss.castalia.institute/agenda/fete-de-papa-zaka-feast-of-the-farmer-loa/
 END:VEVENT
 BEGIN:VEVENT
 UID:fete-du-vodoun-benin-vodoun-festival@maybesomethingseasonal.com
@@ -162,11 +235,19 @@ DESCRIPTION:History: Benin recognised Vodoun as a national religion in 1996
  es\, offering libations at the Temple of Pythons and the seaside.\nFeastin
  g: Festival goers share akassa corn porridge\, goat and fish stews flavour
  ed with palm oil\, toasted peanuts\, and generous pours of sodabi palm liq
- uor.\nDay: Saturday\n\nIcon: 🎭\nCategory: cultural
+ uor.\nDay: Saturday\n\nIcon: 🎭\nCategory: cultural\n\nAgenda: https://m
+ ss.castalia.institute/agenda/fete-du-vodoun-benin-vodoun-festival/\nRecipe
+ s:\nAkassa Corn Porridge: https://mss.castalia.institute/recipes/akassa-co
+ rn-porridge/\nBeninese Festival Goat and Fish Stew: https://mss.castalia.i
+ nstitute/recipes/goat-and-fish-stews/\nToasted Peanuts: https://mss.castal
+ ia.institute/recipes/toasted-peanuts/\nSodabi Palm Liquor: Ceremonial Serv
+ ing for Fête du Vodoun: https://mss.castalia.institute/recipes/sodabi-pal
+ m-liquor/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/vodoun-festival-traditional-celebration-in-benin-honoring-vodoun-spirituality-an.png
+URL:https://mss.castalia.institute/agenda/fete-du-vodoun-benin-vodoun-festival/
 END:VEVENT
 BEGIN:VEVENT
 UID:feast-of-the-ass@maybesomethingseasonal.com
@@ -182,11 +263,20 @@ DESCRIPTION:History: Medieval French parishes staged the Feast of the Ass t
  ng devotion with carnival humour.\nFeasting: Le repas rustique propose pai
  n de campagne\, soupe aux pois secs\, galette au miel\, tarte aux noix\, f
  romage de chevre\, and cruches de vin epice hypocras shared in honour of t
- he humble ane.\nDay: Wednesday\n\nIcon: 🐴\nCategory: cultural
+ he humble ane.\nDay: Wednesday\n\nIcon: 🐴\nCategory: cultural\n\nAgenda
+ : https://mss.castalia.institute/agenda/feast-of-the-ass/\nRecipes:\nRusti
+ c Country Bread: https://mss.castalia.institute/recipes/country-bread/\nHe
+ arty Dried Pea Soup: https://mss.castalia.institute/recipes/dried-pea-soup
+ /\nHoney Galette: https://mss.castalia.institute/recipes/honey-galette/\nM
+ edieval Walnut Tart for the Feast of the Ass: https://mss.castalia.institu
+ te/recipes/walnut-tart/\nFestive Baked Goat Cheese with Herbs and Honey: h
+ ttps://mss.castalia.institute/recipes/goat-cheese/\nSpiced Wine Hypocras: 
+ https://mss.castalia.institute/recipes/spiced-wine-hypocras/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/feast-of-the-ass-medieval-festival-celebrating-the-flight-into-egypt.png
+URL:https://mss.castalia.institute/agenda/feast-of-the-ass/
 END:VEVENT
 BEGIN:VEVENT
 UID:dondoyaki-bonfire@maybesomethingseasonal.com
@@ -202,11 +292,15 @@ DESCRIPTION:History: Dondoyaki descends from Heian-period shrine rites that
  ers\, and children roast lucky rice cakes in the embers.\nFeasting: Skewer
  ed mochi toasted over the flames\, sweet azuki bean soup\, and cups of war
  m amazake fortify neighbours against the cold night air.\nDay: Thursday\n\
- nIcon: 🔥\nCategory: cultural
+ nIcon: 🔥\nCategory: cultural\n\nAgenda: https://mss.castalia.institute/
+ agenda/dondoyaki-bonfire/\nRecipes:\nSweet Azuki Bean Soup (Zenzai): https
+ ://mss.castalia.institute/recipes/azuki-bean-soup/\nAmazake (Sweet Ferment
+ ed Rice Drink): https://mss.castalia.institute/recipes/amazake/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/japanese-new-year-tradition-of-burning-new-year-decorations.png
+URL:https://mss.castalia.institute/agenda/dondoyaki-bonfire/
 END:VEVENT
 BEGIN:VEVENT
 UID:old-twelfth-night-wassail@maybesomethingseasonal.com
@@ -221,11 +315,18 @@ DESCRIPTION:History: When Britain adopted the Gregorian calendar in 1752\,
  kets into branches\, and sing to wake the apple trees while offering cider
  -soaked toast to the guardian robin.\nFeasting: Hot mulled cider\, apple c
  akes\, blue cheese\, and pork pies fuel the rounds from farm to farm throu
- gh the frosty fields.\nDay: Saturday\n\nIcon: 🌟\nCategory: cultural
+ gh the frosty fields.\nDay: Saturday\n\nIcon: 🌟\nCategory: cultural\n\n
+ Agenda: https://mss.castalia.institute/agenda/old-twelfth-night-wassail/\n
+ Recipes:\nHot Mulled Cider for Wassail: https://mss.castalia.institute/rec
+ ipes/hot-mulled-cider/\nTraditional Wassail Apple Cakes: https://mss.casta
+ lia.institute/recipes/apple-cakes/\nBlue Cheese and Walnut Tart: https://m
+ ss.castalia.institute/recipes/blue-cheese/\nHearty Pork Pies for Old Twelf
+ th Night Wassail: https://mss.castalia.institute/recipes/pork-pies/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/old-twelfth-night-traditional-date-before-calendar-reform.png
+URL:https://mss.castalia.institute/agenda/old-twelfth-night-wassail/
 END:VEVENT
 BEGIN:VEVENT
 UID:burns-night-supper@maybesomethingseasonal.com
@@ -241,11 +342,19 @@ DESCRIPTION:History: The first Burns Night was held in 1801 by friends of R
  ith ceilidh dances and "Auld Lang Syne."\nFeasting: Menus centre on haggis
   with neeps and tatties\, cock-a-leekie soup\, cranachan\, oatcakes\, and 
  drams of smoky single malt whisky.\nDay: Sunday\n\nIcon: 🏴󠁧󠁢󠁳
- 󠁣󠁴󠁿\nCategory: cultural
+ 󠁣󠁴󠁿\nCategory: cultural\n\nAgenda: https://mss.castalia.institute
+ /agenda/burns-night-supper/\nRecipes:\nHaggis with Neeps and Tatties: http
+ s://mss.castalia.institute/recipes/haggis-with-neeps-and-tatties/\nCock-a-
+ Leekie Soup: https://mss.castalia.institute/recipes/cock-a-leekie-soup/\nC
+ ranachan: https://mss.castalia.institute/recipes/cranachan/\nTraditional S
+ cottish Oatcakes: https://mss.castalia.institute/recipes/oatcakes/\nSmoky 
+ Single Malt Whisky for Burns Night: https://mss.castalia.institute/recipes
+ /smoky-single-malt-whisky/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/scottish-celebration-of-the-poet-robert-burns-with-poetry-haggis-and-whisky.png
+URL:https://mss.castalia.institute/agenda/burns-night-supper/
 END:VEVENT
 BEGIN:VEVENT
 UID:feast-of-st-muirgen-li-ban-the-mermaid@maybesomethingseasonal.com
@@ -265,11 +374,21 @@ DESCRIPTION:History: Lí Ban\, daughter of Eochaid\, survived the bursting
  the sea.\nFeasting: A coastal table of poached Irish salmon\, dulse and ca
  rrageen pudding\, Bangor oysters\, brown soda bread with salted butter\, a
  nd a pot of tea or a measure of Bushmills.\nDay: Tuesday\n\nIcon: 🧜‍
- ♀️\nCategory: religious
+ ♀️\nCategory: religious\n\nAgenda: https://mss.castalia.institute/agen
+ da/feast-of-st-muirgen-li-ban-the-mermaid/\nRecipes:\nPoached Irish Salmon
+ : https://mss.castalia.institute/recipes/poached-irish-salmon/\nDulse and 
+ Carrageen Pudding: https://mss.castalia.institute/recipes/dulse-and-carrag
+ een-pudding/\nBaked Bangor Oysters with Garlic Herb Butter: https://mss.ca
+ stalia.institute/recipes/bangor-oysters/\nBrown Soda Bread with Salted But
+ ter: https://mss.castalia.institute/recipes/brown-soda-bread-with-salted-b
+ utter/\nClassic Brewed Black Tea: https://mss.castalia.institute/recipes/t
+ ea/\nLí Ban's Seafoam Whiskey Cocktail: https://mss.castalia.institute/re
+ cipes/bushmills-whiskey/
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/st-muirgen-mermaid.svg
+URL:https://mss.castalia.institute/agenda/feast-of-st-muirgen-li-ban-the-mermaid/
 END:VEVENT
 BEGIN:VEVENT
 UID:lunar-new-year-chunjie@maybesomethingseasonal.com
@@ -293,11 +412,20 @@ DESCRIPTION:History: Rooted in Han dynasty agrarian cycles\, the Lunar New
  hongbao envelopes gifted\, and lion or dragon dances chase away lingering 
  Nian monsters.\nFeasting: Reunion banquets showcase longevity noodles\, wh
  ole fish\, dumplings shaped like ingots\, sweet rice cakes\, and mandarin 
- oranges for abundance.\nDay: Thursday\n\nIcon: 🐉\nCategory: cultural
+ oranges for abundance.\nDay: Thursday\n\nIcon: 🐉\nCategory: cultural\n\
+ nAgenda: https://mss.castalia.institute/agenda/lunar-new-year-chunjie/\nRe
+ cipes:\nLongevity Noodles with Pork and Vegetables: https://mss.castalia.i
+ nstitute/recipes/longevity-noodles/\nSteamed Whole Fish for Lunar New Year
+ : https://mss.castalia.institute/recipes/whole-fish/\nChinese Pork and Cab
+ bage Dumplings (Jiaozi): https://mss.castalia.institute/recipes/dumplings/
+ \nSweet Lunar New Year Rice Cakes (Nian Gao): https://mss.castalia.institu
+ te/recipes/sweet-rice-cakes/\nFestive Mandarin Orange Presentation: https:
+ //mss.castalia.institute/recipes/mandarin-oranges/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/lunar-new-year-celebration.png
+URL:https://mss.castalia.institute/agenda/lunar-new-year-chunjie/
 END:VEVENT
 BEGIN:VEVENT
 UID:losar-tibetan-new-year@maybesomethingseasonal.com
@@ -323,11 +451,19 @@ DESCRIPTION:History: Losar blends ancient Bon winter rites with Buddhist ob
  e reciting auspicious wishes.\nFeasting: Households prepare guthuk noodle 
  soup with symbolic dumplings\, deep-fried khapse pastries\, dried yak chee
  se\, and butter tea shared with neighbours.\nDay: Thursday\n\nIcon: 🏔
- ️\nCategory: cultural
+ ️\nCategory: cultural\n\nAgenda: https://mss.castalia.institute/agenda/l
+ osar-tibetan-new-year/\nRecipes:\nGuthuk Noodle Soup: https://mss.castalia
+ .institute/recipes/guthuk-noodle-soup/\nLosar Guthuk (Tibetan Symbolic Dum
+ pling Soup): https://mss.castalia.institute/recipes/symbolic-dumplings/\nD
+ eep-Fried Khapse Pastries: https://mss.castalia.institute/recipes/deep-fri
+ ed-khapse-pastries/\nPrepared Dried Yak Cheese (Chhurpi): https://mss.cast
+ alia.institute/recipes/dried-yak-cheese/\nTibetan Butter Tea (Po Cha): htt
+ ps://mss.castalia.institute/recipes/butter-tea/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/tibetan-new-year-celebration-of-the-lunar-new-year-in-tibetan-culture.png
+URL:https://mss.castalia.institute/agenda/losar-tibetan-new-year/
 END:VEVENT
 BEGIN:VEVENT
 UID:imbolc-eve-la-fheile-bride@maybesomethingseasonal.com
@@ -342,11 +478,18 @@ DESCRIPTION:History: Imbolc heralds the first stirrings of spring in ancien
  lies to receive the saint's blessing\, and keep vigil fires burning throug
  h the night.\nFeasting: Dairy-rich dishes--fresh butter\, soft cheeses\, o
  atcakes\, and early lamb stews--honour Brigid's patronage of livestock and
-  the hearth.\nDay: Friday\n\nIcon: 🌙\nCategory: seasonal
+  the hearth.\nDay: Friday\n\nIcon: 🌙\nCategory: seasonal\n\nAgenda: htt
+ ps://mss.castalia.institute/agenda/imbolc-eve-la-fheile-bride/\nRecipes:\n
+ Fresh Hand-Churned Imbolc Butter: https://mss.castalia.institute/recipes/f
+ resh-butter/\nHerbed Fresh Goat Cheese Spread for Imbolc: https://mss.cast
+ alia.institute/recipes/soft-cheeses/\nTraditional Scottish Oatcakes: https
+ ://mss.castalia.institute/recipes/oatcakes/\nImbolc Eve Early Lamb Stew: h
+ ttps://mss.castalia.institute/recipes/early-lamb-stews/
 CATEGORIES:seasonal
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/eve-of-imbolc-the-celtic-festival-marking-the-beginning-of-spring.png
+URL:https://mss.castalia.institute/agenda/imbolc-eve-la-fheile-bride/
 END:VEVENT
 BEGIN:VEVENT
 UID:imbolc-day-celebration@maybesomethingseasonal.com
@@ -361,11 +504,19 @@ DESCRIPTION:History: With the lambing season underway\, Imbolc marks the mi
  nkle thresholds with blessed water\, and hang swaddles outdoors to absorb 
  Brigid's healing power.\nFeasting: Communities share bannocks\, colcannon\
  , dulse\, and honeyed porridges\, often concluding with tea infused with t
- he first tender herbs.\nDay: Sunday\n\nIcon: 🌱\nCategory: seasonal
+ he first tender herbs.\nDay: Sunday\n\nIcon: 🌱\nCategory: seasonal\n\nA
+ genda: https://mss.castalia.institute/agenda/imbolc-day-celebration/\nReci
+ pes:\nTraditional Scottish Oat Bannocks: https://mss.castalia.institute/re
+ cipes/bannocks/\nTraditional Colcannon: https://mss.castalia.institute/rec
+ ipes/colcannon/\nToasted Dulse Crisps: https://mss.castalia.institute/reci
+ pes/dulse/\nHoneyed Porridge: https://mss.castalia.institute/recipes/honey
+ ed-porridge/\nImbolc Awakening Herbal Tea: https://mss.castalia.institute/
+ recipes/herbal-tea/
 CATEGORIES:seasonal
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/eve-of-imbolc-the-celtic-festival-marking-the-beginning-of-spring.png
+URL:https://mss.castalia.institute/agenda/imbolc-day-celebration/
 END:VEVENT
 BEGIN:VEVENT
 UID:saint-valentine-s-day@maybesomethingseasonal.com
@@ -380,11 +531,17 @@ DESCRIPTION:History: The feast of the third-century martyr Valentine intert
  cts of service\, while many support charitable causes in the spirit of sel
  fless love.\nFeasting: Sweethearts linger over chocolate-dipped strawberri
  es\, heart-shaped confections\, fine champagne\, and candlelit suppers for
-  two.\nDay: Saturday\n\nIcon: 💕\nCategory: cultural
+  two.\nDay: Saturday\n\nIcon: 💕\nCategory: cultural\n\nAgenda: https://
+ mss.castalia.institute/agenda/saint-valentines-day/\nRecipes:\nChocolate-D
+ ipped Strawberries: https://mss.castalia.institute/recipes/chocolate-dippe
+ d-strawberries/\nValentine's Day Heart Sugar Cookies: https://mss.castalia
+ .institute/recipes/heart-shaped-confections/\nPerfectly Served Valentine's
+  Day Champagne: https://mss.castalia.institute/recipes/champagne/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/patron-saint-of-love-and-romance.png
+URL:https://mss.castalia.institute/agenda/saint-valentines-day/
 END:VEVENT
 BEGIN:VEVENT
 UID:saint-patrick-s-day@maybesomethingseasonal.com
@@ -400,11 +557,19 @@ DESCRIPTION:History: Patrick's fifth-century mission in Ireland inspired me
  tween friends and strangers alike.\nFeasting: Menus highlight corned beef 
  and cabbage\, soda bread\, colcannon\, smoked salmon\, and stout or whiske
  y raised in hearty toast.\nDay: Tuesday\n\nIcon: ☘️\nCategory: cultura
- l
+ l\n\nAgenda: https://mss.castalia.institute/agenda/saint-patricks-day/\nRe
+ cipes:\nCorned Beef and Cabbage: https://mss.castalia.institute/recipes/co
+ rned-beef-and-cabbage/\nTraditional Irish Soda Bread: https://mss.castalia
+ .institute/recipes/soda-bread/\nTraditional Colcannon: https://mss.castali
+ a.institute/recipes/colcannon/\nSmoked Salmon with Irish Soda Bread and Di
+ ll Cream Cheese: https://mss.castalia.institute/recipes/smoked-salmon/\nGu
+ inness Float: https://mss.castalia.institute/recipes/stout/\nTraditional I
+ rish Coffee: https://mss.castalia.institute/recipes/whiskey/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/patron-saint-of-ireland-celebrated-worldwide.png
+URL:https://mss.castalia.institute/agenda/saint-patricks-day/
 END:VEVENT
 BEGIN:VEVENT
 UID:spring-equinox-ostara@maybesomethingseasonal.com
@@ -424,11 +589,22 @@ X-MSS-CIVIL-TZ:America/Denver
 X-MSS-ASTRONOMY-POLICY:USNO season instant mapped to America/Denver civil date
 DTEND;VALUE=DATE:20260321
 SUMMARY:Spring Equinox (Ostara)
-DESCRIPTION:History: The equinox marks a moment of near-equal day and night as spring gathers strength.\nTraditions: People welcome returning light with early garden work, fresh greens, and mindful balance rituals.\nFeasting: Seasonal plates highlight herbs, eggs, citrus, and first tender vegetables.\nDay: Friday\n\nIcon: 🌸\nCategory: seasonal
+DESCRIPTION:History: The equinox marks a moment of near-equal day and night
+  as spring gathers strength.\nTraditions: People welcome returning light w
+ ith early garden work, fresh greens, and mindful balance rituals.\nFeastin
+ g: Seasonal plates highlight herbs, eggs, citrus, and first tender vegetab
+ les.\nDay: Friday\n\nIcon: 🌸\nCategory: seasonal\n\nAgenda: https://mss
+ .castalia.institute/agenda/spring-equinox-ostara/\nRecipes:\nSpring Herb a
+ nd Feta Frittata: https://mss.castalia.institute/recipes/herbs/\nOstara Na
+ turally Dyed Eggs: https://mss.castalia.institute/recipes/eggs/\nSpring Eq
+ uinox Citrus Salad: https://mss.castalia.institute/recipes/citrus/\nTender
+  Spring Vegetables with Lemon-Herb Dressing: https://mss.castalia.institut
+ e/recipes/tender-vegetables/
 CATEGORIES:seasonal
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/spring-equinox.svg
+URL:https://mss.castalia.institute/agenda/spring-equinox-ostara/
 END:VEVENT
 BEGIN:VEVENT
 UID:nowruz@maybesomethingseasonal.com
@@ -447,11 +623,22 @@ X-MSS-DATE-SOURCE:https://calendar.ut.ac.ir/
 X-MSS-PERSIAN-POLICY:University of Tehran Calendar Center Solar Hijri dates; Nowruz=1 Farvardin; Yalda=30 Azar
 DTEND;VALUE=DATE:20260321
 SUMMARY:Nowruz
-DESCRIPTION:History: Nowruz is the Persian New Year rooted in ancient springtime renewal traditions.\nTraditions: Families set the Haft-Seen table, clean the home, visit loved ones, and celebrate the first day of spring.\nFeasting: Shared foods include herb-forward dishes, sweets, tea, and celebratory rice.\nDay: Friday\n\nIcon: 🌿\nCategory: cultural
+DESCRIPTION:History: Nowruz is the Persian New Year rooted in ancient sprin
+ gtime renewal traditions.\nTraditions: Families set the Haft-Seen table, c
+ lean the home, visit loved ones, and celebrate the first day of spring.\nF
+ easting: Shared foods include herb-forward dishes, sweets, tea, and celebr
+ atory rice.\nDay: Friday\n\nIcon: 🌿\nCategory: cultural\n\nAgenda: http
+ s://mss.castalia.institute/agenda/nowruz/\nRecipes:\nKookoo Sabzi (Persian
+  Herb Frittata): https://mss.castalia.institute/recipes/herb-forward-dishe
+ s/\nNan-e Berenji (Persian Rice Cookies): https://mss.castalia.institute/r
+ ecipes/sweets/\nClassic Brewed Black Tea: https://mss.castalia.institute/r
+ ecipes/tea/\nSabzi Polo (Persian Herbed Rice): https://mss.castalia.instit
+ ute/recipes/celebratory-rice/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/nowruz.svg
+URL:https://mss.castalia.institute/agenda/nowruz/
 END:VEVENT
 BEGIN:VEVENT
 UID:palm-sunday@maybesomethingseasonal.com
@@ -533,11 +720,17 @@ RDATE;VALUE=DATE:20990405
 RDATE;VALUE=DATE:21000321
 DTEND;VALUE=DATE:20260330
 SUMMARY:Palm Sunday
-DESCRIPTION:History: Palm Sunday begins Holy Week, recalling the entry into Jerusalem.\nTraditions: Communities carry palms, sing, and prepare for the week of remembrance.\nFeasting: Simple seasonal meals and shared bread often follow worship.\nDay: Sunday\n\nIcon: 🌿\nCategory: cultural
+DESCRIPTION:History: Palm Sunday begins Holy Week, recalling the entry into
+  Jerusalem.\nTraditions: Communities carry palms, sing, and prepare for th
+ e week of remembrance.\nFeasting: Simple seasonal meals and shared bread o
+ ften follow worship.\nDay: Sunday\n\nIcon: 🌿\nCategory: cultural\n\nAge
+ nda: https://mss.castalia.institute/agenda/palm-sunday/\nRecipes:\nSimple 
+ Rustic Loaf: https://mss.castalia.institute/recipes/bread/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/palm-sunday.svg
+URL:https://mss.castalia.institute/agenda/palm-sunday/
 END:VEVENT
 BEGIN:VEVENT
 UID:passover@maybesomethingseasonal.com
@@ -555,11 +748,20 @@ RDATE;VALUE=DATE:20350424
 X-MSS-DATE-SOURCE:https://www.hebcal.com/holidays/
 DTEND;VALUE=DATE:20260410
 SUMMARY:Passover
-DESCRIPTION:History: Passover commemorates the Exodus and the journey from slavery to freedom.\nTraditions: Families gather for a seder with symbolic foods, storytelling, and songs.\nFeasting: Matzah, bitter herbs, charoset, and festive meals anchor the week.\nDay: Thursday\n\nIcon: 🫓\nCategory: cultural
+DESCRIPTION:History: Passover commemorates the Exodus and the journey from 
+ slavery to freedom.\nTraditions: Families gather for a seder with symbolic
+  foods, storytelling, and songs.\nFeasting: Matzah, bitter herbs, charoset
+ , and festive meals anchor the week.\nDay: Thursday\n\nIcon: 🫓\nCategor
+ y: cultural\n\nAgenda: https://mss.castalia.institute/agenda/passover/\nRe
+ cipes:\nHandmade Passover Matzah: https://mss.castalia.institute/recipes/m
+ atzah/\nPassover Maror (Bitter Herbs): https://mss.castalia.institute/reci
+ pes/bitter-herbs/\nTraditional Ashkenazi Charoset: https://mss.castalia.in
+ stitute/recipes/charoset/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/passover.svg
+URL:https://mss.castalia.institute/agenda/passover/
 END:VEVENT
 BEGIN:VEVENT
 UID:maundy-thursday@maybesomethingseasonal.com
@@ -641,11 +843,18 @@ RDATE;VALUE=DATE:20990409
 RDATE;VALUE=DATE:21000325
 DTEND;VALUE=DATE:20260403
 SUMMARY:Maundy Thursday
-DESCRIPTION:History: Maundy Thursday recalls the Last Supper and the commandment to love.\nTraditions: Many keep a quiet vigil and share a meal in remembrance.\nFeasting: Bread, soup, and simple dishes reflect the tone of the day.\nDay: Thursday\n\nIcon: 🍞\nCategory: cultural
+DESCRIPTION:History: Maundy Thursday recalls the Last Supper and the comman
+ dment to love.\nTraditions: Many keep a quiet vigil and share a meal in re
+ membrance.\nFeasting: Bread, soup, and simple dishes reflect the tone of t
+ he day.\nDay: Thursday\n\nIcon: 🍞\nCategory: cultural\n\nAgenda: https:
+ //mss.castalia.institute/agenda/maundy-thursday/\nRecipes:\nSimple Rustic 
+ Loaf: https://mss.castalia.institute/recipes/bread/\nGreen Herb Soup (Grü
+ ndonnerstagssuppe): https://mss.castalia.institute/recipes/soup/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/maundy-thursday.svg
+URL:https://mss.castalia.institute/agenda/maundy-thursday/
 END:VEVENT
 BEGIN:VEVENT
 UID:good-friday@maybesomethingseasonal.com
@@ -727,11 +936,17 @@ RDATE;VALUE=DATE:20990410
 RDATE;VALUE=DATE:21000326
 DTEND;VALUE=DATE:20260404
 SUMMARY:Good Friday
-DESCRIPTION:History: Good Friday commemorates the crucifixion and death of Jesus.\nTraditions: Many observe fasting, prayer, and solemn services.\nFeasting: Simple fare and shared bread reflect reflection and remembrance.\nDay: Friday\n\nIcon: ✝️\nCategory: cultural
+DESCRIPTION:History: Good Friday commemorates the crucifixion and death of 
+ Jesus.\nTraditions: Many observe fasting, prayer, and solemn services.\nFe
+ asting: Simple fare and shared bread reflect reflection and remembrance.\n
+ Day: Friday\n\nIcon: ✝️\nCategory: cultural\n\nAgenda: https://mss.cas
+ talia.institute/agenda/good-friday/\nRecipes:\nSimple Rustic Loaf: https:/
+ /mss.castalia.institute/recipes/bread/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/good-friday.svg
+URL:https://mss.castalia.institute/agenda/good-friday/
 END:VEVENT
 BEGIN:VEVENT
 UID:earth-day@maybesomethingseasonal.com
@@ -747,11 +962,17 @@ DESCRIPTION:History: US senator Gaylord Nelson and organiser Denis Hayes la
  ice at community fairs.\nFeasting: Earth-friendly gatherings feature seaso
  nal salads\, plant-based potlucks\, fair-trade coffee\, and desserts sweet
  ened with local honey.\nDay: Wednesday\n\nIcon: 🌍\nCategory: environmen
- tal
+ tal\n\nAgenda: https://mss.castalia.institute/agenda/earth-day/\nRecipes:\
+ nEarth Day Seasonal Salad: https://mss.castalia.institute/recipes/seasonal
+ -salad/\nMediterranean Quinoa Salad: https://mss.castalia.institute/recipe
+ s/plant-based-potluck/\nFair-Trade Coffee: https://mss.castalia.institute/
+ recipes/fair-trade-coffee/\nHoney-Nut Energy Bites: https://mss.castalia.i
+ nstitute/recipes/honey-sweetened-dessert/
 CATEGORIES:environmental
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/celebrate-our-planet-and-environmental-awareness.png
+URL:https://mss.castalia.institute/agenda/earth-day/
 END:VEVENT
 BEGIN:VEVENT
 UID:independence-day-united-states@maybesomethingseasonal.com
@@ -766,11 +987,22 @@ DESCRIPTION:History: The Continental Congress adopted the Declaration of In
  eclaration aloud\, stage concerts\, and end the night with brilliant firew
  orks displays.\nFeasting: Backyard grills sizzle with burgers\, hot dogs\,
   corn on the cob\, baked beans\, berry pies\, and pitchers of lemonade or 
- sweet tea.\nDay: Saturday\n\nIcon: 🇺🇸\nCategory: cultural
+ sweet tea.\nDay: Saturday\n\nIcon: 🇺🇸\nCategory: cultural\n\nAgenda:
+  https://mss.castalia.institute/agenda/independence-day-united-states/\nRe
+ cipes:\nClassic Independence Day Beef Burgers: https://mss.castalia.instit
+ ute/recipes/burgers/\nClassic Grilled Independence Day Hot Dogs: https://m
+ ss.castalia.institute/recipes/hot-dogs/\nClassic Grilled Corn on the Cob: 
+ https://mss.castalia.institute/recipes/corn-on-the-cob/\nClassic Independe
+ nce Day Baked Beans: https://mss.castalia.institute/recipes/baked-beans/\n
+ Classic Independence Day Berry Pie: https://mss.castalia.institute/recipes
+ /berry-pies/\nClassic Independence Day Lemonade: https://mss.castalia.inst
+ itute/recipes/lemonade/\nClassic Sweet Tea: https://mss.castalia.institute
+ /recipes/sweet-tea/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/celebration-of-american-independence.png
+URL:https://mss.castalia.institute/agenda/independence-day-united-states/
 END:VEVENT
 BEGIN:VEVENT
 UID:buddhist-ghost-festival-ullambana@maybesomethingseasonal.com
@@ -788,11 +1020,24 @@ RDATE;VALUE=DATE:20350818
 X-MSS-DATE-SOURCE:https://www.hko.gov.hk/en/gts/time/conversion.htm
 DTEND;VALUE=DATE:20260828
 SUMMARY:Buddhist Ghost Festival (Ullambana)
-DESCRIPTION:History: In many East and Southeast Asian Buddhist and folk traditions\, the Ghost Festival (Ullambana\, Zhongyuan) marks a time when offerings are made for ancestors and hungry ghosts.\nTraditions: Families visit temples\, burn incense\, offer food\, and set out lanterns or paper offerings to guide and comfort wandering spirits.\nFeasting: Seasonal plates vary by region\, often including rice\, fruit\, tea\, vegetarian dishes\, and family recipes shared in remembrance.\nDay: Friday\n\nIcon: 🏮\nCategory: cultural
+DESCRIPTION:History: In many East and Southeast Asian Buddhist and folk tra
+ ditions\, the Ghost Festival (Ullambana\, Zhongyuan) marks a time when off
+ erings are made for ancestors and hungry ghosts.\nTraditions: Families vis
+ it temples\, burn incense\, offer food\, and set out lanterns or paper off
+ erings to guide and comfort wandering spirits.\nFeasting: Seasonal plates 
+ vary by region\, often including rice\, fruit\, tea\, vegetarian dishes\, 
+ and family recipes shared in remembrance.\nDay: Friday\n\nIcon: 🏮\nCate
+ gory: cultural\n\nAgenda: https://mss.castalia.institute/agenda/buddhist-g
+ host-festival-ullambana/\nRecipes:\nSteamed White Rice for Ullambana Offer
+ ings: https://mss.castalia.institute/recipes/rice/\nSeasonal Fruit Offerin
+ g Platter: https://mss.castalia.institute/recipes/fruit/\nClassic Brewed B
+ lack Tea: https://mss.castalia.institute/recipes/tea/\nStir-fried Tofu and
+  Mixed Vegetables: https://mss.castalia.institute/recipes/vegetarian-dish/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-MSS-CALENDAR-META:{"alternateCalendars":[{"calendarSystem":"Chinese Lunar","descriptor":"7th month, day 15","notes":"Ghost Festival / Zhongyuan Jie / Ullambana"}],"recurrence":{"calendarSystem":"Chinese Lunar","rule":"15th day of 7th lunar month","anchor":"Offerings for ancestors and wandering spirits"}}
+URL:https://mss.castalia.institute/agenda/buddhist-ghost-festival-ullambana/
 END:VEVENT
 BEGIN:VEVENT
 UID:autumn-equinox-mabon@maybesomethingseasonal.com
@@ -818,11 +1063,19 @@ DESCRIPTION:History: The equinox equalises day and night worldwide\, inspir
   practice gratitude journaling\, and take twilight walks to feel the seaso
  nal balance.\nFeasting: Harvest tables brim with roasted squash\, apple ta
  rts\, caramelised root vegetables\, mulled cider\, and hearty grain salads
- .\nDay: Tuesday\n\nIcon: 🍂\nCategory: seasonal
+ .\nDay: Tuesday\n\nIcon: 🍂\nCategory: seasonal\n\nAgenda: https://mss.c
+ astalia.institute/agenda/autumn-equinox-mabon/\nRecipes:\nRoasted Autumn S
+ quash: https://mss.castalia.institute/recipes/roasted-squash/\nAutumn Equi
+ nox Apple Tart: https://mss.castalia.institute/recipes/apple-tart/\nAutumn
+  Equinox Caramelized Root Vegetables: https://mss.castalia.institute/recip
+ es/caramelized-root-vegetables/\nMulled Cider: https://mss.castalia.instit
+ ute/recipes/mulled-cider/\nAutumn Equinox Harvest Grain Salad: https://mss
+ .castalia.institute/recipes/grain-salad/
 CATEGORIES:seasonal
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/fall-begins-time-for-harvest-and-reflection.png
+URL:https://mss.castalia.institute/agenda/autumn-equinox-mabon/
 END:VEVENT
 BEGIN:VEVENT
 UID:rosh-hashanah-jewish-new-year@maybesomethingseasonal.com
@@ -849,11 +1102,18 @@ DESCRIPTION:History: Rosh Hashanah\, the head of the Hebrew year on 1–2 T
  ically shed the past year's wrongs.\nFeasting: Apples dipped in honey for 
  a sweet year\, round challah\, pomegranates for a year full of merit\, hon
  ey cake\, and a new fruit of the season on the second night.\n\nIcon: 🍎
- \nCategory: religious
+ \nCategory: religious\n\nAgenda: https://mss.castalia.institute/agenda/ros
+ h-hashanah-jewish-new-year/\nRecipes:\nApples Dipped in Honey: https://mss
+ .castalia.institute/recipes/apples-dipped-in-honey/\nRound Challah for Ros
+ h Hashanah: https://mss.castalia.institute/recipes/challah/\nFresh Pomegra
+ nates for a Sweet New Year: https://mss.castalia.institute/recipes/pomegra
+ nates/\nRosh Hashanah Honey Cake (Lekach): https://mss.castalia.institute/
+ recipes/honey-cake/
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/rosh-hashanah-shofar-apples-and-honey.png
+URL:https://mss.castalia.institute/agenda/rosh-hashanah-jewish-new-year/
 END:VEVENT
 BEGIN:VEVENT
 UID:yom-kippur-day-of-atonement@maybesomethingseasonal.com
@@ -879,11 +1139,20 @@ DESCRIPTION:History: Yom Kippur\, on 10 Tishrei\, is the holiest day of the
  the final blast of the shofar at Ne'ilah as the gates close.\nFeasting: A 
  generous pre-fast meal of chicken soup and kreplach\, then a break-fast of
   bagels\, lox\, kugel\, blintzes\, and sweet tea once three stars appear.\
- n\nIcon: 📖\nCategory: religious
+ n\nIcon: 📖\nCategory: religious\n\nAgenda: https://mss.castalia.institu
+ te/agenda/yom-kippur-day-of-atonement/\nRecipes:\nClassic Chicken Soup for
+  Breaking the Fast: https://mss.castalia.institute/recipes/chicken-soup/\n
+ Kreplach for Yom Kippur: https://mss.castalia.institute/recipes/kreplach/\
+ nClassic New York-Style Bagels: https://mss.castalia.institute/recipes/bag
+ els/\nYom Kippur Lox and Bagel Platter: https://mss.castalia.institute/rec
+ ipes/lox/\nSweet Noodle Kugel: https://mss.castalia.institute/recipes/kuge
+ l/\nClassic Cheese Blintzes: https://mss.castalia.institute/recipes/blintz
+ es/\nClassic Sweet Tea: https://mss.castalia.institute/recipes/sweet-tea/
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/yom-kippur-prayer-book-and-tallit.png
+URL:https://mss.castalia.institute/agenda/yom-kippur-day-of-atonement/
 END:VEVENT
 BEGIN:VEVENT
 UID:all-hallows-eve-halloween@maybesomethingseasonal.com
@@ -898,11 +1167,18 @@ DESCRIPTION:History: Halloween evolved from Celtic Samhain festivals and me
  ries\, visit haunted houses\, and children collect sweets door to door.\nF
  easting: Seasonal treats include candy apples\, pumpkin bread\, roasted nu
  ts\, soul cakes\, and steaming mugs of spiced cider.\nDay: Saturday\n\nIco
- n: 🎃\nCategory: celebration
+ n: 🎃\nCategory: celebration\n\nAgenda: https://mss.castalia.institute/a
+ genda/all-hallows-eve-halloween/\nRecipes:\nClassic Halloween Candy Apples
+ : https://mss.castalia.institute/recipes/candy-apples/\nSpiced Halloween P
+ umpkin Bread: https://mss.castalia.institute/recipes/pumpkin-bread/\nRoast
+ ed Nuts: https://mss.castalia.institute/recipes/roasted-nuts/\nTraditional
+  Soul Cakes: https://mss.castalia.institute/recipes/soul-cakes/\nWarm Spic
+ ed Apple Cider: https://mss.castalia.institute/recipes/spiced-cider/
 CATEGORIES:celebration
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/halloween-jack-o-lantern-and-black-cat.png
+URL:https://mss.castalia.institute/agenda/all-hallows-eve-halloween/
 END:VEVENT
 BEGIN:VEVENT
 UID:dia-de-los-angelitos@maybesomethingseasonal.com
@@ -917,10 +1193,18 @@ DESCRIPTION:History: On 1 November\, Mexican families honour children who h
  , while families ring bells and scatter marigolds to guide the little spir
  its home.\nFeasting: Offerings feature atole\, sugar skulls\, tiny pan de 
  muerto loaves\, fruit\, and favourite sweets that delighted the children i
- n life.\nDay: Saturday\n\nIcon: 👼\nCategory: cultural
+ n life.\nDay: Saturday\n\nIcon: 👼\nCategory: cultural\n\nAgenda: https:
+ //mss.castalia.institute/agenda/dia-de-los-angelitos/\nRecipes:\nTradition
+ al Atole de Maiz: https://mss.castalia.institute/recipes/atole/\nSugar Sku
+ lls (Calaveras de Azúcar): https://mss.castalia.institute/recipes/sugar-s
+ kulls/\nPan de Muerto: https://mss.castalia.institute/recipes/pan-de-muert
+ o/\nSeasonal Fruit Offering Platter: https://mss.castalia.institute/recipe
+ s/fruit/\nNan-e Berenji (Persian Rice Cookies): https://mss.castalia.insti
+ tute/recipes/sweets/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
+URL:https://mss.castalia.institute/agenda/dia-de-los-angelitos/
 END:VEVENT
 BEGIN:VEVENT
 UID:dia-de-los-muertos@maybesomethingseasonal.com
@@ -935,10 +1219,18 @@ DESCRIPTION:History: Rooted in pre-Hispanic customs later intertwined with
  opal incense\, picnic beside candlelit graves\, and share stories through 
  the night.\nFeasting: Traditional dishes include pan de muerto\, mole\, ta
  males\, champurrado\, and calaveras de azucar painted with loved ones' nam
- es.\nDay: Sunday\n\nIcon: 💀\nCategory: cultural
+ es.\nDay: Sunday\n\nIcon: 💀\nCategory: cultural\n\nAgenda: https://mss.
+ castalia.institute/agenda/dia-de-los-muertos/\nRecipes:\nPan de Muerto: ht
+ tps://mss.castalia.institute/recipes/pan-de-muerto/\nMole Poblano: https:/
+ /mss.castalia.institute/recipes/mole/\nTraditional Pork Tamales for Día d
+ e los Muertos: https://mss.castalia.institute/recipes/tamales/\nChampurrad
+ o: https://mss.castalia.institute/recipes/champurrado/\nCalaveras de Azuca
+ r (Sugar Skulls): https://mss.castalia.institute/recipes/calaveras-de-azuc
+ ar/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
+URL:https://mss.castalia.institute/agenda/dia-de-los-muertos/
 END:VEVENT
 BEGIN:VEVENT
 UID:martinstag-lantern-evening@maybesomethingseasonal.com
@@ -953,11 +1245,18 @@ DESCRIPTION:History: Eves of St. Martin's Day in German-speaking lands reca
  , sing Sankt Martin songs\, and end with bonfires or shadow plays retellin
  g his compassion.\nFeasting: Warm cider\, pretzels\, roasted chestnuts\, a
  nd buttery pastries reward lantern bearers after the chilly evening walk.\
- nDay: Monday\n\nIcon: 🧥\nCategory: cultural
+ nDay: Monday\n\nIcon: 🧥\nCategory: cultural\n\nAgenda: https://mss.cast
+ alia.institute/agenda/martinstag-lantern-evening/\nRecipes:\nMartinstag Wa
+ rm Spiced Cider: https://mss.castalia.institute/recipes/warm-cider/\nTradi
+ tional Soft Pretzels: https://mss.castalia.institute/recipes/pretzels/\nRo
+ asted Chestnuts: https://mss.castalia.institute/recipes/roasted-chestnuts/
+ \nButtery Martinstag Buns: https://mss.castalia.institute/recipes/buttery-
+ pastries/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/image23.png
+URL:https://mss.castalia.institute/agenda/martinstag-lantern-evening/
 END:VEVENT
 BEGIN:VEVENT
 UID:st-martin-s-day-martinstag@maybesomethingseasonal.com
@@ -972,11 +1271,21 @@ DESCRIPTION:History: Medieval Europe celebrated 11 November as the close of
  amatizations of Martin's cloak-sharing remind communities to care for thos
  e in need.\nFeasting: Feasts centre on roast goose with red cabbage\, pota
  to dumplings\, spiced biscuits\, and mugs of Gluehwein or Federweisser.\nD
- ay: Tuesday\n\nIcon: 🪿\nCategory: cultural
+ ay: Tuesday\n\nIcon: 🪿\nCategory: cultural\n\nAgenda: https://mss.casta
+ lia.institute/agenda/st-martins-day-martinstag/\nRecipes:\nTraditional Roa
+ st Goose: https://mss.castalia.institute/recipes/roast-goose/\nBraised Red
+  Cabbage for St. Martin's Day: https://mss.castalia.institute/recipes/red-
+ cabbage/\nTraditional Potato Dumplings (Kartoffelklöße): https://mss.cas
+ talia.institute/recipes/potato-dumplings/\nSt. Martin's Day Spiced Biscuit
+ s: https://mss.castalia.institute/recipes/spiced-biscuits/\nTraditional Mu
+ lled Wine (Glühwein): https://mss.castalia.institute/recipes/mulled-wine/
+ \nFederweisser (New Wine): https://mss.castalia.institute/recipes/federwei
+ sser/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/image24.png
+URL:https://mss.castalia.institute/agenda/st-martins-day-martinstag/
 END:VEVENT
 BEGIN:VEVENT
 UID:life-day-wookiee-tradition@maybesomethingseasonal.com
@@ -991,11 +1300,18 @@ DESCRIPTION:History: Life Day debuted in the 1978 Star Wars Holiday Special
  Shyriiwook tongue\, share glowing orbs\, and meditate on harmony across th
  e galaxy.\nFeasting: Fans imagine ryshcate sweet breads\, bantha stew\, ro
  asted yeca fruits\, and steaming mugs of blue bantha milk enjoyed around c
- ommunal tables.\nDay: Monday\n\nIcon: ⭐\nCategory: cultural
+ ommunal tables.\nDay: Monday\n\nIcon: ⭐\nCategory: cultural\n\nAgenda: h
+ ttps://mss.castalia.institute/agenda/life-day-wookiee-tradition/\nRecipes:
+ \nRyshcate Sweet Breads: https://mss.castalia.institute/recipes/ryshcate-s
+ weet-breads/\nBantha Stew: https://mss.castalia.institute/recipes/bantha-s
+ tew/\nRoasted Yeca Fruits: https://mss.castalia.institute/recipes/roasted-
+ yeca-fruits/\nBlue Bantha Milk: https://mss.castalia.institute/recipes/blu
+ e-bantha-milk/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/wookiee-celebration-from-the-star-wars-universe.png
+URL:https://mss.castalia.institute/agenda/life-day-wookiee-tradition/
 END:VEVENT
 BEGIN:VEVENT
 UID:st-catherine-s-day@maybesomethingseasonal.com
@@ -1013,11 +1329,17 @@ DESCRIPTION:History: Medieval guilds honoured St. Catherine of Alexandria a
  right St. Catherine's w heel procession through the streets.\nFeasting: Ba
  keries share saffron catter n cakes\, honeyed biscuits\, mulled cider\, an
  d spiced wine served after even ing vespers.\nDay: Tuesday\n\nIcon: 🎡\n
- Category: religious
+ Category: religious\n\nAgenda: https://mss.castalia.institute/agenda/st-ca
+ therines-day/\nRecipes:\nSaffron Catter N Cakes: https://mss.castalia.inst
+ itute/recipes/saffron-catter-n-cakes/\nHoneyed Biscuits for St. Catherine'
+ s Day: https://mss.castalia.institute/recipes/honeyed-biscuits/\nMulled Ci
+ der: https://mss.castalia.institute/recipes/mulled-cider/\nSt. Catherine's
+  Day Spiced Wine: https://mss.castalia.institute/recipes/spiced-wine/
 Category: religious
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
+URL:https://mss.castalia.institute/agenda/st-catherines-day/
 END:VEVENT
 BEGIN:VEVENT
 UID:thanksgiving-day-united-states@maybesomethingseasonal.com
@@ -1032,11 +1354,21 @@ DESCRIPTION:History: Thanksgiving commemorates harvest gatherings and the 1
  h giant-balloon parades and football games\, and volunteer at community ki
  tchens.\nFeasting: Menus highlight roast turkey\, cornbread stuffing\, cra
  nberry relish\, sweet potatoes\, green bean casseroles\, and slices of pum
- pkin or pecan pie.\nDay: Thursday\n\nIcon: 🦃\nCategory: celebration
+ pkin or pecan pie.\nDay: Thursday\n\nIcon: 🦃\nCategory: celebration\n\n
+ Agenda: https://mss.castalia.institute/agenda/thanksgiving-day-united-stat
+ es/\nRecipes:\nRoast Turkey: https://mss.castalia.institute/recipes/roast-
+ turkey/\nClassic Cornbread Stuffing: https://mss.castalia.institute/recipe
+ s/cornbread-stuffing/\nClassic Homemade Cranberry Relish: https://mss.cast
+ alia.institute/recipes/cranberry-relish/\nSweet Potato Casserole with Peca
+ n Topping: https://mss.castalia.institute/recipes/sweet-potatoes/\nClassic
+  Green Bean Casserole: https://mss.castalia.institute/recipes/green-bean-c
+ asserole/\nClassic Thanksgiving Pumpkin Pie: https://mss.castalia.institut
+ e/recipes/pie/
 CATEGORIES:celebration
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/image26.png
+URL:https://mss.castalia.institute/agenda/thanksgiving-day-united-states/
 END:VEVENT
 BEGIN:VEVENT
 UID:noaptea-lupilor@maybesomethingseasonal.com
@@ -1051,10 +1383,18 @@ DESCRIPTION:History: Polish Andrzejki fortune-telling parties date to the s
  s in candle shadows\, and dance until dawn while sharing playful prophecie
  s.\nFeasting: Guests snack on poppy-seed cakes\, honey cookies\, pickled h
  erring\, and warm cups of mead or herb-infused tea.\nDay: Saturday\n\nIcon
- : 🐺\nCategory: cultural
+ : 🐺\nCategory: cultural\n\nAgenda: https://mss.castalia.institute/agend
+ a/noaptea-lupilor/\nRecipes:\nRomanian Poppy Seed Roll (Cozonac cu Mac): h
+ ttps://mss.castalia.institute/recipes/poppy-seed-cakes/\nTraditional Roman
+ ian Honey Cookies: https://mss.castalia.institute/recipes/honey-cookies/\n
+ Pickled Herring: https://mss.castalia.institute/recipes/pickled-herring/\n
+ Traditional Romanian Mead (Mied): https://mss.castalia.institute/recipes/m
+ ead/\nHerb Infused Tea for Noaptea Lupilor: https://mss.castalia.institute
+ /recipes/herb-infused-tea/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
+URL:https://mss.castalia.institute/agenda/noaptea-lupilor/
 END:VEVENT
 BEGIN:VEVENT
 UID:st-andrew-s-day@maybesomethingseasonal.com
@@ -1070,11 +1410,19 @@ DESCRIPTION:History: Scotland adopted St. Andrew\, one of the first-called
   kindness campaigns.\nFeasting: Cullen skink chowder\, bannocks\, venison 
  pies\, shortbread\, and drams of whisky warm celebrants on a chilly Novemb
  er evening.\nDay: Sunday\n\nIcon: 🏴󠁧󠁢󠁳󠁣󠁴󠁿\nCategory: 
- cultural
+ cultural\n\nAgenda: https://mss.castalia.institute/agenda/st-andrews-day/\
+ nRecipes:\nCullen Skink Chowder: https://mss.castalia.institute/recipes/cu
+ llen-skink-chowder/\nTraditional Scottish Oat Bannocks: https://mss.castal
+ ia.institute/recipes/bannocks/\nTraditional Scottish Venison Pies: https:/
+ /mss.castalia.institute/recipes/venison-pies/\nClassic Scottish Shortbread
+ : https://mss.castalia.institute/recipes/shortbread/\nThe Perfect Dram of 
+ Scotch Whisky for St. Andrew's Day: https://mss.castalia.institute/recipes
+ /whisky/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/feast-of-st-andrew-patron-saint-of-scotland.png
+URL:https://mss.castalia.institute/agenda/st-andrews-day/
 END:VEVENT
 BEGIN:VEVENT
 UID:first-sunday-of-advent@maybesomethingseasonal.com
@@ -1163,11 +1511,17 @@ DESCRIPTION:History: Advent Sundays evolved in the liturgies of fifth-centu
  tree devotions\, and set aside time for quiet reflection.\nFeasting: Seaso
  nal flavours include German stollen\, lebkuchen\, mulled cider\, and simpl
  e Sunday roasts shared after worship.\nDay: Sunday\n\nIcon: 🕯️\nCateg
- ory: cultural
+ ory: cultural\n\nAgenda: https://mss.castalia.institute/agenda/first-sunda
+ y-of-advent/\nRecipes:\nTraditional German Stollen: https://mss.castalia.i
+ nstitute/recipes/stollen/\nTraditional Lebkuchen: https://mss.castalia.ins
+ titute/recipes/lebkuchen/\nMulled Cider: https://mss.castalia.institute/re
+ cipes/mulled-cider/\nClassic Sunday Roast with Rosemary and Garlic: https:
+ //mss.castalia.institute/recipes/sunday-roast/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/image28.png
+URL:https://mss.castalia.institute/agenda/first-sunday-of-advent/
 END:VEVENT
 BEGIN:VEVENT
 UID:krampusnacht@maybesomethingseasonal.com
@@ -1182,11 +1536,18 @@ DESCRIPTION:History: Krampus figures arise from Alpine folklore\, accompany
   rattling chains\, visit homes for staged scares\, and pose for playful ph
  otos with brave children.\nFeasting: Spectators sip schnapps\, nibble ging
  erbread hearts\, and enjoy spicy sausages or pretzels after the adrenaline
- -filled procession.\nDay: Friday\n\nIcon: 👹\nCategory: cultural
+ -filled procession.\nDay: Friday\n\nIcon: 👹\nCategory: cultural\n\nAgen
+ da: https://mss.castalia.institute/agenda/krampusnacht/\nRecipes:\nKrampus
+ nacht Spiced Apple Schnapps Infusion: https://mss.castalia.institute/recip
+ es/schnapps/\nGingerbread Hearts: https://mss.castalia.institute/recipes/g
+ ingerbread-hearts/\nKrampusnacht Fiery Sausages with Peppers and Onions: h
+ ttps://mss.castalia.institute/recipes/spicy-sausages/\nTraditional Soft Pr
+ etzels: https://mss.castalia.institute/recipes/pretzels/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/image29.png
+URL:https://mss.castalia.institute/agenda/krampusnacht/
 END:VEVENT
 BEGIN:VEVENT
 UID:st-nicholas-day@maybesomethingseasonal.com
@@ -1201,11 +1562,20 @@ DESCRIPTION:History: The fourth-century bishop Nicholas of Myra inspired le
   oranges and nuts at dawn\, and listen to stories of the saint rescuing sa
  ilors and the poor.\nFeasting: Families savour speculaas biscuits\, chocol
  ate coins\, mandarin oranges\, marzipan fruits\, and mugs of hot cocoa or 
- gluehwein.\nDay: Saturday\n\nIcon: 🎁\nCategory: cultural
+ gluehwein.\nDay: Saturday\n\nIcon: 🎁\nCategory: cultural\n\nAgenda: htt
+ ps://mss.castalia.institute/agenda/st-nicholas-day/\nRecipes:\nTraditional
+  Speculaas Biscuits: https://mss.castalia.institute/recipes/speculaas-bisc
+ uits/\nHomemade St. Nicholas Day Chocolate Coins: https://mss.castalia.ins
+ titute/recipes/chocolate-coins/\nFestive Mandarin Orange Presentation: htt
+ ps://mss.castalia.institute/recipes/mandarin-oranges/\nMarzipan Fruits: ht
+ tps://mss.castalia.institute/recipes/marzipan-fruits/\nClassic Holiday Hot
+  Cocoa: https://mss.castalia.institute/recipes/hot-cocoa/\nTraditional Gl
+ ühwein: https://mss.castalia.institute/recipes/gluhwein/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/image30.png
+URL:https://mss.castalia.institute/agenda/st-nicholas-day/
 END:VEVENT
 BEGIN:VEVENT
 UID:gita-jayanti@maybesomethingseasonal.com
@@ -1232,12 +1602,19 @@ DESCRIPTION:History: Devotees honour the day Lord Krishna shared the Bhagav
  observe vrata fasts before offering diyas along rivers and at home altars.
  \nFeasting: After evening prayers, observers share satvik plates of khichd
  i, jaggery sweets, sugarcane juice, and warm cardamom milk to break the fa
- st.\nDay: Saturday\n\nIcon: 📜\nCategory: religious
+ st.\nDay: Saturday\n\nIcon: 📜\nCategory: religious\n\nAgenda: https://m
+ ss.castalia.institute/agenda/gita-jayanti/\nRecipes:\nSattvic Moong Dal Kh
+ ichdi: https://mss.castalia.institute/recipes/khichdi/\nJaggery Sesame Lad
+ oo (Gur Til Ladoo): https://mss.castalia.institute/recipes/jaggery-sweets/
+ \nFresh Sugarcane Juice (Ganne ka Ras): https://mss.castalia.institute/rec
+ ipes/sugarcane-juice/\nCardamom Milk (Elaichi Doodh): https://mss.castalia
+ .institute/recipes/cardamom-milk/
 Category: religious
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-MSS-CALENDAR-META:{"alternateCalendars":[{"calendarSystem":"Hindu Lunar","descriptor":"Margashirsha Shukla Ekadashi","notes":"Bright-eleventh tithi"}],"recurrence":{"calendarSystem":"Hindu Lunar","rule":"Observe on every Margashirsha Shukla Ekadashi","anchor":"Bhagavad Gita discourse anniversary"}}
+URL:https://mss.castalia.institute/agenda/gita-jayanti/
 END:VEVENT
 BEGIN:VEVENT
 UID:tiki-christmas-at-pearl-harbor@maybesomethingseasonal.com
@@ -1253,12 +1630,19 @@ DESCRIPTION:History: Hawaii observed its first joint Christmas and Pearl Ha
  ulele choirs serenade visiting veterans with mele.\nFeasting: Luaus set ro
  ast pig\, pineapple haupia\, coconut eggnog\, and shaved ice drenched in r
  ed-and-green syrups beside memorial lanterns.\nDay: Sunday\n\nIcon: 🌺\n
- Category: cultural
+ Category: cultural\n\nAgenda: https://mss.castalia.institute/agenda/tiki-c
+ hristmas-at-pearl-harbor/\nRecipes:\nKalua Pork (Hawaiian Slow-Roasted Por
+ k): https://mss.castalia.institute/recipes/roast-pig/\nPineapple Haupia: h
+ ttps://mss.castalia.institute/recipes/pineapple-haupia/\nTiki Coconut Eggn
+ og: https://mss.castalia.institute/recipes/coconut-eggnog/\nShaved Ice wit
+ h Festive Red and Green Syrups: https://mss.castalia.institute/recipes/sha
+ ved-ice-with-red-and-green-syrups/
 Category: cultural
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/tiki-christmas-at-pearl-harbor.png
+URL:https://mss.castalia.institute/agenda/tiki-christmas-at-pearl-harbor/
 END:VEVENT
 BEGIN:VEVENT
 UID:second-sunday-of-advent@maybesomethingseasonal.com
@@ -1347,11 +1731,18 @@ DESCRIPTION:History: The second Advent candle emphasises faith and the prop
  d charity collections for neighbours in need mark the Sunday gatherings.\n
  Feasting: Cardamom buns\, cinnamon star cookies\, spiced teas\, and hearty
   casseroles offer comfort during the contemplative Advent evenings.\nDay: 
- Sunday\n\nIcon: 🕯️\nCategory: cultural
+ Sunday\n\nIcon: 🕯️\nCategory: cultural\n\nAgenda: https://mss.castali
+ a.institute/agenda/second-sunday-of-advent/\nRecipes:\nSwedish Cardamom Bu
+ ns: https://mss.castalia.institute/recipes/cardamom-buns/\nCinnamon Star C
+ ookies (Zimtsterne): https://mss.castalia.institute/recipes/cinnamon-star-
+ cookies/\nSpiced Advent Tea: https://mss.castalia.institute/recipes/spiced
+ -teas/\nAdvent Sunday Sausage and Egg Bake: https://mss.castalia.institute
+ /recipes/casseroles/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/image31.png
+URL:https://mss.castalia.institute/agenda/second-sunday-of-advent/
 END:VEVENT
 BEGIN:VEVENT
 UID:immaculada@maybesomethingseasonal.com
@@ -1366,12 +1757,19 @@ DESCRIPTION:History: Spain celebrates La Inmaculada as the start of the adv
  until Christmas Eve, hang blue-and-white bunting, and join candlelit vigil
  s in neighbourhood chapels.\nFeasting: Tables feature turron, panellets, s
  teaming cups of thick hot chocolate, and slices of roscon shared after lig
- hting Advent candles.\nDay: Monday\n\nIcon: 🌹\nCategory: religious
+ hting Advent candles.\nDay: Monday\n\nIcon: 🌹\nCategory: religious\n\nA
+ genda: https://mss.castalia.institute/agenda/immaculada/\nRecipes:\nTurron
+  de Alicante (Hard Almond Nougat): https://mss.castalia.institute/recipes/
+ turron/\nPanellets (Catalan Almond Cookies): https://mss.castalia.institut
+ e/recipes/panellets/\nTraditional Holiday Hot Chocolate: https://mss.casta
+ lia.institute/recipes/hot-chocolate/\nFestive Roscón (Sweet Bread Ring): 
+ https://mss.castalia.institute/recipes/roscon/
 Category: religious
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/image36.jpg
+URL:https://mss.castalia.institute/agenda/immaculada/
 END:VEVENT
 BEGIN:VEVENT
 UID:sinterklaas-arrival-intocht@maybesomethingseasonal.com
@@ -1382,16 +1780,24 @@ DTEND;VALUE=DATE:20251116
 SUMMARY:Sinterklaas Arrival (Intocht)
 DESCRIPTION:History: Dutch newspapers popularised Sinterklaas arriving by s
  teamboat in the nineteenth century\, blending Saint Nicholas lore with mar
- itime identity.\nTraditions: On the first Saturday after Saint Martin's Day
-  Sinterklaas docks with his Pieten helpers\, parades through town distributing pe
- pernoten\, and listens to children's wish lists before 5 December gifts.\n
- Feasting: Crowds crunch spiced pepernoten\, speculaas windmill cookies\, c
- hocolate letters\,and marzipan while sipping hot cocoa along the canals.\n
- Day: Saturday\n\nIcon: 🚢\nCategory: cultural
+ itime identity.\nTraditions: On the first Saturday after Saint Martin's Da
+ y Sinterklaas docks with his Pieten helpers\, parades through town distrib
+ uting pepernoten\, and listens to children's wish lists before 5 December 
+ gifts.\nFeasting: Crowds crunch spiced pepernoten\, speculaas windmill coo
+ kies\, chocolate letters\,and marzipan while sipping hot cocoa along the c
+ anals.\nDay: Saturday\n\nIcon: 🚢\nCategory: cultural\n\nAgenda: https:/
+ /mss.castalia.institute/agenda/sinterklaas-arrival-intocht/\nRecipes:\nSpi
+ ced Pepernoten: https://mss.castalia.institute/recipes/spiced-pepernoten/\
+ nTraditional Speculaas Windmill Cookies: https://mss.castalia.institute/re
+ cipes/speculaas-windmill-cookies/\nChocolate Letters: https://mss.castalia
+ .institute/recipes/chocolate-letters/\nHomemade Marzipan: https://mss.cast
+ alia.institute/recipes/marzipan/\nClassic Holiday Hot Cocoa: https://mss.c
+ astalia.institute/recipes/hot-cocoa/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/traditional-dutch-celebration-period-with-sinterklaas-arriving-by-steamboat-star.png
+URL:https://mss.castalia.institute/agenda/sinterklaas-arrival-intocht/
 END:VEVENT
 BEGIN:VEVENT
 UID:magic-flute@maybesomethingseasonal.com
@@ -1407,11 +1813,17 @@ DESCRIPTION:History: Mozart's Singspiel Die Zauberflote premiered in 1791 i
  nities host singalong overtures that keep the spirits bright.\nFeasting: P
  atrons toast with sparkling wine\, nibble on Viennese pastries\, sip rich 
  hot chocolate\, and linger over late suppertime conversations after the cu
- rtaincall.\nDay: Wednesday\n\nIcon: 🎵\nCategory: cultural
+ rtaincall.\nDay: Wednesday\n\nIcon: 🎵\nCategory: cultural\n\nAgenda: ht
+ tps://mss.castalia.institute/agenda/magic-flute/\nRecipes:\nKir Royale: ht
+ tps://mss.castalia.institute/recipes/sparkling-wine/\nViennese Apple Strud
+ el: https://mss.castalia.institute/recipes/viennese-pastries/\nTraditional
+  Holiday Hot Chocolate: https://mss.castalia.institute/recipes/hot-chocola
+ te/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/magic-flute-opera.png
+URL:https://mss.castalia.institute/agenda/magic-flute/
 END:VEVENT
 BEGIN:VEVENT
 UID:lussinatta-st-lucia-s-vigil@maybesomethingseasonal.com
@@ -1426,11 +1838,17 @@ DESCRIPTION:History: In Scandinavia\, Lussinatta watchers once guarded agai
  fron dough\, weaving barabritta crowns\, and keeping candles lit to welcom
  e the dawn bringer.\nFeasting: Glogg mulled wine\, raisin-studded lussekat
  ter twists\, and ginger thins are prepared overnight to share with the mor
- ning procession.\nDay: Friday\n\nIcon: 🌙\nCategory: cultural
+ ning procession.\nDay: Friday\n\nIcon: 🌙\nCategory: cultural\n\nAgenda:
+  https://mss.castalia.institute/agenda/lussinatta-st-lucias-vigil/\nRecipe
+ s:\nGlogg Mulled Wine: https://mss.castalia.institute/recipes/glogg-mulled
+ -wine/\nLussekatter (St. Lucia Buns): https://mss.castalia.institute/recip
+ es/lussekatter/\nGinger Thins: https://mss.castalia.institute/recipes/ging
+ er-thins/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/st-lucia-s-vigil-from-dusk-on-dec-11-until-dawn-on-dec-12.png
+URL:https://mss.castalia.institute/agenda/lussinatta-st-lucias-vigil/
 END:VEVENT
 BEGIN:VEVENT
 UID:feast-of-our-lady-of-guadalupe@maybesomethingseasonal.com
@@ -1447,11 +1865,24 @@ DESCRIPTION:History: In 1531 Juan Diego reported Marian apparitions on Tepe
  es de rajas con queso\, pozole rojo\, mole poblano con arroz\, tacos dorad
  os\, bunuelos de viento\, churros de canela\, champurrado espumoso\, y ato
  le de guayaba antes de continuar las serenatas.\nDay: Friday\n\nIcon: 🌹
- \nCategory: cultural
+ \nCategory: cultural\n\nAgenda: https://mss.castalia.institute/agenda/feas
+ t-of-our-lady-of-guadalupe/\nRecipes:\nGreen Tamales (Tamales Verdes): htt
+ ps://mss.castalia.institute/recipes/green-tamales/\nCheese and Poblano Pep
+ per Strip Tamales: https://mss.castalia.institute/recipes/cheese-and-pobla
+ no-pepper-strip-tamales/\nRed Pozole: https://mss.castalia.institute/recip
+ es/red-pozole/\nMole Poblano with Rice: https://mss.castalia.institute/rec
+ ipes/mole-poblano-with-rice/\nCrispy Chicken Tacos for the Feast of Our La
+ dy of Guadalupe: https://mss.castalia.institute/recipes/crispy-tacos/\nBu
+ ñuelos de Viento: https://mss.castalia.institute/recipes/bunuelos-de-vien
+ to/\nCinnamon Churros: https://mss.castalia.institute/recipes/cinnamon-chu
+ rros/\nFoamy Champurrado: https://mss.castalia.institute/recipes/foamy-cha
+ mpurrado/\nGuava Atole: https://mss.castalia.institute/recipes/guava-atole
+ /
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/feast-of-our-lady-of-guadalupe-patroness-of-the-americas.png
+URL:https://mss.castalia.institute/agenda/feast-of-our-lady-of-guadalupe/
 END:VEVENT
 BEGIN:VEVENT
 UID:st-lucia-s-day@maybesomethingseasonal.com
@@ -1467,11 +1898,18 @@ DESCRIPTION:History: Modern Lucia celebrations took shape in early twentiet
  pe during the polar night.\nFeasting: Households share lussekatter\, saffr
  on biscotti\, almond cookies\, and glasses of julmust or coffee to accompa
  ny the morning serenade.\nDay: Saturday\n\nIcon: 🕯️\nCategory: cultur
- al
+ al\n\nAgenda: https://mss.castalia.institute/agenda/st-lucias-day/\nRecipe
+ s:\nLussekatter (St. Lucia Buns): https://mss.castalia.institute/recipes/l
+ ussekatter/\nSaffron Biscotti: https://mss.castalia.institute/recipes/saff
+ ron-biscotti/\nSwedish Almond Cookies for St. Lucia's Day: https://mss.cas
+ talia.institute/recipes/almond-cookies/\nFestive Julmust Serving: https://
+ mss.castalia.institute/recipes/julmust/\nSt. Lucia's Day Filter Coffee: ht
+ tps://mss.castalia.institute/recipes/coffee/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/swedish-celebration-of-light-and-st-lucia.png
+URL:https://mss.castalia.institute/agenda/st-lucias-day/
 END:VEVENT
 BEGIN:VEVENT
 UID:gaudete-sunday@maybesomethingseasonal.com
@@ -1560,11 +1998,18 @@ DESCRIPTION:History: Named for the "Gaudete in Domino" introit\, the third
  wear rose vestments\, and choirs sing jubilant hymns heralding the nearnes
  s of Christmas.\nFeasting: In the Philippines\, Simbang Gabi worshippers e
  njoy bibingka and puto bumbong\, while others serve rosy macarons and warm
-  fruit punch.\nDay: Sunday\n\nIcon: 🕯️\nCategory: cultural
+  fruit punch.\nDay: Sunday\n\nIcon: 🕯️\nCategory: cultural\n\nAgenda:
+  https://mss.castalia.institute/agenda/gaudete-sunday/\nRecipes:\nBibingka
+  (Traditional Filipino Baked Rice Cake): https://mss.castalia.institute/re
+ cipes/bibingka/\nPuto Bumbong: https://mss.castalia.institute/recipes/puto
+ -bumbong/\nRose Raspberry Macarons for Gaudete Sunday: https://mss.castali
+ a.institute/recipes/macarons/\nGaudete Sunday Festive Fruit Punch: https:/
+ /mss.castalia.institute/recipes/fruit-punch/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/third-sunday-of-advent-gaudete-sunday-joy-and-rejoicing.png
+URL:https://mss.castalia.institute/agenda/gaudete-sunday/
 END:VEVENT
 BEGIN:VEVENT
 UID:hanukkah-festival-of-lights@maybesomethingseasonal.com
@@ -1589,11 +2034,19 @@ DESCRIPTION:History: Hanukkah commemorates the Maccabean rededication of th
  , play dreidel games\, give gelt\, and emphasise acts of charity and resil
  ience.\nFeasting: Foods fried in oil--potato latkes\, sufganiyot\, bimuelo
  s--and braised brisket or kugel anchor the festive tables.\nDay: Monday\n\
- nIcon: 🕎\nCategory: cultural
+ nIcon: 🕎\nCategory: cultural\n\nAgenda: https://mss.castalia.institute/
+ agenda/hanukkah-festival-of-lights/\nRecipes:\nClassic Hanukkah Potato Lat
+ kes: https://mss.castalia.institute/recipes/potato-latkes/\nSufganiyot (Ha
+ nukkah Jelly Doughnuts): https://mss.castalia.institute/recipes/sufganiyot
+ /\nBimuelos (Hanukkah Honey Fritters): https://mss.castalia.institute/reci
+ pes/bimuelos/\nClassic Hanukkah Braised Brisket: https://mss.castalia.inst
+ itute/recipes/braised-brisket/\nSweet Noodle Kugel: https://mss.castalia.i
+ nstitute/recipes/kugel/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/festival-of-lights-eight-nights-of-celebration-starting-at-dusk-on-dec-15.png
+URL:https://mss.castalia.institute/agenda/hanukkah-festival-of-lights/
 END:VEVENT
 BEGIN:VEVENT
 UID:saturnalia@maybesomethingseasonal.com
@@ -1609,11 +2062,18 @@ DESCRIPTION:History: Rome's Saturnalia\, attested as early as 217 BCE\, hon
  r games and generous exchanges.\nFeasting: Banquets overflow with roast po
  rk\, olives\, mulsum sweet wine\, pine nuts\, and honey cakes shared betwe
  en patrons and dependents.\nDay: Wednesday\n\nIcon: 🏛️\nCategory: cul
- tural
+ tural\n\nAgenda: https://mss.castalia.institute/agenda/saturnalia/\nRecipe
+ s:\nSaturnalia Roast Pork: https://mss.castalia.institute/recipes/roast-po
+ rk/\nMarinated Olives for Saturnalia: https://mss.castalia.institute/recip
+ es/olives/\nMulsum Sweet Wine: https://mss.castalia.institute/recipes/muls
+ um-sweet-wine/\nHoney-Glazed Pine Nuts for Saturnalia: https://mss.castali
+ a.institute/recipes/pine-nuts/\nSaturnalia Honey Cakes: https://mss.castal
+ ia.institute/recipes/honey-cakes/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/ancient-roman-festival-of-saturn.png
+URL:https://mss.castalia.institute/agenda/saturnalia/
 END:VEVENT
 BEGIN:VEVENT
 UID:fourth-sunday-of-advent@maybesomethingseasonal.com
@@ -1702,11 +2162,18 @@ DESCRIPTION:History: The final Advent Sunday highlights love and the immine
  reche scenes\, finish charitable giving\, and practice carols for Christma
  s masses.\nFeasting: Panettone\, mince pies\, spiced nuts\, and savoury to
  urtiere pies often appear as families wrap gifts and prepare Christmas Eve
-  menus.\nDay: Sunday\n\nIcon: 🕯️\nCategory: cultural
+  menus.\nDay: Sunday\n\nIcon: 🕯️\nCategory: cultural\n\nAgenda: https
+ ://mss.castalia.institute/agenda/fourth-sunday-of-advent/\nRecipes:\nTradi
+ tional Panettone: https://mss.castalia.institute/recipes/panettone/\nTradi
+ tional Mince Pies: https://mss.castalia.institute/recipes/mince-pies/\nFes
+ tive Spiced Nuts: https://mss.castalia.institute/recipes/spiced-nuts/\nSav
+ oury Tourtiere Pies: https://mss.castalia.institute/recipes/savoury-tourti
+ ere-pies/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/fourth-sunday-of-advent-final-preparation-before-christmas.png
+URL:https://mss.castalia.institute/agenda/fourth-sunday-of-advent/
 END:VEVENT
 BEGIN:VEVENT
 UID:winter-solstice-yule@maybesomethingseasonal.com
@@ -1732,11 +2199,18 @@ DESCRIPTION:History: The solstice marks the sun's rebirth in cultures from
  e at sunrise\, and decorate with evergreen boughs and lights symbolising r
  eturning warmth.\nFeasting: Roasted meats\, spiced mead\, citrus preserves
  \, and solstice cakes shaped like the sun celebrate the lengthening days a
- head.\nDay: Sunday\n\nIcon: ❄️\nCategory: seasonal
+ head.\nDay: Sunday\n\nIcon: ❄️\nCategory: seasonal\n\nAgenda: https://
+ mss.castalia.institute/agenda/winter-solstice-yule/\nRecipes:\nHerb-Cruste
+ d Roasted Pork Loin: https://mss.castalia.institute/recipes/roasted-meats/
+ \nSpiced Mead: https://mss.castalia.institute/recipes/spiced-mead/\nWinter
+  Solstice Citrus Preserves: https://mss.castalia.institute/recipes/citrus-
+ preserves/\nWinter Solstice Spice Cakes: https://mss.castalia.institute/re
+ cipes/solstice-cakes/
 CATEGORIES:seasonal
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/polar-bear-solstice.svg
+URL:https://mss.castalia.institute/agenda/winter-solstice-yule/
 END:VEVENT
 BEGIN:VEVENT
 UID:polaris-meteor-watch-ufo-evening@maybesomethingseasonal.com
@@ -1745,11 +2219,24 @@ DTSTART;VALUE=DATE:20251222
 RRULE:FREQ=YEARLY
 DTEND;VALUE=DATE:20251223
 SUMMARY:Polaris Meteor Watch & UFO Evening
-DESCRIPTION:History: Stargazers gather during the solstice week to trace meteor showers as they skim past Polaris, blending folk UFO lore with real night-sky science.\nTraditions: Neighbors hang neon saucer lanterns, align telescopes north, lead children in meteor-counting logs, and play synth carols while a laser pointer traces the Little Dipper.\nFeasting: Camps pour midnight cocoa tinted nebula-blue, share smoky chili, citrus-rosemary popcorn, and shortbread saucers dusted with edible stardust.\nDay: Monday\n\nIcon: 🛸\nCategory: seasonal
+DESCRIPTION:History: Stargazers gather during the solstice week to trace me
+ teor showers as they skim past Polaris, blending folk UFO lore with real n
+ ight-sky science.\nTraditions: Neighbors hang neon saucer lanterns, align 
+ telescopes north, lead children in meteor-counting logs, and play synth ca
+ rols while a laser pointer traces the Little Dipper.\nFeasting: Camps pour
+  midnight cocoa tinted nebula-blue, share smoky chili, citrus-rosemary pop
+ corn, and shortbread saucers dusted with edible stardust.\nDay: Monday\n\n
+ Icon: 🛸\nCategory: seasonal\n\nAgenda: https://mss.castalia.institute/a
+ genda/polaris-meteor-watch-ufo-evening/\nRecipes:\nMidnight Cocoa: https:/
+ /mss.castalia.institute/recipes/midnight-cocoa/\nSmoky Stargazer Chili: ht
+ tps://mss.castalia.institute/recipes/smoky-chili/\nCitrus Rosemary Popcorn
+ : https://mss.castalia.institute/recipes/citrus-rosemary-popcorn/\nShortbr
+ ead Saucers: https://mss.castalia.institute/recipes/shortbread-saucers/
 CATEGORIES:seasonal
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/festive-ufo-meteor-watch.png
+URL:https://mss.castalia.institute/agenda/polaris-meteor-watch-ufo-evening/
 END:VEVENT
 BEGIN:VEVENT
 UID:yalda-night@maybesomethingseasonal.com
@@ -1785,11 +2272,31 @@ DESCRIPTION:History: Persian Yalda predates Islam\, celebrating the birth o
  roasted nuts and dried fruits for good fortune\, and sholeh zard saffron r
  ice pudding dusted with cinnamon. Guests close the vigil by drawing Hafez 
  divinations as poetry and the promise of returning light fill the night.\n
- Day: Saturday\n\nIcon: 🌙\nCategory: cultural
+ Day: Saturday\n\nIcon: 🌙\nCategory: cultural\n\nAgenda: https://mss.cas
+ talia.institute/agenda/yalda-night/\nRecipes:\nPomegranate and Rosewater C
+ ordial: https://mss.castalia.institute/recipes/pomegranate-and-rosewater-c
+ ordial/\nFresh Herb Platter with Feta and Walnuts: https://mss.castalia.in
+ stitute/recipes/fresh-herb-platter-with-feta-and-walnuts/\nBeet Yogurt Dip
+  with Pistachio: https://mss.castalia.institute/recipes/beet-yogurt-dip-wi
+ th-pistachio/\nMarinated Olives with Pomegranate and Walnuts: https://mss.
+ castalia.institute/recipes/marinated-olives-with-pomegranate-and-walnuts/\
+ nFesenjan (Persian Walnut and Pomegranate Stew): https://mss.castalia.inst
+ itute/recipes/walnut-pomegranate-stew-fesenjan/\nSaffron Rice Cake with Ba
+ rberries and Chicken (Tahchin): https://mss.castalia.institute/recipes/saf
+ fron-rice-cake-with-barberries-and-chicken-tahchin/\nOkra Stew (Khoresht-e
+  Bamieh): https://mss.castalia.institute/recipes/okra-stew-khoresht-e-bami
+ eh/\nShirazi Salad: https://mss.castalia.institute/recipes/shirazi-salad/\
+ nBarbari Bread: https://mss.castalia.institute/recipes/barbari-bread/\nPom
+ egranate and Watermelon Platter for Yalda Night: https://mss.castalia.inst
+ itute/recipes/pomegranate-and-watermelon/\nYalda Night Ajeel (Mixed Nuts a
+ nd Dried Fruits): https://mss.castalia.institute/recipes/yalda-night-mixed
+ -nuts-and-dried-fruits/\nSaffron Rice Pudding (Sholeh Zard): https://mss.c
+ astalia.institute/recipes/saffron-rice-pudding-sholeh-zard/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/eve-of-the-winter-solstice-the-longest-night.png
+URL:https://mss.castalia.institute/agenda/yalda-night/
 END:VEVENT
 BEGIN:VEVENT
 UID:la-noche-de-rabanos@maybesomethingseasonal.com
@@ -1807,11 +2314,21 @@ DESCRIPTION:History: Oaxaca's Night of the Radishes began in 1897 when farm
  ano with bright raw radish salsa and atole verde de epazote\, champurrado 
  espeso de cacao y masa\, optional tamales dulces de pina y pasas\, and sip
  s of mezcal artesanal served with orange slices and sal de gusano.\nDay: T
- uesday\n\nIcon: 🥕\nCategory: cultural
+ uesday\n\nIcon: 🥕\nCategory: cultural\n\nAgenda: https://mss.castalia.i
+ nstitute/agenda/la-noche-de-rabanos/\nRecipes:\nOaxacan Radish and Lime Sa
+ lad: https://mss.castalia.institute/recipes/radish-salad/\nRadish and Ques
+ illo Tamales: https://mss.castalia.institute/recipes/radish-tamales/\nEpaz
+ ote Green Atole: https://mss.castalia.institute/recipes/epazote-green-atol
+ e/\nThick Cocoa and Masa Champurrado: https://mss.castalia.institute/recip
+ es/thick-cocoa-and-masa-champurrado/\nSweet Pineapple and Raisin Tamales: 
+ https://mss.castalia.institute/recipes/sweet-pineapple-and-raisin-tamales/
+ \nTraditional Mezcal Service for La Noche de Rábanos: https://mss.castali
+ a.institute/recipes/artisanal-mezcal/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/night-of-the-radishes-traditional-oaxacan-festival.png
+URL:https://mss.castalia.institute/agenda/la-noche-de-rabanos/
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-eve@maybesomethingseasonal.com
@@ -1827,11 +2344,19 @@ DESCRIPTION:History: Christian communities have kept the Nativity vigil sin
  om meat until the feast begins.\nFeasting: Italian Seven Fishes dinners\, 
  Polish wigilia with beet soup and pierogi\, and hot cocoa with cookies set
   the stage for the midnight celebration.\nDay: Wednesday\n\nIcon: 🌟\nCa
- tegory: religious
+ tegory: religious\n\nAgenda: https://mss.castalia.institute/agenda/christm
+ as-eve/\nRecipes:\nSeafood Linguine for the Feast of the Seven Fishes: htt
+ ps://mss.castalia.institute/recipes/feast-of-the-seven-fishes/\nChristmas 
+ Eve Clear Beet Soup (Barszcz Wigilijny): https://mss.castalia.institute/re
+ cipes/beet-soup/\nClassic Potato and Cheese Pierogi: https://mss.castalia.
+ institute/recipes/pierogi/\nClassic Holiday Hot Cocoa: https://mss.castali
+ a.institute/recipes/hot-cocoa/\nClassic Christmas Eve Sugar Cookies: https
+ ://mss.castalia.institute/recipes/cookies/
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/caga-tio.svg
+URL:https://mss.castalia.institute/agenda/christmas-eve/
 END:VEVENT
 BEGIN:VEVENT
 UID:christmas-day@maybesomethingseasonal.com
@@ -1846,11 +2371,21 @@ DESCRIPTION:History: By late antiquity the Western church fixed December 25
  s\, sing carols\, exchange gifts\, and share charity with neighbours in th
  e spirit of goodwill.\nFeasting: Roast goose or turkey\, glazed ham\, pota
  toes\, Brussels sprouts\, Christmas pudding\, and yule logs anchor generou
- s holiday tables.\nDay: Thursday\n\nIcon: 🎄\nCategory: celebration
+ s holiday tables.\nDay: Thursday\n\nIcon: 🎄\nCategory: celebration\n\nA
+ genda: https://mss.castalia.institute/agenda/christmas-day/\nRecipes:\nTra
+ ditional Roast Goose: https://mss.castalia.institute/recipes/roast-goose/\
+ nRoast Turkey: https://mss.castalia.institute/recipes/roast-turkey/\nChris
+ tmas Glazed Ham: https://mss.castalia.institute/recipes/glazed-ham/\nCrisp
+ y Roasted Potatoes: https://mss.castalia.institute/recipes/potatoes/\nRoas
+ ted Brussels Sprouts with Bacon: https://mss.castalia.institute/recipes/br
+ ussels-sprouts/\nTraditional Christmas Pudding: https://mss.castalia.insti
+ tute/recipes/christmas-pudding/\nClassic Yule Log (Bûche de Noël): https
+ ://mss.castalia.institute/recipes/yule-log/
 CATEGORIES:celebration
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/image33.png
+URL:https://mss.castalia.institute/agenda/christmas-day/
 END:VEVENT
 BEGIN:VEVENT
 UID:st-stephen-s-day-boxing-day@maybesomethingseasonal.com
@@ -1865,11 +2400,18 @@ DESCRIPTION:History: St. Stephen\, the first Christian martyr\, is honoured
  \, and visits to friends are common\, while in Ireland the Wren Boys once 
  paraded door to door collecting donations.\nFeasting: Leftover Christmas r
  oasts become hearty pies\, paired with bubble-and-squeak\, mince pies\, an
- d mugs of spiced ale.\nDay: Friday\n\nIcon: ⛪\nCategory: cultural
+ d mugs of spiced ale.\nDay: Friday\n\nIcon: ⛪\nCategory: cultural\n\nAge
+ nda: https://mss.castalia.institute/agenda/st-stephens-day-boxing-day/\nRe
+ cipes:\nHearty Steak and Mushroom Pie: https://mss.castalia.institute/reci
+ pes/hearty-pie/\nBubble and Squeak: https://mss.castalia.institute/recipes
+ /bubble-and-squeak/\nTraditional Mince Pies: https://mss.castalia.institut
+ e/recipes/mince-pie/\nSpiced Ale (Wassail): https://mss.castalia.institute
+ /recipes/spiced-ale/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/stefans-feast-stone.png
+URL:https://mss.castalia.institute/agenda/st-stephens-day-boxing-day/
 END:VEVENT
 BEGIN:VEVENT
 UID:feast-of-the-holy-innocents-childermas-banquet@maybesomethingseasonal.com
@@ -1895,11 +2437,30 @@ DESCRIPTION:History: Childermas commemorates the Bethlehem children slain u
  ns in balsamic reduction\; serve pillowy milk rolls with whipped honey but
  ter\, finish with baby cheesecakes topped in spiced pear-cranberry compote
   or tableside baby bananas Foster\, and toast with Babycham or warm milk p
- unch dusted with nutmeg.\nDay: Saturday\n\nIcon: 👶\nCategory: cultural
+ unch dusted with nutmeg.\nDay: Saturday\n\nIcon: 👶\nCategory: cultural\
+ n\nAgenda: https://mss.castalia.institute/agenda/feast-of-the-holy-innocen
+ ts-childermas-banquet/\nRecipes:\nBaby Bellini Aperitif: https://mss.casta
+ lia.institute/recipes/baby-bellini-aperitif/\nBaby Beet Bisque: https://ms
+ s.castalia.institute/recipes/baby-beet-bisque/\nSimple Baby Greens Salad w
+ ith Vinaigrette: https://mss.castalia.institute/recipes/baby-greens-salad/
+ \nSlow-Smoked Baby Back Ribs: https://mss.castalia.institute/recipes/slow-
+ smoked-baby-back-ribs/\nHerb-Roasted Cornish Hens: https://mss.castalia.in
+ stitute/recipes/herb-roasted-cornish-hens/\nDuck-Fat Roasted Baby Potatoes
+ : https://mss.castalia.institute/recipes/duck-fat-roasted-baby-potatoes/\n
+ Baby Corn Gratin: https://mss.castalia.institute/recipes/baby-corn-gratin/
+ \nBraised Baby Onions: https://mss.castalia.institute/recipes/braised-baby
+ -onions/\nPillowy Milk Rolls: https://mss.castalia.institute/recipes/pillo
+ wy-milk-rolls/\nWhipped Honey Butter: https://mss.castalia.institute/recip
+ es/whipped-honey-butter/\nBaby Cheesecakes: https://mss.castalia.institute
+ /recipes/baby-cheesecakes/\nTableside Baby Bananas Foster: https://mss.cas
+ talia.institute/recipes/tableside-baby-bananas-foster/\nBabycham Childerma
+ s Sparkle: https://mss.castalia.institute/recipes/babycham/\nWarm Milk Pun
+ ch: https://mss.castalia.institute/recipes/warm-milk-punch/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/baby-back-ribs.jpg
+URL:https://mss.castalia.institute/agenda/feast-of-the-holy-innocents-childermas-banquet/
 END:VEVENT
 BEGIN:VEVENT
 UID:broadmoor-brunch@maybesomethingseasonal.com
@@ -1907,11 +2468,14 @@ DTSTAMP:20251104T055848Z
 DTSTART;TZID=America/Denver:20251228T090000
 DTEND;TZID=America/Denver:20251228T110000
 SUMMARY:Broadmoor Brunch
-DESCRIPTION:Brunch at The Broadmoor.\n\nTime: 9:00am\n\nIcon: 🥂\nCategory: cultural
+DESCRIPTION:Brunch at The Broadmoor.\n\nTime: 9:00am\n\nIcon: 🥂\nCategor
+ y: cultural\n\nAgenda: https://mss.castalia.institute/agenda/broadmoor-bru
+ nch/
 CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 X-IMAGE:/images/broadmoor.jpg
+URL:https://mss.castalia.institute/agenda/broadmoor-brunch/
 END:VEVENT
 BEGIN:VEVENT
 UID:madrigal-dinner-at-glen-eyrie@maybesomethingseasonal.com
@@ -1919,9 +2483,11 @@ DTSTAMP:20260911T180000Z
 DTSTART;TZID=America/Denver:20261210T180000
 DTEND;TZID=America/Denver:20261210T210000
 SUMMARY:Madrigal Dinner at Glen Eyrie
-DESCRIPTION:Glen Eyrie Madrigal Banquet in the Castle Great Hall\, with wassail\, a
-  boar's head procession\, and Renaissance carols.\nhttps://gleneyrie.org/ou
- r-event/madrigal/\n\nTime: 6:00pm\n\nIcon: 🎼\nCategory: cultural
+DESCRIPTION:Glen Eyrie Madrigal Banquet in the Castle Great Hall\, with was
+ sail\, a boar's head procession\, and Renaissance carols.\nhttps://gleneyr
+ ie.org/our-event/madrigal/\n\nTime: 6:00pm\n\nIcon: 🎼\nCategory: cultur
+ al\n\nAgenda: https://mss.castalia.institute/agenda/madrigal-dinner-at-gle
+ n-eyrie/
 URL:https://gleneyrie.org/our-event/madrigal/
 LOCATION:Glen Eyrie Castle\, 3820 N 30th St\, Colorado Springs\, CO
 CATEGORIES:cultural

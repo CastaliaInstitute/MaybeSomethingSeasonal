@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Generate recipe pages for every dish named in an event's "Feasting:" line.
 //
-//   OPENAI_API_KEY=... node scripts/generate-recipes.js [--force] [--only "Event Summary"]
+//   node scripts/generate-recipes.js   (Gemini via Vertex AI + gcloud auth; see scripts/lib/llm.js) [--force] [--only "Event Summary"]
 //
 // Output (committed, consumed by scripts/build-recipes.js and the app):
 //   public/recipes/links.json    { [eventSummary]: [{ text, slug, dish }] }
@@ -12,27 +12,15 @@
 // after adding an event is cheap. --force regenerates everything.
 const fs = require('fs');
 const path = require('path');
+const { chatJson, mapLimit, describe } = require('./lib/llm');
 
 const ROOT = path.join(__dirname, '..');
 const ICS_PATH = path.join(ROOT, 'public', 'MSS.ics');
 const OUT_DIR = path.join(ROOT, 'public', 'recipes');
 const LINKS_PATH = path.join(OUT_DIR, 'links.json');
 const RECIPES_PATH = path.join(OUT_DIR, 'recipes.json');
-const MODEL = process.env.RECIPE_MODEL || 'gpt-4.1-mini';
 const CONCURRENCY = Number(process.env.RECIPE_CONCURRENCY || 6);
 
-for (const envFile of [path.join(ROOT, '.env.local'), path.join(process.env.HOME || '', '.env')]) {
-  if (!fs.existsSync(envFile)) continue;
-  for (const line of fs.readFileSync(envFile, 'utf8').split('\n')) {
-    const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*?)\s*$/);
-    if (m && !process.env[m[1]]) process.env[m[1]] = m[2].replace(/^["']|["']$/g, '');
-  }
-}
-const API_KEY = process.env.OPENAI_API_KEY;
-if (!API_KEY) {
-  console.error('OPENAI_API_KEY is not set');
-  process.exit(1);
-}
 
 const args = process.argv.slice(2);
 const FORCE = args.includes('--force');
@@ -57,51 +45,6 @@ function readEvents() {
   return events;
 }
 
-// ── OpenAI helpers ─────────────────────────────────────────────────────────
-async function chatJson(system, user, { retries = 3 } = {}) {
-  for (let attempt = 1; ; attempt++) {
-    const res = await fetch('https://api.openai.com/v1/chat/completions', {
-      method: 'POST',
-      headers: { Authorization: `Bearer ${API_KEY}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        model: MODEL,
-        temperature: 0.4,
-        response_format: { type: 'json_object' },
-        messages: [
-          { role: 'system', content: system },
-          { role: 'user', content: user },
-        ],
-      }),
-    });
-    const body = await res.json();
-    if (res.ok) {
-      try {
-        return JSON.parse(body.choices[0].message.content);
-      } catch (err) {
-        if (attempt >= retries) throw err;
-        continue;
-      }
-    }
-    if (attempt >= retries || (res.status < 500 && res.status !== 429)) {
-      throw new Error(`OpenAI ${res.status}: ${JSON.stringify(body).slice(0, 300)}`);
-    }
-    await new Promise((r) => setTimeout(r, 1500 * attempt));
-  }
-}
-
-async function mapLimit(items, limit, fn) {
-  const results = new Array(items.length);
-  let next = 0;
-  await Promise.all(
-    Array.from({ length: Math.min(limit, items.length) }, async () => {
-      while (next < items.length) {
-        const i = next++;
-        results[i] = await fn(items[i], i);
-      }
-    }),
-  );
-  return results;
-}
 
 const slugify = (s) =>
   s
@@ -157,7 +100,7 @@ Use US customary measures with metric in parentheses. Be accurate about the trad
     if (recipes[slug]) recipes[slug].events = [...new Set([...(recipes[slug].events || []), ...info.events])];
   }
   const missing = [...wanted].filter(([slug]) => FORCE || !recipes[slug]);
-  console.log(`Unique dishes: ${wanted.size}; generating ${missing.length} recipes with ${MODEL}`);
+  console.log(`Unique dishes: ${wanted.size}; generating ${missing.length} recipes with ${describe()}`);
   let done = 0;
   await mapLimit(missing, CONCURRENCY, async ([slug, info]) => {
     const evs = [...info.events];

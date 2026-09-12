@@ -193,4 +193,54 @@ fs.writeFileSync(
 );
 fs.copyFileSync(path.join(SRC, 'agendas.json'), path.join(OUT, 'agendas.json'));
 console.log(`Built ${agendaCount} agenda pages + index → ${path.relative(ROOT, AGENDA_OUT)}`);
+// ── ICS: agenda + recipe links in every event's DESCRIPTION (and URL) ─────
+// Calendar apps can't render the site's hyperlinks, so the built feed gets
+// the same links as plain text after the event's metadata block, plus a URL
+// property pointing at the agenda when the event has no URL of its own.
+const ICS_OUT = path.join(ROOT, 'dist', 'MSS.ics');
+if (fs.existsSync(ICS_OUT)) {
+  const icsEscape = (t) => String(t).replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,');
+  const fold = (line) => {
+    const out = [];
+    let cur = '';
+    for (const ch of line) {
+      if (Buffer.byteLength(cur + ch) > (out.length ? 74 : 75)) {
+        out.push(cur);
+        cur = ch;
+      } else cur += ch;
+    }
+    out.push(cur);
+    return out.map((l, i) => (i ? ` ${l}` : l)).join('\n');
+  };
+  const ics = fs.readFileSync(ICS_OUT, 'utf8');
+  const eol = ics.includes('\r\n') ? '\r\n' : '\n';
+  let linked = 0;
+  const patched = ics.replace(/BEGIN:VEVENT[\s\S]*?END:VEVENT/g, (block) => {
+    const unfolded = block.replace(/\r?\n[ \t]/g, '');
+    const summary = (unfolded.match(/^SUMMARY:(.*)$/m) || [])[1];
+    const agenda = summary && agendas[summary];
+    const dishes = summary ? (links[summary] || []).filter((d) => recipes[d.slug]) : [];
+    if (!agenda && !dishes.length) return block;
+    if (/^(Agenda|Recipes):/m.test(unfolded)) return block; // already patched
+    const extra = [];
+    if (agenda) extra.push(`Agenda: ${SITE}/agenda/${agenda.slug}/`);
+    if (dishes.length) {
+      extra.push('Recipes:');
+      for (const d of dishes) extra.push(`${icsEscape(recipes[d.slug].title)}: ${SITE}/recipes/${d.slug}/`);
+    }
+    const lines = unfolded.split(/\r?\n/).map((line) => {
+      if (!line.startsWith('DESCRIPTION:')) return line;
+      return fold(`${line}\\n\\n${extra.join('\\n')}`);
+    });
+    if (agenda && !/^URL:/m.test(unfolded)) {
+      const at = lines.findIndex((l) => l.startsWith('END:VEVENT'));
+      lines.splice(at, 0, `URL:${SITE}/agenda/${agenda.slug}/`);
+    }
+    linked += 1;
+    return lines.join(eol);
+  });
+  fs.writeFileSync(ICS_OUT, patched);
+  console.log(`Added agenda/recipe links to ${linked} VEVENT descriptions in dist/MSS.ics`);
+}
+
 console.log(`Built ${count} recipe pages + index → ${path.relative(ROOT, OUT)} (${SITE}/recipes/)`);
