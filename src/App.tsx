@@ -59,6 +59,27 @@ interface RecipeLink {
 }
 type RecipeLinks = Record<string, RecipeLink[]>;
 
+// A suggested day for an event (public/recipes/agendas.json) and the
+// greeting/meditations shown on the day itself (public/recipes/greetings.json).
+interface AgendaStep {
+  time: string;
+  activity: string;
+  detail: string;
+  recipes: string[];
+}
+interface Agenda {
+  slug: string;
+  title: string;
+  intro: string;
+  schedule: AgendaStep[];
+  closing: string;
+}
+interface Greeting {
+  greeting: string;
+  traditionalGreeting: string;
+  meditations: { title: string; text: string }[];
+}
+
 const toLocalDate = (dateString: string): Date => {
   if (!dateString) return new Date(NaN);
   if (!dateString.includes("T")) {
@@ -2934,7 +2955,11 @@ const App: React.FC = () => {
   const [currentDate, setCurrentDate] = useState(initialDate);
   const [events, setEvents] = useState<CalendarEvent[]>([]);
   const [recipeLinks, setRecipeLinks] = useState<RecipeLinks>({});
-  const [agendaSlugs, setAgendaSlugs] = useState<Record<string, string>>({});
+  const [agendas, setAgendas] = useState<Record<string, Agenda>>({});
+  const [greetings, setGreetings] = useState<Record<string, Greeting>>({});
+  // The holiday welcome overlay: shown once per day when today has events.
+  const [todayOpen, setTodayOpen] = useState(false);
+  const [todaySeen, setTodaySeen] = useState(false);
   const [selectedEvents, setSelectedEvents] = useState<CalendarEvent[]>([]);
   // On phones the per-event tap targets are tiny icons sharing one cell, so a
   // tap opens every event on that day; on larger screens a label is its own
@@ -2974,14 +2999,12 @@ const App: React.FC = () => {
       .catch(() => setRecipeLinks({}));
     fetch(`${recipesUrl}agendas.json`)
       .then((res) => (res.ok ? res.json() : {}))
-      .then((data: Record<string, { slug: string }>) =>
-        setAgendaSlugs(
-          Object.fromEntries(
-            Object.entries(data || {}).map(([title, a]) => [title, a.slug]),
-          ),
-        ),
-      )
-      .catch(() => setAgendaSlugs({}));
+      .then((data: Record<string, Agenda>) => setAgendas(data || {}))
+      .catch(() => setAgendas({}));
+    fetch(`${recipesUrl}greetings.json`)
+      .then((res) => (res.ok ? res.json() : {}))
+      .then((data: Record<string, Greeting>) => setGreetings(data || {}))
+      .catch(() => setGreetings({}));
   }, [recipesUrl]);
 
   // Render a description, turning each dish named in the Feasting line into
@@ -3555,6 +3578,229 @@ const App: React.FC = () => {
     return () => window.removeEventListener("keydown", closeOnEscape);
   }, [selectedEvents]);
 
+  // ── Holiday welcome overlay ──────────────────────────────────────────────
+  const todayKey = format(today, "yyyy-MM-dd");
+  const todaysEvents = events.length ? getEventsForDate(today) : [];
+  useEffect(() => {
+    if (todaySeen || isKioskMode || todaysEvents.length === 0) return;
+    let dismissed = false;
+    try {
+      dismissed = localStorage.getItem("mss-today-dismissed") === todayKey;
+    } catch {
+      dismissed = false;
+    }
+    setTodaySeen(true);
+    if (!dismissed) setTodayOpen(true);
+  }, [todaysEvents.length, todaySeen, todayKey, isKioskMode]);
+
+  const closeToday = (remember: boolean) => {
+    setTodayOpen(false);
+    if (remember) {
+      try {
+        localStorage.setItem("mss-today-dismissed", todayKey);
+      } catch {
+        /* private mode etc. */
+      }
+    }
+  };
+
+  useEffect(() => {
+    if (!todayOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") closeToday(false);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [todayOpen]);
+
+  const todayOverlay = todayOpen ? (
+    <div
+      className="today-backdrop fixed inset-0 z-[110] bg-black bg-opacity-60 p-2 sm:p-6"
+      role="presentation"
+      onClick={() => closeToday(false)}
+    >
+      <section
+        className="today-panel mx-auto flex h-full w-full max-w-3xl flex-col overflow-hidden rounded-2xl bg-white text-gray-900 shadow-2xl"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="today-title"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <header className="flex items-start justify-between gap-3 border-b border-green-100 bg-gradient-to-r from-green-50 to-blue-50 px-5 py-4">
+          <div>
+            <p className="text-xs uppercase tracking-wide text-green-700">
+              {format(today, "EEEE, MMMM d, yyyy")}
+            </p>
+            <h2 id="today-title" className="christmas-title text-3xl">
+              Today on Maybe Something Seasonal
+            </h2>
+          </div>
+          <button
+            type="button"
+            className="rounded-full px-3 py-1 text-2xl leading-none text-gray-500 hover:bg-white"
+            aria-label="Close"
+            onClick={() => closeToday(false)}
+          >
+            ×
+          </button>
+        </header>
+        <div className="flex-1 overflow-y-auto px-5 py-4">
+          {todaysEvents.map((event) => {
+            const greeting = greetings[event.title];
+            const agenda = agendas[event.title];
+            const dishes = recipeLinks[event.title] || [];
+            return (
+              <article key={event.title} className="today-event mb-8 last:mb-0">
+                <div className="flex items-start gap-4">
+                  {event.image ? (
+                    <img
+                      src={event.image}
+                      alt=""
+                      className="h-20 w-20 flex-none rounded-xl object-cover shadow"
+                      onError={(e) => {
+                        e.currentTarget.style.display = "none";
+                      }}
+                    />
+                  ) : (
+                    <span className="text-5xl leading-none" aria-hidden="true">
+                      {event.icon}
+                    </span>
+                  )}
+                  <div className="min-w-0">
+                    <h3 className="christmas-font text-3xl leading-tight">
+                      {event.title}
+                    </h3>
+                    {greeting?.traditionalGreeting && (
+                      <p className="mt-1 text-lg font-semibold text-green-800">
+                        {greeting.traditionalGreeting}
+                      </p>
+                    )}
+                    {greeting?.greeting && (
+                      <p className="mt-1 leading-relaxed text-gray-700">
+                        {greeting.greeting}
+                      </p>
+                    )}
+                  </div>
+                </div>
+
+                {agenda && agenda.schedule.length > 0 && (
+                  <div className="mt-5">
+                    <h4 className="mb-2 text-sm font-semibold uppercase tracking-wide text-green-700">
+                      The day
+                    </h4>
+                    <ol className="today-agenda">
+                      {agenda.schedule.map((step, i) => (
+                        <li key={i}>
+                          <span className="today-time">{step.time}</span>
+                          <div>
+                            <p className="font-semibold">{step.activity}</p>
+                            <p className="text-sm leading-relaxed text-gray-700">
+                              {step.detail}
+                            </p>
+                            {step.recipes.length > 0 && (
+                              <p className="mt-1 text-sm">
+                                {step.recipes.map((slug, j) => {
+                                  const dish = dishes.find((d) => d.slug === slug);
+                                  return (
+                                    <React.Fragment key={slug}>
+                                      {j > 0 && " · "}
+                                      <a
+                                        href={`${recipesUrl}${slug}/`}
+                                        className="recipe-link"
+                                        target="_blank"
+                                        rel="noopener"
+                                      >
+                                        {dish ? dish.dish : slug}
+                                      </a>
+                                    </React.Fragment>
+                                  );
+                                })}
+                              </p>
+                            )}
+                          </div>
+                        </li>
+                      ))}
+                    </ol>
+                    {agenda.closing && (
+                      <p className="mt-2 text-sm italic text-gray-500">
+                        {agenda.closing}
+                      </p>
+                    )}
+                  </div>
+                )}
+
+                {greeting && greeting.meditations.length > 0 && (
+                  <div className="mt-5">
+                    <h4 className="mb-2 text-sm font-semibold uppercase tracking-wide text-green-700">
+                      Meditations
+                    </h4>
+                    <div className="grid gap-3 sm:grid-cols-3">
+                      {greeting.meditations.map((m, i) => (
+                        <blockquote
+                          key={i}
+                          className="rounded-xl bg-green-50 p-4 text-sm leading-relaxed text-gray-800"
+                        >
+                          <p className="christmas-font mb-1 text-xl">{m.title}</p>
+                          <p>{m.text}</p>
+                        </blockquote>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                <p className="mt-4 text-sm">
+                  {agenda && (
+                    <a
+                      href={`${agendaUrl}${agenda.slug}/`}
+                      className="recipe-link"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      Full agenda
+                    </a>
+                  )}
+                  {agenda && dishes.length > 0 && " · "}
+                  {dishes.length > 0 && (
+                    <a href={recipesUrl} className="recipe-link" target="_blank" rel="noopener">
+                      Recipes
+                    </a>
+                  )}
+                  {(agenda || dishes.length > 0) && " · "}
+                  <button
+                    type="button"
+                    className="recipe-link"
+                    onClick={() => {
+                      closeToday(false);
+                      setSelectedEvents([event]);
+                    }}
+                  >
+                    About this day
+                  </button>
+                </p>
+              </article>
+            );
+          })}
+        </div>
+        <footer className="flex flex-wrap items-center justify-end gap-3 border-t border-gray-100 px-5 py-3 text-sm">
+          <button
+            type="button"
+            className="rounded-full px-4 py-2 text-gray-600 hover:bg-gray-100"
+            onClick={() => closeToday(true)}
+          >
+            Don't show again today
+          </button>
+          <button
+            type="button"
+            className="rounded-full bg-green-600 px-5 py-2 font-semibold text-white hover:bg-green-700"
+            onClick={() => closeToday(false)}
+          >
+            To the calendar
+          </button>
+        </footer>
+      </section>
+    </div>
+  ) : null;
+
   const eventDialog =
     selectedEvents.length > 0 ? (
       <div
@@ -3587,11 +3833,11 @@ const App: React.FC = () => {
                   </h2>
                   <p className="mt-1 text-sm text-gray-500">
                     {format(toLocalDate(selectedEvent.date), "MMMM d, yyyy")}
-                    {agendaSlugs[selectedEvent.title] && (
+                    {agendas[selectedEvent.title] && (
                       <>
                         {" · "}
                         <a
-                          href={`${agendaUrl}${agendaSlugs[selectedEvent.title]}/`}
+                          href={`${agendaUrl}${agendas[selectedEvent.title].slug}/`}
                           className="recipe-link"
                           target="_blank"
                           rel="noopener"
@@ -3914,6 +4160,18 @@ const App: React.FC = () => {
               A calendar celebrating nature's cycles and seasonal moments
             </p>
             <p className="mb-4 text-sm">
+              {todaysEvents.length > 0 && (
+                <>
+                  <button
+                    type="button"
+                    className="recipe-link font-semibold"
+                    onClick={() => setTodayOpen(true)}
+                  >
+                    Today: {todaysEvents.map((e) => e.title).join(", ")}
+                  </button>
+                  {" · "}
+                </>
+              )}
               <a href={agendaUrl} className="recipe-link">
                 A day for each feast
               </a>
@@ -4306,6 +4564,7 @@ const App: React.FC = () => {
           </div>
       </div>
       {eventDialog}
+      {todayOverlay}
     </div>
   );
 };

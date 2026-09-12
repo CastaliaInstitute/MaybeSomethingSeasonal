@@ -192,6 +192,9 @@ fs.writeFileSync(
   ),
 );
 fs.copyFileSync(path.join(SRC, 'agendas.json'), path.join(OUT, 'agendas.json'));
+if (fs.existsSync(path.join(SRC, 'greetings.json'))) {
+  fs.copyFileSync(path.join(SRC, 'greetings.json'), path.join(OUT, 'greetings.json'));
+}
 console.log(`Built ${agendaCount} agenda pages + index → ${path.relative(ROOT, AGENDA_OUT)}`);
 // ── ICS: agenda + recipe links in every event's DESCRIPTION (and URL) ─────
 // Calendar apps can't render the site's hyperlinks, so the built feed gets
