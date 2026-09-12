@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "generate-images": "node scripts/generate-images.js",
+    "generate-recipes": "node scripts/generate-recipes.js",
     "dev": "vite",
-    "build": "vite build && node scripts/append-recurring-events.js && node scripts/normalize-recurring-events.js && node scripts/validate-recurring-events.js && node scripts/apply-authoritative-lunar-dates.js && node scripts/validate-authoritative-lunar-dates.js && node scripts/apply-authoritative-jewish-dates.js && node scripts/validate-authoritative-jewish-dates.js && node scripts/apply-authoritative-season-dates.js && node scripts/validate-authoritative-season-dates.js && node scripts/apply-authoritative-persian-dates.js && node scripts/validate-authoritative-persian-dates.js && node scripts/apply-authoritative-tibetan-dates.js && node scripts/validate-authoritative-tibetan-dates.js && node scripts/apply-authoritative-hindu-dates.js && node scripts/validate-authoritative-hindu-dates.js",
+    "build": "vite build && node scripts/append-recurring-events.js && node scripts/normalize-recurring-events.js && node scripts/validate-recurring-events.js && node scripts/apply-authoritative-lunar-dates.js && node scripts/validate-authoritative-lunar-dates.js && node scripts/apply-authoritative-jewish-dates.js && node scripts/validate-authoritative-jewish-dates.js && node scripts/apply-authoritative-season-dates.js && node scripts/validate-authoritative-season-dates.js && node scripts/apply-authoritative-persian-dates.js && node scripts/validate-authoritative-persian-dates.js && node scripts/apply-authoritative-tibetan-dates.js && node scripts/validate-authoritative-tibetan-dates.js && node scripts/apply-authoritative-hindu-dates.js && node scripts/validate-authoritative-hindu-dates.js && node scripts/build-recipes.js",
     "preview": "vite preview",
     "deploy": "npm run build",
     "validate": "node scripts/validate-ics.js",

@@ -617,3 +617,14 @@
     visibility: visible !important;
   }
 }
+
+/* Dish names in event cards link to their recipe pages */
+.recipe-link {
+  color: #15803d;
+  text-decoration: underline;
+  text-decoration-color: #86efac;
+  text-underline-offset: 2px;
+}
+.recipe-link:hover {
+  text-decoration-color: #15803d;
+}

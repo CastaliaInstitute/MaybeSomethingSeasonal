@@ -50,6 +50,15 @@ interface CalendarEvent {
   calendarMeta?: CalendarMetadata;
 }
 
+// Dishes named in an event's "Feasting:" line, mapped to recipe pages built
+// by scripts/build-recipes.js (public/recipes/links.json).
+interface RecipeLink {
+  text: string;
+  slug: string;
+  dish: string;
+}
+type RecipeLinks = Record<string, RecipeLink[]>;
+
 const toLocalDate = (dateString: string): Date => {
   if (!dateString) return new Date(NaN);
   if (!dateString.includes("T")) {
@@ -2924,6 +2933,8 @@ const App: React.FC = () => {
     (isKioskMode ? new Date(2025, 11, 1) : new Date());
   const [currentDate, setCurrentDate] = useState(initialDate);
   const [events, setEvents] = useState<CalendarEvent[]>([]);
+  const [recipeLinks, setRecipeLinks] = useState<RecipeLinks>({});
+  const [agendaSlugs, setAgendaSlugs] = useState<Record<string, string>>({});
   const [selectedEvents, setSelectedEvents] = useState<CalendarEvent[]>([]);
   // On phones the per-event tap targets are tiny icons sharing one cell, so a
   // tap opens every event on that day; on larger screens a label is its own
@@ -2948,6 +2959,77 @@ const App: React.FC = () => {
   const mssEventsUrl = resolvedBaseUrl.endsWith("/")
     ? `${resolvedBaseUrl}mss-events.html`
     : `${resolvedBaseUrl}/mss-events.html`;
+  const recipesUrl = resolvedBaseUrl.endsWith("/")
+    ? `${resolvedBaseUrl}recipes/`
+    : `${resolvedBaseUrl}/recipes/`;
+
+  const agendaUrl = resolvedBaseUrl.endsWith("/")
+    ? `${resolvedBaseUrl}agenda/`
+    : `${resolvedBaseUrl}/agenda/`;
+
+  useEffect(() => {
+    fetch(`${recipesUrl}links.json`)
+      .then((res) => (res.ok ? res.json() : {}))
+      .then((data: RecipeLinks) => setRecipeLinks(data || {}))
+      .catch(() => setRecipeLinks({}));
+    fetch(`${recipesUrl}agendas.json`)
+      .then((res) => (res.ok ? res.json() : {}))
+      .then((data: Record<string, { slug: string }>) =>
+        setAgendaSlugs(
+          Object.fromEntries(
+            Object.entries(data || {}).map(([title, a]) => [title, a.slug]),
+          ),
+        ),
+      )
+      .catch(() => setAgendaSlugs({}));
+  }, [recipesUrl]);
+
+  // Render a description, turning each dish named in the Feasting line into
+  // a link to its recipe page.
+  const renderDescription = (event: CalendarEvent) => {
+    const dishes = recipeLinks[event.title] || [];
+    return event.description.split("\n").map((line, lineIndex) => {
+      const isFeasting = /^Feasting:/.test(line);
+      if (!isFeasting || dishes.length === 0) {
+        return (
+          <React.Fragment key={lineIndex}>
+            {lineIndex > 0 && "\n"}
+            {line}
+          </React.Fragment>
+        );
+      }
+      const parts: React.ReactNode[] = [];
+      let cursor = 0;
+      dishes
+        .map((dish) => ({ ...dish, at: line.indexOf(dish.text, cursor) }))
+        .filter((dish) => dish.at >= 0)
+        .sort((a, b) => a.at - b.at)
+        .forEach((dish) => {
+          if (dish.at < cursor) return;
+          parts.push(line.slice(cursor, dish.at));
+          parts.push(
+            <a
+              key={`${dish.slug}-${dish.at}`}
+              href={`${recipesUrl}${dish.slug}/`}
+              className="recipe-link"
+              target="_blank"
+              rel="noopener"
+              title={`Recipe: ${dish.dish}`}
+            >
+              {dish.text}
+            </a>,
+          );
+          cursor = dish.at + dish.text.length;
+        });
+      parts.push(line.slice(cursor));
+      return (
+        <React.Fragment key={lineIndex}>
+          {lineIndex > 0 && "\n"}
+          {parts}
+        </React.Fragment>
+      );
+    });
+  };
 
   const showMonth = (date: Date, replace = false) => {
     const month = startOfMonth(date);
@@ -3505,6 +3587,19 @@ const App: React.FC = () => {
                   </h2>
                   <p className="mt-1 text-sm text-gray-500">
                     {format(toLocalDate(selectedEvent.date), "MMMM d, yyyy")}
+                    {agendaSlugs[selectedEvent.title] && (
+                      <>
+                        {" · "}
+                        <a
+                          href={`${agendaUrl}${agendaSlugs[selectedEvent.title]}/`}
+                          className="recipe-link"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          Agenda for the day
+                        </a>
+                      </>
+                    )}
                   </p>
                 </div>
                 {index === 0 && (
@@ -3529,7 +3624,7 @@ const App: React.FC = () => {
                 />
               )}
               <p className="mt-4 whitespace-pre-line text-sm leading-relaxed text-gray-700">
-                {selectedEvent.description}
+                {renderDescription(selectedEvent)}
               </p>
             </section>
           ))}
@@ -3815,8 +3910,17 @@ const App: React.FC = () => {
             <h1 className="text-4xl font-bold text-gray-800 mb-2 christmas-title">
               Maybe Something Seasonal
             </h1>
-            <p className="text-lg text-gray-600 mb-4">
+            <p className="text-lg text-gray-600 mb-1">
               A calendar celebrating nature's cycles and seasonal moments
+            </p>
+            <p className="mb-4 text-sm">
+              <a href={agendaUrl} className="recipe-link">
+                A day for each feast
+              </a>
+              {" · "}
+              <a href={recipesUrl} className="recipe-link">
+                Feast-day recipes
+              </a>
             </p>
           </div>
 

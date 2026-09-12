@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Recipes · Maybe Something Seasonal</title>
+    <meta name="description" content="Home recipes for every dish mentioned on the Maybe Something Seasonal calendar." />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+  :root { color-scheme: light; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #1f2933;
+         background: linear-gradient(135deg, #f0fdf4 0%, #eff6ff 100%); min-height: 100vh; }
+  .wrap { max-width: 44rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+  .brand { text-align: center; margin-bottom: 1.5rem; }
+  .brand a { color: #1f2933; text-decoration: none; }
+  .christmas { font-family: 'Mountains of Christmas', cursive; }
+  .brand h1 { font-size: clamp(2rem, 6vw, 3rem); margin: 0; }
+  .brand p { margin: 0.25rem 0 0; color: #475569; }
+  .card { background: #fff; border-radius: 1rem; padding: 1.5rem; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08); }
+  .card h2 { margin: 0 0 0.25rem; font-size: clamp(1.6rem, 5vw, 2.2rem); }
+  .events { color: #15803d; font-size: 0.95rem; margin: 0 0 1rem; }
+  .events a { color: inherit; }
+  .meta { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; color: #475569; font-size: 0.9rem; margin: 0 0 1.25rem; }
+  .intro { line-height: 1.6; margin: 0 0 1.25rem; }
+  h3 { margin: 1.25rem 0 0.5rem; font-size: 1.1rem; color: #166534; }
+  ul, ol { padding-left: 1.4rem; line-height: 1.55; }
+  li { margin: 0.25rem 0; }
+  .tips { background: #f0fdf4; border-radius: 0.75rem; padding: 0.75rem 1rem 0.75rem 2.2rem; margin-top: 1rem; }
+  .back { display: inline-block; margin-top: 1.5rem; color: #15803d; }
+  .index h2 { font-size: 1.25rem; margin: 1.5rem 0 0.25rem; color: #166534; }
+  .index ul { list-style: none; padding: 0; margin: 0 0 0.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .index li a { display: inline-block; background: #fff; border: 1px solid #d1fae5; border-radius: 999px;
+                padding: 0.3rem 0.8rem; color: #1f2933; text-decoration: none; font-size: 0.9rem; }
+  .index li a:hover { background: #ecfdf5; }
+  .count { color: #475569; text-align: center; margin: 0 0 1rem; }
+  .agenda { list-style: none; padding: 0; margin: 0; }
+  .agenda li { display: grid; grid-template-columns: 7rem 1fr; gap: 0.75rem; padding: 0.75rem 0; border-top: 1px solid #ecfdf5; }
+  .agenda li:first-child { border-top: 0; }
+  .agenda .time { color: #15803d; font-weight: 600; font-size: 0.9rem; }
+  .agenda .activity { font-weight: 600; margin: 0 0 0.2rem; }
+  .agenda .detail { margin: 0; line-height: 1.5; color: #334155; }
+  .agenda .recipes { margin: 0.35rem 0 0; font-size: 0.9rem; }
+  .agenda .recipes a { color: #15803d; }
+  .closing { font-style: italic; color: #475569; margin: 1rem 0 0; }
+  @media (max-width: 480px) { .agenda li { grid-template-columns: 1fr; gap: 0.2rem; } }
+</style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="brand">
+        <a href="/"><h1 class="christmas">Maybe Something Seasonal</h1></a>
+        <p>Feast-day recipes</p>
+      </header>
+      <p class="count">292 recipes for the dishes named on the calendar's feast days.</p><div class="index">
+      <h2>St. Nicholas Day</h2>
+      <ul><li><a href="/recipes/speculaas-biscuits/">Speculaas Biscuits</a></li><li><a href="/recipes/chocolate-coins/">Traditional Chocolate Coins</a></li><li><a href="/recipes/mandarin-oranges/">Mandarin Oranges for St. Nicholas Day</a></li><li><a href="/recipes/marzipan-fruits/">Marzipan Fruits</a></li><li><a href="/recipes/hot-cocoa/">Traditional Hot Cocoa</a></li><li><a href="/recipes/gluhwein/">Gluhwein</a></li></ul>
+      <h2>Twelfth Night</h2>
+      <ul><li><a href="/recipes/spiced-ale/">Traditional Spiced Ale</a></li><li><a href="/recipes/figgy-pudding/">Figgy Pudding</a></li><li><a href="/recipes/king-cake/">King Cake</a></li><li><a href="/recipes/roasted-meat/">Traditional Twelfth Night Roasted Meat</a></li></ul>
+      <h2>New Year's Day</h2>
+      <ul><li><a href="/recipes/sparkling-wine/">Sparkling Wine</a></li><li><a href="/recipes/longevity-noodles/">Longevity Noodles</a></li><li><a href="/recipes/hoppin-john/">Hoppin' John</a></li><li><a href="/recipes/panettone/">Panettone</a></li><li><a href="/recipes/king-cake/">King Cake</a></li></ul>
+      <h2>Perchta Day (Perchtenlauf)</h2>
+      <ul><li><a href="/recipes/dumplings/">Traditional Dumplings</a></li><li><a href="/recipes/poppy-seed-pastries/">Poppy Seed Pastries</a></li><li><a href="/recipes/milky-punch/">Milky Punch</a></li><li><a href="/recipes/mulled-wine/">Mulled Wine</a></li><li><a href="/recipes/krapfen/">Krapfen</a></li></ul>
+      <h2>Epiphany (Three Kings Day)</h2>
+      <ul><li><a href="/recipes/rosca-de-reyes/">Rosca De Reyes</a></li><li><a href="/recipes/galette-des-rois/">Galette Des Rois</a></li><li><a href="/recipes/king-cake/">King Cake</a></li><li><a href="/recipes/hot-chocolate/">Traditional Spanish Hot Chocolate</a></li><li><a href="/recipes/stew/">Traditional Epiphany Beef Stew</a></li></ul>
+      <h2>Berchtoldstag</h2>
+      <ul><li><a href="/recipes/braided-zopf-loaf/">Braided Zopf Loaf</a></li><li><a href="/recipes/roesti/">Traditional Swiss Rösti</a></li><li><a href="/recipes/sausages/">Traditional Berchtoldstag Sausages</a></li><li><a href="/recipes/hazelnut-torte/">Hazelnut Torte</a></li><li><a href="/recipes/melted-cheese/">Melted Cheese (Raclette)</a></li></ul>
+      <h2>Candlemas (Feast of the Presentation)</h2>
+      <ul><li><a href="/recipes/crepes-beurre-sucre/">Crepes Beurre Sucre</a></li><li><a href="/recipes/crepes-jambon-fromage/">Crepes Jambon-Fromage</a></li><li><a href="/recipes/boles-de-cidre-brut/">Boles De Cidre Brut</a></li><li><a href="/recipes/salade-de-mache/">Salade de Mâche</a></li><li><a href="/recipes/tamales-oaxaquenos/">Tamales Oaxaqueños</a></li><li><a href="/recipes/tamales-de-dulce/">Tamales De Dulce</a></li><li><a href="/recipes/atole-de-canela/">Atole De Canela</a></li><li><a href="/recipes/champurrado-espumoso/">Champurrado Espumoso</a></li><li><a href="/recipes/pan-de-candelaria/">Pan De Candelaria</a></li></ul>
+      <h2>Dondoyaki Bonfire</h2>
+      <ul><li><a href="/recipes/skewered-mochi/">Skewered Mochi</a></li><li><a href="/recipes/azuki-bean-soup/">Azuki Bean Soup</a></li><li><a href="/recipes/amazake/">Amazake</a></li></ul>
+      <h2>Fete du Vodoun (Benin Vodoun Festival)</h2>
+      <ul><li><a href="/recipes/akassa-corn-porridge/">Akassa Corn Porridge</a></li><li><a href="/recipes/fish-stew/">Beninese Fish Stew</a></li><li><a href="/recipes/toasted-peanuts/">Toasted Peanuts</a></li><li><a href="/recipes/sodabi-palm-liquor/">Sodabi Palm Liquor</a></li></ul>
+      <h2>Feast of the Ass</h2>
+      <ul><li><a href="/recipes/country-bread/">Country Bread</a></li><li><a href="/recipes/dried-pea-soup/">Traditional Dried Pea Soup</a></li><li><a href="/recipes/honey-cake/">Honey Cake</a></li><li><a href="/recipes/walnut-tart/">Walnut Tart</a></li><li><a href="/recipes/goat-cheese/">Herbed Goat Cheese Spread</a></li><li><a href="/recipes/spiced-wine-hypocras/">Spiced Wine Hypocras</a></li></ul>
+      <h2>Old Twelfth Night Wassail</h2>
+      <ul><li><a href="/recipes/mulled-cider/">Mulled Cider</a></li><li><a href="/recipes/apple-cake/">Old Twelfth Night Apple Cake</a></li><li><a href="/recipes/blue-cheese/">Blue Cheese Spread for Old Twelfth Night Wassail</a></li><li><a href="/recipes/pork-pie/">Traditional Pork Pie</a></li></ul>
+      <h2>Burns Night Supper</h2>
+      <ul><li><a href="/recipes/haggis/">Traditional Scottish Haggis</a></li><li><a href="/recipes/neeps-and-tatties/">Neeps and Tatties</a></li><li><a href="/recipes/cock-a-leekie-soup/">Cock-a-Leekie Soup</a></li><li><a href="/recipes/cranachan/">Cranachan</a></li><li><a href="/recipes/oatcakes/">Traditional Scottish Oatcakes</a></li><li><a href="/recipes/single-malt-whisky/">Single Malt Whisky</a></li></ul>
+      <h2>Lunar New Year (Chunjie)</h2>
+      <ul><li><a href="/recipes/longevity-noodles/">Longevity Noodles</a></li><li><a href="/recipes/whole-fish/">Whole Steamed Fish</a></li><li><a href="/recipes/dumplings/">Traditional Dumplings</a></li><li><a href="/recipes/sweet-rice-cakes/">Sweet Rice Cakes</a></li><li><a href="/recipes/mandarin-oranges/">Mandarin Oranges for St. Nicholas Day</a></li></ul>
+      <h2>Feast of St. Muirgen (Lí Ban the Mermaid)</h2>
+      <ul><li><a href="/recipes/poached-irish-salmon/">Poached Irish Salmon</a></li><li><a href="/recipes/dulse-and-carrageen-pudding/">Dulse and Carrageen Pudding</a></li><li><a href="/recipes/bangor-oysters/">Bangor Oysters</a></li><li><a href="/recipes/brown-soda-bread-with-salted-butter/">Brown Soda Bread with Salted Butter</a></li><li><a href="/recipes/tea/">Traditional Brewed Tea</a></li><li><a href="/recipes/bushmills/">Bushmills Irish Whiskey Cocktail</a></li></ul>
+      <h2>Losar (Tibetan New Year)</h2>
+      <ul><li><a href="/recipes/guthuk-noodle-soup/">Guthuk Noodle Soup</a></li><li><a href="/recipes/khapse-pastries/">Khapse Pastries</a></li><li><a href="/recipes/dried-yak-cheese/">Dried Yak Cheese</a></li><li><a href="/recipes/butter-tea/">Traditional Tibetan Butter Tea</a></li></ul>
+      <h2>Imbolc Eve (La Fheile Bride)</h2>
+      <ul><li><a href="/recipes/butter/">Traditional Irish Butter for Imbolc Eve</a></li><li><a href="/recipes/cheese/">Traditional Irish Boiled Cheese</a></li><li><a href="/recipes/oatcakes/">Traditional Scottish Oatcakes</a></li><li><a href="/recipes/lamb-stew/">Traditional Irish Lamb Stew</a></li></ul>
+      <h2>Fete de Papa Zaka - Feast of the Farmer Loa</h2>
+      <ul><li><a href="/recipes/clairin-ti-punch/">Clairin Ti Punch</a></li><li><a href="/recipes/kleren-anisette/">Kleren Anisette</a></li><li><a href="/recipes/pumpkin-spice-jus-giraumon/">Pumpkin-Spice Jus Giraumon</a></li><li><a href="/recipes/soup-joumou/">Soup Joumou</a></li><li><a href="/recipes/accra-de-morue/">Accra De Morue</a></li><li><a href="/recipes/pikliz/">Pikliz</a></li><li><a href="/recipes/mayi-moulen-ak-sos-pwa/">Mayi Moulen Ak Sos Pwa</a></li><li><a href="/recipes/poulet-nan-sos/">Poulet Nan Sos</a></li><li><a href="/recipes/griot-de-porc/">Griot De Porc</a></li><li><a href="/recipes/legim-nan-diri/">Legim Nan Diri</a></li><li><a href="/recipes/red-beans-with-rice/">Red Beans With Rice</a></li><li><a href="/recipes/bannann-peze/">Bannann Peze (Fried Plantains)</a></li><li><a href="/recipes/pain-mayi/">Pain Mayi</a></li><li><a href="/recipes/pen-patat/">Pen Patat</a></li><li><a href="/recipes/bonbons-sirop/">Bonbons Sirop</a></li><li><a href="/recipes/tropical-fruits/">Tropical Fruit Medley for Fête de Papa Zaka</a></li><li><a href="/recipes/roasted-corn/">Roasted Corn</a></li><li><a href="/recipes/rum/">Traditional Haitian Spiced Rum</a></li></ul>
+      <h2>Saint Valentine's Day</h2>
+      <ul><li><a href="/recipes/chocolate-dipped-strawberries/">Chocolate-Dipped Strawberries</a></li><li><a href="/recipes/heart-shaped-confections/">Heart-Shaped Chocolate Truffles</a></li><li><a href="/recipes/champagne/">Classic Champagne Toast</a></li></ul>
+      <h2>Imbolc Day Celebration</h2>
+      <ul><li><a href="/recipes/bannocks/">Traditional Scottish Bannocks</a></li><li><a href="/recipes/colcannon/">Colcannon</a></li><li><a href="/recipes/dulse/">Dulse and Oatcakes</a></li><li><a href="/recipes/honeyed-porridge/">Honeyed Porridge</a></li><li><a href="/recipes/herbal-tea/">Traditional Imbolc Herbal Tea</a></li></ul>
+      <h2>Nowruz</h2>
+      <ul><li><a href="/recipes/sweets/">Persian Sweets for Nowruz</a></li><li><a href="/recipes/tea/">Traditional Brewed Tea</a></li><li><a href="/recipes/celebratory-rice/">Celebratory Rice</a></li></ul>
+      <h2>Saint Patrick's Day</h2>
+      <ul><li><a href="/recipes/corned-beef-and-cabbage/">Corned Beef and Cabbage</a></li><li><a href="/recipes/soda-bread/">Traditional Irish Soda Bread</a></li><li><a href="/recipes/colcannon/">Colcannon</a></li><li><a href="/recipes/smoked-salmon/">Traditional Irish Smoked Salmon Platter</a></li><li><a href="/recipes/stout/">Traditional Irish Stout</a></li><li><a href="/recipes/whiskey/">Classic Irish Whiskey</a></li></ul>
+      <h2>Palm Sunday</h2>
+      <ul><li><a href="/recipes/shared-bread/">Shared Bread</a></li></ul>
+      <h2>Passover</h2>
+      <ul><li><a href="/recipes/matzah/">Traditional Matzah</a></li><li><a href="/recipes/bitter-herbs/">Bitter Herbs (Maror)</a></li><li><a href="/recipes/charoset/">Charoset</a></li></ul>
+      <h2>Maundy Thursday</h2>
+      <ul><li><a href="/recipes/bread/">Traditional Maundy Thursday Bread</a></li><li><a href="/recipes/soup/">Traditional Lentil Soup for Maundy Thursday</a></li></ul>
+      <h2>Good Friday</h2>
+      <ul><li><a href="/recipes/shared-bread/">Shared Bread</a></li></ul>
+      <h2>Earth Day</h2>
+      <ul><li><a href="/recipes/seasonal-salad/">Seasonal Earth Day Salad</a></li><li><a href="/recipes/plant-based-potluck/">Plant-Based Potluck Salad Bowl</a></li><li><a href="/recipes/fair-trade-coffee/">Fair-Trade Coffee Brew</a></li><li><a href="/recipes/desserts-with-local-honey/">Honey Lavender Shortbread Cookies</a></li></ul>
+      <h2>Buddhist Ghost Festival (Ullambana)</h2>
+      <ul><li><a href="/recipes/rice/">Fragrant Sticky Rice with Lotus Seeds</a></li><li><a href="/recipes/fruit/">Sweet Sticky Rice with Fruit</a></li><li><a href="/recipes/tea/">Traditional Brewed Tea</a></li><li><a href="/recipes/vegetarian-dishes/">Buddhist Vegetarian Stir-Fry</a></li></ul>
+      <h2>Independence Day (United States)</h2>
+      <ul><li><a href="/recipes/burgers/">Classic American Burgers</a></li><li><a href="/recipes/hot-dogs/">Classic American Hot Dogs</a></li><li><a href="/recipes/corn-on-the-cob/">Classic Grilled Corn on the Cob</a></li><li><a href="/recipes/baked-beans/">Traditional Baked Beans</a></li><li><a href="/recipes/berry-pie/">Classic Mixed Berry Pie</a></li><li><a href="/recipes/lemonade/">Classic Homemade Lemonade</a></li><li><a href="/recipes/sweet-tea/">Classic Southern Sweet Tea</a></li></ul>
+      <h2>Rosh Hashanah (Jewish New Year)</h2>
+      <ul><li><a href="/recipes/apples-and-honey/">Apples and Honey</a></li><li><a href="/recipes/challah/">Challah</a></li><li><a href="/recipes/pomegranate/">Pomegranate Honey Fruit Salad</a></li><li><a href="/recipes/honey-cake/">Honey Cake</a></li><li><a href="/recipes/new-fruit-of-the-season/">New Fruit of the Season with Honey</a></li></ul>
+      <h2>Autumn Equinox (Mabon)</h2>
+      <ul><li><a href="/recipes/roasted-squash/">Roasted Autumn Squash</a></li><li><a href="/recipes/apple-tarts/">Traditional Apple Tarts</a></li><li><a href="/recipes/caramelised-root-vegetables/">Caramelised Root Vegetables</a></li><li><a href="/recipes/mulled-cider/">Mulled Cider</a></li><li><a href="/recipes/hearty-grain-salads/">Hearty Autumn Grain Salad</a></li></ul>
+      <h2>Yom Kippur (Day of Atonement)</h2>
+      <ul><li><a href="/recipes/chicken-soup/">Traditional Chicken Soup for Yom Kippur</a></li><li><a href="/recipes/kreplach/">Kreplach</a></li><li><a href="/recipes/bagels/">Classic Jewish Bagels</a></li><li><a href="/recipes/lox/">Traditional Lox Platter</a></li><li><a href="/recipes/kugel/">Traditional Noodle Kugel</a></li><li><a href="/recipes/blintzes/">Blintzes</a></li><li><a href="/recipes/sweet-tea/">Classic Southern Sweet Tea</a></li></ul>
+      <h2>Dia de los Angelitos</h2>
+      <ul><li><a href="/recipes/atole/">Traditional Atole</a></li><li><a href="/recipes/sugar-skulls/">Traditional Sugar Skulls</a></li><li><a href="/recipes/pan-de-muerto/">Pan de Muerto</a></li></ul>
+      <h2>All Hallows' Eve (Halloween)</h2>
+      <ul><li><a href="/recipes/candy-apples/">Candy Apples</a></li><li><a href="/recipes/pumpkin-bread/">Pumpkin Bread</a></li><li><a href="/recipes/roasted-nuts/">Spiced Roasted Nuts</a></li><li><a href="/recipes/soul-cakes/">Soul Cakes</a></li><li><a href="/recipes/spiced-cider/">Spiced Cider</a></li></ul>
+      <h2>Martinstag Lantern Evening</h2>
+      <ul><li><a href="/recipes/warm-cider/">Warm Spiced Cider</a></li><li><a href="/recipes/pretzels/">Traditional Soft Pretzels</a></li><li><a href="/recipes/roasted-chestnuts/">Roasted Chestnuts</a></li><li><a href="/recipes/buttery-pastries/">Buttery Pastries</a></li></ul>
+      <h2>St. Martin's Day (Martinstag)</h2>
+      <ul><li><a href="/recipes/roast-goose/">Traditional Roast Goose</a></li><li><a href="/recipes/red-cabbage/">Braised Red Cabbage</a></li><li><a href="/recipes/potato-dumplings/">Potato Dumplings</a></li><li><a href="/recipes/spiced-biscuits/">Spiced Biscuits</a></li><li><a href="/recipes/gluhwein/">Gluhwein</a></li><li><a href="/recipes/federweisser/">Federweisser</a></li></ul>
+      <h2>Life Day (Wookiee Tradition)</h2>
+      <ul><li><a href="/recipes/ryshcate-sweet-breads/">Ryshcate Sweet Breads</a></li><li><a href="/recipes/bantha-stew/">Bantha Stew</a></li><li><a href="/recipes/roasted-yeca-fruits/">Roasted Yeca Fruits</a></li><li><a href="/recipes/blue-bantha-milk/">Blue Bantha Milk</a></li></ul>
+      <h2>St. Catherine's Day</h2>
+      <ul><li><a href="/recipes/saffron-cakes/">Saffron Cakes</a></li><li><a href="/recipes/honeyed-biscuits/">Honeyed Biscuits</a></li><li><a href="/recipes/mulled-cider/">Mulled Cider</a></li><li><a href="/recipes/spiced-wine/">Spiced Wine</a></li></ul>
+      <h2>Thanksgiving Day (United States)</h2>
+      <ul><li><a href="/recipes/roast-turkey/">Roast Turkey</a></li><li><a href="/recipes/cornbread-stuffing/">Cornbread Stuffing</a></li><li><a href="/recipes/cranberry-relish/">Cranberry Relish</a></li><li><a href="/recipes/sweet-potatoes/">Candied Sweet Potatoes</a></li><li><a href="/recipes/green-bean-casserole/">Green Bean Casserole</a></li><li><a href="/recipes/pecan-pie/">Pecan Pie</a></li></ul>
+      <h2>First Sunday of Advent</h2>
+      <ul><li><a href="/recipes/german-stollen/">German Stollen</a></li><li><a href="/recipes/lebkuchen/">Lebkuchen</a></li><li><a href="/recipes/mulled-cider/">Mulled Cider</a></li><li><a href="/recipes/sunday-roast/">Traditional Sunday Roast</a></li></ul>
+      <h2>Noaptea Lupilor</h2>
+      <ul><li><a href="/recipes/poppy-seed-cake/">Poppy Seed Cake</a></li><li><a href="/recipes/honey-cookies/">Honey Cookies</a></li><li><a href="/recipes/pickled-herring/">Pickled Herring</a></li><li><a href="/recipes/mead/">Traditional Mead</a></li><li><a href="/recipes/herb-infused-tea/">Herb-Infused Tea</a></li></ul>
+      <h2>St. Andrew's Day</h2>
+      <ul><li><a href="/recipes/cullen-skink-chowder/">Cullen Skink Chowder</a></li><li><a href="/recipes/bannocks/">Traditional Scottish Bannocks</a></li><li><a href="/recipes/venison-pies/">Venison Pies</a></li><li><a href="/recipes/shortbread/">Traditional Scottish Shortbread</a></li><li><a href="/recipes/whisky/">Traditional Scotch Whisky</a></li></ul>
+      <h2>Krampusnacht</h2>
+      <ul><li><a href="/recipes/schnapps/">Homemade Spiced Schnapps</a></li><li><a href="/recipes/gingerbread/">Traditional Gingerbread Cookies for Krampusnacht</a></li><li><a href="/recipes/spicy-sausages/">Spicy Sausages</a></li><li><a href="/recipes/pretzels/">Traditional Soft Pretzels</a></li></ul>
+      <h2>Dia de los Muertos</h2>
+      <ul><li><a href="/recipes/pan-de-muerto/">Pan de Muerto</a></li><li><a href="/recipes/mole/">Traditional Mole Poblano</a></li><li><a href="/recipes/tamales/">Traditional Mexican Tamales for Dia de los Muertos</a></li><li><a href="/recipes/champurrado/">Champurrado</a></li><li><a href="/recipes/sugar-skulls/">Traditional Sugar Skulls</a></li></ul>
+      <h2>Gita Jayanti (गीता जयंती)</h2>
+      <ul><li><a href="/recipes/khichdi/">Khichdi</a></li><li><a href="/recipes/jaggery-sweets/">Traditional Jaggery Sweets</a></li><li><a href="/recipes/sugarcane-juice/">Fresh Sugarcane Juice</a></li><li><a href="/recipes/cardamom-milk/">Cardamom Milk</a></li></ul>
+      <h2>Immaculada</h2>
+      <ul><li><a href="/recipes/turron/">Traditional Spanish Turron</a></li><li><a href="/recipes/panellets/">Panellets</a></li><li><a href="/recipes/hot-chocolate/">Traditional Spanish Hot Chocolate</a></li><li><a href="/recipes/roscon/">Roscón de Reyes</a></li></ul>
+      <h2>Tiki Christmas at Pearl Harbor</h2>
+      <ul><li><a href="/recipes/roast-pig/">Traditional Roast Pig for Tiki Christmas</a></li><li><a href="/recipes/pineapple-haupia/">Pineapple Haupia</a></li><li><a href="/recipes/coconut-eggnog/">Coconut Eggnog</a></li><li><a href="/recipes/shaved-ice/">Tropical Shaved Ice</a></li></ul>
+      <h2>Second Sunday of Advent</h2>
+      <ul><li><a href="/recipes/cardamom-buns/">Cardamom Buns</a></li><li><a href="/recipes/cinnamon-star-cookies/">Cinnamon Star Cookies</a></li><li><a href="/recipes/spiced-tea/">Spiced Tea</a></li><li><a href="/recipes/hearty-casserole/">Hearty Beef and Root Vegetable Casserole</a></li></ul>
+      <h2>Sinterklaas Arrival (Intocht)</h2>
+      <ul><li><a href="/recipes/pepernoten/">Pepernoten</a></li><li><a href="/recipes/speculaas-cookies/">Speculaas Cookies</a></li><li><a href="/recipes/chocolate-letters/">Chocolate Letters</a></li><li><a href="/recipes/marzipan/">Traditional Marzipan</a></li><li><a href="/recipes/hot-cocoa/">Traditional Hot Cocoa</a></li></ul>
+      <h2>Magic Flute</h2>
+      <ul><li><a href="/recipes/sparkling-wine/">Sparkling Wine</a></li><li><a href="/recipes/viennese-pastries/">Viennese Pastries</a></li><li><a href="/recipes/hot-chocolate/">Traditional Spanish Hot Chocolate</a></li></ul>
+      <h2>Lussinatta (St. Lucia's Vigil)</h2>
+      <ul><li><a href="/recipes/mulled-wine/">Mulled Wine</a></li><li><a href="/recipes/lussekatter/">Lussekatter (Swedish Saffron Buns)</a></li><li><a href="/recipes/ginger-thins/">Ginger Thins</a></li></ul>
+      <h2>St. Lucia's Day</h2>
+      <ul><li><a href="/recipes/lussekatter/">Lussekatter (Swedish Saffron Buns)</a></li><li><a href="/recipes/saffron-biscotti/">Saffron Biscotti</a></li><li><a href="/recipes/almond-cookies/">Almond Cookies</a></li><li><a href="/recipes/julmust/">Traditional Julmust</a></li><li><a href="/recipes/coffee/">Traditional Swedish Coffee for St. Lucia's Day</a></li></ul>
+      <h2>Gaudete Sunday</h2>
+      <ul><li><a href="/recipes/bibingka/">Bibingka</a></li><li><a href="/recipes/puto-bumbong/">Puto Bumbong</a></li><li><a href="/recipes/rosy-macarons/">Rosy Macarons</a></li><li><a href="/recipes/warm-fruit-punch/">Warm Fruit Punch</a></li></ul>
+      <h2>Hanukkah (Festival of Lights)</h2>
+      <ul><li><a href="/recipes/potato-latkes/">Potato Latkes</a></li><li><a href="/recipes/sufganiyot/">Sufganiyot</a></li><li><a href="/recipes/bimuelos/">Bimuelos</a></li><li><a href="/recipes/braised-brisket/">Braised Brisket</a></li><li><a href="/recipes/kugel/">Traditional Noodle Kugel</a></li></ul>
+      <h2>Saturnalia</h2>
+      <ul><li><a href="/recipes/roast-pork/">Roast Pork for Saturnalia</a></li><li><a href="/recipes/olives/">Marinated Olives</a></li><li><a href="/recipes/mulsum-sweet-wine/">Mulsum Sweet Wine</a></li><li><a href="/recipes/pine-nuts/">Roasted Pine Nuts with Honey and Sea Salt</a></li><li><a href="/recipes/honey-cakes/">Honey Cakes</a></li></ul>
+      <h2>Feast of Our Lady of Guadalupe</h2>
+      <ul><li><a href="/recipes/green-tamales/">Green Tamales</a></li><li><a href="/recipes/tamales-with-cheese-and-peppers/">Tamales with Cheese and Peppers</a></li><li><a href="/recipes/red-pozole/">Red Pozole</a></li><li><a href="/recipes/mole-poblano-with-rice/">Mole Poblano with Rice</a></li><li><a href="/recipes/golden-fried-tacos/">Golden Fried Tacos</a></li><li><a href="/recipes/bunuelos/">Buñuelos</a></li><li><a href="/recipes/cinnamon-churros/">Cinnamon Churros</a></li><li><a href="/recipes/champurrado/">Champurrado</a></li><li><a href="/recipes/guava-atole/">Guava Atole</a></li></ul>
+      <h2>Fourth Sunday of Advent</h2>
+      <ul><li><a href="/recipes/panettone/">Panettone</a></li><li><a href="/recipes/mince-pies/">Traditional Mince Pies</a></li><li><a href="/recipes/spiced-nuts/">Spiced Nuts</a></li><li><a href="/recipes/tourtiere/">Traditional Quebecois Tourtiere</a></li></ul>
+      <h2>Winter Solstice (Yule)</h2>
+      <ul><li><a href="/recipes/roasted-meats/">Traditional Roasted Meats for Winter Solstice</a></li><li><a href="/recipes/spiced-mead/">Spiced Mead</a></li><li><a href="/recipes/citrus-preserves/">Citrus Preserves</a></li><li><a href="/recipes/solstice-cakes/">Solstice Cakes</a></li></ul>
+      <h2>Polaris Meteor Watch &amp; UFO Evening</h2>
+      <ul><li><a href="/recipes/midnight-cocoa/">Midnight Cocoa</a></li><li><a href="/recipes/smoky-chili/">Smoky Chili</a></li><li><a href="/recipes/citrus-rosemary-popcorn/">Citrus-Rosemary Popcorn</a></li><li><a href="/recipes/shortbread-saucers/">Shortbread Saucers</a></li></ul>
+      <h2>Christmas Eve</h2>
+      <ul><li><a href="/recipes/seven-fishes/">Italian Feast of the Seven Fishes</a></li><li><a href="/recipes/beet-soup/">Traditional Christmas Eve Beet Soup</a></li><li><a href="/recipes/pierogi/">Traditional Polish Christmas Eve Pierogi</a></li><li><a href="/recipes/hot-cocoa/">Traditional Hot Cocoa</a></li><li><a href="/recipes/cookies/">Classic Christmas Eve Sugar Cookies</a></li></ul>
+      <h2>La Noche de Rabanos</h2>
+      <ul><li><a href="/recipes/radish-salad/">Traditional Radish Salad</a></li><li><a href="/recipes/radish-tamales/">Radish Tamales</a></li><li><a href="/recipes/green-epazote-atole/">Green Epazote Atole</a></li><li><a href="/recipes/thick-chocolate-masa-champurrado/">Thick Chocolate Masa Champurrado</a></li><li><a href="/recipes/sweet-pineapple-and-raisin-tamales/">Sweet Pineapple and Raisin Tamales</a></li><li><a href="/recipes/artisanal-mezcal/">Artisanal Mezcal</a></li></ul>
+      <h2>Christmas Day</h2>
+      <ul><li><a href="/recipes/roast-goose/">Traditional Roast Goose</a></li><li><a href="/recipes/roast-turkey/">Roast Turkey</a></li><li><a href="/recipes/glazed-ham/">Glazed Ham</a></li><li><a href="/recipes/roast-potatoes/">Classic Crispy Roast Potatoes</a></li><li><a href="/recipes/brussels-sprouts/">Roasted Brussels Sprouts with Balsamic Glaze</a></li><li><a href="/recipes/christmas-pudding/">Christmas Pudding</a></li><li><a href="/recipes/yule-log-cake/">Yule Log Cake</a></li></ul>
+      <h2>St. Stephen's Day (Boxing Day)</h2>
+      <ul><li><a href="/recipes/christmas-roast/">Traditional Christmas Roast</a></li><li><a href="/recipes/hearty-pie/">Hearty Beef and Root Vegetable Pie</a></li><li><a href="/recipes/bubble-and-squeak/">Bubble and Squeak</a></li><li><a href="/recipes/mince-pie/">Traditional Mince Pie</a></li><li><a href="/recipes/spiced-ale/">Traditional Spiced Ale</a></li></ul>
+      <h2>Yalda Night</h2>
+      <ul><li><a href="/recipes/pomegranate-and-rosewater-cordial/">Pomegranate And Rosewater Cordial</a></li><li><a href="/recipes/herb-platter/">Herb Platter</a></li><li><a href="/recipes/beet-yogurt-dip/">Beet Yogurt Dip</a></li><li><a href="/recipes/olives-in-pomegranate-molasses/">Olives in Pomegranate Molasses</a></li><li><a href="/recipes/walnut-pomegranate-stew/">Walnut Pomegranate Stew</a></li><li><a href="/recipes/saffron-rice-cake-with-barberries-and-chicken/">Saffron Rice Cake With Barberries And Chicken</a></li><li><a href="/recipes/okra-stew/">Okra Stew</a></li><li><a href="/recipes/shirazi-salad/">Shirazi Salad</a></li><li><a href="/recipes/sesame-topped-barbari-bread/">Sesame-Topped Barbari Bread</a></li><li><a href="/recipes/pomegranate-and-watermelon-fruit/">Pomegranate And Watermelon Fruit</a></li><li><a href="/recipes/roasted-nuts-and-dried-fruits/">Roasted Nuts and Dried Fruits</a></li><li><a href="/recipes/saffron-rice-pudding/">Saffron Rice Pudding</a></li></ul>
+      <h2>Feast of the Holy Innocents (Childermas Banquet)</h2>
+      <ul><li><a href="/recipes/baby-bellini/">Baby Bellini</a></li><li><a href="/recipes/baby-beet-bisque/">Baby Beet Bisque</a></li><li><a href="/recipes/baby-greens-salad/">Baby Greens Salad</a></li><li><a href="/recipes/slow-smoked-baby-back-ribs/">Slow-Smoked Baby Back Ribs</a></li><li><a href="/recipes/herb-roasted-cornish-hens/">Herb-Roasted Cornish Hens</a></li><li><a href="/recipes/duck-fat-roasted-baby-potatoes/">Duck-Fat Roasted Baby Potatoes</a></li><li><a href="/recipes/baby-corn-gratin/">Baby Corn Gratin</a></li><li><a href="/recipes/braised-baby-onions/">Braised Baby Onions</a></li><li><a href="/recipes/milk-rolls-with-whipped-honey-butter/">Milk Rolls with Whipped Honey Butter</a></li><li><a href="/recipes/baby-cheesecakes/">Baby Cheesecakes</a></li><li><a href="/recipes/baby-bananas-foster/">Baby Bananas Foster</a></li><li><a href="/recipes/babycham/">Babycham Cocktail</a></li><li><a href="/recipes/warm-milk-punch/">Warm Milk Punch</a></li></ul></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,3753 @@
+{
+  "Berchtoldstag": {
+    "slug": "berchtoldstag",
+    "title": "Berchtoldstag Celebration at Home",
+    "intro": "Celebrate Berchtoldstag by honoring community bonds with traditional visits, festive parades, and a hearty Swiss feast featuring beloved dishes.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Prepare Traditional Swiss Breakfast",
+        "detail": "Start the day by baking braided Zopf loaves to share with family and neighbors, symbolizing unity and prosperity for the civic year ahead.",
+        "recipes": [
+          "braided-zopf-loaf"
+        ]
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Baerzelistag Children's Parade",
+        "detail": "Encourage children to participate in the Baerzelistag parade by knocking on doors and sharing well wishes, fostering community spirit and joy.",
+        "recipes": []
+      },
+      {
+        "time": "Noon",
+        "activity": "Visit Neighbors with Berchteln",
+        "detail": "Make Berchteln visits to neighbors, carrying carved masks or pine boughs as tokens of friendship and goodwill, strengthening neighborhood bonds.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Prepare Festive Lunch",
+        "detail": "Cook roesti skillets and sausages for a hearty meal that reflects the traditional flavors of Berchtoldstag, perfect for sharing around the table.",
+        "recipes": [
+          "roesti",
+          "sausages"
+        ]
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Communal Cheese Dipping",
+        "detail": "Set out pots of melted cheese for communal dipping, encouraging conversation and togetherness as everyone enjoys this classic Swiss treat.",
+        "recipes": [
+          "melted-cheese"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Enjoy Hazelnut Torte Dessert",
+        "detail": "Conclude the meal with slices of hazelnut torte, a sweet finish that celebrates the season and the day's festivities.",
+        "recipes": [
+          "hazelnut-torte"
+        ]
+      }
+    ],
+    "closing": "End the day feeling connected and refreshed, ready to embrace the new civic year with warmth and community spirit."
+  },
+  "Candlemas (Feast of the Presentation)": {
+    "slug": "candlemas-feast-of-the-presentation",
+    "title": "Candlemas Celebration at Home",
+    "intro": "Celebrate Candlemas by honoring the tradition of blessing candles, enjoying winter light, and sharing festive foods that reflect both European and Mexican customs.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Prepare and Bless Candles",
+        "detail": "Begin the day by gathering candles to be blessed. Light them to symbolize hope and protection for the coming year, following the ancient tradition of Candlemas.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Make Traditional Crepes",
+        "detail": "Prepare crepes beurre sucre and crepes jambon-fromage to enjoy a classic French Candlemas meal, symbolizing the sun and the return of longer days.",
+        "recipes": [
+          "crepes-beurre-sucre",
+          "crepes-jambon-fromage"
+        ]
+      },
+      {
+        "time": "Noon",
+        "activity": "Light a Candlelit Procession at Home",
+        "detail": "Hold a small procession around your home or garden with the blessed candles, illuminating the winter afternoon and embracing the festival’s focus on light.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Prepare Mexican Tamales and Drinks",
+        "detail": "Cook tamales oaxaquenos and tamales de dulce, and prepare atole de canela and champurrado espumoso, honoring Mexican Candlemas traditions after the blessing of candles.",
+        "recipes": [
+          "tamales-oaxaquenos",
+          "tamales-de-dulce",
+          "atole-de-canela",
+          "champurrado-espumoso"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Enjoy a Light Salad and Cider",
+        "detail": "Serve salade de mache alongside boles de cidre brut to balance the rich tamales and crepes with fresh greens and crisp cider.",
+        "recipes": [
+          "salade-de-mache",
+          "boles-de-cidre-brut"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Share Pan de Candelaria",
+        "detail": "Conclude the day by sharing pan de candelaria, a sweet bread symbolizing the feast and community, perfect for reflecting on the day’s blessings.",
+        "recipes": [
+          "pan-de-candelaria"
+        ]
+      }
+    ],
+    "closing": "End your Candlemas celebration by keeping your blessed candles lit a little longer, welcoming light and warmth into the winter season."
+  },
+  "Perchta Day (Perchtenlauf)": {
+    "slug": "perchta-day-perchtenlauf",
+    "title": "Perchta Day Celebration at Home",
+    "intro": "Celebrate Perchta Day by honoring the Alpine tradition of welcoming Frau Perchta with warmth, light, and festive foods. This agenda guides you through a day filled with symbolic activities and comforting treats.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Prepare Traditional Treats",
+        "detail": "Start the day by making dumplings and poppy seed pastries to share with guests and performers, honoring the custom of offering these foods during the festival.",
+        "recipes": [
+          "dumplings",
+          "poppy-seed-pastries"
+        ]
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Decorate with Light and Symbols",
+        "detail": "Decorate your home with candles and symbols of winter protection to invite Frau Perchta’s blessing and to chase away darkness, reflecting the spirit of the Perchtenlauf.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Create Masks and Bells",
+        "detail": "Craft simple masks and prepare cowbells to emulate the Perchten figures who parade through villages, symbolizing the driving away of evil spirits.",
+        "recipes": []
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Host a Perchtenlauf Parade at Home",
+        "detail": "Organize a small procession around your home or yard, ringing bells and carrying torches or lanterns to mimic the traditional Perchtenlauf and celebrate light overcoming darkness.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Serve Milky Punch and Mulled Wine",
+        "detail": "Warm up with milky punch and mulled wine, beverages traditionally enjoyed during the festivities, to toast the protection of the hearth and fields.",
+        "recipes": [
+          "milky-punch",
+          "mulled-wine"
+        ]
+      },
+      {
+        "time": "Night",
+        "activity": "Enjoy Sweet Krapfen and Share Stories",
+        "detail": "End the day by enjoying sweet krapfen with family or friends while sharing stories of Alpine folklore and the legend of Frau Perchta, keeping the tradition alive.",
+        "recipes": [
+          "krapfen"
+        ]
+      }
+    ],
+    "closing": "As the night settles, reflect on the warmth and protection of the season, carrying Frau Perchta’s blessings into the year ahead."
+  },
+  "New Year's Day": {
+    "slug": "new-years-day",
+    "title": "New Year's Day Celebration at Home",
+    "intro": "Welcome the new year with meaningful traditions and delicious foods that symbolize luck and prosperity. This agenda guides you through a warm and festive day to start fresh and hopeful.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Set Your New Year's Resolutions",
+        "detail": "Begin the day by reflecting on the past year and writing down your resolutions to embrace positive changes and goals for the year ahead.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Prepare a Lucky Lunch",
+        "detail": "Cook Hoppin' John, a traditional dish believed to bring good luck and prosperity, to enjoy a meaningful and hearty meal with family or friends.",
+        "recipes": [
+          "hoppin-john"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Bake or Slice Sweet Bread",
+        "detail": "Enjoy the symbolic sweetness of the new year by slicing panettone or king cake, which are traditional sweet breads inviting prosperity and joy.",
+        "recipes": [
+          "panettone",
+          "king-cake"
+        ]
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Cook and Share Longevity Noodles",
+        "detail": "Prepare longevity noodles to symbolize a long life, sharing this comforting dish with loved ones as part of the evening meal.",
+        "recipes": [
+          "longevity-noodles"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Toast with Sparkling Wine",
+        "detail": "Raise a glass of sparkling wine to toast the new year, celebrating fresh beginnings and the promise of good fortune.",
+        "recipes": [
+          "sparkling-wine"
+        ]
+      },
+      {
+        "time": "Night / Midnight",
+        "activity": "Count Down and Ring Bells",
+        "detail": "Join in the traditional countdown to midnight, ringing bells or making joyful noise to welcome the new year with energy and hope.",
+        "recipes": []
+      },
+      {
+        "time": "Late Night",
+        "activity": "Watch Fireworks or Celebrations",
+        "detail": "End the day by watching fireworks or televised celebrations, embracing the communal spirit of renewal and joy.",
+        "recipes": []
+      }
+    ],
+    "closing": "Celebrate this fresh start with gratitude and optimism for the year to come."
+  },
+  "Twelfth Night": {
+    "slug": "twelfth-night",
+    "title": "Twelfth Night Celebration at Home",
+    "intro": "Celebrate the close of Christmastide with a day of joyful traditions, festive feasting, and lively merriment rooted in medieval European customs.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Prepare Festive Foods",
+        "detail": "Begin the day by baking a king cake filled with almonds and preparing figgy pudding to honor the traditional Twelfth Night feast.",
+        "recipes": [
+          "king-cake",
+          "figgy-pudding"
+        ]
+      },
+      {
+        "time": "Midday",
+        "activity": "Roast the Meats",
+        "detail": "Cook a hearty roasted meat to share with family and friends, symbolizing abundance before the Epiphany fast begins.",
+        "recipes": [
+          "roasted-meat"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Mix Spiced Ale",
+        "detail": "Brew or prepare spiced ale to enjoy throughout the evening, embodying the festive spirit of the season.",
+        "recipes": [
+          "spiced-ale"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Crown the Twelfth Night King or Queen",
+        "detail": "Hide a bean charm in the king cake and crown the person who finds it as the Twelfth Night monarch, continuing the medieval tradition.",
+        "recipes": [
+          "king-cake"
+        ]
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Wassailing and Singing",
+        "detail": "Gather at doorways to sing wassail songs, spreading cheer and goodwill to neighbors as was customary during Twelfth Night.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Feast Together",
+        "detail": "Share the roasted meats, figgy pudding, and spiced ale in a communal feast, celebrating the end of the Christmas season.",
+        "recipes": [
+          "roasted-meat",
+          "figgy-pudding",
+          "spiced-ale"
+        ]
+      },
+      {
+        "time": "Night",
+        "activity": "Dismantle Holiday Greenery",
+        "detail": "Carefully take down the Christmas greenery to avoid bad luck in the coming year, marking the close of the festival.",
+        "recipes": []
+      }
+    ],
+    "closing": "End the day reflecting on the season's joys as you prepare for the Epiphany fast ahead."
+  },
+  "Epiphany (Three Kings Day)": {
+    "slug": "epiphany-three-kings-day",
+    "title": "Epiphany Celebration: Welcoming the Magi at Home",
+    "intro": "Celebrate the Epiphany by honoring the arrival of the Three Kings with meaningful traditions, joyful activities, and delicious festive foods that bring family and friends together.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Bless Your Doorway with Chalk",
+        "detail": "Begin the day by blessing your home's entrance with chalk, marking the initials of the Three Kings and the year to invite good fortune and protection throughout the year.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Prepare a Festive Stew",
+        "detail": "Slowly simmer a traditional stew to enjoy later at the feast; this hearty dish reflects warmth and togetherness during the celebration.",
+        "recipes": [
+          "stew"
+        ]
+      },
+      {
+        "time": "Noon",
+        "activity": "Stage a Three Kings Pageant",
+        "detail": "Engage family members in a lively reenactment of the Magi’s journey, complete with costumes and a camel prop, to bring the story of Epiphany to life.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Bake a Rosca de Reyes or King Cake",
+        "detail": "Bake a traditional Rosca de Reyes or King Cake, symbolizing the circular journey of the Magi and the unity of family and friends.",
+        "recipes": [
+          "rosca-de-reyes",
+          "king-cake"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Enjoy Hot Chocolate and Cake",
+        "detail": "Gather to sip rich, warming hot chocolate alongside slices of your freshly baked cake, savoring the flavors that celebrate the season.",
+        "recipes": [
+          "hot-chocolate",
+          "king-cake",
+          "rosca-de-reyes"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Share the Festive Stew Dinner",
+        "detail": "Conclude the day with a shared meal of the slow-simmered stew, fostering community and gratitude as you reflect on the festival’s meaning.",
+        "recipes": [
+          "stew"
+        ]
+      },
+      {
+        "time": "Night",
+        "activity": "Exchange Gifts and Reflect",
+        "detail": "End the celebration by exchanging gifts as children receive surprises from Los Reyes Magos or La Befana, honoring the tradition of generosity and hope.",
+        "recipes": []
+      }
+    ],
+    "closing": "Close the day with joy and gratitude, carrying the spirit of revelation and unity into the year ahead."
+  },
+  "Fete du Vodoun (Benin Vodoun Festival)": {
+    "slug": "fete-du-vodoun-benin-vodoun-festival",
+    "title": "Fête du Vodoun: Honoring Ancestral Spirits at Home",
+    "intro": "Celebrate the rich traditions of the Benin Vodoun Festival with a day of reflection, music, and sharing traditional dishes that honor ancestral spirits and heritage.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Opening Libations and Reflection",
+        "detail": "Begin the day by offering libations to honor the ancestors, reflecting on the history and significance of Vodoun in Benin. This sets a respectful and mindful tone for the festival.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Prepare Akassa Corn Porridge",
+        "detail": "Cook akassa corn porridge, a staple festival dish, to share with family and friends. This traditional food connects you with the nourishing spirit of the celebration.",
+        "recipes": [
+          "akassa-corn-porridge"
+        ]
+      },
+      {
+        "time": "Noon",
+        "activity": "Enjoy a Communal Meal",
+        "detail": "Serve and enjoy goat and fish stews flavored with palm oil, accompanied by toasted peanuts. Sharing these dishes symbolizes unity and the rich cultural heritage of Vodoun.",
+        "recipes": [
+          "fish-stew",
+          "toasted-peanuts"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Listen to Drumming and Dance",
+        "detail": "Play recordings of traditional Vodoun drumming or watch videos of Egungun dancers to immerse yourself in the vibrant energy of the festival's processions.",
+        "recipes": []
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Offerings at the Temple of Pythons (Symbolic)",
+        "detail": "Create a small symbolic altar at home to offer libations and honor the spirits, inspired by the Temple of Pythons in Ouidah, reinforcing the spiritual connection.",
+        "recipes": [
+          "sodabi-palm-liquor"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Savor Sodabi Palm Liquor",
+        "detail": "Conclude the day by sharing sodabi palm liquor with loved ones, celebrating the resilience and heritage of the Vodoun people with this traditional spirit.",
+        "recipes": [
+          "sodabi-palm-liquor"
+        ]
+      }
+    ],
+    "closing": "End the day with gratitude for the ancestors and the enduring spirit of Vodoun culture."
+  },
+  "Feast of the Ass": {
+    "slug": "feast-of-the-ass",
+    "title": "Feast of the Ass Celebration",
+    "intro": "Celebrate the Feast of the Ass by honoring the humble donkey with joyful traditions and a rustic meal inspired by medieval French customs.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Decorate the Donkey",
+        "detail": "Adorn a donkey or a donkey figurine with colorful ribbons and flowers to prepare for the procession, symbolizing the animal that carried the Holy Family.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Procession and Playful Prayers",
+        "detail": "Lead the bedecked donkey in a procession around your home or garden, encouraging family members to join in with playful brays as a blend of devotion and carnival humor.",
+        "recipes": []
+      },
+      {
+        "time": "Noon",
+        "activity": "Prepare a Rustic Lunch",
+        "detail": "Cook traditional dishes to honor the Feast of the Ass, focusing on simple, hearty foods that reflect the medieval French parish meal.",
+        "recipes": [
+          "country-bread",
+          "dried-pea-soup",
+          "goat-cheese"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Enjoy the Meal Together",
+        "detail": "Gather around the table to share the country bread, dried pea soup, and goat cheese, savoring the humble flavors that celebrate the donkey's role in biblical journeys.",
+        "recipes": [
+          "country-bread",
+          "dried-pea-soup",
+          "goat-cheese"
+        ]
+      },
+      {
+        "time": "Mid-Afternoon",
+        "activity": "Sweet Treats and Spiced Wine",
+        "detail": "Serve honey cake and walnut tart along with cruches of spiced wine hypocras to complete the feast with traditional medieval sweets and drinks.",
+        "recipes": [
+          "honey-cake",
+          "walnut-tart",
+          "spiced-wine-hypocras"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Reflect and Give Thanks",
+        "detail": "End the day by reflecting on the humility and service symbolized by the donkey, giving thanks for the simple joys and shared traditions.",
+        "recipes": []
+      }
+    ],
+    "closing": "Conclude your Feast of the Ass with gratitude for the humble donkey and the joy of community and tradition."
+  },
+  "Fete de Papa Zaka - Feast of the Farmer Loa": {
+    "slug": "fete-de-papa-zaka-feast-of-the-farmer-loa",
+    "title": "Fête de Papa Zaka: A Day Honoring the Farmer Loa",
+    "intro": "Celebrate the Feast of Papa Zaka by honoring the kindly farmer lwa with traditional offerings, music, and a hearty Haitian meal that gives thanks for the year's crops and labor.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Set Up the Altar",
+        "detail": "Dress your altar with straw hats filled with grains, bowls of corn, a shot of rum, and pipe tobacco to invite Papa Zaka's blessings on your home and fields.",
+        "recipes": [
+          "rum"
+        ]
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Prepare Aperitifs",
+        "detail": "Mix traditional drinks like Clairin Ti Punch, Kleren Anisette, and Pumpkin-Spice Jus Giraumon to refresh guests and honor the festive spirit.",
+        "recipes": [
+          "clairin-ti-punch",
+          "kleren-anisette",
+          "pumpkin-spice-jus-giraumon"
+        ]
+      },
+      {
+        "time": "Noon",
+        "activity": "Soup and Starters",
+        "detail": "Serve Soup Joumou, Accra De Morue accompanied by Pikliz, and Mayi Moulen Ak Sos Pwa to start the feast with flavors that celebrate Haitian heritage.",
+        "recipes": [
+          "soup-joumou",
+          "accra-de-morue",
+          "pikliz",
+          "mayi-moulen-ak-sos-pwa"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Music and Petitioning",
+        "detail": "Gather drummers, singers, and vodouisants to perform traditional songs and petitions to Papa Zaka, asking for fertile fields and protection over laboring families.",
+        "recipes": []
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Main Courses and Sides",
+        "detail": "Enjoy Poulet Nan Sos, Griot De Porc, Legim Nan Diri, and Red Beans With Rice served alongside Bannann Peze, Pain Mayi, and jars of Pikliz to share a communal meal.",
+        "recipes": [
+          "poulet-nan-sos",
+          "griot-de-porc",
+          "legim-nan-diri",
+          "red-beans-with-rice",
+          "bannann-peze",
+          "pain-mayi",
+          "pikliz"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Dessert and Offerings",
+        "detail": "Conclude the feast with Pen Patat, Bonbons Sirop, Tropical Fruits, and place altar offerings of Roasted Corn, a grain-filled straw hat, and a final shot of Rum with pipe tobacco to honor Papa Zaka’s protection.",
+        "recipes": [
+          "pen-patat",
+          "bonbons-sirop",
+          "tropical-fruits",
+          "roasted-corn",
+          "rum"
+        ]
+      }
+    ],
+    "closing": "End the day by sharing stories and gratitude, keeping the spirit of Papa Zaka alive in your home and heart."
+  },
+  "Dondoyaki Bonfire": {
+    "slug": "dondoyaki-bonfire",
+    "title": "Dondoyaki Bonfire Celebration",
+    "intro": "Celebrate the traditional Dondoyaki festival by gathering your community to respectfully retire New Year's charms and enjoy warming seasonal treats.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Gather and Prepare Decorations",
+        "detail": "Collect pine branches, old shimenawa ropes, daruma dolls, and calligraphy from New Year festivities to prepare for the bonfire pyre.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Build the Bonfire Pyre",
+        "detail": "Carefully pile the collected items into a tall pyre, symbolizing respect and renewal as you prepare for the evening's communal prayers.",
+        "recipes": []
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Community Gathering and Prayer",
+        "detail": "Invite neighbors to join around the pyre to offer prayers as sparks fly skyward, marking the respectful retirement of the year's lucky charms.",
+        "recipes": []
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Light the Bonfire",
+        "detail": "Ignite the pyre with reverence, watching the flames consume the charms while sharing wishes for good fortune in the coming year.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Roast Skewered Mochi",
+        "detail": "Children and adults alike roast skewered mochi over the glowing embers, enjoying this traditional treat together.",
+        "recipes": [
+          "skewered-mochi"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Serve Azuki Bean Soup",
+        "detail": "Offer sweet azuki bean soup to warm and nourish everyone gathered, reinforcing the sense of community and comfort.",
+        "recipes": [
+          "azuki-bean-soup"
+        ]
+      },
+      {
+        "time": "Night",
+        "activity": "Enjoy Warm Amazake",
+        "detail": "Conclude the evening with cups of warm amazake, a sweet fermented rice drink that fortifies against the cold night air.",
+        "recipes": [
+          "amazake"
+        ]
+      }
+    ],
+    "closing": "End the day feeling connected and renewed, ready to welcome the year ahead with warmth and hope."
+  },
+  "Old Twelfth Night Wassail": {
+    "slug": "old-twelfth-night-wassail",
+    "title": "Old Twelfth Night Wassail Celebration",
+    "intro": "Celebrate the Old Twelfth Night Wassail by waking the apple trees and blessing the orchards with traditional songs, noise, and festive foods. This day honors the guardian robin and the hope for a fruitful harvest.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Prepare Mulled Cider and Apple Cakes",
+        "detail": "Start the day by making hot mulled cider and baking apple cakes to share during the wassailing procession. These warming treats will keep spirits high in the frosty air.",
+        "recipes": [
+          "mulled-cider",
+          "apple-cake"
+        ]
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Gather Ingredients and Supplies",
+        "detail": "Collect cider-soaked toast, blue cheese, and pork pies to offer as refreshments between visits to the orchards. Prepare pans and muskets for the traditional noise-making.",
+        "recipes": [
+          "blue-cheese",
+          "pork-pie"
+        ]
+      },
+      {
+        "time": "Early Afternoon",
+        "activity": "Begin Orchard Wassailing",
+        "detail": "Visit the apple orchards, banging pans and firing muskets into the branches to wake the trees. Sing traditional wassail songs to encourage a bountiful harvest.",
+        "recipes": []
+      },
+      {
+        "time": "Mid Afternoon",
+        "activity": "Offer Cider-Soaked Toast to the Robin",
+        "detail": "Place cider-soaked toast in the branches as an offering to the guardian robin, symbolizing protection and good fortune for the orchard.",
+        "recipes": []
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Share Festive Foods",
+        "detail": "Gather with friends and family to enjoy the prepared mulled cider, apple cakes, blue cheese, and pork pies, fueling the continued rounds through the orchards.",
+        "recipes": [
+          "mulled-cider",
+          "apple-cake",
+          "blue-cheese",
+          "pork-pie"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Reflect and Rest",
+        "detail": "Conclude the day by reflecting on the blessings of the orchard and the community spirit fostered through the wassail tradition.",
+        "recipes": []
+      }
+    ],
+    "closing": "End the day feeling connected to the land and hopeful for a fruitful year ahead."
+  },
+  "Burns Night Supper": {
+    "slug": "burns-night-supper",
+    "title": "Burns Night Supper Celebration",
+    "intro": "Celebrate the life and poetry of Robert Burns with a traditional Scottish Burns Night Supper, filled with classic dishes, heartfelt toasts, and lively music.",
+    "schedule": [
+      {
+        "time": "Early Evening / 6:00 pm",
+        "activity": "Welcome and Gathering",
+        "detail": "Invite guests to arrive dressed in kilts or tartan to set the festive mood. Begin with a dram of smoky single malt whisky to honor Scottish heritage.",
+        "recipes": [
+          "single-malt-whisky"
+        ]
+      },
+      {
+        "time": "6:30 pm",
+        "activity": "Cock-a-Leekie Soup Starter",
+        "detail": "Serve a warm bowl of traditional Cock-a-Leekie Soup to start the meal, a comforting dish that sets the tone for the feast.",
+        "recipes": [
+          "cock-a-leekie-soup"
+        ]
+      },
+      {
+        "time": "7:00 pm",
+        "activity": "Piping in the Haggis",
+        "detail": "Have the host, dressed in kilt, pipe in the haggis with ceremony. This marks the highlight of the evening and honors Burns' famous poem.",
+        "recipes": [
+          "haggis"
+        ]
+      },
+      {
+        "time": "7:15 pm",
+        "activity": "Address to the Haggis",
+        "detail": "Deliver the traditional Address to the Haggis with passion and flourish, celebrating Burns' wit and Scottish pride.",
+        "recipes": []
+      },
+      {
+        "time": "7:30 pm",
+        "activity": "Main Course: Haggis with Neeps and Tatties",
+        "detail": "Serve the haggis alongside neeps (turnips) and tatties (potatoes), classic accompaniments that complete the hearty meal.",
+        "recipes": [
+          "haggis",
+          "neeps-and-tatties"
+        ]
+      },
+      {
+        "time": "8:15 pm",
+        "activity": "Toasts and Laddies and Lassies",
+        "detail": "Offer toasts to the lassies and the laddies, sharing stories or poems to celebrate friendship and Burns' legacy.",
+        "recipes": [
+          "single-malt-whisky"
+        ]
+      },
+      {
+        "time": "8:45 pm",
+        "activity": "Dessert: Cranachan and Oatcakes",
+        "detail": "Enjoy a traditional Scottish dessert of Cranachan paired with oatcakes, a sweet and crunchy finish to the meal.",
+        "recipes": [
+          "cranachan",
+          "oatcakes"
+        ]
+      },
+      {
+        "time": "9:15 pm",
+        "activity": "Ceilidh Dancing and Singing",
+        "detail": "End the evening with lively ceilidh dances and sing 'Auld Lang Syne' to honor friendship and the enduring spirit of Burns Night.",
+        "recipes": []
+      }
+    ],
+    "closing": "Conclude your Burns Night with warm memories and the timeless words of Robert Burns echoing in your hearts."
+  },
+  "Lunar New Year (Chunjie)": {
+    "slug": "lunar-new-year-chunjie",
+    "title": "Lunar New Year Celebration at Home",
+    "intro": "Celebrate the Lunar New Year by honoring traditions that welcome spring, bring family together, and invite prosperity for the year ahead.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Clean and Decorate the Home",
+        "detail": "Begin the day by thoroughly cleaning your home to sweep away bad luck from the past year. Then, hang red lanterns and decorations to invite good fortune and happiness.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Prepare Traditional Foods",
+        "detail": "Cook symbolic dishes that represent longevity, prosperity, and abundance, such as longevity noodles, whole fish, dumplings, sweet rice cakes, and prepare mandarin oranges to serve with the meal.",
+        "recipes": [
+          "longevity-noodles",
+          "whole-fish",
+          "dumplings",
+          "sweet-rice-cakes",
+          "mandarin-oranges"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Family Reunion and Ancestor Veneration",
+        "detail": "Gather family members for a reunion, sharing stories and honoring ancestors with offerings to express gratitude and hope for blessings in the new year.",
+        "recipes": []
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Enjoy the Reunion Banquet",
+        "detail": "Sit down together to enjoy the feast, savoring each dish for its symbolic meaning—longevity noodles for long life, whole fish for abundance, dumplings for wealth, sweet rice cakes for progress, and mandarin oranges for good luck.",
+        "recipes": [
+          "longevity-noodles",
+          "whole-fish",
+          "dumplings",
+          "sweet-rice-cakes",
+          "mandarin-oranges"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Give Hongbao Envelopes",
+        "detail": "Exchange red hongbao envelopes filled with money as a gesture of good wishes and to share prosperity among family members, especially children.",
+        "recipes": []
+      },
+      {
+        "time": "Night",
+        "activity": "Watch or Perform Lion or Dragon Dance",
+        "detail": "Enjoy or participate in a lion or dragon dance performance to symbolically chase away the Nian monster and any lingering bad luck, welcoming a fresh start to the year.",
+        "recipes": []
+      }
+    ],
+    "closing": "End the day surrounded by family, feeling hopeful and joyful for the new beginnings the Lunar New Year brings."
+  },
+  "Losar (Tibetan New Year)": {
+    "slug": "losar-tibetan-new-year",
+    "title": "Losar Celebration: Tibetan New Year at Home",
+    "intro": "Celebrate Losar by honoring Tibetan traditions with meaningful rituals, visits, and special foods that usher in good fortune for the new year.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Clean and Replace Prayer Flags",
+        "detail": "Begin the day by replacing old prayer flag streamers with fresh ones to invite blessings and positive energy into your home.",
+        "recipes": []
+      },
+      {
+        "time": "Mid-Morning",
+        "activity": "Visit a Local Monastery or Watch Cham Dances",
+        "detail": "If possible, visit a nearby monastery to observe or participate in the traditional cham dances, which symbolize the triumph of good over evil.",
+        "recipes": []
+      },
+      {
+        "time": "Noon",
+        "activity": "Exchange Khata Scarves with Auspicious Wishes",
+        "detail": "Gather family members to exchange khata scarves while reciting blessings and wishes for health, happiness, and prosperity in the coming year.",
+        "recipes": []
+      },
+      {
+        "time": "Early Afternoon",
+        "activity": "Prepare Guthuk Noodle Soup with Symbolic Dumplings",
+        "detail": "Cook guthuk noodle soup featuring nine special dumplings, each containing symbolic ingredients that represent traits or fortunes for the new year.",
+        "recipes": [
+          "guthuk-noodle-soup"
+        ]
+      },
+      {
+        "time": "Mid-Afternoon",
+        "activity": "Make and Enjoy Khapse Pastries",
+        "detail": "Bake or serve deep-fried khapse pastries, a festive treat traditionally enjoyed during Losar to celebrate the season.",
+        "recipes": [
+          "khapse-pastries"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Serve Dried Yak Cheese and Butter Tea",
+        "detail": "Share dried yak cheese and freshly brewed butter tea with family and neighbors to foster community bonds and warm spirits.",
+        "recipes": [
+          "dried-yak-cheese",
+          "butter-tea"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Reflect and Share Stories",
+        "detail": "Conclude the day by gathering together to share stories, reflect on the past year, and express hopes for the year ahead.",
+        "recipes": []
+      }
+    ],
+    "closing": "End your Losar day feeling connected, hopeful, and ready to embrace the new year with joy and tradition."
+  },
+  "Feast of St. Muirgen (Lí Ban the Mermaid)": {
+    "slug": "feast-of-st-muirgen-li-ban-the-mermaid",
+    "title": "Feast of St. Muirgen: A Day by the Sea",
+    "intro": "Celebrate the legend of Lí Ban, the mermaid of Lough Neagh, by honoring her story and the coastal traditions of Ireland with a day of reflection, nature, and a special seafood feast.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Read the Tale of Lí Ban",
+        "detail": "Begin your day by reading the story of Lí Ban from the Annals of the Four Masters to connect with her journey from the bursting of Lough Neagh to her transformation and baptism as St. Muirgen.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Walk by the Water",
+        "detail": "Take a reflective walk along a local shore or body of water, imagining the shores of Lough Neagh or Larne Lough, to honor Lí Ban’s connection to the sea and those who live by it.",
+        "recipes": []
+      },
+      {
+        "time": "Midday",
+        "activity": "Light a Candle for Sailors",
+        "detail": "Light a candle in a window or on your table as a symbol of hope and protection for sailors and all who depend on the sea, continuing a tradition of remembrance and blessing.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Prepare the Coastal Feast",
+        "detail": "Begin preparing a coastal-inspired meal featuring traditional Irish seafood and breads to celebrate the bounty of the sea and Lí Ban’s legacy.",
+        "recipes": [
+          "poached-irish-salmon",
+          "dulse-and-carrageen-pudding",
+          "bangor-oysters",
+          "brown-soda-bread-with-salted-butter"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Feast in Honor of St. Muirgen",
+        "detail": "Gather around the table to enjoy poached Irish salmon, dulse and carrageen pudding, fresh Bangor oysters, and brown soda bread with salted butter, accompanied by tea or a measure of Bushmills whiskey.",
+        "recipes": [
+          "poached-irish-salmon",
+          "dulse-and-carrageen-pudding",
+          "bangor-oysters",
+          "brown-soda-bread-with-salted-butter",
+          "tea",
+          "bushmills"
+        ]
+      },
+      {
+        "time": "After Dinner",
+        "activity": "Share Stories and Reflections",
+        "detail": "Conclude your day by sharing stories or reflections about the sea, transformation, and faith, keeping the spirit of Lí Ban alive in your home.",
+        "recipes": []
+      }
+    ],
+    "closing": "End your day with gratitude for the sea’s gifts and the enduring legend of St. Muirgen, carrying her story in your heart until next year."
+  },
+  "Imbolc Eve (La Fheile Bride)": {
+    "slug": "imbolc-eve-la-fheile-bride",
+    "title": "Imbolc Eve: Welcoming Brigid and the First Signs of Spring",
+    "intro": "Celebrate the ancient Gaelic festival of Imbolc Eve by honoring Saint Brigid with traditional crafts, foods, and a vigil that welcomes the return of light and life.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Craft Brigid's Crosses",
+        "detail": "Begin the day by weaving Brigid's crosses from rushes or straw, a symbol of protection and blessing for the home throughout the year.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Prepare Corn Dollies",
+        "detail": "Fashion corn dollies from leftover grains to invite Saint Brigid's blessing on your household and future harvests.",
+        "recipes": []
+      },
+      {
+        "time": "Noon",
+        "activity": "Bake Oatcakes",
+        "detail": "Make traditional oatcakes to enjoy as a hearty snack, honoring the staple grains of the season and Brigid's patronage of the hearth.",
+        "recipes": [
+          "oatcakes"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Dairy Preparation",
+        "detail": "Prepare fresh butter and soft cheeses to include in your evening feast, celebrating the richness of livestock nurtured through winter.",
+        "recipes": [
+          "butter",
+          "cheese"
+        ]
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Cook Lamb Stew",
+        "detail": "Simmer a warming lamb stew, symbolizing new life and the approaching spring, to be shared at the feast.",
+        "recipes": [
+          "lamb-stew"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Feast and Vigil",
+        "detail": "Gather to share the lamb stew, oatcakes, butter, and cheese, then light a vigil fire to keep burning through the night in honor of Saint Brigid and the returning light.",
+        "recipes": [
+          "lamb-stew",
+          "oatcakes",
+          "butter",
+          "cheese"
+        ]
+      }
+    ],
+    "closing": "End the day with a peaceful heart, knowing you have welcomed the blessings of Brigid and the promise of spring."
+  },
+  "Saint Valentine's Day": {
+    "slug": "saint-valentines-day",
+    "title": "Saint Valentine's Day Celebration at Home",
+    "intro": "Celebrate the spirit of love and kindness on Saint Valentine's Day with heartfelt traditions and delicious treats shared with your special someone.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Write Love Notes",
+        "detail": "Start the day by exchanging handwritten notes expressing your feelings and appreciation, honoring the tradition of courtly love and personal connection.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Acts of Service",
+        "detail": "Perform small acts of kindness for each other or for others, reflecting the selfless love that Saint Valentine symbolizes.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Prepare Sweet Treats",
+        "detail": "Make chocolate-dipped strawberries and heart-shaped confections together to enjoy later, adding a personal touch to your celebration.",
+        "recipes": [
+          "chocolate-dipped-strawberries",
+          "heart-shaped-confections"
+        ]
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Set a Romantic Table",
+        "detail": "Arrange a candlelit supper for two with fine champagne, creating an intimate atmosphere to deepen your bond.",
+        "recipes": [
+          "champagne"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Enjoy Candlelit Supper",
+        "detail": "Savor your homemade treats alongside champagne during a quiet, romantic dinner, celebrating love and companionship.",
+        "recipes": [
+          "chocolate-dipped-strawberries",
+          "heart-shaped-confections",
+          "champagne"
+        ]
+      },
+      {
+        "time": "Night",
+        "activity": "Reflect and Give Thanks",
+        "detail": "End the day by reflecting on your relationship and considering supporting a charitable cause in the spirit of selfless love, extending kindness beyond your home.",
+        "recipes": []
+      }
+    ],
+    "closing": "Conclude your Valentine's Day with gratitude and a renewed commitment to love and kindness."
+  },
+  "Spring Equinox (Ostara)": {
+    "slug": "spring-equinox-ostara",
+    "title": "Spring Equinox Celebration at Home",
+    "intro": "Celebrate the balance of day and night with mindful activities and fresh seasonal foods that honor the arrival of spring.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Welcome the Dawn with Garden Work",
+        "detail": "Begin your day by tending to your garden or indoor plants, symbolizing new growth and the return of light. This sets a mindful tone for the day and connects you with nature's rhythms.",
+        "recipes": []
+      },
+      {
+        "time": "Mid-Morning",
+        "activity": "Prepare a Fresh Greens Snack",
+        "detail": "Gather early spring greens like spinach, dandelion, or lettuce to enjoy a simple, refreshing snack that celebrates the season's first harvest.",
+        "recipes": []
+      },
+      {
+        "time": "Noon",
+        "activity": "Mindful Balance Ritual",
+        "detail": "Take time to meditate or perform a ritual focusing on balance and harmony, reflecting the equal length of day and night during the equinox.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Create Seasonal Decorations",
+        "detail": "Craft decorations using natural elements such as twigs, flowers, and herbs to bring the spirit of spring into your home.",
+        "recipes": []
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Cook a Light Dinner with Herbs and Tender Vegetables",
+        "detail": "Prepare a meal featuring fresh herbs, eggs, citrus, and the first tender vegetables of the season to honor the abundance of spring.",
+        "recipes": []
+      },
+      {
+        "time": "Sundown",
+        "activity": "Reflect and Give Thanks",
+        "detail": "As day turns to night, reflect on the balance in your life and express gratitude for the returning light and growth.",
+        "recipes": []
+      }
+    ],
+    "closing": "End your day feeling renewed and connected to the cycles of nature, ready to embrace the growing season ahead."
+  },
+  "Imbolc Day Celebration": {
+    "slug": "imbolc-day-celebration",
+    "title": "Imbolc Day Celebration at Home",
+    "intro": "Celebrate the renewal of light and the protective spirit of Brigid with a day of meaningful rituals and traditional foods that honor the lambing season and the coming spring.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Visit a Holy Well or Create a Home Altar",
+        "detail": "Begin your day by visiting a nearby holy well to collect blessed water or set up a small altar at home with symbols of Brigid. This honors the sacred tradition and invites protection and healing into your space.",
+        "recipes": []
+      },
+      {
+        "time": "Mid-Morning",
+        "activity": "Sprinkle Thresholds with Blessed Water",
+        "detail": "Use the collected holy water or water blessed at home to sprinkle your doorways and windowsills. This ancient custom is believed to cleanse and protect your home from negative energies.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Hang Brigid's Swaddles Outdoors",
+        "detail": "Prepare small cloth swaddles and hang them outside to absorb Brigid's healing power from the fresh air and light. These swaddles symbolize care and protection for the lambs and your household.",
+        "recipes": []
+      },
+      {
+        "time": "Noon",
+        "activity": "Prepare and Share Bannocks",
+        "detail": "Bake traditional bannocks to share with family or guests, celebrating community and the simple sustenance of the season.",
+        "recipes": [
+          "bannocks"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Cook and Enjoy Colcannon and Dulse",
+        "detail": "Serve hearty colcannon alongside dulse, embracing the nourishing flavors of the earth and sea that sustain life during this time of renewal.",
+        "recipes": [
+          "colcannon",
+          "dulse"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Savor Honeyed Porridge",
+        "detail": "Prepare a comforting bowl of honeyed porridge, symbolizing the sweetness of new beginnings and the nurturing aspect of the season.",
+        "recipes": [
+          "honeyed-porridge"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Conclude with Herbal Tea",
+        "detail": "End the day by sipping herbal tea infused with the first tender herbs of the season, reflecting on the light’s return and Brigid’s blessings.",
+        "recipes": [
+          "herbal-tea"
+        ]
+      }
+    ],
+    "closing": "As night falls, rest peacefully knowing you have welcomed light, protection, and renewal into your home and heart."
+  },
+  "Saint Patrick's Day": {
+    "slug": "saint-patricks-day",
+    "title": "Saint Patrick's Day Celebration at Home",
+    "intro": "Celebrate the spirit of Saint Patrick's Day with a day full of Irish traditions, hearty food, and joyful blessings. Embrace the culture and history of this vibrant festival right from your home.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Wear Green and Share Shamrocks",
+        "detail": "Start the day by wearing green clothing and pinning shamrock pins to your lapel, symbolizing Irish pride and Saint Patrick’s teachings. Share Gaelic blessings with family and friends to spread goodwill.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Prepare Traditional Irish Breakfast",
+        "detail": "Cook a simple Irish breakfast featuring smoked salmon to honor the rich culinary heritage of Ireland and energize yourself for the day ahead.",
+        "recipes": [
+          "smoked-salmon"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Bake Soda Bread",
+        "detail": "Bake traditional Irish soda bread together, a staple that complements many Saint Patrick's Day meals and embodies the warmth of Irish hospitality.",
+        "recipes": [
+          "soda-bread"
+        ]
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Cook Corned Beef and Cabbage with Colcannon",
+        "detail": "Prepare a classic Saint Patrick's Day feast featuring corned beef and cabbage alongside creamy colcannon, celebrating the hearty flavors of Ireland.",
+        "recipes": [
+          "corned-beef-and-cabbage",
+          "colcannon"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Raise a Toast with Stout or Whiskey",
+        "detail": "Conclude the meal by sharing a toast with traditional Irish stout or whiskey, honoring the festive spirit and camaraderie of the day.",
+        "recipes": [
+          "stout",
+          "whiskey"
+        ]
+      },
+      {
+        "time": "Night",
+        "activity": "Listen to Irish Music and Reflect",
+        "detail": "End the day by listening to traditional Irish music or bagpipe melodies, reflecting on the history and joy of Saint Patrick’s Day.",
+        "recipes": []
+      }
+    ],
+    "closing": "May your Saint Patrick's Day be filled with warmth, tradition, and joyful memories."
+  },
+  "Palm Sunday": {
+    "slug": "palm-sunday",
+    "title": "Palm Sunday Home Celebration",
+    "intro": "Palm Sunday marks the beginning of Holy Week, commemorating Jesus' entry into Jerusalem with palms and songs. This day invites reflection and simple, meaningful gatherings at home.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Prepare and Decorate with Palms",
+        "detail": "Gather palm branches or green leaves to decorate your home, symbolizing the palms carried during Jesus' entry into Jerusalem. This sets a reflective and festive atmosphere for the day.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Sing Traditional Hymns",
+        "detail": "Sing or listen to traditional Palm Sunday hymns and songs that celebrate the start of Holy Week, fostering a sense of community and spiritual preparation.",
+        "recipes": []
+      },
+      {
+        "time": "Noon",
+        "activity": "Attend or Watch a Palm Sunday Service",
+        "detail": "Participate in a local church service or watch one online to join in the communal remembrance of this significant day.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Reflective Reading and Quiet Time",
+        "detail": "Spend some quiet time reading scripture passages related to Palm Sunday, reflecting on the meaning of the day and preparing your heart for the week ahead.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Share a Simple Seasonal Meal",
+        "detail": "Gather family or friends to share a simple, seasonal meal that honors the humility and significance of the day, emphasizing togetherness and gratitude.",
+        "recipes": []
+      },
+      {
+        "time": "After Dinner",
+        "activity": "Break the Shared Bread",
+        "detail": "End the day by sharing bread made together, symbolizing unity and the communal spirit of Holy Week. This simple act connects you to the tradition of shared meals following worship.",
+        "recipes": [
+          "shared-bread"
+        ]
+      }
+    ],
+    "closing": "Close the day with gratitude and peaceful reflection, ready to journey through Holy Week."
+  },
+  "Nowruz": {
+    "slug": "nowruz",
+    "title": "Nowruz: Celebrating Persian New Year and Spring Renewal",
+    "intro": "Nowruz marks the Persian New Year and the arrival of spring, a time to refresh the home, honor loved ones, and enjoy traditional foods that celebrate renewal and growth.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Spring Cleaning and Setting the Haft-Seen Table",
+        "detail": "Begin the day by thoroughly cleaning your home to welcome freshness and renewal. Then, set the Haft-Seen table with seven symbolic items that represent health, prosperity, and rebirth.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Prepare Celebratory Rice",
+        "detail": "Cook a fragrant, herb-forward celebratory rice dish to honor the season’s bounty and prepare for the festive meal ahead.",
+        "recipes": [
+          "celebratory-rice"
+        ]
+      },
+      {
+        "time": "Noon",
+        "activity": "Enjoy a Family Lunch",
+        "detail": "Gather with family to share the celebratory rice along with fresh herbs and seasonal vegetables, symbolizing growth and health.",
+        "recipes": [
+          "celebratory-rice"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Visit Loved Ones",
+        "detail": "Spend time visiting family and friends to exchange well wishes for the new year and strengthen community bonds.",
+        "recipes": []
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Serve Tea and Sweets",
+        "detail": "Offer traditional tea and sweets to guests as a warm gesture of hospitality and celebration.",
+        "recipes": [
+          "tea",
+          "sweets"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Reflect and Celebrate Renewal",
+        "detail": "End the day by reflecting on the themes of renewal and hope that Nowruz embodies, enjoying the company of loved ones.",
+        "recipes": []
+      }
+    ],
+    "closing": "May the spirit of Nowruz bring you peace, prosperity, and a joyful new beginning."
+  },
+  "Passover": {
+    "slug": "passover",
+    "title": "Passover Seder Day at Home",
+    "intro": "Celebrate the first day of Passover by gathering your family for a meaningful seder that honors the journey from slavery to freedom with traditional foods and stories.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Prepare Seder Plate Ingredients",
+        "detail": "Begin the day by preparing the symbolic foods for the seder plate, including matzah, bitter herbs, and charoset, each representing aspects of the Exodus story.",
+        "recipes": [
+          "matzah",
+          "bitter-herbs",
+          "charoset"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Set the Seder Table",
+        "detail": "Arrange the seder plate with the prepared symbolic foods and set the table for the evening meal, creating a warm and inviting atmosphere for family and guests.",
+        "recipes": []
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Family Storytelling and Songs",
+        "detail": "Gather everyone to retell the story of the Exodus, sharing the history and significance of Passover, accompanied by traditional songs to enhance the experience.",
+        "recipes": []
+      },
+      {
+        "time": "Sundown",
+        "activity": "Begin the Passover Seder",
+        "detail": "Start the seder meal by eating matzah and bitter herbs, following the traditional order and explanations to connect with the festival's meaning.",
+        "recipes": [
+          "matzah",
+          "bitter-herbs"
+        ]
+      },
+      {
+        "time": "During Seder",
+        "activity": "Enjoy Charoset and Festive Meal",
+        "detail": "Taste the sweet charoset symbolizing the mortar used by the Israelites, and continue with the festive meal that celebrates freedom and renewal.",
+        "recipes": [
+          "charoset"
+        ]
+      },
+      {
+        "time": "After Seder",
+        "activity": "Reflect and Share",
+        "detail": "Conclude the evening by reflecting on the themes of freedom and resilience, inviting family members to share their thoughts and hopes for the future.",
+        "recipes": []
+      }
+    ],
+    "closing": "End the day feeling connected to tradition and inspired by the enduring spirit of freedom."
+  },
+  "Maundy Thursday": {
+    "slug": "maundy-thursday",
+    "title": "Maundy Thursday: A Day of Reflection and Simple Sharing",
+    "intro": "Maundy Thursday invites us to remember the Last Supper with quiet reflection and a humble meal shared among loved ones.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Begin with a Quiet Reflection",
+        "detail": "Start the day with a moment of silence or personal meditation to contemplate the themes of love and service central to Maundy Thursday.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Prepare Simple Bread",
+        "detail": "Bake or warm fresh bread, symbolizing the body shared at the Last Supper, to be part of your evening meal.",
+        "recipes": [
+          "bread"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Cook a Hearty Soup",
+        "detail": "Prepare a nourishing soup using simple, wholesome ingredients as a reminder of humble sustenance and community.",
+        "recipes": [
+          "soup"
+        ]
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Set a Modest Table",
+        "detail": "Arrange your dining space with simplicity and care, reflecting the solemnity and intimacy of the Last Supper.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Share the Maundy Thursday Meal",
+        "detail": "Gather with family or close friends to share the bread and soup, remembering the commandment to love and serve one another.",
+        "recipes": [
+          "bread",
+          "soup"
+        ]
+      },
+      {
+        "time": "Night",
+        "activity": "Keep a Quiet Vigil",
+        "detail": "End the day with a peaceful vigil or prayer, honoring the tradition of watchfulness and reflection on this sacred evening.",
+        "recipes": []
+      }
+    ],
+    "closing": "Close your Maundy Thursday with a heart full of gratitude and a renewed commitment to love and serve."
+  },
+  "Good Friday": {
+    "slug": "good-friday",
+    "title": "Good Friday Observance at Home",
+    "intro": "Good Friday is a solemn day of reflection commemorating the crucifixion of Jesus. This agenda guides a peaceful day of fasting, prayer, and simple shared meals to honor the tradition.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Morning Prayer and Reflection",
+        "detail": "Begin the day with quiet prayer and meditation to reflect on the significance of Good Friday, setting a contemplative tone for the day.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Scripture Reading",
+        "detail": "Read passages from the Bible that recount the events of the crucifixion, deepening understanding and reverence for the day.",
+        "recipes": []
+      },
+      {
+        "time": "Noon",
+        "activity": "Simple Midday Meal",
+        "detail": "Break the fast with a modest meal featuring shared bread, symbolizing unity and remembrance of Jesus' sacrifice.",
+        "recipes": [
+          "shared-bread"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Silent Reflection or Walk",
+        "detail": "Spend quiet time in contemplation or take a peaceful walk outdoors to meditate on the themes of sacrifice and redemption.",
+        "recipes": []
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Community or Family Prayer Service",
+        "detail": "Gather with family or virtually with community members for a solemn prayer service to honor the day together.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Light Dinner with Shared Bread",
+        "detail": "Enjoy a simple evening meal featuring shared bread once again, reinforcing the day's themes of humility and remembrance.",
+        "recipes": [
+          "shared-bread"
+        ]
+      },
+      {
+        "time": "Sundown",
+        "activity": "Closing Prayer",
+        "detail": "End the day with a final prayer of gratitude and reflection on the meaning of Good Friday.",
+        "recipes": []
+      }
+    ],
+    "closing": "Conclude the day in peaceful reflection, carrying the spirit of Good Friday into the days ahead."
+  },
+  "Buddhist Ghost Festival (Ullambana)": {
+    "slug": "buddhist-ghost-festival-ullambana",
+    "title": "Buddhist Ghost Festival (Ullambana) Observance at Home",
+    "intro": "Celebrate the Buddhist Ghost Festival by honoring ancestors and comforting wandering spirits through meaningful rituals and traditional vegetarian offerings.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Prepare Offerings",
+        "detail": "Begin the day by preparing simple vegetarian dishes, fresh fruit, and tea to present as offerings, symbolizing respect and nourishment for ancestors and spirits.",
+        "recipes": [
+          "vegetarian-dishes",
+          "fruit",
+          "tea"
+        ]
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Set Up Altar and Offerings",
+        "detail": "Arrange the prepared food, incense, and paper lanterns on a home altar or special area to invite and comfort the spirits during the festival.",
+        "recipes": [
+          "vegetarian-dishes",
+          "fruit",
+          "tea"
+        ]
+      },
+      {
+        "time": "Noon",
+        "activity": "Offer Incense and Prayers",
+        "detail": "Light incense sticks and offer prayers or silent reflections for ancestors and hungry ghosts, fostering a sense of connection and compassion.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Visit Local Temple or Virtual Ceremony",
+        "detail": "If possible, visit a nearby temple to participate in communal rituals or join a virtual ceremony to deepen your observance.",
+        "recipes": []
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Family Sharing and Storytelling",
+        "detail": "Gather with family to share stories of ancestors and reflect on their lives, strengthening family bonds and remembrance.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Enjoy a Festive Vegetarian Meal",
+        "detail": "Sit down together to enjoy the vegetarian dishes prepared earlier, appreciating the symbolic significance of the meal in honoring the spirits.",
+        "recipes": [
+          "vegetarian-dishes",
+          "rice",
+          "fruit",
+          "tea"
+        ]
+      },
+      {
+        "time": "Sundown",
+        "activity": "Light Lanterns and Paper Offerings",
+        "detail": "Light lanterns or set out paper offerings outside to guide and comfort wandering spirits as night falls, symbolizing hope and peace.",
+        "recipes": []
+      }
+    ],
+    "closing": "End the day with a moment of quiet reflection, feeling connected to your ancestors and the community of spirits around you."
+  },
+  "Earth Day": {
+    "slug": "earth-day",
+    "title": "Earth Day Celebration at Home",
+    "intro": "Celebrate Earth Day by connecting with nature, learning about sustainability, and enjoying earth-friendly foods that honor our planet.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Plant a Tree",
+        "detail": "Start your day by planting a tree or some native plants in your garden or a community space to contribute to a greener environment.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Clean Up Local Waterways or Neighborhood",
+        "detail": "Spend time cleaning a local waterway or your neighborhood to help protect natural habitats and promote environmental health.",
+        "recipes": []
+      },
+      {
+        "time": "Noon",
+        "activity": "Prepare a Seasonal Salad",
+        "detail": "Make a fresh seasonal salad using local produce to enjoy a healthy, earth-friendly meal that supports sustainable farming.",
+        "recipes": [
+          "seasonal-salad"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Host a Sustainability Workshop",
+        "detail": "Invite family or friends to learn about climate justice and sustainable living practices through a casual workshop or discussion.",
+        "recipes": []
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Enjoy Fair-Trade Coffee",
+        "detail": "Serve fair-trade coffee to honor ethical sourcing and support farmers who practice sustainable agriculture.",
+        "recipes": [
+          "fair-trade-coffee"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Plant-Based Potluck Dinner",
+        "detail": "Gather loved ones for a plant-based potluck dinner featuring dishes that reduce environmental impact and celebrate plant foods.",
+        "recipes": [
+          "plant-based-potluck"
+        ]
+      },
+      {
+        "time": "After Dinner",
+        "activity": "Desserts with Local Honey",
+        "detail": "Conclude your Earth Day feast with desserts sweetened by local honey, supporting local beekeepers and pollinators.",
+        "recipes": [
+          "desserts-with-local-honey"
+        ]
+      }
+    ],
+    "closing": "End the day feeling inspired to continue caring for the Earth every day."
+  },
+  "Independence Day (United States)": {
+    "slug": "independence-day-united-states",
+    "title": "A Joyful Independence Day Celebration at Home",
+    "intro": "Celebrate the spirit of freedom and unity on July 4th with a day full of patriotic activities, delicious traditional foods, and festive moments at home.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Flag Display and Declaration Reading",
+        "detail": "Begin the day by proudly displaying the American flag and reading aloud the Declaration of Independence to reflect on the nation's founding principles.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Patriotic Playlist and Home Parade",
+        "detail": "Create a festive atmosphere by playing patriotic songs and organizing a small parade around your neighborhood or yard with family and friends.",
+        "recipes": []
+      },
+      {
+        "time": "Lunch",
+        "activity": "Backyard Grill Feast",
+        "detail": "Fire up the grill to enjoy classic Independence Day foods like juicy burgers and hot dogs, accompanied by corn on the cob and baked beans for a hearty meal.",
+        "recipes": [
+          "burgers",
+          "hot-dogs",
+          "corn-on-the-cob",
+          "baked-beans"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Relax with Sweet Refreshments",
+        "detail": "Cool down with refreshing pitchers of homemade lemonade and sweet tea, perfect for sipping while enjoying summer activities or conversation.",
+        "recipes": [
+          "lemonade",
+          "sweet-tea"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Outdoor Games and Family Fun",
+        "detail": "Engage in classic outdoor games like sack races or frisbee to keep the festive spirit lively and create joyful memories with loved ones.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Berry Pie Dessert",
+        "detail": "Serve a delicious berry pie for dessert, celebrating the season’s bounty and adding a sweet finish to your Independence Day meal.",
+        "recipes": [
+          "berry-pie"
+        ]
+      },
+      {
+        "time": "Night",
+        "activity": "Fireworks and Reflection",
+        "detail": "End the day by watching a brilliant fireworks display, reflecting on freedom and the sacrifices made for independence.",
+        "recipes": []
+      }
+    ],
+    "closing": "As the fireworks fade, cherish the memories made and the freedoms celebrated on this special day."
+  },
+  "Autumn Equinox (Mabon)": {
+    "slug": "autumn-equinox-mabon",
+    "title": "Mabon Autumn Equinox Celebration",
+    "intro": "Celebrate the balance of day and night with a warm, harvest-inspired day at home honoring the Autumn Equinox. Embrace gratitude, seasonal flavors, and the changing light.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Decorate the Altar",
+        "detail": "Gather gourds, colorful autumn leaves, and seasonal fruits to create a beautiful altar that honors the harvest and the balance of day and night.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Gratitude Journaling",
+        "detail": "Spend some quiet time reflecting on the blessings of the season by writing in a gratitude journal, acknowledging both light and dark in your life.",
+        "recipes": []
+      },
+      {
+        "time": "Early Afternoon",
+        "activity": "Prepare the Harvest Feast",
+        "detail": "Cook a selection of traditional harvest dishes including roasted squash, caramelised root vegetables, and hearty grain salads to celebrate the season’s bounty.",
+        "recipes": [
+          "roasted-squash",
+          "caramelised-root-vegetables",
+          "hearty-grain-salads"
+        ]
+      },
+      {
+        "time": "Mid Afternoon",
+        "activity": "Bake Apple Tarts",
+        "detail": "Bake apple tarts as a sweet tribute to the autumn harvest, filling your home with comforting aromas and preparing for the evening feast.",
+        "recipes": [
+          "apple-tarts"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Mulled Cider Preparation",
+        "detail": "Warm up some mulled cider to enjoy throughout the evening, infusing the air with spicy, seasonal scents that evoke cozy gatherings.",
+        "recipes": [
+          "mulled-cider"
+        ]
+      },
+      {
+        "time": "Sundown",
+        "activity": "Twilight Walk",
+        "detail": "Take a peaceful walk outside as day transitions to night, feeling the balance of light and dark and connecting with the rhythms of nature.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Harvest Feast",
+        "detail": "Gather around the table to enjoy your prepared dishes and mulled cider, sharing stories and gratitude as you honor the equinox’s harmony.",
+        "recipes": [
+          "roasted-squash",
+          "caramelised-root-vegetables",
+          "hearty-grain-salads",
+          "apple-tarts",
+          "mulled-cider"
+        ]
+      }
+    ],
+    "closing": "End the day with a moment of quiet reflection, appreciating the balance and abundance the Autumn Equinox brings."
+  },
+  "Yom Kippur (Day of Atonement)": {
+    "slug": "yom-kippur-day-of-atonement",
+    "title": "Yom Kippur: A Day of Reflection and Renewal",
+    "intro": "Yom Kippur, the Day of Atonement, is a solemn day dedicated to fasting, prayer, and repentance. This agenda guides you through meaningful observances and traditional meals that honor this sacred time.",
+    "schedule": [
+      {
+        "time": "Afternoon before sundown",
+        "activity": "Pre-Fast Meal",
+        "detail": "Enjoy a nourishing meal featuring chicken soup and kreplach to prepare your body for the upcoming 25-hour fast. This meal is important to sustain energy and focus during the day of fasting.",
+        "recipes": [
+          "chicken-soup",
+          "kreplach"
+        ]
+      },
+      {
+        "time": "Sundown",
+        "activity": "Begin Fast and Kol Nidre Service",
+        "detail": "Wear white garments and your tallit as you attend or observe the Kol Nidre prayer service, which marks the formal beginning of Yom Kippur and sets the tone for reflection and repentance.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Evening Prayer Services",
+        "detail": "Engage in the evening prayers (Ma'ariv), focusing on introspection and seeking forgiveness as part of the Ten Days of Awe.",
+        "recipes": []
+      },
+      {
+        "time": "Night",
+        "activity": "Late Night Study and Prayer",
+        "detail": "Spend time studying sacred texts and praying, deepening your spiritual connection during the quiet hours of the fast.",
+        "recipes": []
+      },
+      {
+        "time": "Morning",
+        "activity": "Daytime Prayer Services",
+        "detail": "Continue wearing white and your tallit for the morning and afternoon services, dedicating the day to prayer, confession, and reflection.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Ne'ilah Service and Final Shofar Blast",
+        "detail": "Participate in the closing Ne'ilah service, the final prayers before the fast ends, culminating with the powerful blast of the shofar signaling the closing of the gates.",
+        "recipes": []
+      },
+      {
+        "time": "After nightfall (when three stars appear)",
+        "activity": "Break-Fast Meal",
+        "detail": "Break your fast gently with traditional foods such as bagels, lox, kugel, blintzes, and sweet tea, celebrating renewal and community after a day of fasting and prayer.",
+        "recipes": [
+          "bagels",
+          "lox",
+          "kugel",
+          "blintzes",
+          "sweet-tea"
+        ]
+      }
+    ],
+    "closing": "End the day with gratitude and a renewed spirit, carrying the lessons of Yom Kippur into the year ahead."
+  },
+  "Rosh Hashanah (Jewish New Year)": {
+    "slug": "rosh-hashanah-jewish-new-year",
+    "title": "Rosh Hashanah: Welcoming the Jewish New Year",
+    "intro": "Celebrate the Jewish New Year with meaningful rituals and delicious traditional foods that symbolize hope and renewal for the year ahead.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Attend or Listen to the Shofar Blowing",
+        "detail": "Begin the day by hearing the shofar, a ram's horn, sounded in synagogue or through a recording. This ancient call marks the start of Rosh Hashanah and invites reflection and awakening.",
+        "recipes": []
+      },
+      {
+        "time": "Mid-Morning",
+        "activity": "Exchange Greetings of Shanah Tovah",
+        "detail": "Reach out to family and friends with the warm wish 'Shanah Tovah' to express hopes for a good and sweet new year.",
+        "recipes": []
+      },
+      {
+        "time": "Noon",
+        "activity": "Prepare Round Challah Bread",
+        "detail": "Bake or buy a round challah, symbolizing the cycle of the year and continuity. Its shape reminds us of the circle of life and renewal.",
+        "recipes": [
+          "challah"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Tashlich Ceremony by Flowing Water",
+        "detail": "Go to a river or stream to perform Tashlich by casting bread crumbs into the water, symbolizing the casting away of past wrongs and starting anew.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Festive Dinner with Apples Dipped in Honey",
+        "detail": "Enjoy a festive meal featuring apples dipped in honey to symbolize the hope for a sweet year ahead. Include round challah and pomegranates to add traditional blessings.",
+        "recipes": [
+          "apples-and-honey",
+          "challah",
+          "pomegranate"
+        ]
+      },
+      {
+        "time": "After Dinner",
+        "activity": "Dessert with Honey Cake",
+        "detail": "Conclude the meal with honey cake, a sweet treat that carries the symbolism of sweetness and prosperity for the new year.",
+        "recipes": [
+          "honey-cake"
+        ]
+      }
+    ],
+    "closing": "End your day with gratitude and hope, embracing the chance for renewal and a sweet year ahead."
+  },
+  "All Hallows' Eve (Halloween)": {
+    "slug": "all-hallows-eve-halloween",
+    "title": "All Hallows' Eve at Home: A Cozy Celebration",
+    "intro": "Celebrate the rich traditions of All Hallows' Eve with a day full of festive activities and seasonal treats that honor the ancient roots and modern merriment of Halloween.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Carve Jack-o'-Lanterns",
+        "detail": "Begin the day by carving pumpkins into jack-o'-lanterns to light your home and invite the spirit of the festival. This ancient tradition connects you to the Celtic origins of Halloween.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Bake Pumpkin Bread and Soul Cakes",
+        "detail": "Prepare pumpkin bread and soul cakes to enjoy throughout the day and share with neighbors, continuing the medieval custom of offering treats during the festival.",
+        "recipes": [
+          "pumpkin-bread",
+          "soul-cakes"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Make Candy Apples and Roast Nuts",
+        "detail": "Create candy apples and roasted nuts as sweet and savory snacks that reflect the autumn harvest and festive spirit of Halloween.",
+        "recipes": [
+          "candy-apples",
+          "roasted-nuts"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Sip Spiced Cider",
+        "detail": "Warm up with steaming mugs of spiced cider, a comforting drink that complements the seasonal flavors and keeps you cozy as the evening approaches.",
+        "recipes": [
+          "spiced-cider"
+        ]
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Tell Ghost Stories",
+        "detail": "Gather around the glowing jack-o'-lanterns to share spooky ghost stories, honoring the festival's connection to spirits and the supernatural.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Dress in Costumes and Trick-or-Treat",
+        "detail": "Dress up in costumes and, if safe, take children door to door to collect sweets, continuing the joyful tradition of community and celebration.",
+        "recipes": []
+      }
+    ],
+    "closing": "End the night by reflecting on the day’s festivities and enjoying the warm glow of your jack-o'-lanterns, embracing the magic of All Hallows' Eve."
+  },
+  "Dia de los Angelitos": {
+    "slug": "dia-de-los-angelitos",
+    "title": "Dia de los Angelitos: Honoring Little Spirits",
+    "intro": "Celebrate the first day of Día de los Muertos by welcoming the angelitos, the souls of departed children, with heartfelt traditions and special treats.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Prepare the altar",
+        "detail": "Begin the day by setting up a vibrant altar with candles, paper cut-outs, toys, and marigold flowers to warmly welcome the angelitos home.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Bake Pan de Muerto",
+        "detail": "Bake tiny loaves of Pan de Muerto, a traditional sweet bread symbolizing the cycle of life and death, to place as offerings on the altar.",
+        "recipes": [
+          "pan-de-muerto"
+        ]
+      },
+      {
+        "time": "Noon",
+        "activity": "Make Atole",
+        "detail": "Prepare warm atole, a comforting corn-based drink, to share with family and offer to the angelitos as part of the feast.",
+        "recipes": [
+          "atole"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Decorate sugar skulls",
+        "detail": "Decorate sugar skulls with bright colors and patterns, representing the joyful spirits of the children and adding them to the altar.",
+        "recipes": [
+          "sugar-skulls"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Scatter marigolds and ring bells",
+        "detail": "Walk around your home scattering marigold petals and ringing bells to guide the angelitos to their altar and invite their presence.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Family gathering and feast",
+        "detail": "Gather with loved ones to enjoy the offerings, share stories, and remember the children with love and warmth.",
+        "recipes": [
+          "atole",
+          "sugar-skulls",
+          "pan-de-muerto"
+        ]
+      }
+    ],
+    "closing": "End the day with a quiet moment at the glowing altar, feeling connected to the angelitos and the cherished memories they bring."
+  },
+  "Dia de los Muertos": {
+    "slug": "dia-de-los-muertos",
+    "title": "Dia de los Muertos: Honoring Ancestors with Tradition and Taste",
+    "intro": "Celebrate the vibrant and heartfelt Dia de los Muertos by creating meaningful altars, sharing stories, and enjoying traditional Mexican dishes that connect you with your heritage.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Build the Ofrenda",
+        "detail": "Begin the day by assembling a colorful ofrenda with photos of loved ones, marigolds, candles, and copal incense to invite ancestral spirits home.",
+        "recipes": []
+      },
+      {
+        "time": "Mid-Morning",
+        "activity": "Bake Pan de Muerto",
+        "detail": "Prepare pan de muerto, a sweet bread shaped like bones, symbolizing the cycle of life and death, to share later in the day.",
+        "recipes": [
+          "pan-de-muerto"
+        ]
+      },
+      {
+        "time": "Noon",
+        "activity": "Cook Traditional Mole and Tamales",
+        "detail": "Simmer rich mole sauce and steam tamales, staples of the feast that honor the complexity and depth of Mexican culinary heritage.",
+        "recipes": [
+          "mole",
+          "tamales"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Paint Sugar Skulls",
+        "detail": "Decorate calaveras de azucar with bright colors and the names of loved ones to personalize your celebration and keep memories alive.",
+        "recipes": [
+          "sugar-skulls"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Prepare Champurrado",
+        "detail": "Make champurrado, a warm, thick chocolate drink, perfect for sharing and comforting as the day cools down.",
+        "recipes": [
+          "champurrado"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Picnic at the Gravesite",
+        "detail": "Gather family to picnic beside candlelit graves, sharing mole, tamales, pan de muerto, and champurrado while telling stories to honor your ancestors.",
+        "recipes": [
+          "mole",
+          "tamales",
+          "pan-de-muerto",
+          "champurrado"
+        ]
+      },
+      {
+        "time": "Night",
+        "activity": "Light Candles and Incense",
+        "detail": "Conclude the day by lighting candles and burning copal incense at the ofrenda and graves, inviting spirits to join the celebration through the night.",
+        "recipes": []
+      }
+    ],
+    "closing": "End the day in quiet reflection, feeling connected to those who came before and carrying their memory forward with love."
+  },
+  "Martinstag Lantern Evening": {
+    "slug": "martinstag-lantern-evening",
+    "title": "Martinstag Lantern Evening Celebration",
+    "intro": "Celebrate the spirit of kindness and light on Martinstag by crafting lanterns, singing traditional songs, and enjoying warm seasonal treats with your family.",
+    "schedule": [
+      {
+        "time": "Afternoon / 3:00 pm",
+        "activity": "Make Lanterns",
+        "detail": "Gather the family to create handmade lanterns using paper, glue, and sticks. This activity honors the tradition of children carrying lanterns through the streets after dark.",
+        "recipes": []
+      },
+      {
+        "time": "Late Afternoon / 4:30 pm",
+        "activity": "Practice Sankt Martin Songs",
+        "detail": "Learn and rehearse traditional Sankt Martin songs to sing during the lantern walk, fostering a joyful and communal atmosphere.",
+        "recipes": []
+      },
+      {
+        "time": "Early Evening / 5:30 pm",
+        "activity": "Lantern Walk",
+        "detail": "Take a stroll around your neighborhood or garden carrying your handmade lanterns, singing Sankt Martin songs to celebrate the kindness of St. Martin.",
+        "recipes": []
+      },
+      {
+        "time": "Evening / 6:30 pm",
+        "activity": "Shadow Play or Storytelling",
+        "detail": "Gather around to watch a shadow play or share stories about St. Martin’s compassion, reinforcing the festival’s message of charity and warmth.",
+        "recipes": []
+      },
+      {
+        "time": "Evening / 7:00 pm",
+        "activity": "Enjoy Warm Seasonal Treats",
+        "detail": "Warm up with traditional Martinstag treats like warm cider, pretzels, roasted chestnuts, and buttery pastries to reward the lantern bearers after the chilly walk.",
+        "recipes": [
+          "warm-cider",
+          "pretzels",
+          "roasted-chestnuts",
+          "buttery-pastries"
+        ]
+      }
+    ],
+    "closing": "End your Martinstag evening feeling connected to tradition and the warmth of shared kindness."
+  },
+  "St. Martin's Day (Martinstag)": {
+    "slug": "st-martins-day-martinstag",
+    "title": "St. Martin's Day Celebration at Home",
+    "intro": "Celebrate St. Martin's Day by honoring the spirit of generosity and the harvest with traditional activities and a hearty feast.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Prepare Lanterns",
+        "detail": "Create colorful lanterns to carry in the evening parade, symbolizing light and hope during the darkening days.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Charity and Reflection",
+        "detail": "Set aside time to donate to a local charity or prepare a small gift for someone in need, reflecting St. Martin's kindness.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Cook the Feast",
+        "detail": "Begin preparing the traditional St. Martin's Day meal, focusing on roast goose, red cabbage, and potato dumplings to honor the harvest.",
+        "recipes": [
+          "roast-goose",
+          "red-cabbage",
+          "potato-dumplings"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Bake Spiced Biscuits",
+        "detail": "Bake spiced biscuits as a sweet treat to enjoy later, capturing the warm flavors of the season.",
+        "recipes": [
+          "spiced-biscuits"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Lantern Parade and Storytelling",
+        "detail": "Hold a lantern parade outside, sharing the story of St. Martin’s cloak-sharing to inspire generosity and community spirit.",
+        "recipes": []
+      },
+      {
+        "time": "Dinner",
+        "activity": "Feast with Traditional Drinks",
+        "detail": "Gather around the table to enjoy the roast goose feast accompanied by mugs of Gluhwein or Federweisser, celebrating the season’s bounty.",
+        "recipes": [
+          "gluhwein",
+          "federweisser"
+        ]
+      }
+    ],
+    "closing": "End the day with gratitude for the harvest and a renewed commitment to kindness and community."
+  },
+  "St. Catherine's Day": {
+    "slug": "st-catherines-day",
+    "title": "St. Catherine's Day Celebration at Home",
+    "intro": "Celebrate the joyful traditions of St. Catherine's Day by honoring the patroness of scholars and spinners with meaningful rituals and festive treats.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Prepare for the Day",
+        "detail": "Set up your space with an old key, a candle, and a bowl of cold water to perform the traditional wax pouring ritual later. This prepares you to read the symbols that forecast your year ahead.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Bake Traditional Treats",
+        "detail": "Bake saffron cakes and honeyed biscuits to enjoy throughout the day and share the festive spirit with your household.",
+        "recipes": [
+          "saffron-cakes",
+          "honeyed-biscuits"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Wax Pouring and Shadow Reading",
+        "detail": "Melt candle wax and carefully pour it through the old key into cold water. Use candlelight to examine the shadows formed and interpret symbols of love, stability, future spouse, or travel.",
+        "recipes": []
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Create a St. Catherine's Wheel",
+        "detail": "Craft a bright St. Catherine's wheel to symbolize the procession traditionally carried through the streets, bringing joy and celebration indoors.",
+        "recipes": []
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Enjoy Mulled Cider and Spiced Wine",
+        "detail": "Warm up with cups of mulled cider and spiced wine, savoring the rich flavors that accompany St. Catherine's Day vespers and festivities.",
+        "recipes": [
+          "mulled-cider",
+          "spiced-wine"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Reflect and Share Stories",
+        "detail": "Gather with family or friends to share stories or learn about the history of St. Catherine and the traditions of the day, deepening your connection to the celebration.",
+        "recipes": []
+      },
+      {
+        "time": "Night",
+        "activity": "Close with Gratitude",
+        "detail": "End the day by expressing gratitude for the blessings of knowledge, love, and community inspired by St. Catherine's Day traditions.",
+        "recipes": []
+      }
+    ],
+    "closing": "May the symbols and flavors of St. Catherine's Day bring joy and insight to your year ahead."
+  },
+  "Thanksgiving Day (United States)": {
+    "slug": "thanksgiving-day-united-states",
+    "title": "A Warm Thanksgiving Day at Home",
+    "intro": "Celebrate Thanksgiving by embracing gratitude, enjoying traditional foods, and sharing moments with loved ones in the comfort of your home.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Gratitude Circle",
+        "detail": "Gather family members to share what each person is thankful for, setting a heartfelt tone for the day and honoring the holiday’s spirit.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Prepare the Feast",
+        "detail": "Begin cooking traditional dishes together, fostering connection and anticipation for the meal ahead.",
+        "recipes": [
+          "roast-turkey",
+          "cornbread-stuffing",
+          "cranberry-relish",
+          "sweet-potatoes",
+          "green-bean-casserole"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Watch the Thanksgiving Parade",
+        "detail": "Enjoy the festive giant balloon parade on television, a beloved tradition that brings the holiday’s joy into your living room.",
+        "recipes": []
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Feast Time",
+        "detail": "Come together to savor the classic Thanksgiving meal featuring roast turkey, cornbread stuffing, cranberry relish, sweet potatoes, and green bean casserole.",
+        "recipes": [
+          "roast-turkey",
+          "cornbread-stuffing",
+          "cranberry-relish",
+          "sweet-potatoes",
+          "green-bean-casserole"
+        ]
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Football Game Viewing",
+        "detail": "Relax and bond over watching a traditional Thanksgiving football game, continuing the day’s festive atmosphere.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Dessert and Reflection",
+        "detail": "Enjoy slices of pecan pie while reflecting on the day’s moments of gratitude and togetherness.",
+        "recipes": [
+          "pecan-pie"
+        ]
+      },
+      {
+        "time": "Night",
+        "activity": "Volunteer or Plan for Giving Back",
+        "detail": "If possible, spend time volunteering at a community kitchen or plan future charitable acts, embodying the holiday’s spirit of generosity.",
+        "recipes": []
+      }
+    ],
+    "closing": "End the day feeling grateful and connected, carrying Thanksgiving’s warmth with you into the year ahead."
+  },
+  "Life Day (Wookiee Tradition)": {
+    "slug": "life-day-wookiee-tradition",
+    "title": "Life Day Celebration: A Wookiee Tradition",
+    "intro": "Celebrate Life Day by honoring freedom, family, and harmony as the Wookiees do, with meaningful rituals and a festive feast inspired by Kashyyyk.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Gather Around the Tree of Life",
+        "detail": "Begin your day by setting up a central spot to represent the Tree of Life, where family and friends can gather to connect and reflect on unity and freedom.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Sing in Shyriiwook",
+        "detail": "Learn and sing traditional Wookiee songs in the Shyriiwook tongue to honor the spirit of Life Day and strengthen bonds through shared music.",
+        "recipes": []
+      },
+      {
+        "time": "Noon",
+        "activity": "Prepare Ryshcate Sweet Breads",
+        "detail": "Bake Ryshcate sweet breads together, a beloved Wookiee treat symbolizing the sweetness of life and community.",
+        "recipes": [
+          "ryshcate-sweet-breads"
+        ]
+      },
+      {
+        "time": "Early Afternoon",
+        "activity": "Cook Bantha Stew",
+        "detail": "Simmer a hearty Bantha stew, representing warmth and sustenance, perfect for sharing around the table with loved ones.",
+        "recipes": [
+          "bantha-stew"
+        ]
+      },
+      {
+        "time": "Mid Afternoon",
+        "activity": "Roast Yeca Fruits",
+        "detail": "Prepare roasted Yeca fruits as a traditional side, celebrating the bounty of Kashyyyk's forests and adding a sweet, smoky flavor to your feast.",
+        "recipes": [
+          "roasted-yeca-fruits"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Share Glowing Orbs and Meditate",
+        "detail": "Exchange glowing orbs as symbols of harmony and meditate together to reflect on peace across the galaxy.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Enjoy Blue Bantha Milk",
+        "detail": "Conclude your feast with steaming mugs of blue bantha milk, savoring this traditional drink as you relax and celebrate the day’s meaning.",
+        "recipes": [
+          "blue-bantha-milk"
+        ]
+      }
+    ],
+    "closing": "End your Life Day with gratitude for family, freedom, and the harmony that connects all beings across the galaxy."
+  },
+  "Noaptea Lupilor": {
+    "slug": "noaptea-lupilor",
+    "title": "Noaptea Lupilor: A Night of Fortune and Festivity",
+    "intro": "Celebrate Noaptea Lupilor by embracing the ancient Andrzejki traditions of fortune-telling, joyful dancing, and sharing traditional Polish treats with loved ones.",
+    "schedule": [
+      {
+        "time": "Evening / 7:00 pm",
+        "activity": "Gather and Prepare Traditional Snacks",
+        "detail": "Begin the evening by preparing and setting out classic Noaptea Lupilor treats like poppy-seed cakes, honey cookies, and pickled herring to enjoy throughout the night.",
+        "recipes": [
+          "poppy-seed-cake",
+          "honey-cookies",
+          "pickled-herring"
+        ]
+      },
+      {
+        "time": "Evening / 8:00 pm",
+        "activity": "Pour Wax and Decode Fortunes",
+        "detail": "Engage in the traditional wax-pouring ritual by melting wax and pouring it through keys into cold water, then interpreting the shapes to reveal playful fortunes about the future.",
+        "recipes": []
+      },
+      {
+        "time": "Evening / 9:00 pm",
+        "activity": "Candle Shadow Prophecy",
+        "detail": "Light candles and observe the shifting shadows to decode symbolic shapes, offering more whimsical predictions and sparking lively conversation.",
+        "recipes": []
+      },
+      {
+        "time": "Night / 10:00 pm",
+        "activity": "Warm Drinks and Story Sharing",
+        "detail": "Serve warm cups of mead and herb-infused tea to guests, encouraging them to share stories, hopes, and reflections inspired by the fortunes.",
+        "recipes": [
+          "mead",
+          "herb-infused-tea"
+        ]
+      },
+      {
+        "time": "Night / 11:00 pm",
+        "activity": "Dance into the Night",
+        "detail": "Clear space for dancing and celebrate by moving to lively music, keeping the festive spirit alive as you welcome the mysteries of the night.",
+        "recipes": []
+      },
+      {
+        "time": "Late Night / Midnight",
+        "activity": "Reflect and Connect",
+        "detail": "Take a moment to reflect on the fortunes and the joy of togetherness, strengthening bonds with friends and family before the night winds down.",
+        "recipes": []
+      },
+      {
+        "time": "Early Morning / Dawn",
+        "activity": "Conclude with a Light Snack",
+        "detail": "Enjoy a final taste of honey cookies or poppy-seed cake as the festival concludes, savoring the sweetness of tradition and anticipation for the future.",
+        "recipes": [
+          "honey-cookies",
+          "poppy-seed-cake"
+        ]
+      }
+    ],
+    "closing": "End the night feeling connected, hopeful, and joyful, carrying the magic of Noaptea Lupilor into the days ahead."
+  },
+  "Krampusnacht": {
+    "slug": "krampusnacht",
+    "title": "Krampusnacht Festivities at Home",
+    "intro": "Celebrate the thrilling Alpine tradition of Krampusnacht with a day filled with playful scares, festive treats, and cozy moments. Embrace the spirit of the night by honoring the folklore and enjoying traditional foods.",
+    "schedule": [
+      {
+        "time": "Afternoon",
+        "activity": "Prepare Festive Treats",
+        "detail": "Begin by baking gingerbread hearts and pretzels, and cooking spicy sausages to enjoy later. These traditional snacks will fuel the evening's festivities and bring authentic flavors to your celebration.",
+        "recipes": [
+          "gingerbread",
+          "pretzels",
+          "spicy-sausages"
+        ]
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Dress Up and Decorate",
+        "detail": "Create simple Krampus costumes or masks to mimic the traditional figures. Decorate your home with chains and rustic Alpine elements to set the spooky yet festive atmosphere.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Krampus Parade and Scare Games",
+        "detail": "Reenact the Krampus parade with family or friends, rattling chains and staging playful scares to honor the folklore. Take photos with the Krampus characters to capture the fun and bravery of the night.",
+        "recipes": []
+      },
+      {
+        "time": "After the Parade",
+        "activity": "Enjoy Traditional Drinks and Snacks",
+        "detail": "Warm up with schnapps and nibble on the gingerbread hearts, spicy sausages, and pretzels prepared earlier. These treats are perfect for calming the adrenaline and sharing stories about the night's adventures.",
+        "recipes": [
+          "schnapps",
+          "gingerbread",
+          "spicy-sausages",
+          "pretzels"
+        ]
+      },
+      {
+        "time": "Night",
+        "activity": "Storytelling by the Fire",
+        "detail": "Gather around a cozy fire or warm spot to share tales of St. Nicholas and the Krampus, passing down the folklore and reflecting on the night’s fun and lessons.",
+        "recipes": []
+      }
+    ],
+    "closing": "End the day feeling connected to Alpine tradition, warmed by good food and the thrill of Krampusnacht."
+  },
+  "St. Nicholas Day": {
+    "slug": "st-nicholas-day",
+    "title": "St. Nicholas Day Celebration at Home",
+    "intro": "Celebrate the spirit of generosity and kindness on St. Nicholas Day with cherished traditions and festive treats enjoyed by the whole family.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Boot Polishing and Shoe Preparation",
+        "detail": "Start the day by having children polish their boots and place them by the door or fireplace to welcome St. Nicholas, who is said to fill them with gifts overnight.",
+        "recipes": []
+      },
+      {
+        "time": "Dawn",
+        "activity": "Discovering Treats",
+        "detail": "At dawn, children find their boots filled with oranges, nuts, and small gifts, a joyful moment that honors the tradition of St. Nicholas's secret generosity.",
+        "recipes": [
+          "mandarin-oranges"
+        ]
+      },
+      {
+        "time": "Mid-Morning",
+        "activity": "Storytelling Session",
+        "detail": "Gather the family to listen to stories about St. Nicholas's acts of kindness, including rescuing sailors and helping the poor, fostering a spirit of compassion and giving.",
+        "recipes": []
+      },
+      {
+        "time": "Noon",
+        "activity": "Enjoying Festive Treats",
+        "detail": "Share a selection of traditional St. Nicholas Day treats such as speculaas biscuits, chocolate coins, and marzipan fruits, celebrating the flavors of the season together.",
+        "recipes": [
+          "speculaas-biscuits",
+          "chocolate-coins",
+          "marzipan-fruits"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Hot Beverage Time",
+        "detail": "Warm up with mugs of hot cocoa or gluhwein, perfect for sipping while continuing the day's celebrations and reflecting on the generosity of St. Nicholas.",
+        "recipes": [
+          "hot-cocoa",
+          "gluhwein"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Family Reflection and Gratitude",
+        "detail": "Conclude the day by sharing stories of kindness and expressing gratitude, encouraging everyone to carry the spirit of St. Nicholas throughout the year.",
+        "recipes": []
+      }
+    ],
+    "closing": "End the day feeling inspired by St. Nicholas's generosity and ready to share kindness with others all year long."
+  },
+  "St. Andrew's Day": {
+    "slug": "st-andrews-day",
+    "title": "St. Andrew's Day Celebration at Home",
+    "intro": "Celebrate Scotland's patron saint with a day of traditional food, music, and storytelling that honors Scottish heritage and community spirit.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Flag and Decor Setup",
+        "detail": "Begin your day by displaying the Saltire flag and decorating your home with tartan patterns to set a festive Scottish atmosphere.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Storytelling Session",
+        "detail": "Gather family or friends for a storytelling session featuring Scottish legends and tales about St. Andrew to connect with the rich cultural heritage.",
+        "recipes": []
+      },
+      {
+        "time": "Lunch",
+        "activity": "Enjoy Bannocks and Cullen Skink Chowder",
+        "detail": "Prepare and savor bannocks alongside warm Cullen Skink chowder, a hearty smoked fish soup, to fuel your celebration with traditional Scottish flavors.",
+        "recipes": [
+          "bannocks",
+          "cullen-skink-chowder"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Charity and Kindness Campaign",
+        "detail": "Take part in a kindness campaign by donating or volunteering locally, reflecting the charitable spirit associated with St. Andrew's Day.",
+        "recipes": []
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Ceilidh Dancing and Concert",
+        "detail": "Host a ceilidh dance or listen to Scottish music to celebrate through lively traditional dance and songs, embracing community and joy.",
+        "recipes": []
+      },
+      {
+        "time": "Dinner",
+        "activity": "Feast on Venison Pies",
+        "detail": "Prepare and enjoy savory venison pies for dinner, a classic dish that brings warmth and comfort on a chilly November evening.",
+        "recipes": [
+          "venison-pies"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Shortbread and Whisky Toast",
+        "detail": "End the day with homemade shortbread and a dram of whisky toasting to St. Andrew and Scottish heritage.",
+        "recipes": [
+          "shortbread",
+          "whisky"
+        ]
+      }
+    ],
+    "closing": "Conclude your St. Andrew's Day with gratitude and a renewed appreciation for Scotland's rich traditions."
+  },
+  "First Sunday of Advent": {
+    "slug": "first-sunday-of-advent",
+    "title": "First Sunday of Advent at Home",
+    "intro": "Celebrate the First Sunday of Advent by embracing hope and reflection with time-honored traditions and comforting seasonal flavors.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Light the First Advent Candle",
+        "detail": "Begin the day by lighting the first candle on your Advent wreath, symbolizing hope as you prepare your heart for the Christmas season.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Jesse Tree Devotions",
+        "detail": "Gather the family for Jesse Tree devotions, exploring the biblical stories leading to Christ’s birth and deepening your spiritual connection.",
+        "recipes": []
+      },
+      {
+        "time": "Noon",
+        "activity": "Quiet Reflection Time",
+        "detail": "Set aside time for personal or family reflection, journaling thoughts of hope and gratitude in the peaceful Advent spirit.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Bake German Stollen and Lebkuchen",
+        "detail": "Prepare traditional German Stollen and Lebkuchen to enjoy later; these festive treats bring sweetness and warmth to your Advent celebration.",
+        "recipes": [
+          "german-stollen",
+          "lebkuchen"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Prepare Mulled Cider",
+        "detail": "Simmer a pot of fragrant mulled cider, filling your home with seasonal spices and creating a cozy atmosphere for the evening.",
+        "recipes": [
+          "mulled-cider"
+        ]
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Attend Worship or Personal Prayer",
+        "detail": "Participate in a local worship service or enjoy a quiet time of prayer at home, focusing on the hopeful anticipation of Advent.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Enjoy Sunday Roast and Seasonal Treats",
+        "detail": "Share a simple Sunday roast meal together, followed by slices of German Stollen and Lebkuchen, accompanied by warm mulled cider to conclude the day.",
+        "recipes": [
+          "sunday-roast",
+          "german-stollen",
+          "lebkuchen",
+          "mulled-cider"
+        ]
+      }
+    ],
+    "closing": "End your First Sunday of Advent with hearts full of hope and the joy of shared traditions."
+  },
+  "Gita Jayanti (गीता जयंती)": {
+    "slug": "gita-jayanti",
+    "title": "Gita Jayanti: A Day of Reflection and Devotion",
+    "intro": "Celebrate the sacred day when Lord Krishna imparted the Bhagavad Gita to Arjuna by engaging in spiritual practices, fasting, and sharing a peaceful feast with loved ones.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Begin the Vrata Fast",
+        "detail": "Start the day with a clean and mindful fast, reflecting on the teachings of the Bhagavad Gita and preparing for a day of devotion.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Bhagavad Gita Recitation",
+        "detail": "Listen to or participate in a full recitation of the Bhagavad Gita, either at home or virtually from a temple, to immerse yourself in its spiritual wisdom.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Kirtan and Discourse Circle",
+        "detail": "Join a kirtan session and engage in a discourse circle led by scholars to deepen understanding and share reflections on the Gita’s messages.",
+        "recipes": []
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Offer Diyas at Home Altar",
+        "detail": "Light diyas and offer prayers at your home altar, symbolizing the light of knowledge and devotion that the Gita brings into our lives.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Evening Prayers by the River or at Home",
+        "detail": "Conclude the day’s spiritual observances with prayers by a nearby river or at your home altar, honoring the sacredness of the day.",
+        "recipes": []
+      },
+      {
+        "time": "After Evening Prayers",
+        "activity": "Break the Fast with Satvik Feast",
+        "detail": "Share a wholesome satvik meal featuring khichdi, jaggery sweets, sugarcane juice, and warm cardamom milk to nourish the body and soul after fasting.",
+        "recipes": [
+          "khichdi",
+          "jaggery-sweets",
+          "sugarcane-juice",
+          "cardamom-milk"
+        ]
+      }
+    ],
+    "closing": "End the day with gratitude for the timeless wisdom of the Bhagavad Gita and the peace it brings to your heart."
+  },
+  "Tiki Christmas at Pearl Harbor": {
+    "slug": "tiki-christmas-at-pearl-harbor",
+    "title": "Tiki Christmas at Pearl Harbor: A Day of Remembrance and Celebration",
+    "intro": "Celebrate the unique blend of Christmas cheer and solemn remembrance at Pearl Harbor with island traditions that honor resilience and community spirit.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Decorate with Torchlit Wreaths",
+        "detail": "Begin your day by lighting torchlit wreaths to line your home or garden, echoing the Honolulu tradition of illuminating the harbor in remembrance and festive spirit.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Wear Aloha Prints",
+        "detail": "Dress in your favorite aloha print clothing to embrace the island’s joyful and respectful atmosphere, preparing for the day’s ceremonies and gatherings.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Ukulele Choir Serenade",
+        "detail": "Gather family and friends for a ukulele serenade session, playing traditional mele to honor veterans and celebrate community resilience.",
+        "recipes": []
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Prepare the Luau Feast",
+        "detail": "Begin cooking the traditional luau dishes including roast pig, pineapple haupia, and coconut eggnog to enjoy later by the memorial lanterns.",
+        "recipes": [
+          "roast-pig",
+          "pineapple-haupia",
+          "coconut-eggnog"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Memorial Lantern Lighting and Dinner",
+        "detail": "Light memorial lanterns as you gather for the luau feast, sharing stories and honoring the resilience of those who served while enjoying the festive meal.",
+        "recipes": [
+          "roast-pig",
+          "pineapple-haupia",
+          "coconut-eggnog"
+        ]
+      },
+      {
+        "time": "Night",
+        "activity": "Midnight Service in Aloha Attire",
+        "detail": "Attend or hold a midnight service dressed in aloha prints, reflecting on the day’s significance and the spirit of aloha that unites the community.",
+        "recipes": []
+      },
+      {
+        "time": "Late Night",
+        "activity": "Shaved Ice Dessert",
+        "detail": "Conclude the day with shaved ice drenched in red-and-green syrups, a refreshing and colorful treat symbolizing the festive holiday spirit.",
+        "recipes": [
+          "shaved-ice"
+        ]
+      }
+    ],
+    "closing": "End your Tiki Christmas with gratitude and aloha, carrying the spirit of remembrance and joy into the new year."
+  },
+  "Immaculada": {
+    "slug": "immaculada",
+    "title": "Immaculada Celebration at Home",
+    "intro": "Celebrate the start of the Advent season by honoring the Immaculate Conception with traditional Spanish customs and festive treats.",
+    "schedule": [
+      {
+        "time": "Early Morning",
+        "activity": "Dawn Procession at Home",
+        "detail": "Begin your day with a quiet dawn procession around your home or neighborhood, reflecting the traditional early morning walks in Spain that honor Mary's conception.",
+        "recipes": []
+      },
+      {
+        "time": "Morning",
+        "activity": "Decorate with Blue-and-White Bunting",
+        "detail": "Adorn your living space with blue-and-white bunting to symbolize purity and the Immaculate Conception, creating a festive and meaningful atmosphere.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Set Out the Caga Tio Log",
+        "detail": "Place your Caga Tio log in a prominent spot and 'feed' it sweets throughout the day, continuing the joyful tradition leading up to Christmas Eve.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Prepare Traditional Treats",
+        "detail": "Make or arrange traditional sweets such as turron and panellets to enjoy throughout the day, connecting with the rich flavors of the festival.",
+        "recipes": [
+          "turron",
+          "panellets"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Enjoy Thick Hot Chocolate",
+        "detail": "Serve steaming cups of thick hot chocolate as a comforting treat, perfect for sharing with family and friends during the festive season.",
+        "recipes": [
+          "hot-chocolate"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Join a Candlelit Vigil",
+        "detail": "Participate in a candlelit vigil at home or a local chapel to honor the Immaculate Conception, embracing the spiritual heart of the celebration.",
+        "recipes": []
+      },
+      {
+        "time": "Night",
+        "activity": "Light Advent Candles and Share Roscon",
+        "detail": "Conclude the day by lighting Advent candles and sharing slices of roscon, symbolizing hope and togetherness as the season begins.",
+        "recipes": [
+          "roscon"
+        ]
+      }
+    ],
+    "closing": "End your Immaculada celebration feeling connected to tradition and the warmth of family and faith."
+  },
+  "Sinterklaas Arrival (Intocht)": {
+    "slug": "sinterklaas-arrival-intocht",
+    "title": "Sinterklaas Arrival Celebration at Home",
+    "intro": "Celebrate the festive arrival of Sinterklaas with traditional treats and joyful activities that bring the spirit of the Dutch holiday into your home.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Prepare Traditional Treats",
+        "detail": "Begin the day by baking spiced pepernoten and speculaas cookies to share throughout the celebration, honoring the festive flavors enjoyed during Sinterklaas Arrival.",
+        "recipes": [
+          "pepernoten",
+          "speculaas-cookies"
+        ]
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Decorate the Home",
+        "detail": "Adorn your space with festive decorations inspired by the parade, including images of Sinterklaas and his Pieten, to create a joyful atmosphere.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Write Wish Lists",
+        "detail": "Gather children to write their wish lists for Sinterklaas, continuing the tradition of sharing hopes and dreams before the gift-giving day.",
+        "recipes": []
+      },
+      {
+        "time": "Mid-Afternoon",
+        "activity": "Enjoy Hot Cocoa and Treats",
+        "detail": "Sip warm hot cocoa while enjoying chocolate letters and marzipan, savoring the classic flavors that accompany the holiday festivities.",
+        "recipes": [
+          "hot-cocoa",
+          "chocolate-letters",
+          "marzipan"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Sinterklaas Parade Viewing",
+        "detail": "Watch a local or recorded Sinterklaas parade, imagining the steamboat arrival and the joyful distribution of pepernoten to children.",
+        "recipes": []
+      },
+      {
+        "time": "Night",
+        "activity": "Reflect and Share Stories",
+        "detail": "End the day by sharing stories about Sinterklaas and Saint Nicholas traditions, fostering a sense of warmth and community.",
+        "recipes": []
+      }
+    ],
+    "closing": "Close the day feeling connected to Dutch heritage and the joyful anticipation of the Sinterklaas season."
+  },
+  "Second Sunday of Advent": {
+    "slug": "second-sunday-of-advent",
+    "title": "Second Sunday of Advent: A Day of Faith and Preparation",
+    "intro": "Celebrate the Second Sunday of Advent by embracing faith and community through meaningful traditions and comforting foods as Christmas approaches.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Light the Second Advent Candle",
+        "detail": "Begin your day by lighting the second candle on your Advent wreath to symbolize faith and reflect on the prophets who foretold Christ's coming.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Read Scripture about John the Baptist",
+        "detail": "Gather your family or household to read passages from the Bible focusing on John the Baptist, emphasizing his role in preparing the way for Jesus.",
+        "recipes": []
+      },
+      {
+        "time": "Noon",
+        "activity": "Prepare Cardamom Buns and Spiced Tea",
+        "detail": "Bake fragrant cardamom buns and brew spiced tea to enjoy together as a warm, inviting midday treat that comforts and uplifts.",
+        "recipes": [
+          "cardamom-buns",
+          "spiced-tea"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Charity and Kindness",
+        "detail": "Set aside time to collect donations or prepare care packages for neighbours in need, embodying the Advent spirit of generosity and community support.",
+        "recipes": []
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Bake Cinnamon Star Cookies",
+        "detail": "Create cinnamon star cookies as a festive activity that brings the household together, filling your home with seasonal aromas and sweet anticipation.",
+        "recipes": [
+          "cinnamon-star-cookies"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Enjoy a Hearty Casserole Dinner",
+        "detail": "Conclude the day with a warm, nourishing casserole that provides comfort during the contemplative Advent evening.",
+        "recipes": [
+          "hearty-casserole"
+        ]
+      },
+      {
+        "time": "Sundown",
+        "activity": "Reflective Closing",
+        "detail": "End your day with a quiet moment of reflection on faith and hope as you prepare your heart for the coming Christmas season.",
+        "recipes": []
+      }
+    ],
+    "closing": "May this day of faith, reflection, and kindness deepen your Advent anticipation and bring warmth to your home."
+  },
+  "Magic Flute": {
+    "slug": "magic-flute",
+    "title": "Magic Flute Festival at Home",
+    "intro": "Celebrate the enchanting premiere of Mozart's Die Zauberflote with a day filled with music, festive dress, and delicious Viennese treats. This agenda brings the magic of the opera house to your home.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Prepare Festive Treats",
+        "detail": "Start your day by baking Viennese pastries and preparing rich hot chocolate to enjoy throughout the festivities. These traditional treats set the tone for a cozy and indulgent celebration.",
+        "recipes": [
+          "viennese-pastries",
+          "hot-chocolate"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Dress for the Occasion",
+        "detail": "Choose elegant or festive attire inspired by the opera's premiere night, embracing the tradition of dressing up for a special holiday outing.",
+        "recipes": []
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Singalong Overture",
+        "detail": "Gather family or friends for a singalong of the overtures from Die Zauberflote, echoing the community spirit of the original celebrations.",
+        "recipes": []
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Toast with Sparkling Wine",
+        "detail": "Raise glasses of sparkling wine to honor Mozart and the timeless magic of his opera, just as patrons did in Vienna's opera houses.",
+        "recipes": [
+          "sparkling-wine"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Watch a Production or Listen to a Recording",
+        "detail": "Enjoy a home viewing of Die Zauberflote or listen to a high-quality recording, immersing yourself in the fairy tale and Enlightenment themes that captivated 1791 audiences.",
+        "recipes": []
+      },
+      {
+        "time": "Late Evening",
+        "activity": "Late Suppertime Conversations",
+        "detail": "After the curtain call, linger over light supper and share reflections on the opera and the day's festivities, continuing the tradition of meaningful conversation.",
+        "recipes": []
+      }
+    ],
+    "closing": "End your Magic Flute Festival with warm hearts and inspired spirits, carrying the opera's magic into the season ahead."
+  },
+  "Lussinatta (St. Lucia's Vigil)": {
+    "slug": "lussinatta-st-lucias-vigil",
+    "title": "Lussinatta: A Night of Light and Tradition",
+    "intro": "Celebrate the magical vigil of Lussinatta by embracing the warmth of candlelight, traditional baking, and quiet reflection as you prepare to welcome St. Lucia's feast.",
+    "schedule": [
+      {
+        "time": "Evening / 6:00 pm",
+        "activity": "Set the Atmosphere with Candlelight",
+        "detail": "Light candles throughout your home to symbolize the light Lucia brings into the dark Scandinavian winter night, creating a warm and inviting space.",
+        "recipes": []
+      },
+      {
+        "time": "Evening / 7:00 pm",
+        "activity": "Weave Barabritta Crowns",
+        "detail": "Gather the family to weave traditional barabritta crowns from straw or paper, honoring the old Norse customs that blend with Christian devotion.",
+        "recipes": []
+      },
+      {
+        "time": "Evening / 8:00 pm",
+        "activity": "Bake Lussekatter",
+        "detail": "Prepare saffron-infused lussekatter dough and shape it into the classic S-twists studded with raisins, a beloved treat for the vigil and morning feast.",
+        "recipes": [
+          "lussekatter"
+        ]
+      },
+      {
+        "time": "Night / 9:30 pm",
+        "activity": "Prepare Mulled Glogg",
+        "detail": "Simmer warm mulled wine with spices to create glogg, a comforting drink to enjoy throughout the night and share at the morning procession.",
+        "recipes": [
+          "mulled-wine"
+        ]
+      },
+      {
+        "time": "Night / 10:30 pm",
+        "activity": "Bake Ginger Thins",
+        "detail": "Bake crisp ginger thins to complement the sweet lussekatter, adding a spicy note to your festive spread.",
+        "recipes": [
+          "ginger-thins"
+        ]
+      },
+      {
+        "time": "Late Night / 11:30 pm",
+        "activity": "Keep Vigil and Share Stories",
+        "detail": "Stay up late with family, keeping candles lit and sharing stories or songs about St. Lucia and the folklore that inspired Lussinatta.",
+        "recipes": []
+      },
+      {
+        "time": "Night / Midnight",
+        "activity": "Enjoy a Light Feast",
+        "detail": "Gather to taste the freshly baked lussekatter, ginger thins, and warm glogg, celebrating the night’s preparations and the anticipation of dawn.",
+        "recipes": [
+          "lussekatter",
+          "ginger-thins",
+          "mulled-wine"
+        ]
+      }
+    ],
+    "closing": "As dawn breaks, welcome the light of St. Lucia with joy, carrying the warmth of the vigil into the day ahead."
+  },
+  "Gaudete Sunday": {
+    "slug": "gaudete-sunday",
+    "title": "Gaudete Sunday Celebration at Home",
+    "intro": "Celebrate Gaudete Sunday by embracing joyful anticipation with traditional hymns, festive colors, and delicious seasonal treats that highlight the nearness of Christmas.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Light the Rose Candle and Decorate",
+        "detail": "Begin your day by lighting the rose candle to symbolize joy amidst Advent. Decorate your home with pink accents to mirror the church's rose vestments and create a festive atmosphere.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Play Jubilant Hymns",
+        "detail": "Play traditional Gaudete Sunday hymns to fill your home with joyful anticipation, reflecting the uplifting spirit of this special day.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Prepare Bibingka and Puto Bumbong",
+        "detail": "Cook traditional Filipino treats bibingka and puto bumbong to enjoy the authentic flavors associated with Simbang Gabi worshippers during this season.",
+        "recipes": [
+          "bibingka",
+          "puto-bumbong"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Enjoy Warm Fruit Punch",
+        "detail": "Serve warm fruit punch to complement your treats, providing a cozy and festive drink that enhances the joyful mood.",
+        "recipes": [
+          "warm-fruit-punch"
+        ]
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Bake Rosy Macarons",
+        "detail": "Bake rosy macarons as a sweet nod to the rose theme of Gaudete Sunday, adding a delicate and beautiful dessert to your celebration.",
+        "recipes": [
+          "rosy-macarons"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Family Reflection and Hymn Singing",
+        "detail": "Gather your family to reflect on the joyful anticipation of Christmas and sing Gaudete hymns together, strengthening your holiday spirit.",
+        "recipes": []
+      }
+    ],
+    "closing": "End your Gaudete Sunday filled with joy and hopeful anticipation for the coming Christmas season."
+  },
+  "Hanukkah (Festival of Lights)": {
+    "slug": "hanukkah-festival-of-lights",
+    "title": "Hanukkah First Night Celebration",
+    "intro": "Celebrate the first night of Hanukkah by honoring the miracle of the oil with light, food, and family traditions.",
+    "schedule": [
+      {
+        "time": "Late Afternoon",
+        "activity": "Prepare Festive Foods",
+        "detail": "Begin by cooking traditional Hanukkah dishes fried in oil to commemorate the miracle. Prepare potato latkes and sufganiyot to enjoy later in the evening.",
+        "recipes": [
+          "potato-latkes",
+          "sufganiyot"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Kindle the Menorah and Recite Blessings",
+        "detail": "Light the first candle on the menorah together as a family and recite the blessings to mark the start of the eight-day festival.",
+        "recipes": []
+      },
+      {
+        "time": "After Lighting",
+        "activity": "Play Dreidel Games",
+        "detail": "Engage in the traditional dreidel game, sharing gelt as prizes to celebrate joy and resilience.",
+        "recipes": []
+      },
+      {
+        "time": "Dinner Time",
+        "activity": "Enjoy a Festive Dinner",
+        "detail": "Serve a warm meal featuring braised brisket and kugel alongside the freshly made latkes, bringing the family together to share in the holiday spirit.",
+        "recipes": [
+          "braised-brisket",
+          "kugel",
+          "potato-latkes"
+        ]
+      },
+      {
+        "time": "Dessert",
+        "activity": "Savor Sufganiyot and Bimuelos",
+        "detail": "End the meal with sweet treats fried in oil, including sufganiyot and bimuelos, honoring the festival's culinary traditions.",
+        "recipes": [
+          "sufganiyot",
+          "bimuelos"
+        ]
+      },
+      {
+        "time": "Evening Reflection",
+        "activity": "Acts of Charity and Gratitude",
+        "detail": "Take time to reflect on the themes of resilience and giving by planning or performing acts of charity as a family.",
+        "recipes": []
+      }
+    ],
+    "closing": "Close the night with gratitude, looking forward to the remaining nights of light and celebration."
+  },
+  "Feast of Our Lady of Guadalupe": {
+    "slug": "feast-of-our-lady-of-guadalupe",
+    "title": "Feast of Our Lady of Guadalupe: A Day of Devotion and Celebration",
+    "intro": "Celebrate the Feast of Our Lady of Guadalupe by honoring the Virgin with traditional rituals, music, and a festive Mexican meal that nourishes both body and spirit.",
+    "schedule": [
+      {
+        "time": "Early Morning",
+        "activity": "Offer Roses and Prepare the Home Altar",
+        "detail": "Begin the day by arranging fresh roses as an offering and setting up a home altar with an image of Our Lady of Guadalupe to create a sacred space for reflection and prayer.",
+        "recipes": []
+      },
+      {
+        "time": "Morning",
+        "activity": "Serenade with Mananitas",
+        "detail": "Gather family and friends to sing the traditional mananitas to the Virgin, welcoming the day with joyful music as pilgrims do at the basilica.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Reenact the Miracle",
+        "detail": "Share the story of Juan Diego’s apparition and the miraculous tilma image, perhaps through a small play or storytelling session, connecting with the festival’s spiritual roots.",
+        "recipes": []
+      },
+      {
+        "time": "Noon",
+        "activity": "Prepare a Festive Lunch",
+        "detail": "Cook and enjoy a hearty meal featuring tamales verdes and tamales with cheese and peppers to replenish energy for the afternoon celebrations.",
+        "recipes": [
+          "green-tamales",
+          "tamales-with-cheese-and-peppers"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Enjoy Traditional Dishes",
+        "detail": "Continue the feast with red pozole and mole poblano with rice, savoring these iconic Mexican dishes that symbolize community and heritage.",
+        "recipes": [
+          "red-pozole",
+          "mole-poblano-with-rice"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Snack Time with Tacos and Buñuelos",
+        "detail": "Serve golden fried tacos and sweet buñuelos as a delightful snack to keep spirits high before evening festivities.",
+        "recipes": [
+          "golden-fried-tacos",
+          "bunuelos"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Warm Up with Traditional Drinks",
+        "detail": "Offer guests champurrado and guava atole, warm and comforting beverages that complement the day’s celebrations and prepare everyone for the nighttime serenades.",
+        "recipes": [
+          "champurrado",
+          "guava-atole"
+        ]
+      },
+      {
+        "time": "Sundown",
+        "activity": "Evening Serenades and Reflection",
+        "detail": "Close the day by singing mananitas once more or enjoying quiet reflection at the home altar, embracing the peace and faith inspired by Our Lady of Guadalupe.",
+        "recipes": []
+      }
+    ],
+    "closing": "End the day feeling connected to tradition, faith, and family through the rich customs and flavors of the Feast of Our Lady of Guadalupe."
+  },
+  "St. Lucia's Day": {
+    "slug": "st-lucias-day",
+    "title": "St. Lucia's Day Celebration at Home",
+    "intro": "Celebrate the festival of light by honoring the Swedish tradition of St. Lucia's Day with songs, saffron treats, and warm drinks to brighten the dark winter morning.",
+    "schedule": [
+      {
+        "time": "Early Morning",
+        "activity": "Prepare Lussekatter and Saffron Biscotti",
+        "detail": "Start the day by baking traditional saffron buns (lussekatter) and saffron biscotti, which symbolize light and hope during the dark season. These will be shared throughout the day.",
+        "recipes": [
+          "lussekatter",
+          "saffron-biscotti"
+        ]
+      },
+      {
+        "time": "Morning",
+        "activity": "Morning Serenade and Light Procession",
+        "detail": "Gather family members to form a Lucia train, with one person dressed as St. Lucia wearing a crown of candles. Sing traditional songs to welcome the light and hope of the season.",
+        "recipes": []
+      },
+      {
+        "time": "Mid-Morning",
+        "activity": "Serve Lussekatter with Julmust and Coffee",
+        "detail": "Enjoy the freshly baked lussekatter alongside glasses of julmust and warm coffee, embracing the classic St. Lucia flavors and the warmth of togetherness.",
+        "recipes": [
+          "lussekatter",
+          "julmust",
+          "coffee"
+        ]
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Bake Almond Cookies",
+        "detail": "Prepare almond cookies to enjoy later in the day or to share with guests, continuing the tradition of festive treats that complement the saffron flavors.",
+        "recipes": [
+          "almond-cookies"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Share Saffron Biscotti and Almond Cookies with Coffee",
+        "detail": "Host a cozy afternoon gathering where everyone can savor the saffron biscotti and almond cookies paired with freshly brewed coffee, reflecting on the day's light and joy.",
+        "recipes": [
+          "saffron-biscotti",
+          "almond-cookies",
+          "coffee"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Reflect and Light Candles",
+        "detail": "Conclude the day by lighting candles around your home to symbolize the triumph of light over darkness, fostering a peaceful and hopeful atmosphere for the season.",
+        "recipes": []
+      },
+      {
+        "time": "Night",
+        "activity": "Rest and Prepare for the Season Ahead",
+        "detail": "End the celebration by resting well, carrying the warmth and hope of St. Lucia's Day into the coming days and the long winter ahead.",
+        "recipes": []
+      }
+    ],
+    "closing": "May the light and warmth of St. Lucia's Day brighten your home and heart throughout the season."
+  },
+  "Saturnalia": {
+    "slug": "saturnalia",
+    "title": "Saturnalia Celebration at Home",
+    "intro": "Celebrate the ancient Roman festival of Saturnalia with joyful role reversals, festive games, and a hearty feast honoring the god Saturn.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Prepare Festive Attire and Decorations",
+        "detail": "Wear felt pileus caps to symbolize the temporary liberty granted during Saturnalia and decorate your home with greenery to welcome the spirit of the festival.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Elect the Mock King",
+        "detail": "Choose a mock king to preside over the day's festivities, symbolizing the role reversals and lighthearted authority typical of Saturnalia.",
+        "recipes": []
+      },
+      {
+        "time": "Noon",
+        "activity": "Play Saturnalia Games",
+        "detail": "Engage in traditional games and friendly competitions under the mock king's rule, fostering community and merriment.",
+        "recipes": []
+      },
+      {
+        "time": "Early Afternoon",
+        "activity": "Shout 'Io Saturnalia!' and Exchange Gifts",
+        "detail": "Greet each other enthusiastically with 'Io Saturnalia!' and exchange small gifts to honor the festival's spirit of generosity.",
+        "recipes": []
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Prepare the Feast",
+        "detail": "Cook a banquet featuring roast pork and prepare olives, pine nuts, and honey cakes, reflecting the traditional Saturnalia fare.",
+        "recipes": [
+          "roast-pork",
+          "olives",
+          "pine-nuts",
+          "honey-cakes"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Enjoy the Saturnalia Banquet",
+        "detail": "Share the feast with family and friends, drinking mulsum sweet wine and celebrating the abundance and liberty of the festival.",
+        "recipes": [
+          "mulsum-sweet-wine",
+          "roast-pork",
+          "olives",
+          "pine-nuts",
+          "honey-cakes"
+        ]
+      },
+      {
+        "time": "Sundown",
+        "activity": "Reflect and Relax",
+        "detail": "Conclude the day by relaxing together, appreciating the joy and freedom Saturnalia brings before returning to everyday life.",
+        "recipes": []
+      }
+    ],
+    "closing": "May the spirit of Saturnalia fill your home with joy, generosity, and a renewed sense of community."
+  },
+  "Fourth Sunday of Advent": {
+    "slug": "fourth-sunday-of-advent",
+    "title": "Fourth Sunday of Advent at Home",
+    "intro": "Celebrate the final Sunday of Advent by embracing love, preparing your home, and enjoying traditional treats that bring warmth and joy.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Light the Fourth Advent Candle",
+        "detail": "Gather your family to light the last purple candle on the Advent wreath, reflecting on Mary's 'yes' and the promise of Emmanuel, symbolizing hope and love as Christmas draws near.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Assemble the Creche Scene",
+        "detail": "Set up or complete your nativity scene together, focusing on the story of the coming of Christ and preparing a visual reminder of the season’s true meaning.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Charitable Giving and Reflection",
+        "detail": "Wrap up your season of giving by preparing donations or gifts for those in need, reinforcing the spirit of generosity that Advent encourages.",
+        "recipes": []
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Bake and Enjoy Festive Treats",
+        "detail": "Prepare and share traditional holiday treats like panettone, mince pies, spiced nuts, and tourtiere pies while enjoying time together and getting into the festive spirit.",
+        "recipes": [
+          "panettone",
+          "mince-pies",
+          "spiced-nuts",
+          "tourtiere"
+        ]
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Practice Christmas Carols",
+        "detail": "Sing through favorite carols to prepare for upcoming Christmas masses, fostering a joyful atmosphere and family togetherness.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Wrap Gifts and Plan Christmas Eve",
+        "detail": "Finish wrapping presents and discuss plans for Christmas Eve dinner, using the savory tourtiere as inspiration for the festive menu.",
+        "recipes": [
+          "tourtiere"
+        ]
+      }
+    ],
+    "closing": "End the day with a peaceful moment of gratitude, embracing the love and hope that Advent brings."
+  },
+  "Winter Solstice (Yule)": {
+    "slug": "winter-solstice-yule",
+    "title": "Winter Solstice (Yule) Celebration at Home",
+    "intro": "Celebrate the Winter Solstice with a day of reflection, warmth, and traditional feasting to honor the sun's rebirth and the promise of longer days ahead.",
+    "schedule": [
+      {
+        "time": "Sunrise",
+        "activity": "Sunrise Meditation",
+        "detail": "Begin the day with a quiet meditation facing the rising sun, focusing on renewal and the returning light of the year.",
+        "recipes": []
+      },
+      {
+        "time": "Morning",
+        "activity": "Decorate with Evergreens and Lights",
+        "detail": "Bring nature indoors by decorating your home with evergreen boughs and twinkling lights to symbolize warmth and life returning to the earth.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Prepare Spiced Mead and Citrus Preserves",
+        "detail": "Brew spiced mead and prepare citrus preserves to enjoy throughout the day, both traditional flavors that celebrate the season's bounty.",
+        "recipes": [
+          "spiced-mead",
+          "citrus-preserves"
+        ]
+      },
+      {
+        "time": "Noon",
+        "activity": "Exchange Handmade Gifts",
+        "detail": "Share meaningful handmade gifts with family or friends, honoring the tradition of thoughtful giving during Yule.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Burn the Yule Log",
+        "detail": "Light a Yule log in your fireplace or fire-safe container, symbolizing the sun's return and bringing warmth and light into your home.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Feast on Roasted Meats and Solstice Cakes",
+        "detail": "Enjoy a festive meal featuring roasted meats and solstice cakes shaped like the sun, celebrating the lengthening days and the joy of the season.",
+        "recipes": [
+          "roasted-meats",
+          "solstice-cakes"
+        ]
+      },
+      {
+        "time": "Night",
+        "activity": "Reflect and Rest",
+        "detail": "End the day with quiet reflection on the solstice's meaning and rest peacefully, carrying the hope of new light into the coming days.",
+        "recipes": []
+      }
+    ],
+    "closing": "May the returning light of the solstice fill your home and heart with warmth and hope."
+  },
+  "Christmas Eve": {
+    "slug": "christmas-eve",
+    "title": "Christmas Eve Celebration at Home",
+    "intro": "Celebrate Christmas Eve by embracing cherished traditions of Advent, reflection, and festive feasting that prepare the heart for the joy of Christmas Day.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Light Advent Candles",
+        "detail": "Begin the day by lighting the Advent candles as a symbol of hope and anticipation for the coming of Christ.",
+        "recipes": []
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Prepare Traditional Dishes",
+        "detail": "Cook traditional Christmas Eve dishes such as Italian Seven Fishes and Polish beet soup with pierogi to honor family heritage and the festive spirit.",
+        "recipes": [
+          "seven-fishes",
+          "beet-soup",
+          "pierogi"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Attend Evening Service or Nativity Vigil",
+        "detail": "Participate in a local church's evening service or Nativity vigil to reflect on the spiritual meaning of Christmas Eve.",
+        "recipes": []
+      },
+      {
+        "time": "Evening",
+        "activity": "Enjoy the Christmas Eve Feast",
+        "detail": "Gather with family to enjoy the meatless feast featuring Seven Fishes, beet soup, and pierogi, celebrating the tradition of fasting before the Christmas feast.",
+        "recipes": [
+          "seven-fishes",
+          "beet-soup",
+          "pierogi"
+        ]
+      },
+      {
+        "time": "After Dinner",
+        "activity": "Exchange Modest Gifts",
+        "detail": "Share modest gifts with loved ones as a gesture of love and gratitude, keeping the focus on the joy of giving rather than extravagance.",
+        "recipes": []
+      },
+      {
+        "time": "Night",
+        "activity": "Savor Hot Cocoa and Cookies",
+        "detail": "End the evening with warm hot cocoa and cookies, creating a cozy atmosphere while awaiting midnight Mass or the start of Christmas Day.",
+        "recipes": [
+          "hot-cocoa",
+          "cookies"
+        ]
+      },
+      {
+        "time": "Midnight",
+        "activity": "Attend Midnight Mass or Reflect Quietly at Home",
+        "detail": "Join a midnight Mass to celebrate the Nativity or spend a quiet moment reflecting on the spiritual significance of Christmas as the day turns to Christmas.",
+        "recipes": []
+      }
+    ],
+    "closing": "Close the day with a heart full of hope and joy, ready to welcome Christmas morning."
+  },
+  "Polaris Meteor Watch & UFO Evening": {
+    "slug": "polaris-meteor-watch-ufo-evening",
+    "title": "Polaris Meteor Watch & UFO Evening Celebration",
+    "intro": "Celebrate the solstice week by gathering with neighbors to observe meteor showers near Polaris, blending celestial wonder with folk UFO traditions.",
+    "schedule": [
+      {
+        "time": "Afternoon / 4:00 pm",
+        "activity": "Decorate with Neon Saucer Lanterns",
+        "detail": "Hang neon saucer lanterns around your home and yard to welcome guests and create a festive, otherworldly atmosphere that honors UFO lore.",
+        "recipes": []
+      },
+      {
+        "time": "Early Evening / 6:00 pm",
+        "activity": "Set Up Telescopes and Laser Pointer",
+        "detail": "Align telescopes facing north towards Polaris and prepare a laser pointer to trace the Little Dipper constellation, inviting children to learn and explore the night sky.",
+        "recipes": []
+      },
+      {
+        "time": "Evening / 7:30 pm",
+        "activity": "Meteor-Counting and Synth Carol Music",
+        "detail": "Lead children in keeping meteor-counting logs while playing synth carols in the background to enhance the celestial ambiance.",
+        "recipes": []
+      },
+      {
+        "time": "Night / 8:30 pm",
+        "activity": "Enjoy Citrus-Rosemary Popcorn",
+        "detail": "Snack on citrus-rosemary popcorn, a bright and fragrant treat that complements the evening’s fresh air and stargazing experience.",
+        "recipes": [
+          "citrus-rosemary-popcorn"
+        ]
+      },
+      {
+        "time": "Night / 9:30 pm",
+        "activity": "Share Smoky Chili Dinner",
+        "detail": "Gather around for a hearty serving of smoky chili, perfect for warming up as you watch the meteor showers and share stories.",
+        "recipes": [
+          "smoky-chili"
+        ]
+      },
+      {
+        "time": "Late Night / 11:00 pm",
+        "activity": "Sip Midnight Cocoa",
+        "detail": "Pour midnight cocoa tinted nebula-blue and sip slowly while continuing to watch the skies and enjoy the company of friends and family.",
+        "recipes": [
+          "midnight-cocoa"
+        ]
+      },
+      {
+        "time": "Midnight / 12:00 am",
+        "activity": "Stardust Shortbread Saucers Dessert",
+        "detail": "Conclude the evening with shortbread saucers dusted with edible stardust, symbolizing the sparkling sky and the magic of the festival.",
+        "recipes": [
+          "shortbread-saucers"
+        ]
+      }
+    ],
+    "closing": "End the magical night feeling connected to the cosmos and your community under the watchful glow of Polaris."
+  },
+  "La Noche de Rabanos": {
+    "slug": "la-noche-de-rabanos",
+    "title": "La Noche de Rabanos: A Day of Radish Art and Traditional Flavors",
+    "intro": "Celebrate Oaxaca's unique Night of the Radishes by carving radishes and enjoying traditional dishes that highlight this festive winter holiday.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Prepare Radish Sculptures",
+        "detail": "Begin the day by selecting large radishes and carefully carving them into festive shapes like Nativity scenes or mythical creatures, honoring the festival's artistic tradition.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Create Radish Salad",
+        "detail": "Make a fresh ensalada de rabanos with lime and cilantro to enjoy a crisp, refreshing taste that celebrates the star ingredient of the festival.",
+        "recipes": [
+          "radish-salad"
+        ]
+      },
+      {
+        "time": "Early Afternoon",
+        "activity": "Prepare Radish Tamales",
+        "detail": "Cook tamales de rabano served with bright raw radish salsa, combining the earthiness of tamales with the sharpness of radishes for a traditional main dish.",
+        "recipes": [
+          "radish-tamales"
+        ]
+      },
+      {
+        "time": "Mid Afternoon",
+        "activity": "Make Green Epazote Atole",
+        "detail": "Brew a warm atole verde de epazote, a comforting herbal drink that complements the meal and warms you through the winter chill.",
+        "recipes": [
+          "green-epazote-atole"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Prepare Champurrado",
+        "detail": "Whip up a thick chocolate masa champurrado, a rich, spiced hot drink perfect for sipping as you admire your radish sculptures and festival decorations.",
+        "recipes": [
+          "thick-chocolate-masa-champurrado"
+        ]
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Optional Sweet Tamales",
+        "detail": "For a sweet finish, prepare tamales dulces de piña y pasas, adding a fruity, festive touch to the meal.",
+        "recipes": [
+          "sweet-pineapple-and-raisin-tamales"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Enjoy Mezcal with Orange and Sal de Gusano",
+        "detail": "Toast the evening with sips of artisanal mezcal served alongside orange slices and sal de gusano, embracing the authentic flavors of Oaxaca’s winter festival.",
+        "recipes": [
+          "artisanal-mezcal"
+        ]
+      }
+    ],
+    "closing": "End your day by sharing stories and admiring your radish creations, celebrating the vibrant culture and flavors of La Noche de Rabanos."
+  },
+  "Yalda Night": {
+    "slug": "yalda-night",
+    "title": "Yalda Night: Celebrating Light and Poetry",
+    "intro": "Yalda Night marks the longest night of the year with warmth, poetry, and a feast honoring the triumph of light over darkness. Gather family to share traditions, stories, and special Persian dishes that bring brightness to the season.",
+    "schedule": [
+      {
+        "time": "Evening / 7:00 pm",
+        "activity": "Opening the Sofreh with Sharbat",
+        "detail": "Begin your Yalda Night by serving aperitif glasses of pomegranate and rosewater cordial with mint and lime to welcome guests and set a festive mood.",
+        "recipes": [
+          "pomegranate-and-rosewater-cordial"
+        ]
+      },
+      {
+        "time": "Evening / 7:30 pm",
+        "activity": "Meze Platter and Warm Flatbread",
+        "detail": "Lay out a meze spread featuring fresh herbs with feta and walnuts, beet yogurt dip topped with pistachios, and olives marinated in pomegranate molasses, accompanied by warm flatbread for sharing.",
+        "recipes": [
+          "herb-platter",
+          "beet-yogurt-dip",
+          "olives-in-pomegranate-molasses"
+        ]
+      },
+      {
+        "time": "Night / 8:30 pm",
+        "activity": "Main Course Feast",
+        "detail": "Serve a rich main course of walnut-pomegranate stew with duck or chicken, saffron rice cake layered with barberries and chicken, and okra stew for vegetarians, complemented by Shirazi salad and sesame-topped Barbari bread.",
+        "recipes": [
+          "walnut-pomegranate-stew",
+          "saffron-rice-cake-with-barberries-and-chicken",
+          "okra-stew",
+          "shirazi-salad",
+          "sesame-topped-barbari-bread"
+        ]
+      },
+      {
+        "time": "Night / 9:30 pm",
+        "activity": "Dessert and Fruit",
+        "detail": "Enjoy traditional sweets like saffron rice pudding dusted with cinnamon, alongside fresh pomegranate and watermelon fruit to refresh and delight the palate.",
+        "recipes": [
+          "saffron-rice-pudding",
+          "pomegranate-and-watermelon-fruit"
+        ]
+      },
+      {
+        "time": "Late Night / 10:00 pm",
+        "activity": "Ajil-e Shab-e Yalda for Good Fortune",
+        "detail": "Share a bowl of roasted nuts and dried fruits, known as Ajil-e Shab-e Yalda, symbolizing good fortune and abundance for the coming year.",
+        "recipes": [
+          "roasted-nuts-and-dried-fruits"
+        ]
+      },
+      {
+        "time": "Late Night / 10:30 pm",
+        "activity": "Reading Hafez Poetry and Storytelling",
+        "detail": "Gather around the fire’s glow to read from the poet Hafez, share stories, and reflect on the promise of returning light as the night deepens.",
+        "recipes": []
+      },
+      {
+        "time": "Before Dawn / 4:30 am",
+        "activity": "Drawing Hafez Divinations",
+        "detail": "Conclude the vigil by drawing divinations from Hafez’s poetry, offering hope and guidance as the first light of dawn breaks after the longest night.",
+        "recipes": []
+      }
+    ],
+    "closing": "End your Yalda Night with hearts warmed by poetry, family, and the bright promise of returning light."
+  },
+  "St. Stephen's Day (Boxing Day)": {
+    "slug": "st-stephens-day-boxing-day",
+    "title": "St. Stephen's Day at Home: A Day of Giving and Feasting",
+    "intro": "Celebrate St. Stephen's Day by honoring tradition with acts of kindness and enjoying hearty meals made from Christmas leftovers. This day combines charity, visits with loved ones, and comforting food to close the festive season warmly.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Start with a Charitable Act",
+        "detail": "Begin the day by gathering donations or preparing small gifts to share with neighbors or those in need, reflecting the spirit of giving associated with Boxing Day.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Visit Friends and Family",
+        "detail": "Spend time visiting friends or family, sharing stories and warmth as part of the traditional Boxing Day social visits.",
+        "recipes": []
+      },
+      {
+        "time": "Lunch",
+        "activity": "Enjoy Bubble and Squeak",
+        "detail": "Prepare and enjoy bubble and squeak, using leftover vegetables and potatoes from Christmas dinner to create a comforting and traditional meal.",
+        "recipes": [
+          "bubble-and-squeak"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Bake Hearty Pies",
+        "detail": "Transform Christmas roast leftovers into hearty pies, a delicious way to repurpose food and enjoy a satisfying afternoon snack or meal.",
+        "recipes": [
+          "hearty-pie",
+          "christmas-roast"
+        ]
+      },
+      {
+        "time": "Tea Time",
+        "activity": "Serve Mince Pies and Spiced Ale",
+        "detail": "Gather for tea with classic mince pies paired with mugs of warming spiced ale, embracing the festive flavors of the season.",
+        "recipes": [
+          "mince-pie",
+          "spiced-ale"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Reflect and Relax",
+        "detail": "Conclude the day by reflecting on the importance of kindness and community, enjoying the peaceful end of St. Stephen's Day with loved ones.",
+        "recipes": []
+      }
+    ],
+    "closing": "End the day with gratitude and the warmth of shared tradition, looking forward to the new year ahead."
+  },
+  "Broadmoor Brunch": {
+    "slug": "broadmoor-brunch",
+    "title": "Broadmoor Brunch Celebration",
+    "intro": "Start your day with a delightful Broadmoor Brunch, a perfect occasion to enjoy a leisurely morning meal inspired by the elegance of The Broadmoor.",
+    "schedule": [
+      {
+        "time": "9:00 am",
+        "activity": "Begin Your Broadmoor Brunch",
+        "detail": "Gather your family or friends to enjoy a relaxed brunch that highlights refined flavors and beautiful presentation, capturing the spirit of The Broadmoor's famous dining experience.",
+        "recipes": []
+      }
+    ],
+    "closing": "End your Broadmoor Brunch feeling refreshed and inspired to carry the day’s elegance forward."
+  },
+  "Christmas Day": {
+    "slug": "christmas-day",
+    "title": "Christmas Day Celebration at Home",
+    "intro": "Celebrate Christmas Day with cherished traditions, joyful music, and a festive feast to bring warmth and togetherness to your home.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Decorate the Christmas Tree",
+        "detail": "Start the day by gathering the family to decorate the Christmas tree with ornaments and lights, creating a festive atmosphere that honors the holiday's spirit.",
+        "recipes": []
+      },
+      {
+        "time": "Late Morning",
+        "activity": "Sing Christmas Carols",
+        "detail": "Enjoy singing traditional Christmas carols together to spread joy and celebrate the season’s goodwill and cheer.",
+        "recipes": []
+      },
+      {
+        "time": "Noon",
+        "activity": "Prepare the Festive Feast",
+        "detail": "Begin cooking the main dishes for the Christmas meal, including roast goose or turkey, glazed ham, and classic sides to share with loved ones.",
+        "recipes": [
+          "roast-goose",
+          "roast-turkey",
+          "glazed-ham",
+          "roast-potatoes",
+          "brussels-sprouts"
+        ]
+      },
+      {
+        "time": "Afternoon",
+        "activity": "Exchange Gifts",
+        "detail": "Gather around the tree to exchange gifts, celebrating generosity and the joy of giving in the spirit of Christmas.",
+        "recipes": []
+      },
+      {
+        "time": "Early Evening",
+        "activity": "Share the Christmas Dinner",
+        "detail": "Come together to enjoy the hearty Christmas feast, featuring roast goose or turkey, glazed ham, roast potatoes, Brussels sprouts, and other festive favorites.",
+        "recipes": [
+          "roast-goose",
+          "roast-turkey",
+          "glazed-ham",
+          "roast-potatoes",
+          "brussels-sprouts"
+        ]
+      },
+      {
+        "time": "After Dinner",
+        "activity": "Enjoy Christmas Pudding and Yule Log Cake",
+        "detail": "End the meal on a sweet note by sharing traditional Christmas pudding and yule log cake, symbolizing the festive season’s warmth and celebration.",
+        "recipes": [
+          "christmas-pudding",
+          "yule-log-cake"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Charity and Goodwill",
+        "detail": "Reflect on the day by reaching out to neighbors or those in need, embodying the spirit of goodwill and community that defines Christmas.",
+        "recipes": []
+      }
+    ],
+    "closing": "Conclude your Christmas Day with gratitude and joy, cherishing the memories made and the love shared."
+  },
+  "Madrigal Dinner at Glen Eyrie": {
+    "slug": "madrigal-dinner-at-glen-eyrie",
+    "title": "Madrigal Dinner at Glen Eyrie: A Renaissance Evening at Home",
+    "intro": "Celebrate the spirit of a traditional Madrigal Dinner with a festive evening inspired by Glen Eyrie's grand banquet, featuring music, merriment, and classic holiday customs.",
+    "schedule": [
+      {
+        "time": "Afternoon / 3:00 pm",
+        "activity": "Prepare the Festive Setting",
+        "detail": "Decorate your dining area with Renaissance-inspired touches such as candles, greenery, and heraldic banners to evoke the ambiance of Glen Eyrie's Castle Great Hall.",
+        "recipes": []
+      },
+      {
+        "time": "Late Afternoon / 4:30 pm",
+        "activity": "Practice Renaissance Carols",
+        "detail": "Gather friends or family to learn and rehearse traditional Renaissance carols, setting the tone for the evening's entertainment.",
+        "recipes": []
+      },
+      {
+        "time": "Early Evening / 5:30 pm",
+        "activity": "Make Wassail to Toast the Season",
+        "detail": "Prepare a warm, spiced wassail punch to serve as a festive welcome drink, honoring the traditional beverage of the Madrigal Banquet.",
+        "recipes": []
+      },
+      {
+        "time": "Evening / 6:00 pm",
+        "activity": "Host the Boar's Head Procession",
+        "detail": "Begin your dinner with a ceremonial presentation of a centerpiece or symbolic boar's head, celebrating the historic procession that marks the start of the feast.",
+        "recipes": []
+      },
+      {
+        "time": "Evening / 6:15 pm",
+        "activity": "Enjoy a Renaissance-Inspired Feast",
+        "detail": "Serve a meal inspired by Renaissance dishes, focusing on hearty, seasonal fare to complement the festive atmosphere.",
+        "recipes": []
+      },
+      {
+        "time": "Evening / 7:30 pm",
+        "activity": "Sing and Share Stories",
+        "detail": "Conclude the evening by singing carols together and sharing tales from the Renaissance era to deepen the connection to the tradition.",
+        "recipes": []
+      }
+    ],
+    "closing": "End the night with warm hearts and joyful memories, carrying the spirit of the Madrigal Dinner into your holiday season."
+  },
+  "Feast of the Holy Innocents (Childermas Banquet)": {
+    "slug": "feast-of-the-holy-innocents-childermas-banquet",
+    "title": "Childermas Banquet: Celebrating the Youngest at the Feast of the Holy Innocents",
+    "intro": "Celebrate the Feast of the Holy Innocents by honoring the youngest family members with a whimsical winter table and a banquet of child-sized delights steeped in tradition.",
+    "schedule": [
+      {
+        "time": "Morning",
+        "activity": "Decorate the Table",
+        "detail": "Set a whimsical winter table with white candles, holly berries, and silver bells to create a festive and meaningful atmosphere for the feast.",
+        "recipes": []
+      },
+      {
+        "time": "Midday",
+        "activity": "Prepare Baby Bellini Aperitifs",
+        "detail": "Mix sparkling wine or apple cider with white peach puree to create refreshing Baby Bellinis, the perfect aperitif to welcome guests and start the celebration.",
+        "recipes": [
+          "baby-bellini"
+        ]
+      },
+      {
+        "time": "Early Afternoon",
+        "activity": "Serve Baby Beet Bisque Starter",
+        "detail": "Offer baby beet bisque swirled with crème fraîche and dill over star-cut rye croutons, a comforting and elegant first course to warm the spirit.",
+        "recipes": [
+          "baby-beet-bisque"
+        ]
+      },
+      {
+        "time": "Mid Afternoon",
+        "activity": "Enjoy Baby Greens Salad",
+        "detail": "Toss baby greens with baby tomatoes, carrots, and corn in honey-citrus vinaigrette, topped with toasted almonds and edible flowers for a fresh, colorful salad.",
+        "recipes": [
+          "baby-greens-salad"
+        ]
+      },
+      {
+        "time": "Late Afternoon",
+        "activity": "Main Course Feast",
+        "detail": "Serve slow-smoked baby back ribs with pomegranate glaze alongside herb-roasted Cornish hens with clementine pan jus, accompanied by duck-fat roasted baby potatoes, baby corn gratin with nutmeg-Parmesan crust, and braised baby onions in balsamic reduction.",
+        "recipes": [
+          "slow-smoked-baby-back-ribs",
+          "herb-roasted-cornish-hens",
+          "duck-fat-roasted-baby-potatoes",
+          "baby-corn-gratin",
+          "braised-baby-onions"
+        ]
+      },
+      {
+        "time": "Evening",
+        "activity": "Fresh Milk Rolls with Honey Butter",
+        "detail": "Offer pillowy milk rolls served with whipped honey butter, perfect for savoring alongside the hearty main courses.",
+        "recipes": [
+          "milk-rolls-with-whipped-honey-butter"
+        ]
+      },
+      {
+        "time": "Night",
+        "activity": "Sweet Finish and Toast",
+        "detail": "Conclude the feast with baby cheesecakes topped in spiced pear-cranberry compote or tableside baby bananas Foster, and raise a toast with Babycham or warm milk punch dusted with nutmeg to honor the day's youngest presiders.",
+        "recipes": [
+          "baby-cheesecakes",
+          "baby-bananas-foster",
+          "babycham",
+          "warm-milk-punch"
+        ]
+      }
+    ],
+    "closing": "End the day by sharing stories and gratitude around the table, cherishing the joy and innocence of the youngest family members."
+  }
+}
