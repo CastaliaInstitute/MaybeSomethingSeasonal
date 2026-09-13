@@ -4562,6 +4562,18 @@ const App: React.FC = () => {
               )}
             </div>
           </div>
+
+        <footer className="mx-auto max-w-3xl px-4 pb-4 pt-12 text-center text-gray-600">
+          <blockquote className="font-serif">
+            <p className="text-lg italic leading-relaxed">
+              “...this time however I come as the victorious Dionysus, who will
+              turn the world into a holiday...Not that I have much time...”
+            </p>
+            <cite className="mt-4 block text-sm not-italic text-gray-500">
+              — Nietzsche (from his last “insane” letter to Cosima Wagner)
+            </cite>
+          </blockquote>
+        </footer>
       </div>
       {eventDialog}
       {todayOverlay}
