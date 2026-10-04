@@ -18,7 +18,7 @@
  *   ?sensitivity=1-20       motion threshold; higher = more sensitive (default 6)
  *   ?dimLevel=0-100         idle overlay darkness (default 94)
  *   ?dimDelaySec=...        idle seconds before fading out (default 45)
- *   ?sleepAfterMin=...      idle minutes before allowing OS screen sleep (default 30)
+ *   ?sleepAfterMin=...      optional idle minutes before allowing OS sleep (default 0)
  *   ?presenceDiagnostics=1  show a tiny status pill with the current state
  */
 
@@ -125,7 +125,10 @@ const readParams = (search: string): PresenceOptions & { forced?: boolean } => {
     sensitivity: clamp(numberParam("sensitivity") || 6, 1, 40),
     dimLevel: clamp(numberParam("dimLevel") || 94, 0, 100),
     dimDelaySec: Math.max(3, numberParam("dimDelaySec") || 45),
-    sleepAfterMin: Math.max(0, numberParam("sleepAfterMin") || 30),
+    sleepAfterMin:
+      numberParam("sleepAfterMin") === undefined
+        ? 0
+        : Math.max(0, numberParam("sleepAfterMin")!),
     diagnostics: params.get("presenceDiagnostics") === "1",
   };
 };
@@ -229,7 +232,11 @@ export const initPresence = (
 
   // Wake locks are dropped whenever the page is hidden; re-arm on return.
   const onVisibility = () => {
-    if (document.visibilityState === "visible" && awake) {
+    if (document.visibilityState !== "visible") {
+      void releaseWakeLock();
+      return;
+    }
+    if (awake) {
       void acquireWakeLock();
     }
   };
@@ -302,6 +309,7 @@ export const initPresence = (
     // Person-sized, not camera-wide: ignore exposure shifts/flicker.
     if (coverage > 0.008 && coverage < 0.85) {
       lastMotionAt = Date.now();
+      void acquireWakeLock();
       if (!awake) {
         wake();
       }

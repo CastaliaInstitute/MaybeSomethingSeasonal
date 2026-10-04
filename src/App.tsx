@@ -4204,7 +4204,7 @@ const App: React.FC = () => {
         <div className="relative mb-8">
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-800 mb-2 christmas-title">
-              MSS
+              Maybe Something Seasonal
             </h1>
             <p className="text-lg text-gray-600 mb-1">
               A calendar celebrating nature's cycles and seasonal moments
