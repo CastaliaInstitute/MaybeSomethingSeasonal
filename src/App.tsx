@@ -14,12 +14,15 @@ import {
   subMonths,
 } from "date-fns";
 import {
+  Camera,
+  CameraOff,
   ChevronLeft,
   ChevronRight,
   Download,
   Calendar,
   Printer,
 } from "lucide-react";
+import { initPresence, presenceWantedInLocation } from "./presence";
 import "./App.css";
 
 interface AlternateCalendarOccurrence {
@@ -2980,6 +2983,25 @@ const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [activeTab, setActiveTab] = useState<"calendar" | "events">("calendar");
 
+  // Camera presence detection on the kiosk display: dim/sleep the screen
+  // when nobody is around, wake on motion or touch. The choice persists so
+  // a wall-mounted display boots into the state it was left in.
+  const [presenceOn, setPresenceOn] = useState(() => {
+    try {
+      return localStorage.getItem("mss-presence") !== "off";
+    } catch {
+      return true;
+    }
+  });
+
+  useEffect(() => {
+    if (isLoading || !presenceWantedInLocation(isKioskMode, presenceOn)) {
+      return undefined;
+    }
+    const presence = initPresence(document.body);
+    return () => presence.destroy();
+  }, [isKioskMode, presenceOn, isLoading]);
+
   const resolvedBaseUrl = getBaseUrl();
   const mssEventsUrl = resolvedBaseUrl.endsWith("/")
     ? `${resolvedBaseUrl}mss-events.html`
@@ -4141,6 +4163,34 @@ const App: React.FC = () => {
             })}
           </div>
           {eventDialog}
+          <button
+            type="button"
+            className={`fixed bottom-2 right-2 z-[1000] rounded-full p-2 shadow ring-1 ring-gray-200 transition-colors ${
+              presenceOn
+                ? "bg-green-50 text-green-700"
+                : "bg-white text-gray-600"
+            }`}
+            title={
+              presenceOn
+                ? "Presence camera is on — display dims when nobody is around"
+                : "Turn on presence camera (auto-dim when nobody is around)"
+            }
+            onClick={() => {
+              const next = !presenceOn;
+              setPresenceOn(next);
+              try {
+                localStorage.setItem("mss-presence", next ? "on" : "off");
+              } catch {
+                /* private mode etc. */
+              }
+            }}
+          >
+            {presenceOn ? (
+              <Camera className="w-4 h-4" />
+            ) : (
+              <CameraOff className="w-4 h-4" />
+            )}
+          </button>
         </div>
       </div>
     );
@@ -4154,7 +4204,7 @@ const App: React.FC = () => {
         <div className="relative mb-8">
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-800 mb-2 christmas-title">
-              Maybe Something Seasonal
+              MSS
             </h1>
             <p className="text-lg text-gray-600 mb-1">
               A calendar celebrating nature's cycles and seasonal moments
