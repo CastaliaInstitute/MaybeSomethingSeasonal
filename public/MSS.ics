@@ -1157,7 +1157,7 @@ DTEND;VALUE=DATE:20261012
 SUMMARY:Navaratri Day 1 — Shailaputri
 DESCRIPTION:Night 1 of Sharad Navaratri. A festival honoring the Godde
  ss in diverse Hindu traditions. Customs and fasting practices vary.\n
- \nIcon: 🪔\nCategory: religious
+ \nIcon: 🌄\nCategory: religious
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1169,7 +1169,7 @@ DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:Navaratri Day 2 — Brahmacharini
 DESCRIPTION:Night 2 of Sharad Navaratri. Observances differ by region\
- , family\, and community.\n\nIcon: 🪔\nCategory: religious
+ , family\, and community.\n\nIcon: 📿\nCategory: religious
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1181,7 +1181,7 @@ DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:Navaratri Day 3 — Chandraghanta
 DESCRIPTION:Night 3 of Sharad Navaratri. Observances differ by region\
- , family\, and community.\n\nIcon: 🪔\nCategory: religious
+ , family\, and community.\n\nIcon: 🔔\nCategory: religious
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1193,7 +1193,7 @@ DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:Navaratri Day 4 — Kushmanda
 DESCRIPTION:Night 4 of Sharad Navaratri. Observances differ by region\
- , family\, and community.\n\nIcon: 🪔\nCategory: religious
+ , family\, and community.\n\nIcon: ☀️\nCategory: religious
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1205,7 +1205,7 @@ DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Navaratri Day 5 — Skandamata
 DESCRIPTION:Night 5 of Sharad Navaratri. Observances differ by region\
- , family\, and community.\n\nIcon: 🪔\nCategory: religious
+ , family\, and community.\n\nIcon: 👶\nCategory: religious
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1217,7 +1217,7 @@ DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Navaratri Day 6 — Katyayani
 DESCRIPTION:Night 6 of Sharad Navaratri. Observances differ by region\
- , family\, and community.\n\nIcon: 🪔\nCategory: religious
+ , family\, and community.\n\nIcon: 🗡️\nCategory: religious
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1229,7 +1229,7 @@ DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:Navaratri Day 7 — Kalaratri
 DESCRIPTION:Night 7 of Sharad Navaratri. Observances differ by region\
- , family\, and community.\n\nIcon: 🪔\nCategory: religious
+ , family\, and community.\n\nIcon: 🌑\nCategory: religious
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1241,7 +1241,7 @@ DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:Navaratri Day 8 — Mahagauri
 DESCRIPTION:Night 8 of Sharad Navaratri. Observances differ by region\
- , family\, and community.\n\nIcon: 🪔\nCategory: religious
+ , family\, and community.\n\nIcon: 🕊️\nCategory: religious
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1253,7 +1253,7 @@ DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:Navaratri Day 9 — Siddhidatri
 DESCRIPTION:Night 9 of Sharad Navaratri. Observances differ by region\
- , family\, and community.\n\nIcon: 🪔\nCategory: religious
+ , family\, and community.\n\nIcon: 🌺\nCategory: religious
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1267,7 +1267,7 @@ SUMMARY:Dussehra / Vijayadashami
 DESCRIPTION:Many communities celebrate Rama's victory over Ravana. In 
  others\, Vijayadashami marks the close of Durga Puja and the Goddess'
  s victory over Mahishasura. Stories and customs vary by region and co
- mmunity.\n\nIcon: 🪔\nCategory: religious
+ mmunity.\n\nIcon: 🏹\nCategory: religious
 CATEGORIES:religious
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
