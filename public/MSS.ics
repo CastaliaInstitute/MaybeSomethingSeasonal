@@ -434,6 +434,19 @@ TRANSP:TRANSPARENT
 X-IMAGE:/images/celebrate-our-planet-and-environmental-awareness.png
 END:VEVENT
 BEGIN:VEVENT
+UID:juneteenth-bbq-feast@maybesomethingseasonal.com
+DTSTAMP:20261005T170000Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+RRULE:FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=19
+SUMMARY:BBQ Feast on Juneteenth
+DESCRIPTION:Gather with family and community for a Juneteenth cookout honoring emancipation and the continuing pursuit of freedom and equality. Share barbecue favorites, traditional red foods and drinks, and stories of Black history and joy.\n\nIcon: 🍖\nCategory: cultural
+CATEGORIES:cultural
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+X-IMAGE:/images/baby-back-ribs.jpg
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP:20251104T055848Z
 DTSTART:20260704T060000Z
 DTEND:20260705T060000Z

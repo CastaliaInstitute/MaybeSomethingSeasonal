@@ -2938,23 +2938,24 @@ const canonicalMonthPath = (date: Date): string => {
 };
 
 const App: React.FC = () => {
-  // Check for kiosk mode via URL parameter or environment variable
+  // The regular calendar is the default; `?kiosk=1` opts into kiosk mode.
   const isKioskMode = (() => {
     if (typeof window !== 'undefined') {
       const params = new URLSearchParams(window.location.search);
       if (params.get('kiosk') === 'true' || params.get('kiosk') === '1') {
         return true;
       }
+      if (params.get('kiosk') === 'false' || params.get('kiosk') === '0') {
+        return false;
+      }
     }
     // @ts-ignore - Vite replaces this
     return (import.meta.env as { VITE_KIOSK_MODE?: string })?.VITE_KIOSK_MODE === 'true';
   })();
 
-  // A canonical /YYYY/MM URL takes precedence; kiosk and current month remain
-  // the fallbacks for the unqualified homepage.
+  // A canonical /YYYY/MM URL takes precedence; otherwise show the current month.
   const initialDate =
-    monthFromLocation() ||
-    (isKioskMode ? new Date(2025, 11, 1) : new Date());
+    monthFromLocation() || new Date();
   const [currentDate, setCurrentDate] = useState(initialDate);
   const [events, setEvents] = useState<CalendarEvent[]>([]);
   const [recipeLinks, setRecipeLinks] = useState<RecipeLinks>({});
@@ -2988,14 +2989,15 @@ const App: React.FC = () => {
   // a wall-mounted display boots into the state it was left in.
   const [presenceOn, setPresenceOn] = useState(() => {
     try {
-      return localStorage.getItem("mss-presence") !== "off";
+      const savedPreference = localStorage.getItem("mss-presence");
+      return savedPreference === null ? isKioskMode : savedPreference !== "off";
     } catch {
-      return true;
+      return isKioskMode;
     }
   });
 
   useEffect(() => {
-    if (isLoading || !presenceWantedInLocation(isKioskMode, presenceOn)) {
+    if (isLoading || !presenceWantedInLocation(presenceOn)) {
       return undefined;
     }
     const presence = initPresence(document.body);
@@ -4079,48 +4081,13 @@ const App: React.FC = () => {
                           type="button"
                           key={index}
                           className={`calendar-event-label ${labelClasses}`}
+                          title={event.title}
                           onClick={() =>
                             openEventCards(
                               event,
                               displayEvents.map((entry) => entry.event),
                             )
                           }
-                          onMouseEnter={(e) => {
-                            const metadataHtml = (() => {
-                              const meta = event.calendarMeta;
-                              if (!meta) {
-                                return "";
-                              }
-                              const altCalendars =
-                                meta.alternateCalendars &&
-                                meta.alternateCalendars.length > 0
-                                  ? meta.alternateCalendars
-                                      .map((alt) => {
-                                        const descriptor = [
-                                          alt.descriptor,
-                                          alt.notes,
-                                        ]
-                                          .filter(Boolean)
-                                          .join(" — ");
-                                        return `${alt.calendarSystem}: ${
-                                          descriptor || alt.descriptor
-                                        }`;
-                                      })
-                                      .join("<br/>")
-                                  : "";
-                              const recurrence =
-                                meta.recurrence && meta.recurrence.rule
-                                  ? `Recurrence: ${meta.recurrence.rule}`
-                                  : "";
-                              return [altCalendars, recurrence]
-                                .filter(Boolean)
-                                .join("<br/><br/>");
-                            })();
-                            if (metadataHtml) {
-                              showEventTooltip(e.currentTarget, event, metadataHtml);
-                            }
-                          }}
-                          onMouseLeave={hideEventTooltip}
                         >
                           <span
                             className="mobile-event-icon"
@@ -4615,6 +4582,35 @@ const App: React.FC = () => {
       </div>
       {eventDialog}
       {todayOverlay}
+      <button
+        type="button"
+        className={`fixed bottom-2 right-2 z-[1000] rounded-full p-2 shadow ring-1 ring-gray-200 transition-colors ${
+          presenceOn ? "bg-green-50 text-green-700" : "bg-white text-gray-600"
+        }`}
+        title={
+          presenceOn
+            ? "Presence camera is on — display dims when nobody is around"
+            : "Turn on presence camera (auto-dim when nobody is around)"
+        }
+        aria-label={
+          presenceOn ? "Turn off presence camera" : "Turn on presence camera"
+        }
+        onClick={() => {
+          const next = !presenceOn;
+          setPresenceOn(next);
+          try {
+            localStorage.setItem("mss-presence", next ? "on" : "off");
+          } catch {
+            /* private mode etc. */
+          }
+        }}
+      >
+        {presenceOn ? (
+          <Camera className="w-4 h-4" />
+        ) : (
+          <CameraOff className="w-4 h-4" />
+        )}
+      </button>
     </div>
   );
 };

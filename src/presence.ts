@@ -133,13 +133,11 @@ const readParams = (search: string): PresenceOptions & { forced?: boolean } => {
   };
 };
 
-export const presenceWantedInLocation = (
-  isKioskMode: boolean,
-  enabled = true,
-): boolean => {
+export const presenceWantedInLocation = (enabled = true): boolean => {
   const { forced } = readParams(window.location.search);
-  // A forced ?presence= wins over everything; otherwise kiosk + user toggle.
-  return forced !== undefined ? forced : isKioskMode && enabled;
+  // A forced ?presence= wins over everything; otherwise follow the UI toggle.
+  // The UI defaults on in kiosk mode and off in the regular calendar.
+  return forced !== undefined ? forced : enabled;
 };
 
 export const initPresence = (
