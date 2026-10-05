@@ -1149,4 +1149,127 @@ CATEGORIES:cultural
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-shailaputri@maybesomethingseasonal.com
+DTSTAMP:20261005T134900Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Navaratri Day 1 — Shailaputri
+DESCRIPTION:Night 1 of Sharad Navaratri. A festival honoring the Godde
+ ss in diverse Hindu traditions. Customs and fasting practices vary.\n
+ \nIcon: 🌄\nCategory: religious
+CATEGORIES:religious
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-brahmacharini@maybesomethingseasonal.com
+DTSTAMP:20261005T134900Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Navaratri Day 2 — Brahmacharini
+DESCRIPTION:Night 2 of Sharad Navaratri. Observances differ by region\
+ , family\, and community.\n\nIcon: 📿\nCategory: religious
+CATEGORIES:religious
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-chandraghanta@maybesomethingseasonal.com
+DTSTAMP:20261005T134900Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Navaratri Day 3 — Chandraghanta
+DESCRIPTION:Night 3 of Sharad Navaratri. Observances differ by region\
+ , family\, and community.\n\nIcon: 🔔\nCategory: religious
+CATEGORIES:religious
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-kushmanda@maybesomethingseasonal.com
+DTSTAMP:20261005T134900Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Navaratri Day 4 — Kushmanda
+DESCRIPTION:Night 4 of Sharad Navaratri. Observances differ by region\
+ , family\, and community.\n\nIcon: ☀️\nCategory: religious
+CATEGORIES:religious
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-skandamata@maybesomethingseasonal.com
+DTSTAMP:20261005T134900Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Navaratri Day 5 — Skandamata
+DESCRIPTION:Night 5 of Sharad Navaratri. Observances differ by region\
+ , family\, and community.\n\nIcon: 👶\nCategory: religious
+CATEGORIES:religious
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-katyayani@maybesomethingseasonal.com
+DTSTAMP:20261005T134900Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Navaratri Day 6 — Katyayani
+DESCRIPTION:Night 6 of Sharad Navaratri. Observances differ by region\
+ , family\, and community.\n\nIcon: 🗡️\nCategory: religious
+CATEGORIES:religious
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-kalaratri@maybesomethingseasonal.com
+DTSTAMP:20261005T134900Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Navaratri Day 7 — Kalaratri
+DESCRIPTION:Night 7 of Sharad Navaratri. Observances differ by region\
+ , family\, and community.\n\nIcon: 🌑\nCategory: religious
+CATEGORIES:religious
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-mahagauri@maybesomethingseasonal.com
+DTSTAMP:20261005T134900Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Navaratri Day 8 — Mahagauri
+DESCRIPTION:Night 8 of Sharad Navaratri. Observances differ by region\
+ , family\, and community.\n\nIcon: 🕊️\nCategory: religious
+CATEGORIES:religious
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:navaratri-siddhidatri@maybesomethingseasonal.com
+DTSTAMP:20261005T134900Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Navaratri Day 9 — Siddhidatri
+DESCRIPTION:Night 9 of Sharad Navaratri. Observances differ by region\
+ , family\, and community.\n\nIcon: 🌺\nCategory: religious
+CATEGORIES:religious
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dussehra-vijayadashami@maybesomethingseasonal.com
+DTSTAMP:20261005T134900Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Dussehra / Vijayadashami
+DESCRIPTION:Many communities celebrate Rama's victory over Ravana. In 
+ others\, Vijayadashami marks the close of Durga Puja and the Goddess'
+ s victory over Mahishasura. Stories and customs vary by region and co
+ mmunity.\n\nIcon: 🏹\nCategory: religious
+CATEGORIES:religious
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR
