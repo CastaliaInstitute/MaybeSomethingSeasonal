@@ -26,6 +26,11 @@ interface PresenceInstance {
   destroy(): void;
 }
 
+export interface PresenceStatus {
+  cameraActive: boolean;
+  personDetected: boolean;
+}
+
 interface PresenceOptions {
   sampleMs: number;
   captureWidth: number;
@@ -142,6 +147,7 @@ export const presenceWantedInLocation = (enabled = true): boolean => {
 
 export const initPresence = (
   root: HTMLElement = document.body,
+  onStatusChange?: (status: PresenceStatus) => void,
 ): PresenceInstance => {
   const options = readParams(window.location.search);
   injectStyles();
@@ -162,6 +168,31 @@ export const initPresence = (
   let wakeLock: WakeLockSentinelLike | null = null;
   let lastMotionAt = Date.now();
   let stream: MediaStream | null = null;
+  let cameraActive = false;
+  let personDetected = false;
+
+  const publishStatus = () => {
+    onStatusChange?.({ cameraActive, personDetected });
+  };
+  const setCameraActive = (active: boolean) => {
+    if (cameraActive === active && (active || !personDetected)) {
+      return;
+    }
+    cameraActive = active;
+    if (!active) {
+      personDetected = false;
+    }
+    publishStatus();
+  };
+  const setPersonDetected = (detected: boolean) => {
+    const next = cameraActive && detected;
+    if (personDetected === next) {
+      return;
+    }
+    personDetected = next;
+    publishStatus();
+  };
+  publishStatus();
 
   // The pill exists for warnings (camera missing/blocked) and diagnostics.
   const setHint = (text: string) => {
@@ -307,6 +338,7 @@ export const initPresence = (
     // Person-sized, not camera-wide: ignore exposure shifts/flicker.
     if (coverage > 0.008 && coverage < 0.85) {
       lastMotionAt = Date.now();
+      setPersonDetected(true);
       void acquireWakeLock();
       if (!awake) {
         wake();
@@ -320,6 +352,9 @@ export const initPresence = (
     }
     analyzeFrame();
     const idleSec = (Date.now() - lastMotionAt) / 1000;
+    if (personDetected && idleSec > options.dimDelaySec) {
+      setPersonDetected(false);
+    }
     if (awake) {
       if (idleSec > options.dimDelaySec) {
         dim();
@@ -368,6 +403,19 @@ export const initPresence = (
       return;
     }
     presenceVideo.srcObject = stream;
+    setCameraActive(true);
+    stream.getVideoTracks().forEach((track) => {
+      track.addEventListener(
+        "ended",
+        () => {
+          if (!destroyed) {
+            setCameraActive(false);
+            setHint("Camera disconnected — presence dimming is disabled");
+          }
+        },
+        { once: true },
+      );
+    });
     try {
       await presenceVideo.play();
     } catch {
@@ -388,6 +436,7 @@ export const initPresence = (
         stream.getTracks().forEach((track) => track.stop());
         stream = null;
       }
+      setCameraActive(false);
       presenceVideo.srcObject = null;
       overlay.remove();
       hint.remove();

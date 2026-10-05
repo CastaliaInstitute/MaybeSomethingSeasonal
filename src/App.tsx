@@ -21,6 +21,7 @@ import {
   Download,
   Calendar,
   Printer,
+  User,
 } from "lucide-react";
 import { initPresence, presenceWantedInLocation } from "./presence";
 import "./App.css";
@@ -2995,12 +2996,17 @@ const App: React.FC = () => {
       return isKioskMode;
     }
   });
+  const [cameraActive, setCameraActive] = useState(false);
+  const [personDetected, setPersonDetected] = useState(false);
 
   useEffect(() => {
     if (isLoading || !presenceWantedInLocation(presenceOn)) {
       return undefined;
     }
-    const presence = initPresence(document.body);
+    const presence = initPresence(document.body, (status) => {
+      setCameraActive(status.cameraActive);
+      setPersonDetected(status.personDetected);
+    });
     return () => presence.destroy();
   }, [isKioskMode, presenceOn, isLoading]);
 
@@ -3917,15 +3923,62 @@ const App: React.FC = () => {
   if (isKioskMode) {
     return (
       <div className="h-screen w-screen bg-white overflow-hidden">
-        <div className="h-full w-full p-2">
-          {/* Calendar Grid - no headers, no navigation */}
-          <div className="calendar-month-grid grid grid-cols-7 gap-1 h-full">
+        <div className="flex h-full w-full flex-col gap-1 p-2">
+          <header className="flex shrink-0 items-center justify-between border-b border-green-100 px-2 py-2">
+            <div className="flex items-center gap-3">
+              <h1 className="christmas-title text-2xl font-bold text-green-800">
+                Maybe Something Seasonal
+              </h1>
+              {(cameraActive || personDetected) && (
+                <div
+                  className="flex items-center gap-2"
+                  aria-live="polite"
+                  aria-label="Presence status"
+                >
+                  {cameraActive && (
+                    <span
+                      role="img"
+                      aria-label="Camera on"
+                      title="Camera on"
+                      className="text-green-700"
+                    >
+                      <Camera className="h-5 w-5" />
+                    </span>
+                  )}
+                  {personDetected && (
+                    <span
+                      role="img"
+                      aria-label="Person detected"
+                      title="Person detected"
+                      className="text-blue-700"
+                    >
+                      <User className="h-5 w-5" />
+                    </span>
+                  )}
+                </div>
+              )}
+            </div>
+            <div className="text-right">
+              <div className="text-lg font-semibold text-gray-800">
+                {format(currentDate, "MMMM yyyy")}
+              </div>
+              <div className="text-xs text-gray-500">
+                A calendar celebrating nature&apos;s cycles and seasonal moments
+              </div>
+            </div>
+          </header>
+          <div
+            className="calendar-month-grid grid min-h-0 flex-1 grid-cols-7 gap-1"
+            style={{
+              gridTemplateRows: `auto repeat(${calendarDays.length / 7}, minmax(0, 1fr))`,
+            }}
+          >
             {/* Day headers */}
             {["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map(
               (day) => (
                 <div
                   key={day}
-                  className="text-center text-sm font-medium text-gray-500 py-1 christmas-font"
+                  className="border-b border-gray-200 py-1 text-center text-sm font-medium text-gray-500 christmas-font"
                 >
                   {day}
                 </div>
